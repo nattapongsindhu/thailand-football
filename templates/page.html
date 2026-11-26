@@ -287,44 +287,122 @@
         <div class="info-cell"><span class="info-label">Sponsor / legacy name</span><strong>{{ cup_view.sponsor }}</strong></div>
       </div>
 
-      {% if cup_view.has_rounds %}
-        <div class="cup-rounds">
-          {% for round in cup_view.rounds %}
-            <article class="cup-round">
-              <div class="cup-round-head">
-                <div>
-                  <h3>{{ round.name }}</h3>
-                  <p class="cup-round-meta">{{ round.date_label }} · {{ round.clubs }} clubs</p>
-                </div>
-                <span class="badge badge-neutral">{{ round.status }}</span>
-              </div>
-              {% if round.note != "" %}<p class="cup-note">{{ round.note }}</p>{% endif %}
-              {% if round.has_ties %}
-                <div class="cup-ties">
-                  {% for tie in round.ties %}
-                    <div class="match-row cup-tie">
-                      <div class="match-team match-home">{{ tie.home }}</div>
-                      <div class="match-score">{{ tie.score }}</div>
-                      <div class="match-team match-away">{{ tie.away }}</div>
-                      <div class="match-status">{{ tie.status }}</div>
+      {% if cup_view.has_bracket %}
+        <div class="bracket-panel" aria-label="Knockout bracket">
+          <div class="bracket-scroll">
+            <div class="bracket-canvas" data-bracket-canvas>
+              <svg class="bracket-connectors" aria-hidden="true" focusable="false"></svg>
+              <div class="bracket-grid">
+                {% for round in cup_view.bracket_rounds %}
+                  <section class="bracket-round" aria-label="{{ round.name }}">
+                    <div class="bracket-round-head">
+                      <h3>{{ round.name }}</h3>
+                      <p>{{ round.date_label }} · {{ round.clubs }} clubs</p>
+                      {% if round.note != "" %}<p class="bracket-round-note">{{ round.note }}</p>{% endif %}
                     </div>
-                    {% if tie.penalties != "" %}<p class="tie-note"><strong>{{ tie.penalties }}</strong></p>{% endif %}
-                    {% if tie.winner != "" %}<p class="tie-note">{{ tie.winner }}</p>{% endif %}
-                    {% if tie.note != "" %}<p class="tie-note">{{ tie.note }}</p>{% endif %}
-                  {% endfor %}
-                </div>
-              {% else %}
-                <p class="muted-line">No tie records for this round.</p>
-              {% endif %}
-            </article>
-          {% endfor %}
+                    <div class="bracket-ties">
+                      {% for tie in round.ties %}
+                        <article class="bracket-card" id="{{ tie.id }}" data-tie-id="{{ tie.id }}"{% if tie.feeds != "" %} data-feeds="{{ tie.feeds }}"{% endif %}>
+                          <div class="bracket-card-top">
+                            <span class="bracket-date">{{ tie.date_label }}</span>
+                            <span class="bracket-status{% if tie.awarded %} is-awarded{% endif %}">{{ tie.status }}</span>
+                          </div>
+                          <div class="bracket-team-row{% if tie.home_advanced %} is-advanced{% endif %}">
+                            <span class="bracket-team">{{ tie.home }}</span>
+                            <span class="bracket-score">{% if tie.score_unavailable %}–{% else %}{{ tie.home_score }}{% endif %}</span>
+                          </div>
+                          <div class="bracket-team-row{% if tie.away_advanced %} is-advanced{% endif %}">
+                            <span class="bracket-team">{{ tie.away }}</span>
+                            <span class="bracket-score">{% if tie.score_unavailable %}–{% else %}{{ tie.away_score }}{% endif %}</span>
+                          </div>
+                          {% if tie.score_unavailable %}<p class="bracket-flag">Score unavailable</p>{% endif %}
+                          {% if tie.penalties != "" %}<p class="bracket-pens">{{ tie.penalties }}</p>{% endif %}
+                          {% if tie.winner != "" %}<p class="bracket-advance">{{ tie.winner }}</p>{% endif %}
+                          {% if tie.note != "" %}<p class="bracket-note">{{ tie.note }}</p>{% endif %}
+                          {% if tie.source_url != "" %}<a class="bracket-source" href="{{ tie.source_url }}" target="_blank" rel="noopener noreferrer" title="{{ tie.source_title }}" aria-label="Source: {{ tie.source_title }}">Source</a>{% endif %}
+                        </article>
+                      {% endfor %}
+                    </div>
+                  </section>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+          <p class="bracket-hint">Scroll horizontally on smaller screens to follow the bracket.</p>
         </div>
+        {% if cup_view.has_early_rounds %}
+          <div class="cup-early">
+            {% for round in cup_view.early_rounds %}
+              <details class="cup-round cup-round-compact">
+                <summary class="cup-round-head">
+                  <div>
+                    <h3>{{ round.name }}</h3>
+                    <p class="cup-round-meta">{{ round.date_label }} · {{ round.clubs }} clubs · {{ round.tie_count }} ties</p>
+                  </div>
+                  <span class="badge badge-neutral">{{ round.status }}</span>
+                </summary>
+                {% if round.note != "" %}<p class="cup-note">{{ round.note }}</p>{% endif %}
+                {% if round.has_ties %}
+                  <div class="cup-ties">
+                    {% for tie in round.ties %}
+                      <div class="match-row cup-tie">
+                        <div class="match-team match-home">{{ tie.home }}</div>
+                        <div class="match-score">{{ tie.score }}</div>
+                        <div class="match-team match-away">{{ tie.away }}</div>
+                        <div class="match-status">{{ tie.status }}</div>
+                      </div>
+                      {% if tie.penalties != "" %}<p class="tie-note"><strong>{{ tie.penalties }}</strong></p>{% endif %}
+                      {% if tie.winner != "" %}<p class="tie-note">{{ tie.winner }}</p>{% endif %}
+                      {% if tie.note != "" %}<p class="tie-note">{{ tie.note }}</p>{% endif %}
+                    {% endfor %}
+                  </div>
+                {% else %}
+                  <p class="muted-line">No tie records for this round.</p>
+                {% endif %}
+              </details>
+            {% endfor %}
+          </div>
+        {% endif %}
       {% else %}
-        <div class="empty-state">
-          <div class="empty-symbol" aria-hidden="true">∅</div>
-          <h3>{{ cup_view.empty_title }}</h3>
-          <p>{{ cup_view.empty_message }}</p>
-        </div>
+        {% if cup_view.has_rounds %}
+          <div class="cup-rounds">
+            {% for round in cup_view.rounds %}
+              <article class="cup-round">
+                <div class="cup-round-head">
+                  <div>
+                    <h3>{{ round.name }}</h3>
+                    <p class="cup-round-meta">{{ round.date_label }} · {{ round.clubs }} clubs</p>
+                  </div>
+                  <span class="badge badge-neutral">{{ round.status }}</span>
+                </div>
+                {% if round.note != "" %}<p class="cup-note">{{ round.note }}</p>{% endif %}
+                {% if round.has_ties %}
+                  <div class="cup-ties">
+                    {% for tie in round.ties %}
+                      <div class="match-row cup-tie">
+                        <div class="match-team match-home">{{ tie.home }}</div>
+                        <div class="match-score">{{ tie.score }}</div>
+                        <div class="match-team match-away">{{ tie.away }}</div>
+                        <div class="match-status">{{ tie.status }}</div>
+                      </div>
+                      {% if tie.penalties != "" %}<p class="tie-note"><strong>{{ tie.penalties }}</strong></p>{% endif %}
+                      {% if tie.winner != "" %}<p class="tie-note">{{ tie.winner }}</p>{% endif %}
+                      {% if tie.note != "" %}<p class="tie-note">{{ tie.note }}</p>{% endif %}
+                    {% endfor %}
+                  </div>
+                {% else %}
+                  <p class="muted-line">No tie records for this round.</p>
+                {% endif %}
+              </article>
+            {% endfor %}
+          </div>
+        {% else %}
+          <div class="empty-state">
+            <div class="empty-symbol" aria-hidden="true">∅</div>
+            <h3>{{ cup_view.empty_title }}</h3>
+            <p>{{ cup_view.empty_message }}</p>
+          </div>
+        {% endif %}
       {% endif %}
 
       {% if cup_view.has_past_editions %}

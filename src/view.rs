@@ -147,6 +147,40 @@ pub struct CupRoundView {
     pub note: String,
     pub ties: Vec<CupTieView>,
     pub has_ties: bool,
+    pub tie_count: usize,
+}
+
+#[derive(Debug, Clone, Default)]
+pub struct BracketTieView {
+    pub id: String,
+    pub stage: String,
+    pub date_label: String,
+    pub home: String,
+    pub away: String,
+    pub home_score: String,
+    pub away_score: String,
+    pub score_unavailable: bool,
+    pub status: String,
+    pub penalties: String,
+    pub winner: String,
+    pub winner_name: String,
+    pub note: String,
+    pub source_url: String,
+    pub source_title: String,
+    pub home_advanced: bool,
+    pub away_advanced: bool,
+    pub awarded: bool,
+    pub extra_time: bool,
+    pub feeds: String,
+}
+
+#[derive(Debug, Clone, Default)]
+pub struct BracketRoundView {
+    pub name: String,
+    pub date_label: String,
+    pub clubs: String,
+    pub note: String,
+    pub ties: Vec<BracketTieView>,
 }
 
 #[derive(Debug, Clone, Default)]
@@ -167,6 +201,12 @@ pub struct CupView {
     pub prize: String,
     pub reward: String,
     pub rounds: Vec<CupRoundView>,
+    pub early_rounds: Vec<CupRoundView>,
+    pub has_early_rounds: bool,
+    pub bracket_rounds: Vec<BracketRoundView>,
+    pub has_bracket: bool,
+    pub bracket_source_url: String,
+    pub bracket_source_title: String,
     pub past_editions: Vec<PastEditionView>,
     pub has_rounds: bool,
     pub has_past_editions: bool,
@@ -678,7 +718,7 @@ fn match_row(m: &Match, is_fixture: bool) -> MatchRowView {
     }
 }
 
-fn cup_view(comp: &Competition, season: &Season) -> CupView {
+fn cup_view(comp: &Competition, season: &Season, provenance: Option<(String, String)>) -> CupView {
     let Some(cup) = season.cup.as_ref() else {
         return CupView {
             empty_title: "No cup records yet".to_string(),
@@ -733,10 +773,151 @@ fn cup_view(comp: &Competition, season: &Season) -> CupView {
                 status: round.status.clone(),
                 note: round.note.clone(),
                 has_ties: !ties.is_empty(),
+                tie_count: ties.len(),
                 ties,
             }
         })
         .collect::<Vec<_>>();
+
+    let main_order = ["Quarter-finals", "Semi-finals", "Final"];
+    let main_rounds = main_order
+        .iter()
+        .filter_map(|name| {
+            cup.rounds.iter().find(|round| {
+                round.name == *name
+                    && cup
+                        .ties
+                        .iter()
+                        .any(|tie| tie.round_id.as_deref() == Some(round.id.as_str()))
+            })
+        })
+        .collect::<Vec<_>>();
+    let has_bracket = main_rounds.len() >= 2;
+    let early_rounds = if has_bracket {
+        rounds
+            .iter()
+            .filter(|round| !main_rounds.iter().any(|main| main.name == round.name))
+            .cloned()
+            .collect::<Vec<_>>()
+    } else {
+        Vec::new()
+    };
+    let mut bracket_rounds = Vec::new();
+    if has_bracket {
+        for round in &main_rounds {
+            let ties = cup
+                .ties
+                .iter()
+                .filter(|tie| tie.round_id.as_deref() == Some(round.id.as_str()))
+                .map(|tie| {
+                    let score_unavailable = tie.home_goals.is_none() || tie.away_goals.is_none();
+                    // A few historical ties store no winner_name. Derive the
+                    // advancing side from the recorded score; never from order.
+                    let derived_winner = if tie.winner_name.is_none() {
+                        match (tie.home_goals, tie.away_goals) {
+                            (Some(home), Some(away)) if home > away => Some(tie.home_name.clone()),
+                            (Some(home), Some(away)) if away > home => Some(tie.away_name.clone()),
+                            _ => match (tie.home_penalties, tie.away_penalties) {
+                                (Some(home), Some(away)) if home > away => {
+                                    Some(tie.home_name.clone())
+                                }
+                                (Some(home), Some(away)) if away > home => {
+                                    Some(tie.away_name.clone())
+                                }
+                                _ => None,
+                            },
+                        }
+                    } else {
+                        tie.winner_name.clone()
+                    };
+                    let winner = match (&tie.winner_name, &tie.winner_basis) {
+                        (Some(name), Some(basis)) if !basis.is_empty() => {
+                            format!("Winner: {name} ({basis})")
+                        }
+                        (Some(name), _) => format!("Winner: {name}"),
+                        (None, _) => {
+                            match (
+                                &derived_winner,
+                                tie.home_penalties.is_some(),
+                                tie.extra_time,
+                            ) {
+                                (Some(name), true, _) => {
+                                    format!("Winner: {name} (penalty shootout)")
+                                }
+                                (Some(name), false, true) => {
+                                    format!("Winner: {name} (extra time)")
+                                }
+                                (Some(name), false, false) => format!("Winner: {name}"),
+                                (None, _, _) => String::new(),
+                            }
+                        }
+                    };
+                    let (source_url, source_title) = provenance.clone().unwrap_or_default();
+                    BracketTieView {
+                        id: tie.id.clone(),
+                        stage: round.name.clone(),
+                        date_label: round.date_label.clone(),
+                        home: tie.home_name.clone(),
+                        away: tie.away_name.clone(),
+                        home_score: tie
+                            .home_goals
+                            .map(|goals| goals.to_string())
+                            .unwrap_or_default(),
+                        away_score: tie
+                            .away_goals
+                            .map(|goals| goals.to_string())
+                            .unwrap_or_default(),
+                        score_unavailable,
+                        status: tie.status.clone(),
+                        penalties: match (tie.home_penalties, tie.away_penalties) {
+                            (Some(h), Some(a)) => format!("Penalties: {h} - {a}"),
+                            _ => String::new(),
+                        },
+                        winner,
+                        winner_name: derived_winner.clone().unwrap_or_default(),
+                        note: tie.note.clone(),
+                        source_url,
+                        source_title,
+                        home_advanced: derived_winner.as_deref() == Some(tie.home_name.as_str()),
+                        away_advanced: derived_winner.as_deref() == Some(tie.away_name.as_str()),
+                        awarded: tie.status.eq_ignore_ascii_case("awarded"),
+                        extra_time: tie.extra_time,
+                        feeds: String::new(),
+                    }
+                })
+                .collect::<Vec<_>>();
+            bracket_rounds.push(BracketRoundView {
+                name: round.name.clone(),
+                date_label: round.date_label.clone(),
+                clubs: round
+                    .clubs
+                    .map(|clubs| clubs.to_string())
+                    .unwrap_or_else(|| "—".to_string()),
+                note: round.note.clone(),
+                ties,
+            });
+        }
+        // Connections come from the recorded winner, never from card order.
+        for index in 0..bracket_rounds.len().saturating_sub(1) {
+            let targets = bracket_rounds[index + 1]
+                .ties
+                .iter()
+                .map(|tie| (tie.id.clone(), tie.home.clone(), tie.away.clone()))
+                .collect::<Vec<_>>();
+            for tie in &mut bracket_rounds[index].ties {
+                if tie.winner_name.is_empty() {
+                    continue;
+                }
+                if let Some((id, _, _)) = targets
+                    .iter()
+                    .find(|(_, home, away)| home == &tie.winner_name || away == &tie.winner_name)
+                {
+                    tie.feeds = id.clone();
+                }
+            }
+        }
+    }
+
     let past_editions: Vec<PastEditionView> = cup
         .past_editions
         .iter()
@@ -771,6 +952,18 @@ fn cup_view(comp: &Competition, season: &Season) -> CupView {
         reward: cup.reward.clone(),
         has_rounds: !rounds.is_empty(),
         has_past_editions: !past_editions.is_empty(),
+        has_early_rounds: !early_rounds.is_empty(),
+        early_rounds,
+        bracket_rounds,
+        has_bracket,
+        bracket_source_url: provenance
+            .as_ref()
+            .map(|(url, _)| url.clone())
+            .unwrap_or_default(),
+        bracket_source_title: provenance
+            .as_ref()
+            .map(|(_, title)| title.clone())
+            .unwrap_or_default(),
         rounds,
         past_editions,
         warning,
@@ -1341,7 +1534,30 @@ pub fn build_page(
     }
 
     let cup_view = if active_tab == "rounds" {
-        cup_view(comp, season)
+        let provenance = data
+            .team_registry
+            .participations
+            .iter()
+            .filter(|participation| {
+                participation.competition_id == comp.id && participation.season_id == season.id
+            })
+            .find_map(|participation| {
+                let url = participation
+                    .source_url
+                    .as_deref()
+                    .filter(|url| !url.is_empty())?;
+                Some((
+                    url.to_string(),
+                    participation.source_title.clone().unwrap_or_default(),
+                ))
+            })
+            .or_else(|| {
+                sources
+                    .iter()
+                    .find(|source| !source.url.is_empty())
+                    .map(|source| (source.url.clone(), source.title.clone()))
+            });
+        cup_view(comp, season, provenance)
     } else {
         CupView::default()
     };

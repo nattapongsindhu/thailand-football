@@ -17,6 +17,7 @@
 
 - Rust stable edition 2024 monolith: Axum + Tokio + Askama + SQLx
 - Tailwind CSS v4 production build
+- Data-driven knockout bracket: Quarter-finals → Semi-finals → Final columns with SVG connectors derived from recorded winners (or the recorded score), collapsible early rounds, and full penalty/AET/unavailable/awarded labels.
 - Owner-approved organizer groups: National League, Youth League (including youth cups), and School League (including vocational and university cups)
 - Expandable age-group navigation shared by School League and Youth League: Thai Youth League 1/2/3 are parents with U18/U16/U14 child seasons; legacy single-age records map onto their matching age group.
 - Thai League 1/2/3 standings; T3 regional group navigation
@@ -101,10 +102,10 @@
 - `cargo fmt --all -- --check`: passed
 - `cargo check --all-targets`: passed
 - `cargo clippy --all-targets -- -D warnings`: passed
-- `cargo test --all-targets`: 22 tests passed (14 domain + 6 HTTP + 2 discovery)
+- `cargo test --all-targets`: 23 tests passed (15 domain + 6 HTTP + 2 discovery)
 - Tailwind CSS production build: passed
 - HTTP Teams-tab checks: 24/24 passed (all 17 competitions, school age groups, empty-state messages)
-- Browser checks: 81 checks passed, 0 failures, no browser console errors; includes complete FA Cup/League Cup rounds, Youth League expandable parents and age-group routes, fallback badge/notice checks, and current/partial/unavailable roster states
+- Browser checks: 113 checks passed, 0 failures, no browser console errors; includes FA Cup/League Cup/College Cup bracket columns and connectors, desktop/mobile bracket layouts, penalties/AET/unavailable/awarded labels, Youth League navigation, School League and National League regressions, and roster states
 - Fallback policy tests confirm latest_verified/partial/unavailable labels and that fallback teams do not populate standings, fixtures, results, stats, or scorers
 - Team discovery: 193 teams / 365 participations; 314 verified secondary, 51 discovered unverified
 - News metadata: 42 items; 379 inbox candidates; 8 public sources fetched, 0 failed

@@ -140,4 +140,53 @@
       }
     });
   }
+  /* Knockout bracket connectors, drawn from data-feeds (winner) links. */
+  function drawBrackets() {
+    document.querySelectorAll('[data-bracket-canvas]').forEach(function (canvas) {
+      var svg = canvas.querySelector('.bracket-connectors');
+      if (!svg) return;
+      var canvasRect = canvas.getBoundingClientRect();
+      var width = canvas.scrollWidth;
+      var height = canvas.scrollHeight;
+      svg.setAttribute('width', String(width));
+      svg.setAttribute('height', String(height));
+      svg.setAttribute('viewBox', '0 0 ' + width + ' ' + height);
+      while (svg.firstChild) svg.removeChild(svg.firstChild);
+      canvas.querySelectorAll('[data-tie-id]').forEach(function (card) {
+        var feed = card.getAttribute('data-feeds');
+        if (!feed) return;
+        var selector = '[data-tie-id="' + (window.CSS && CSS.escape ? CSS.escape(feed) : feed) + '"]';
+        var target = canvas.querySelector(selector);
+        if (!target) return;
+        var from = card.getBoundingClientRect();
+        var to = target.getBoundingClientRect();
+        if (!from.width || !to.width) return;
+        var x1 = from.right - canvasRect.left + 2;
+        var y1 = from.top + from.height / 2 - canvasRect.top;
+        var x2 = to.left - canvasRect.left - 2;
+        var y2 = to.top + to.height / 2 - canvasRect.top;
+        if (x2 <= x1) return;
+        var mid = x1 + (x2 - x1) / 2;
+        var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path.setAttribute('d', 'M' + x1 + ' ' + y1 + ' H' + mid + ' V' + y2 + ' H' + x2);
+        svg.appendChild(path);
+      });
+    });
+  }
+
+  var bracketFrame = null;
+  function scheduleBrackets() {
+    if (bracketFrame !== null) cancelAnimationFrame(bracketFrame);
+    bracketFrame = requestAnimationFrame(drawBrackets);
+  }
+
+  drawBrackets();
+  window.addEventListener('load', drawBrackets);
+  window.addEventListener('resize', scheduleBrackets);
+  if (window.ResizeObserver) {
+    var bracketObserver = new ResizeObserver(scheduleBrackets);
+    document.querySelectorAll('[data-bracket-canvas]').forEach(function (canvas) {
+      bracketObserver.observe(canvas);
+    });
+  }
 })();

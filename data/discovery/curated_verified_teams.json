@@ -511,6 +511,22 @@
       "notes": "Name as listed in the 2025-26 Thai FA Cup results; no separate club article located."
     },
     {
+      "team_id": "team-kasem-bundit-u",
+      "display_name": "Kasem Bundit University",
+      "thai_name": "มหาวิทยาลัยเกษมบัณฑิต",
+      "english_name": "Kasem Bundit University",
+      "aliases": [
+        "Kasem Bundit University",
+        "มหาวิทยาลัยเกษมบัณฑิต"
+      ],
+      "organization_type": "university",
+      "province": null,
+      "verification_status": "verified_secondary",
+      "first_seen_at": "2026-11-25",
+      "last_seen_at": "2026-11-25",
+      "notes": "University team identity curated from public Chang U-Champion Cup 2026 reporting."
+    },
+    {
       "team_id": "team-kasetsart",
       "display_name": "Kasetsart",
       "thai_name": null,
@@ -8636,6 +8652,27 @@
       "source_checked_at": "2026-11-25"
     },
     {
+      "participation_id": "part-thai-university-cup-u23-2026-team-kasem-bundit-u",
+      "team_id": "team-kasem-bundit-u",
+      "competition_id": "thai-university-cup-u23",
+      "season_id": "2026",
+      "age_group": "U23",
+      "group_id": "overall",
+      "division_type": "cup",
+      "source_url": "https://www.youtube.com/watch?v=a35AiIR12Ic",
+      "source_title": "Chang U-Champion Cup 2026 semi-finals (official live stream)",
+      "source_publisher": "U-Champion Cup",
+      "source_date": "2026-06-15",
+      "verification_status": "verified_secondary",
+      "first_seen_at": "2026-11-26",
+      "last_seen_at": "2026-11-26",
+      "notes": "Semi-finalist in the 2026 Chang U-Champion Cup knockout stage; lost 0-1 to Chulalongkorn University.",
+      "displayed_season": null,
+      "source_season": null,
+      "roster_status": null,
+      "source_checked_at": null
+    },
+    {
       "participation_id": "part-thai-university-cup-u23-2026-team-university-bangkok-thonburi",
       "team_id": "team-university-bangkok-thonburi",
       "competition_id": "thai-university-cup-u23",
@@ -9428,9 +9465,9 @@
       "source_season": "2026",
       "roster_status": "partial",
       "source_url": "https://edu-today.com/btu-215",
-      "source_checked_at": "2026-11-25",
-      "note": "Confirmed knockout-stage participants only (7 of 16).",
-      "team_count": 7
+      "source_checked_at": "2026-11-26",
+      "note": "Confirmed knockout-stage participants only (8 of 16).",
+      "team_count": 8
     },
     {
       "competition_id": "thai-youth-champion-cup-u18",

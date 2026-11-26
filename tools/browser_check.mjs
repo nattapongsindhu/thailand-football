@@ -41,10 +41,16 @@ await page.goto(`${BASE}/competitions/thai-league-3/teams?group=group-2`, { wait
 check("T3 group team rows", (await page.locator(".teams-table tbody tr").count()) === 5);
 check("T3 unverified badges", (await page.locator(".teams-table .badge-unverified").count()) === 5);
 await page.goto(`${BASE}/competitions/thai-youth-fa-cup-u17`, { waitUntil: "networkidle" });
-check("youth cup default tab is Teams", (await page.locator(".tab.is-active").innerText()).trim() === "Teams");
-check("youth cup default team rows", (await page.locator(".teams-table tbody tr").count()) === 12);
-await page.goto(`${BASE}/competitions/thai-youth-fa-cup-u17/rounds`, { waitUntil: "networkidle" });
-check("youth cup rounds empty state", (await page.locator("text=No cup records yet").count()) > 0);
+check("Coke Cup default tab is Rounds", (await page.locator(".tab.is-active").innerText()).trim() === "Rounds");
+check("Coke Cup rounds", (await page.locator("article.cup-round").count()) === 2);
+check("Coke Cup ties", (await page.locator(".cup-tie").count()) === 3);
+check(
+  "Coke Cup final result",
+  (await page.locator("main").innerText()).includes("Champion: Assumption United") &&
+    (await page.locator("main").innerText()).includes("6 - 3"),
+);
+await page.goto(`${BASE}/competitions/thai-youth-fa-cup-u17/teams`, { waitUntil: "networkidle" });
+check("Coke Cup team rows", (await page.locator(".teams-table tbody tr").count()) === 12);
 await page.goto(`${BASE}/competitions/thai-youth-league-u18`, { waitUntil: "networkidle" });
 check("empty youth default tab is Teams", (await page.locator(".tab.is-active").innerText()).trim() === "Teams");
 check("youth team empty state", (await page.locator("text=No verified team list yet").count()) > 0);
@@ -162,10 +168,35 @@ check(
   "fallback Type A U14 displayed season",
   (await page.locator("main").innerText()).includes("Displayed season 2024"),
 );
-await page.goto(`${BASE}/competitions/thai-youth-champion-cup-u18`, { waitUntil: "networkidle" });
+await page.goto(`${BASE}/competitions/thai-youth-champion-cup-u18/teams`, { waitUntil: "networkidle" });
 check("fallback Youth Champion Cup badge", (await page.locator("text=Latest verified roster: 2025").count()) > 0);
 check("fallback Youth Champion Cup team rows", (await page.locator(".teams-table tbody tr").count()) === 4);
-await page.goto(`${BASE}/competitions/thai-youth-fa-cup-u17`, { waitUntil: "networkidle" });
+await page.goto(`${BASE}/competitions/thai-youth-champion-cup-u18/rounds`, { waitUntil: "networkidle" });
+const jaturamitrText = await page.locator("main").innerText();
+check("Jaturamitr rounds", (await page.locator("article.cup-round").count()) === 5);
+check("Jaturamitr ties", (await page.locator(".cup-tie").count()) === 8);
+check("Jaturamitr champion", jaturamitrText.includes("Champion: Debsirin School"));
+check("Jaturamitr final score", jaturamitrText.includes("3 - 1"));
+
+await page.goto(`${BASE}/competitions/thai-youth-league-cup-u18/rounds`, { waitUntil: "networkidle" });
+const sevenHdText = await page.locator("main").innerText();
+check("7HD rounds", (await page.locator("article.cup-round").count()) === 1);
+check("7HD quarter-final ties", (await page.locator(".cup-tie").count()) === 4);
+check("7HD quarter-final date", sevenHdText.includes("30 Nov 2026"));
+check("7HD pairings", sevenHdText.includes("Debsirin School") && sevenHdText.includes("Kanthararom School"));
+check("7HD upcoming status", sevenHdText.includes("Upcoming"));
+check("7HD no fabricated score", !/\d+ - \d+/.test(sevenHdText.slice(sevenHdText.indexOf("Quarter-finals"))));
+
+await page.goto(`${BASE}/competitions/thai-university-cup-u23/rounds`, { waitUntil: "networkidle" });
+const universityCupText = await page.locator("main").innerText();
+check("University Cup rounds", (await page.locator("article.cup-round").count()) === 2);
+check("University Cup ties", (await page.locator(".cup-tie").count()) === 3);
+check("University Cup semi-final penalties", universityCupText.includes("Penalties: 5 - 6"));
+check("University Cup final penalties", universityCupText.includes("Penalties: 4 - 3"));
+check("University Cup champion", universityCupText.includes("Champion: Thailand National Sports University"));
+check("U19 absent from U23 page title", !(await page.locator("main h1").innerText()).includes("U19"));
+
+await page.goto(`${BASE}/competitions/thai-youth-fa-cup-u17/teams`, { waitUntil: "networkidle" });
 check("partial youth cup badge", (await page.locator("text=Partial list: 2026").count()) > 0);
 check(
   "partial youth cup notice",
@@ -192,10 +223,7 @@ check("league cup final date and score", leagueCupText.includes("24 May 2026") &
 check("league cup penalties", leagueCupText.includes("Penalties:"));
 check("league cup no empty round message", !leagueCupText.includes("No tie records for this round."));
 
-// Empty youth page.
-await page.goto(`${BASE}/competitions/thai-university-cup-u23/rounds`, { waitUntil: "networkidle" });
-check("U23 empty state", (await page.locator("text=No verified records yet.").count()) > 0);
-check("U19 absent from U23 page title", !(await page.locator("main h1").innerText()).includes("U19"));
+// University Cup population is covered above.
 
 check("no browser console errors", consoleErrors.length === 0, consoleErrors.join(" | "));
 

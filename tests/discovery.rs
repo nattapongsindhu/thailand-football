@@ -16,7 +16,16 @@ fn discovery_data_is_valid_and_bounded() {
         load_json(Path::new("data/discovery/news_metadata.json")).expect("news metadata");
 
     assert_eq!(registry.teams.len(), 193);
-    assert_eq!(registry.participations.len(), 365);
+    assert_eq!(registry.participations.len(), 366);
+    let university_roster = registry
+        .rosters
+        .iter()
+        .find(|roster| {
+            roster.competition_id == "thai-university-cup-u23" && roster.season_id == "2026"
+        })
+        .expect("university cup roster");
+    assert_eq!(university_roster.roster_status, "partial");
+    assert_eq!(university_roster.team_count, 8);
     let college_roster = registry
         .rosters
         .iter()

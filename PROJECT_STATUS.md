@@ -45,8 +45,8 @@
 - Active team/standing rows: 69
 - Search entries: 365
 - News articles: 13
-- Team-first registry: **193 teams / 365 participations**
-  - 314 verified secondary
+- Team-first registry: **193 teams / 366 participations**
+  - 315 verified secondary
   - 51 discovered/unverified
   - 0 verified official
 - Roster metadata: **24 Youth/School roster records**
@@ -67,10 +67,11 @@
   - Thai Youth FA Cup (U17): 12
   - Thai Youth League Cup (U18): 8
   - Thai Youth Champion Cup (U18): 4
-  - Thai University Cup (U23): 7 (confirmed knockout-stage participants; partial field)
+  - Thai University Cup (U23): 8 (confirmed knockout-stage participants; partial field)
   - Thai College Cup (U19): 8 (corrected 2026 quarter-finalists; partial field)
   - Thai Youth League 1/2/3: 0 each age group (U18/U16/U14 honest empty states)
 - Cup results: Thai FA Cup 7 rounds / 94 ties (champion Buriram United, runner-up PT Prachuap); Thai League Cup 8 rounds / 79 ties (champion Port FC, runner-up BG Pathum United). Penalty scores and extra-time status are stored separately; awarded results are labelled.
+- Youth/university cup records: Coke Cup U17 semi-finals and final (champion Assumption United); 7HD Champion Cup 2026 quarter-final draw (matches 30 Nov 2026, status Upcoming); 31st Jaturamitr Samakkhi 2025 full matchdays and final (champion Debsirin School); Chang U-Champion Cup 2026 semi-finals and final (champion Thailand National Sports University).
 - Discovery candidates: 379 in inbox
 - Discovery news metadata: 42 items
 - Source registry: 17 competitions; 8 public sources fetched, 0 failed
@@ -90,7 +91,7 @@
 - School and youth lists are curated from public secondary reporting, not official federation/DPE confirmation.
 - Type A U14 uses the latest complete 2024/2567 list; the 2025/2568 and 2026/2569 full lists were not published in accessible text.
 - The 2026 Jaturamitr Samakkhi football edition was not held; the four schools are labelled as the 31st (2025) edition.
-- The University Cup list is partial (7 confirmed knockout participants); the full 16-team field was not published as text.
+- The University Cup list is partial (8 confirmed knockout participants); the full 16-team field was not published as text. Only the semi-finals and final results were located.
 - The College Cup list is partial: the corrected 2026 bracket has eight quarter-finalists across three rounds. Two quarter-final scores are unavailable and their winners are inferred from the semi-final lineup; Chonburi's 5–4 semi-final shootout win is stored separately from the 1–1 score. The Thawee SC report's Yasothon final claim is rejected in favour of the owner-supplied result image (Chonburi 0–2 Thawee SC).
 - Honest empty states remain for School League General (all ages), Type B U14, and all nine Youth League parent/age combinations because no complete 2026 public list was located. The exact search terms and reasons are recorded in the research log.
 - Fallback participation season IDs remain the current UI season. The displayed/source season metadata, Teams-tab badge/notice, and search-result labels show the actual roster season, so a 2025 roster is never presented as 2026.
@@ -101,12 +102,12 @@
 - `cargo fmt --all -- --check`: passed
 - `cargo check --all-targets`: passed
 - `cargo clippy --all-targets -- -D warnings`: passed
-- `cargo test --all-targets`: 22 tests passed (14 domain + 6 HTTP + 2 discovery)
+- `cargo test --all-targets`: 23 tests passed (15 domain + 6 HTTP + 2 discovery)
 - Tailwind CSS production build: passed
 - HTTP Teams-tab checks: 24/24 passed (all 17 competitions, school age groups, empty-state messages)
-- Browser checks: 81 checks passed, 0 failures, no browser console errors; includes complete FA Cup/League Cup rounds, Youth League expandable parents and age-group routes, fallback badge/notice checks, and current/partial/unavailable roster states
+- Browser checks: 97 checks passed, 0 failures, no browser console errors; includes FA Cup/League Cup/College Cup rounds, Coke Cup, 7HD draw, Jaturamitr and University Cup records, Youth League navigation, fallback badges, and School/National League regressions
 - Fallback policy tests confirm latest_verified/partial/unavailable labels and that fallback teams do not populate standings, fixtures, results, stats, or scorers
-- Team discovery: 193 teams / 365 participations; 314 verified secondary, 51 discovered unverified
+- Team discovery: 193 teams / 366 participations; 315 verified secondary, 51 discovered unverified
 - News metadata: 42 items; 379 inbox candidates; 8 public sources fetched, 0 failed
 - Local Windows-gnu builds used `C:\Users\BMW\mingw64\bin` on `PATH`; the rustup self-contained linker on this machine otherwise fails with `nanosleep64` from `aws-lc-sys`.
 - Browser verification covered desktop/mobile layout, favorites persistence, theme persistence, HTMX search, search-to-group navigation, school league distinction and Thai subtitles, complete FA Cup/League Cup rounds, U23 empty state, and mobile sidebar

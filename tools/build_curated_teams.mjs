@@ -172,7 +172,7 @@ const rosterDefinitions = {
     source_season: "2026",
     roster_status: "partial",
     source_url: "https://edu-today.com/btu-215",
-    note: "Confirmed knockout-stage participants only (7 of 16).",
+    note: "Confirmed knockout-stage participants only (8 of 16).",
   },
 };
 
@@ -943,6 +943,7 @@ const universityTeams = [
   ["team-university-mahidol", "Mahidol University", "มหาวิทยาลัยมหิดล"],
   ["team-university-thammasat", "Thammasat University", "มหาวิทยาลัยธรรมศาสตร์"],
   ["team-university-thaksin", "Thaksin University", "มหาวิทยาลัยทักษิณ"],
+  ["team-kasem-bundit-u", "Kasem Bundit University", "มหาวิทยาลัยเกษมบัณฑิต"],
 ];
 
 for (const [teamId, displayName, thaiName] of universityTeams) {

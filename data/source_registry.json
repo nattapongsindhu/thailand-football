@@ -30,7 +30,7 @@
         "Thai League 1 clubs"
       ],
       "update_status": "checked",
-      "last_checked_at": "2026-11-26T07:44:58.851970+00:00",
+      "last_checked_at": "2026-11-26T10:01:47.293696600+00:00",
       "fetch_urls": [
         "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_1"
       ],
@@ -66,7 +66,7 @@
         "Thai League 2 clubs"
       ],
       "update_status": "checked",
-      "last_checked_at": "2026-11-26T07:44:58.851970+00:00",
+      "last_checked_at": "2026-11-26T10:01:47.293696600+00:00",
       "fetch_urls": [
         "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_2"
       ],
@@ -102,7 +102,7 @@
         "Thai League 3 clubs"
       ],
       "update_status": "checked",
-      "last_checked_at": "2026-11-26T07:44:58.851970+00:00",
+      "last_checked_at": "2026-11-26T10:01:47.293696600+00:00",
       "fetch_urls": [
         "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_3"
       ],
@@ -135,7 +135,7 @@
         "Thai FA Cup teams 2025-26"
       ],
       "update_status": "checked",
-      "last_checked_at": "2026-11-26T07:44:58.851970+00:00",
+      "last_checked_at": "2026-11-26T10:01:47.293696600+00:00",
       "fetch_urls": [
         "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_FA_Cup"
       ],
@@ -168,7 +168,7 @@
         "Thai League Cup teams 2025-26"
       ],
       "update_status": "checked",
-      "last_checked_at": "2026-11-26T07:44:58.851970+00:00",
+      "last_checked_at": "2026-11-26T10:01:47.293696600+00:00",
       "fetch_urls": [
         "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_Cup"
       ],
@@ -308,9 +308,14 @@
       "official_page_urls": [
         "https://www.fathailand.org/"
       ],
-      "secondary_domains": [],
+      "secondary_domains": [
+        "www.thsport.app",
+        "www.siamsport.co.th"
+      ],
       "secondary_page_urls": [
-        "https://siamsport.co.th/football-thailand/th-other/107933"
+        "https://siamsport.co.th/football-thailand/th-other/107933",
+        "https://www.thsport.app/sport-news/footballthai/news-271470.html",
+        "https://www.siamsport.co.th/football-thailand/th-other/108328/"
       ],
       "thai_search_terms": [
         "โค้กคัพ ทีม",
@@ -321,7 +326,7 @@
         "Thai Youth FA Cup U17"
       ],
       "update_status": "checked",
-      "last_checked_at": "2026-11-26T07:44:58.851970+00:00",
+      "last_checked_at": "2026-11-26T10:01:47.293696600+00:00",
       "fetch_urls": [],
       "news_feed_urls": [
         "https://news.google.com/rss/search?q=Coke%20Cup%20Thailand%20football&hl=en-US&gl=US&ceid=US:en"
@@ -341,9 +346,14 @@
         "https://www.fathailand.org/",
         "https://www.ch7.com/"
       ],
-      "secondary_domains": [],
+      "secondary_domains": [
+        "www.thansettakij.com",
+        "www.ch7.com"
+      ],
       "secondary_page_urls": [
-        "https://thethaiger.com/th/news/1634775"
+        "https://thethaiger.com/th/news/1634775",
+        "https://www.thansettakij.com/sport/674313",
+        "https://www.ch7.com/champ7hd/football2026/schedule"
       ],
       "thai_search_terms": [
         "แชมป์กีฬา 7HD ฟุตบอล",
@@ -354,7 +364,7 @@
         "Thai Youth League Cup U18"
       ],
       "update_status": "checked",
-      "last_checked_at": "2026-11-25T20:00:00-08:00",
+      "last_checked_at": "2026-11-26",
       "fetch_urls": [],
       "news_feed_urls": []
     },
@@ -370,9 +380,12 @@
       "official_page_urls": [
         "https://www.fathailand.org/"
       ],
-      "secondary_domains": [],
+      "secondary_domains": [
+        "th.wikipedia.org"
+      ],
       "secondary_page_urls": [
-        "https://matichon.co.th/sport/news_5456292"
+        "https://matichon.co.th/sport/news_5456292",
+        "https://th.wikipedia.org/wiki/%E0%B8%88%E0%B8%95%E0%B8%B8%E0%B8%A3%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%84%E0%B8%B5_%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%97%E0%B8%B5%E0%B9%88_31"
       ],
       "thai_search_terms": [
         "จตุรมิตรสามัคคี ฟุตบอล",
@@ -383,7 +396,7 @@
         "Thai Youth Champion Cup"
       ],
       "update_status": "checked",
-      "last_checked_at": "2026-11-25T20:00:00-08:00",
+      "last_checked_at": "2026-11-26",
       "fetch_urls": [],
       "news_feed_urls": []
     },
@@ -501,9 +514,14 @@
       "source_priority": "official_then_secondary",
       "official_domains": [],
       "official_page_urls": [],
-      "secondary_domains": [],
+      "secondary_domains": [
+        "www.posttoday.com",
+        "www.youtube.com"
+      ],
       "secondary_page_urls": [
-        "https://edu-today.com/btu-215"
+        "https://edu-today.com/btu-215",
+        "https://www.posttoday.com/lifestyle/744242",
+        "https://www.youtube.com/watch?v=a35AiIR12Ic"
       ],
       "thai_search_terms": [
         "ฟุตบอลมหาวิทยาลัยระดับประเทศ",
@@ -513,7 +531,7 @@
         "Thai university football U23 teams"
       ],
       "update_status": "checked",
-      "last_checked_at": "2026-11-25T20:00:00-08:00",
+      "last_checked_at": "2026-11-26",
       "fetch_urls": [],
       "news_feed_urls": []
     }

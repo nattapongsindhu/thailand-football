@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-11-26T07:45:02.636811900+00:00",
+  "generated_at": "2026-11-26T10:01:51.335513400+00:00",
   "errors": [],
   "warnings": [],
   "counts": {
     "teams": 193,
-    "participations": 365,
+    "participations": 366,
     "verified_official": 0,
-    "verified_secondary": 314,
+    "verified_secondary": 315,
     "discovered_unverified": 51,
     "conflicting": 0,
     "rejected": 0,
-    "news_items": 42,
+    "news_items": 33,
     "team_candidates": 379,
     "fetched_sources": 8,
     "failed_sources": 0
@@ -110,9 +110,9 @@
       "competition_id": "thai-university-cup-u23",
       "display_name": "Thai University Cup (U23)",
       "organizer_group": "School League (DPE)",
-      "teams": 7,
+      "teams": 8,
       "verified_official": 0,
-      "verified_secondary": 7,
+      "verified_secondary": 8,
       "discovered_unverified": 0
     },
     {

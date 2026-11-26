@@ -100,6 +100,62 @@
       "retrieved_at": "2026-11-25",
       "kind": "owner",
       "note": "Owner-defined organizational labels. Not evidence of official eligibility or a connected promotion/relegation pyramid."
+    },
+    {
+      "id": "thsport-coke-2026",
+      "title": "Coke Cup U17 2026 semi-finals (Thsport)",
+      "url": "https://www.thsport.app/sport-news/footballthai/news-271470.html",
+      "retrieved_at": "2026-11-26",
+      "kind": "secondary",
+      "note": "Semi-final pairings and scores, 22 August 2026."
+    },
+    {
+      "id": "siamsport-coke-2026-final",
+      "title": "Coke Cup U17 2026 final (Siamsport)",
+      "url": "https://www.siamsport.co.th/football-thailand/th-other/108328/",
+      "retrieved_at": "2026-11-26",
+      "kind": "secondary",
+      "note": "Final result and champion, 23 August 2026."
+    },
+    {
+      "id": "thansettakij-7hd-2026",
+      "title": "7HD Champion Cup 2026 quarter-final draw (Thansettakij)",
+      "url": "https://www.thansettakij.com/sport/674313",
+      "retrieved_at": "2026-11-26",
+      "kind": "secondary",
+      "note": "Quarter-final pairings and date, 30 November 2026."
+    },
+    {
+      "id": "ch7-7hd-2026-schedule",
+      "title": "7HD Champion Cup 2026 schedule (Channel 7HD)",
+      "url": "https://www.ch7.com/champ7hd/football2026/schedule",
+      "retrieved_at": "2026-11-26",
+      "kind": "official",
+      "note": "Official round dates: quarter-finals 30 Nov, semi-finals 2 Dec, final 6 Dec 2026."
+    },
+    {
+      "id": "wikipedia-jaturamitr-31",
+      "title": "Jaturamitr Samakkhi 31st edition (Wikipedia Thai)",
+      "url": "https://th.wikipedia.org/wiki/%E0%B8%88%E0%B8%95%E0%B8%B8%E0%B8%A3%E0%B8%A1%E0%B8%B4%E0%B8%95%E0%B8%A3%E0%B8%AA%E0%B8%B2%E0%B8%A1%E0%B8%B1%E0%B8%84%E0%B8%84%E0%B8%B5_%E0%B8%84%E0%B8%A3%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B8%97%E0%B8%B5%E0%B9%88_31",
+      "retrieved_at": "2026-11-26",
+      "kind": "secondary",
+      "note": "Round-robin, third-place and final results, 15-22 November 2025."
+    },
+    {
+      "id": "posttoday-uchampion-2026",
+      "title": "Chang U-Champion Cup 2026 final (Post Today)",
+      "url": "https://www.posttoday.com/lifestyle/744242",
+      "retrieved_at": "2026-11-26",
+      "kind": "secondary",
+      "note": "Final result, penalties and champion, 18 June 2026."
+    },
+    {
+      "id": "youtube-uchampion-2026-sf",
+      "title": "Chang U-Champion Cup 2026 semi-finals (official live stream)",
+      "url": "https://www.youtube.com/watch?v=a35AiIR12Ic",
+      "retrieved_at": "2026-11-26",
+      "kind": "secondary",
+      "note": "Semi-final results: Bangkok Thonburi 1-1 National Sports (5-6 pens), Chulalongkorn 1-0 Kasem Bundit."
     }
   ],
   "nav": [
@@ -5890,11 +5946,88 @@
           "captured_at": "2026-03-22",
           "age_group": "U23",
           "source_ids": [
-            "legacy-import"
+            "legacy-import",
+            "posttoday-uchampion-2026",
+            "youtube-uchampion-2026-sf"
           ],
           "groups": [],
           "matches": [],
-          "cup": null,
+          "cup": {
+            "name": "Chang U-Champion Cup 2026",
+            "sponsor": "Chang",
+            "teams_count": 8,
+            "prize": "",
+            "reward": "Dream Prize — training experience in England",
+            "rounds": [
+              {
+                "id": "round-thai-university-cup-u23-semi-finals",
+                "name": "Semi-finals",
+                "date_label": "15 Jun 2026",
+                "clubs": 4,
+                "status": "done",
+                "note": "Knockout stage at Inthree Chantaratsit, Kasetsart University; quarter-final results were not published in accessible text.",
+                "sort_order": 1
+              },
+              {
+                "id": "round-thai-university-cup-u23-final",
+                "name": "Final",
+                "date_label": "18 Jun 2026",
+                "clubs": 2,
+                "status": "done",
+                "note": "Champion: Thailand National Sports University · Runner-up: Chulalongkorn University",
+                "sort_order": 2
+              }
+            ],
+            "ties": [
+              {
+                "id": "tie-thai-university-cup-u23-semi-final-bangkok-thonburi-national-sports",
+                "round_id": "round-thai-university-cup-u23-semi-finals",
+                "stage": "Semi-finals",
+                "home_name": "Bangkok Thonburi University",
+                "away_name": "Thailand National Sports University",
+                "home_goals": 1,
+                "away_goals": 1,
+                "status": "FT (pens)",
+                "note": "Sports University won 6-5 on penalties.",
+                "sort_order": 1,
+                "home_penalties": 5,
+                "away_penalties": 6,
+                "winner_name": "Thailand National Sports University",
+                "winner_basis": "penalty shootout"
+              },
+              {
+                "id": "tie-thai-university-cup-u23-semi-final-chulalongkorn-kasem-bundit",
+                "round_id": "round-thai-university-cup-u23-semi-finals",
+                "stage": "Semi-finals",
+                "home_name": "Chulalongkorn University",
+                "away_name": "Kasem Bundit U.",
+                "home_goals": 1,
+                "away_goals": 0,
+                "status": "FT",
+                "note": "",
+                "sort_order": 2,
+                "winner_name": "Chulalongkorn University",
+                "winner_basis": "full time"
+              },
+              {
+                "id": "tie-thai-university-cup-u23-final-national-sports-chulalongkorn",
+                "round_id": "round-thai-university-cup-u23-final",
+                "stage": "Final",
+                "home_name": "Thailand National Sports University",
+                "away_name": "Chulalongkorn University",
+                "home_goals": 0,
+                "away_goals": 0,
+                "status": "FT (pens)",
+                "note": "Sports University won 4-3 on penalties.",
+                "sort_order": 1,
+                "home_penalties": 4,
+                "away_penalties": 3,
+                "winner_name": "Thailand National Sports University",
+                "winner_basis": "final"
+              }
+            ],
+            "past_editions": []
+          },
           "scorers": [],
           "news_ids": []
         }
@@ -5930,11 +6063,84 @@
           "captured_at": "2026-03-22",
           "age_group": "U17",
           "source_ids": [
-            "legacy-import"
+            "legacy-import",
+            "thsport-coke-2026",
+            "siamsport-coke-2026-final"
           ],
           "groups": [],
           "matches": [],
-          "cup": null,
+          "cup": {
+            "name": "Coke Cup U17 2026",
+            "sponsor": "Coke Cup",
+            "teams_count": 12,
+            "prize": "฿1,000,000 (Champion) · ฿500,000 (Runner-up)",
+            "reward": "",
+            "rounds": [
+              {
+                "id": "round-thai-youth-fa-cup-u17-semi-finals",
+                "name": "Semi-finals",
+                "date_label": "22 Aug 2026",
+                "clubs": 4,
+                "status": "done",
+                "note": "National final stage at Supachalasai; earlier 12-team matches were not published in accessible text.",
+                "sort_order": 1
+              },
+              {
+                "id": "round-thai-youth-fa-cup-u17-final",
+                "name": "Final",
+                "date_label": "23 Aug 2026",
+                "clubs": 2,
+                "status": "done",
+                "note": "Champion: Assumption United · Runner-up: Chonburi",
+                "sort_order": 2
+              }
+            ],
+            "ties": [
+              {
+                "id": "tie-thai-youth-fa-cup-u17-semi-final-assumption-united-chainat",
+                "round_id": "round-thai-youth-fa-cup-u17-semi-finals",
+                "stage": "Semi-finals",
+                "home_name": "Assumption United",
+                "away_name": "Chainat",
+                "home_goals": 4,
+                "away_goals": 1,
+                "status": "FT",
+                "note": "",
+                "sort_order": 1,
+                "winner_name": "Assumption United",
+                "winner_basis": "full time"
+              },
+              {
+                "id": "tie-thai-youth-fa-cup-u17-semi-final-chonburi-maejo-united",
+                "round_id": "round-thai-youth-fa-cup-u17-semi-finals",
+                "stage": "Semi-finals",
+                "home_name": "Chonburi",
+                "away_name": "Maejo United",
+                "home_goals": 5,
+                "away_goals": 0,
+                "status": "FT",
+                "note": "",
+                "sort_order": 2,
+                "winner_name": "Chonburi",
+                "winner_basis": "full time"
+              },
+              {
+                "id": "tie-thai-youth-fa-cup-u17-final-assumption-united-chonburi",
+                "round_id": "round-thai-youth-fa-cup-u17-final",
+                "stage": "Final",
+                "home_name": "Assumption United",
+                "away_name": "Chonburi",
+                "home_goals": 6,
+                "away_goals": 3,
+                "status": "FT",
+                "note": "",
+                "sort_order": 1,
+                "winner_name": "Assumption United",
+                "winner_basis": "final"
+              }
+            ],
+            "past_editions": []
+          },
           "scorers": [],
           "news_ids": []
         }
@@ -5971,11 +6177,81 @@
           "captured_at": "2026-03-22",
           "age_group": "U18",
           "source_ids": [
-            "legacy-import"
+            "legacy-import",
+            "thansettakij-7hd-2026",
+            "ch7-7hd-2026-schedule"
           ],
           "groups": [],
           "matches": [],
-          "cup": null,
+          "cup": {
+            "name": "7HD Champion Cup 2026",
+            "sponsor": "7HD Champion Cup",
+            "teams_count": 8,
+            "prize": "",
+            "reward": "",
+            "rounds": [
+              {
+                "id": "round-thai-youth-league-cup-u18-quarter-finals",
+                "name": "Quarter-finals",
+                "date_label": "30 Nov 2026",
+                "clubs": 8,
+                "status": "upcoming",
+                "note": "Quarter-final draw announced 22 Nov 2026 at Supachalasai; semi-finals 2 Dec and final 6 Dec 2026.",
+                "sort_order": 1
+              }
+            ],
+            "ties": [
+              {
+                "id": "tie-thai-youth-league-cup-u18-quarter-final-assumption-thonburi-assumption",
+                "round_id": "round-thai-youth-league-cup-u18-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Assumption College Thonburi",
+                "away_name": "Assumption College",
+                "home_goals": null,
+                "away_goals": null,
+                "status": "Upcoming",
+                "note": "",
+                "sort_order": 1
+              },
+              {
+                "id": "tie-thai-youth-league-cup-u18-quarter-final-tha-kham-assumption-sriracha",
+                "round_id": "round-thai-youth-league-cup-u18-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Tha Kham Pittayakhom School",
+                "away_name": "Assumption College Sriracha",
+                "home_goals": null,
+                "away_goals": null,
+                "status": "Upcoming",
+                "note": "",
+                "sort_order": 2
+              },
+              {
+                "id": "tie-thai-youth-league-cup-u18-quarter-final-wichutit-wat-sutthi",
+                "round_id": "round-thai-youth-league-cup-u18-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Wichutit School",
+                "away_name": "Wat Sutthi Wararam School",
+                "home_goals": null,
+                "away_goals": null,
+                "status": "Upcoming",
+                "note": "",
+                "sort_order": 3
+              },
+              {
+                "id": "tie-thai-youth-league-cup-u18-quarter-final-debsirin-kanthararom",
+                "round_id": "round-thai-youth-league-cup-u18-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Debsirin School",
+                "away_name": "Kanthararom School",
+                "home_goals": null,
+                "away_goals": null,
+                "status": "Upcoming",
+                "note": "",
+                "sort_order": 4
+              }
+            ],
+            "past_editions": []
+          },
           "scorers": [],
           "news_ids": []
         }
@@ -6007,11 +6283,180 @@
           "captured_at": "2026-03-22",
           "age_group": "U18",
           "source_ids": [
-            "legacy-import"
+            "legacy-import",
+            "wikipedia-jaturamitr-31"
           ],
           "groups": [],
           "matches": [],
-          "cup": null,
+          "cup": {
+            "name": "31st Jaturamitr Samakkhi 2025",
+            "sponsor": "",
+            "teams_count": 4,
+            "prize": "",
+            "reward": "",
+            "rounds": [
+              {
+                "id": "round-thai-youth-champion-cup-u18-matchday-1",
+                "name": "Matchday 1",
+                "date_label": "15 Nov 2025",
+                "clubs": 4,
+                "status": "done",
+                "note": "31st edition, November 2025.",
+                "sort_order": 1
+              },
+              {
+                "id": "round-thai-youth-champion-cup-u18-matchday-2",
+                "name": "Matchday 2",
+                "date_label": "17 Nov 2025",
+                "clubs": 4,
+                "status": "done",
+                "note": "31st edition, November 2025.",
+                "sort_order": 2
+              },
+              {
+                "id": "round-thai-youth-champion-cup-u18-matchday-3",
+                "name": "Matchday 3",
+                "date_label": "19 Nov 2025",
+                "clubs": 4,
+                "status": "done",
+                "note": "31st edition, November 2025.",
+                "sort_order": 3
+              },
+              {
+                "id": "round-thai-youth-champion-cup-u18-third-place",
+                "name": "Third-place match",
+                "date_label": "22 Nov 2025",
+                "clubs": 2,
+                "status": "done",
+                "note": "31st edition, November 2025.",
+                "sort_order": 4
+              },
+              {
+                "id": "round-thai-youth-champion-cup-u18-final",
+                "name": "Final",
+                "date_label": "22 Nov 2025",
+                "clubs": 2,
+                "status": "done",
+                "note": "Champion: Debsirin School · Runner-up: Bangkok Christian College. 31st edition, November 2025; no 2026 football edition was held.",
+                "sort_order": 5
+              }
+            ],
+            "ties": [
+              {
+                "id": "tie-thai-youth-champion-cup-u18-matchday-1-bangkok-christian-suankularb",
+                "round_id": "round-thai-youth-champion-cup-u18-matchday-1",
+                "stage": "Matchday 1",
+                "home_name": "Bangkok Christian College",
+                "away_name": "Suankularb Wittayalai School",
+                "home_goals": 3,
+                "away_goals": 1,
+                "status": "FT",
+                "note": "",
+                "sort_order": 1,
+                "winner_name": "Bangkok Christian College",
+                "winner_basis": "full time"
+              },
+              {
+                "id": "tie-thai-youth-champion-cup-u18-matchday-1-assumption-debsirin",
+                "round_id": "round-thai-youth-champion-cup-u18-matchday-1",
+                "stage": "Matchday 1",
+                "home_name": "Assumption College",
+                "away_name": "Debsirin School",
+                "home_goals": 0,
+                "away_goals": 1,
+                "status": "FT",
+                "note": "",
+                "sort_order": 2,
+                "winner_name": "Debsirin School",
+                "winner_basis": "full time"
+              },
+              {
+                "id": "tie-thai-youth-champion-cup-u18-matchday-2-debsirin-suankularb",
+                "round_id": "round-thai-youth-champion-cup-u18-matchday-2",
+                "stage": "Matchday 2",
+                "home_name": "Debsirin School",
+                "away_name": "Suankularb Wittayalai School",
+                "home_goals": 3,
+                "away_goals": 1,
+                "status": "FT",
+                "note": "",
+                "sort_order": 1,
+                "winner_name": "Debsirin School",
+                "winner_basis": "full time"
+              },
+              {
+                "id": "tie-thai-youth-champion-cup-u18-matchday-2-bangkok-christian-assumption",
+                "round_id": "round-thai-youth-champion-cup-u18-matchday-2",
+                "stage": "Matchday 2",
+                "home_name": "Bangkok Christian College",
+                "away_name": "Assumption College",
+                "home_goals": 2,
+                "away_goals": 0,
+                "status": "FT",
+                "note": "",
+                "sort_order": 2,
+                "winner_name": "Bangkok Christian College",
+                "winner_basis": "full time"
+              },
+              {
+                "id": "tie-thai-youth-champion-cup-u18-matchday-3-debsirin-bangkok-christian",
+                "round_id": "round-thai-youth-champion-cup-u18-matchday-3",
+                "stage": "Matchday 3",
+                "home_name": "Debsirin School",
+                "away_name": "Bangkok Christian College",
+                "home_goals": 3,
+                "away_goals": 1,
+                "status": "FT",
+                "note": "",
+                "sort_order": 1,
+                "winner_name": "Debsirin School",
+                "winner_basis": "full time"
+              },
+              {
+                "id": "tie-thai-youth-champion-cup-u18-matchday-3-assumption-suankularb",
+                "round_id": "round-thai-youth-champion-cup-u18-matchday-3",
+                "stage": "Matchday 3",
+                "home_name": "Assumption College",
+                "away_name": "Suankularb Wittayalai School",
+                "home_goals": 1,
+                "away_goals": 0,
+                "status": "FT",
+                "note": "",
+                "sort_order": 2,
+                "winner_name": "Assumption College",
+                "winner_basis": "full time"
+              },
+              {
+                "id": "tie-thai-youth-champion-cup-u18-third-place-assumption-suankularb",
+                "round_id": "round-thai-youth-champion-cup-u18-third-place",
+                "stage": "Third-place match",
+                "home_name": "Assumption College",
+                "away_name": "Suankularb Wittayalai School",
+                "home_goals": 2,
+                "away_goals": 0,
+                "status": "FT",
+                "note": "",
+                "sort_order": 1,
+                "winner_name": "Assumption College",
+                "winner_basis": "full time"
+              },
+              {
+                "id": "tie-thai-youth-champion-cup-u18-final-debsirin-bangkok-christian",
+                "round_id": "round-thai-youth-champion-cup-u18-final",
+                "stage": "Final",
+                "home_name": "Debsirin School",
+                "away_name": "Bangkok Christian College",
+                "home_goals": 3,
+                "away_goals": 1,
+                "status": "FT",
+                "note": "",
+                "sort_order": 1,
+                "winner_name": "Debsirin School",
+                "winner_basis": "final"
+              }
+            ],
+            "past_editions": []
+          },
           "scorers": [],
           "news_ids": []
         }

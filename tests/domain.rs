@@ -392,7 +392,161 @@ fn empty_youth_competitions_do_not_fall_back_to_senior_data() {
         "",
     )
     .expect("youth cup");
-    assert!(!cup.cup_view.visible);
+    assert!(cup.cup_view.visible);
+    assert!(cup.cup_view.has_rounds);
+    assert_eq!(cup.cup_view.rounds.len(), 2);
+    assert_eq!(
+        cup.cup_view
+            .rounds
+            .iter()
+            .map(|round| round.ties.len())
+            .sum::<usize>(),
+        3
+    );
+}
+
+#[test]
+fn youth_and_university_cups_have_verified_match_records() {
+    let data = data();
+
+    let coke = build_page(
+        &data,
+        "thai-youth-fa-cup-u17",
+        None,
+        Some("rounds"),
+        None,
+        None,
+        "",
+    )
+    .expect("Coke Cup");
+    assert_eq!(coke.cup_view.rounds.len(), 2);
+    assert_eq!(
+        coke.cup_view
+            .rounds
+            .iter()
+            .map(|round| round.ties.len())
+            .collect::<Vec<_>>(),
+        [2, 1]
+    );
+    let coke_final = coke
+        .cup_view
+        .rounds
+        .iter()
+        .find(|round| round.name == "Final")
+        .expect("Coke final");
+    assert!(coke_final.note.contains("Champion: Assumption United"));
+    assert_eq!(coke_final.ties[0].home, "Assumption United");
+    assert_eq!(coke_final.ties[0].away, "Chonburi");
+    assert_eq!(coke_final.ties[0].score, "6 - 3");
+
+    let seven_hd = build_page(
+        &data,
+        "thai-youth-league-cup-u18",
+        None,
+        Some("rounds"),
+        None,
+        None,
+        "",
+    )
+    .expect("7HD Cup");
+    assert_eq!(seven_hd.cup_view.rounds.len(), 1);
+    assert_eq!(seven_hd.cup_view.rounds[0].name, "Quarter-finals");
+    assert_eq!(seven_hd.cup_view.rounds[0].status, "upcoming");
+    assert_eq!(seven_hd.cup_view.rounds[0].ties.len(), 4);
+    assert!(
+        seven_hd.cup_view.rounds[0]
+            .ties
+            .iter()
+            .all(|tie| { tie.score == "TBD" && tie.status == "Upcoming" && tie.winner.is_empty() })
+    );
+    assert!(
+        seven_hd.cup_view.rounds[0]
+            .ties
+            .iter()
+            .any(|tie| { tie.home == "Debsirin School" && tie.away == "Kanthararom School" })
+    );
+
+    let jaturamitr = build_page(
+        &data,
+        "thai-youth-champion-cup-u18",
+        None,
+        Some("rounds"),
+        None,
+        None,
+        "",
+    )
+    .expect("Jaturamitr");
+    assert_eq!(jaturamitr.cup_view.rounds.len(), 5);
+    assert_eq!(
+        jaturamitr
+            .cup_view
+            .rounds
+            .iter()
+            .map(|round| round.ties.len())
+            .collect::<Vec<_>>(),
+        [2, 2, 2, 1, 1]
+    );
+    let jaturamitr_final = jaturamitr
+        .cup_view
+        .rounds
+        .iter()
+        .find(|round| round.name == "Final")
+        .expect("Jaturamitr final");
+    assert!(jaturamitr_final.note.contains("Champion: Debsirin School"));
+    assert_eq!(jaturamitr_final.ties[0].score, "3 - 1");
+    assert_eq!(jaturamitr_final.ties[0].away, "Bangkok Christian College");
+
+    let university = build_page(
+        &data,
+        "thai-university-cup-u23",
+        None,
+        Some("rounds"),
+        None,
+        None,
+        "",
+    )
+    .expect("University Cup");
+    assert_eq!(university.cup_view.rounds.len(), 2);
+    assert_eq!(
+        university
+            .cup_view
+            .rounds
+            .iter()
+            .map(|round| round.ties.len())
+            .collect::<Vec<_>>(),
+        [2, 1]
+    );
+    let semi = university
+        .cup_view
+        .rounds
+        .iter()
+        .find(|round| round.name == "Semi-finals")
+        .expect("University semi-finals");
+    let bangkok_thonburi = semi
+        .ties
+        .iter()
+        .find(|tie| tie.home == "Bangkok Thonburi University")
+        .expect("Bangkok Thonburi semi-final");
+    assert_eq!(bangkok_thonburi.score, "1 - 1");
+    assert_eq!(bangkok_thonburi.penalties, "Penalties: 5 - 6");
+    assert!(
+        bangkok_thonburi
+            .winner
+            .contains("Thailand National Sports University")
+    );
+    let university_final = university
+        .cup_view
+        .rounds
+        .iter()
+        .find(|round| round.name == "Final")
+        .expect("University final");
+    assert!(
+        university_final
+            .note
+            .contains("Champion: Thailand National Sports University")
+    );
+    assert_eq!(university_final.ties[0].score, "0 - 0");
+    assert_eq!(university_final.ties[0].penalties, "Penalties: 4 - 3");
 }
 
 #[test]
@@ -713,7 +867,15 @@ fn roster_fallback_metadata_is_exposed_without_standings_leakage() {
         "",
     )
     .expect("Youth Champion Cup rounds");
-    assert!(!fallback_rounds.cup_view.visible);
+    assert!(fallback_rounds.cup_view.visible);
+    let fallback_final = fallback_rounds
+        .cup_view
+        .rounds
+        .iter()
+        .find(|round| round.name == "Final")
+        .expect("Youth Champion Cup final");
+    assert!(fallback_final.note.contains("Champion: Debsirin School"));
+    assert_eq!(fallback_final.ties[0].score, "3 - 1");
 
     for (competition_id, season_id) in [
         ("thai-school-league-type-b", Some("2026-u16")),

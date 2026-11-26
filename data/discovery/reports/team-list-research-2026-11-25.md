@@ -80,6 +80,13 @@ Notes:
 - Source: the two English Wikipedia season articles named in the table above. Raw wikitext is captured in `data/discovery/sources/fa_cup_2025_26.wiki` and `data/discovery/sources/league_cup_2025_26.wiki`; `tools/build_cup_ties.mjs` regenerates the rounds and ties in `data/seed.json`.
 - Penalty shootout scores are stored separately from the match score; extra time is stored separately from the score and status.
 
+### Youth and university cup match coverage
+
+- Coke Cup U17 2026: semi-finals and final imported (3 ties). Champion: Assumption United; runner-up: Chonburi. Earlier 12-team matches were not published in accessible text.
+- 7HD Champion Cup 2026: quarter-final draw imported (4 ties, 30 Nov 2026). Semi-finals 2 Dec and final 6 Dec 2026; scores are not yet played.
+- 31st Jaturamitr Samakkhi (Nov 2025): all six round-robin matches plus third-place match and final imported (8 ties). Champion: Debsirin School; runner-up: Bangkok Christian College.
+- Chang U-Champion Cup 2026: semi-finals and final imported (3 ties). Champion: Thailand National Sports University; runner-up: Chulalongkorn University. Quarter-final results were not published in accessible text.
+
 ## Empty categories and reasons
 
 ### Thai School League — General (U18 / U16 / U14 / U12)

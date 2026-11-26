@@ -706,6 +706,7 @@ fn cup_view(comp: &Competition, season: &Season) -> CupView {
                         _ if tie.score_status.as_deref() == Some("unavailable") => {
                             "Score unavailable".to_string()
                         }
+                        _ if tie.status.eq_ignore_ascii_case("upcoming") => "TBD".to_string(),
                         _ => "-".to_string(),
                     },
                     status: tie.status.clone(),

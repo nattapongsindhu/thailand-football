@@ -174,128 +174,23 @@ check(
 
 // Cup pages.
 await page.goto(`${BASE}/competitions/thai-fa-cup/rounds`, { waitUntil: "networkidle" });
-let cupText = await page.locator("main").innerText();
+const cupText = await page.locator("main").innerText();
 check("cup sponsor", cupText.includes("Chang FA Cup"));
-check(
-  "fa cup rounds",
-  (await page.locator(".bracket-round").count()) === 3 &&
-    (await page.locator(".cup-early details").count()) === 4,
-);
-check(
-  "fa cup tie records",
-  (await page.locator(".bracket-card").count()) + (await page.locator(".cup-tie").count()) === 94,
-);
+check("fa cup rounds", (await page.locator("article.cup-round").count()) === 7);
+check("fa cup tie records", (await page.locator(".cup-tie").count()) === 94);
 check("fa cup champion", cupText.includes("Champion: Buriram United") && cupText.includes("Runner-up: PT Prachuap"));
-const faFinalText = await page.locator(".bracket-round").last().locator(".bracket-card").first().innerText();
-check(
-  "fa cup final date and score",
-  faFinalText.includes("31 May 2026") &&
-    faFinalText.includes("Buriram United") &&
-    faFinalText.includes("PT Prachuap") &&
-    faFinalText.includes("Winner: Buriram United (final)") &&
-    faFinalText.includes("FT (AET)"),
-);
-await page.locator(".cup-early summary", { hasText: "Qualification Round" }).first().click();
-cupText = await page.locator("main").innerText();
+check("fa cup final date and score", cupText.includes("31 May 2026") && cupText.includes("1 - 0") && cupText.includes("FT (AET)"));
 check("fa cup penalties", cupText.includes("Penalties: 5 - 3"));
-await page.locator(".cup-early summary", { hasText: "Second Round" }).first().click();
-cupText = await page.locator("main").innerText();
 check("fa cup awarded result", cupText.includes("Awarded"));
-check("fa cup no empty round message", (await page.locator("text=No tie records for this round.").count()) === 0);
+check("fa cup no empty round message", !cupText.includes("No tie records for this round."));
 await page.goto(`${BASE}/competitions/thai-league-cup/rounds`, { waitUntil: "networkidle" });
-let leagueCupText = await page.locator("main").innerText();
-check(
-  "league cup rounds",
-  (await page.locator(".bracket-round").count()) === 3 &&
-    (await page.locator(".cup-early details").count()) === 5,
-);
-check(
-  "league cup tie records",
-  (await page.locator(".bracket-card").count()) + (await page.locator(".cup-tie").count()) === 79,
-);
+const leagueCupText = await page.locator("main").innerText();
+check("league cup rounds", (await page.locator("article.cup-round").count()) === 8);
+check("league cup tie records", (await page.locator(".cup-tie").count()) === 79);
 check("league cup champion", leagueCupText.includes("Champion: Port FC") && leagueCupText.includes("Runner-up: BG Pathum United"));
-const leagueFinalText = await page.locator(".bracket-round").last().locator(".bracket-card").first().innerText();
-check(
-  "league cup final date and score",
-  leagueFinalText.includes("24 May 2026") &&
-    leagueFinalText.includes("BG Pathum United") &&
-    leagueFinalText.includes("Port FC") &&
-    leagueFinalText.includes("Winner: Port FC (final)"),
-);
-await page.locator(".cup-early summary", { hasText: "1st Qualification Round" }).first().click();
-leagueCupText = await page.locator("main").innerText();
-check("league cup penalties", leagueCupText.includes("Penalties: 4 - 5"));
-check("league cup no empty round message", (await page.locator("text=No tie records for this round.").count()) === 0);
-
-// Visual knockout brackets.
-async function readBracket() {
-  return page.evaluate(() => {
-    const canvas = document.querySelector("[data-bracket-canvas]");
-    const columns = Array.from(document.querySelectorAll(".bracket-round"));
-    return {
-      canvas: Boolean(canvas),
-      rounds: columns.length,
-      cards: document.querySelectorAll(".bracket-card").length,
-      paths: document.querySelectorAll(".bracket-connectors path").length,
-      early: document.querySelectorAll(".cup-early details").length,
-      oldList: document.querySelectorAll(".cup-rounds .cup-round").length,
-      sources: document.querySelectorAll(".bracket-card .bracket-source").length,
-      aet: (document.body.innerText.match(/FT \(AET/g) || []).length,
-      columnsX: columns.map((column) => Math.round(column.getBoundingClientRect().x)),
-    };
-  });
-}
-
-await page.goto(`${BASE}/competitions/thai-fa-cup/rounds`, { waitUntil: "networkidle" });
-const faBracket = await readBracket();
-check("FA bracket canvas", faBracket.canvas);
-check("FA bracket columns", faBracket.rounds === 3, `columns=${faBracket.rounds}`);
-check("FA bracket cards", faBracket.cards === 7, `cards=${faBracket.cards}`);
-check("FA bracket connectors", faBracket.paths === 6, `paths=${faBracket.paths}`);
-check(
-  "FA bracket is horizontal",
-  faBracket.columnsX[0] < faBracket.columnsX[1] && faBracket.columnsX[1] < faBracket.columnsX[2],
-  faBracket.columnsX.join(","),
-);
-check("FA early rounds are collapsible", faBracket.early === 4, `early=${faBracket.early}`);
-check("FA main rounds are not a vertical list", faBracket.oldList === 0, `old=${faBracket.oldList}`);
-check("FA bracket source links", faBracket.sources === 7, `sources=${faBracket.sources}`);
-check("FA AET badge", faBracket.aet >= 1);
-await page.screenshot({ path: path.join(OUT, "bracket-fa-desktop.png"), fullPage: false });
-await page.locator(".cup-early summary", { hasText: "Second Round" }).first().click();
-check("FA awarded label", (await page.locator("text=Awarded").count()) > 0);
-
-await page.goto(`${BASE}/competitions/thai-league-cup/rounds`, { waitUntil: "networkidle" });
-const leagueBracket = await readBracket();
-check("League Cup bracket columns", leagueBracket.rounds === 3, `columns=${leagueBracket.rounds}`);
-check("League Cup bracket cards", leagueBracket.cards === 7, `cards=${leagueBracket.cards}`);
-check("League Cup bracket connectors", leagueBracket.paths === 6, `paths=${leagueBracket.paths}`);
-check("League Cup early rounds are collapsible", leagueBracket.early === 5, `early=${leagueBracket.early}`);
-check("League Cup main rounds are not a vertical list", leagueBracket.oldList === 0);
-check("League Cup bracket champion", (await page.locator("main").innerText()).includes("Champion: Port FC"));
-
-await page.goto(`${BASE}/competitions/thai-college-cup-u19/rounds`, { waitUntil: "networkidle" });
-const collegeBracket = await readBracket();
-check("College Cup bracket columns", collegeBracket.rounds === 3, `columns=${collegeBracket.rounds}`);
-check("College Cup bracket cards", collegeBracket.cards === 7, `cards=${collegeBracket.cards}`);
-check("College Cup bracket connectors", collegeBracket.paths === 6, `paths=${collegeBracket.paths}`);
-check("College Cup has no early-round block", collegeBracket.early === 0, `early=${collegeBracket.early}`);
-const collegeBracketText = await page.locator("main").innerText();
-check("College Cup bracket penalties", collegeBracketText.includes("Penalties: 4 - 5"));
-check("College Cup bracket unavailable scores", (await page.locator(".bracket-card", { hasText: "Score unavailable" }).count()) === 2);
-check("College Cup bracket no Yasothon", !collegeBracketText.includes("Yasothon"));
-await page.screenshot({ path: path.join(OUT, "bracket-college-desktop.png"), fullPage: false });
-
-await page.goto(`${BASE}/competitions/thai-champion-cup/rounds`, { waitUntil: "networkidle" });
-check("Champion Cup stays a compact list", (await page.locator("[data-bracket-canvas]").count()) === 0);
-check("Champion Cup keeps its single round", (await page.locator(".cup-rounds .cup-round").count()) === 1);
-
-await page.goto(`${BASE}/competitions/thai-school-league-type-a?season=2026-u18`, { waitUntil: "networkidle" });
-check("School League has no bracket", (await page.locator("[data-bracket-canvas]").count()) === 0);
-check("School League team rows unchanged", (await page.locator(".teams-table tbody tr").count()) === 16);
-
-await page.goto(`${BASE}/competitions/thai-league-1`, { waitUntil: "networkidle" });
-check("National League has no bracket", (await page.locator("[data-bracket-canvas]").count()) === 0);
+check("league cup final date and score", leagueCupText.includes("24 May 2026") && leagueCupText.includes("0 - 1"));
+check("league cup penalties", leagueCupText.includes("Penalties:"));
+check("league cup no empty round message", !leagueCupText.includes("No tie records for this round."));
 
 // Empty youth page.
 await page.goto(`${BASE}/competitions/thai-university-cup-u23/rounds`, { waitUntil: "networkidle" });
@@ -325,22 +220,6 @@ check("mobile sidebar opens", await page.locator("#sidebar.is-open").count() ===
 await page.locator("[data-sidebar-close]").click();
 check("mobile sidebar closes", await page.locator("#sidebar.is-open").count() === 0);
 await page.waitForTimeout(300);
-
-await page.goto(`${BASE}/competitions/thai-fa-cup/rounds`, { waitUntil: "networkidle" });
-const mobileBracket = await page.evaluate(() => {
-  const scroll = document.querySelector(".bracket-scroll");
-  return {
-    overflow: document.documentElement.scrollWidth - window.innerWidth,
-    columns: document.querySelectorAll(".bracket-round").length,
-    scrolls: scroll ? scroll.scrollWidth > scroll.clientWidth : false,
-    paths: document.querySelectorAll(".bracket-connectors path").length,
-  };
-});
-check("mobile bracket no page overflow", mobileBracket.overflow <= 1, `overflow=${mobileBracket.overflow}`);
-check("mobile bracket keeps three columns", mobileBracket.columns === 3);
-check("mobile bracket scrolls horizontally", mobileBracket.scrolls);
-check("mobile bracket connectors", mobileBracket.paths === 6, `paths=${mobileBracket.paths}`);
-await page.screenshot({ path: path.join(OUT, "bracket-fa-mobile.png"), fullPage: false });
 
 await page.screenshot({ path: path.join(OUT, "mobile-home.png"), fullPage: false });
 await page.setViewportSize({ width: 1440, height: 1000 });

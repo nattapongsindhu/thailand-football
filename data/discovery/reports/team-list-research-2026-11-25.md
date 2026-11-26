@@ -79,7 +79,6 @@ Notes:
 - Thai League Cup: 8 rounds, 79 ties, 80 clubs. Both qualification rounds, qualification play-off, first and second rounds, quarter-finals, semi-finals, and final, including 11 penalty shootouts, 19 extra-time results, and one awarded result (Hua Hin City 0–3 Thap Luang United). Champion: Port FC; runner-up: BG Pathum United (final 0–1).
 - Source: the two English Wikipedia season articles named in the table above. Raw wikitext is captured in `data/discovery/sources/fa_cup_2025_26.wiki` and `data/discovery/sources/league_cup_2025_26.wiki`; `tools/build_cup_ties.mjs` regenerates the rounds and ties in `data/seed.json`.
 - Penalty shootout scores are stored separately from the match score; extra time is stored separately from the score and status.
-- The Rounds tab renders the main stage (Quarter-finals → Semi-finals → Final) as a horizontal bracket with connector lines; early rounds remain compact collapsible lists.
 
 ## Empty categories and reasons
 

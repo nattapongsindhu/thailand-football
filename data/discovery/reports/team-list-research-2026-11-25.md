@@ -20,9 +20,15 @@ Source checked date for every roster: **2026-11-25**.
 
 | Competition | UI season | Displayed season | Source season | Teams | Roster status | Source URL |
 |---|---|---|---:|---:|---|---|
-| Thai Youth League 1 (U18) | 2026 | 2026 | 2026 | 0 | unavailable | — |
-| Thai Youth League 2 (U16) | 2026 | 2026 | 2026 | 0 | unavailable | — |
-| Thai Youth League 3 (U14) | 2026 | 2026 | 2026 | 0 | unavailable | — |
+| Thai Youth League 1 | 2026-u18 | 2026 | 2026 | 0 | unavailable | — |
+| Thai Youth League 1 | 2026-u16 | 2026 | 2026 | 0 | unavailable | — |
+| Thai Youth League 1 | 2026-u14 | 2026 | 2026 | 0 | unavailable | — |
+| Thai Youth League 2 | 2026-u18 | 2026 | 2026 | 0 | unavailable | — |
+| Thai Youth League 2 | 2026-u16 | 2026 | 2026 | 0 | unavailable | — |
+| Thai Youth League 2 | 2026-u14 | 2026 | 2026 | 0 | unavailable | — |
+| Thai Youth League 3 | 2026-u18 | 2026 | 2026 | 0 | unavailable | — |
+| Thai Youth League 3 | 2026-u16 | 2026 | 2026 | 0 | unavailable | — |
+| Thai Youth League 3 | 2026-u14 | 2026 | 2026 | 0 | unavailable | — |
 | Thai Youth FA Cup (U17) | 2026 | 2026 | 2026 | 12 | partial | https://siamsport.co.th/football-thailand/th-other/107933 |
 | Thai Youth League Cup (U18) | 2026 | 2026 | 2026 | 8 | partial | https://thethaiger.com/th/news/1634775 |
 | Thai Youth Champion Cup (U18) | 2026 | **2025** | **2025** | 4 | latest_verified | https://matichon.co.th/sport/news_5456292 |
@@ -36,7 +42,7 @@ Source checked date for every roster: **2026-11-25**.
 | Thai School League — General U16 | 2026-u16 | 2026 | 2026 | 0 | unavailable | — |
 | Thai School League — General U14 | 2026-u14 | 2026 | 2026 | 0 | unavailable | — |
 | Thai School League — General U12 | 2026-u12 | 2026 | 2026 | 0 | unavailable | — |
-| Thai College Cup (U19) | 2026 | 2026 | 2026 | 0 | unavailable | — |
+| Thai College Cup (U19) | 2026 | 2026 | 2026 | 8 | partial | https://www.facebook.com/100064329743962/posts/1503699835117660/ |
 | Thai University Cup (U23) | 2026 | 2026 | 2026 | 7 | partial | https://edu-today.com/btu-215 |
 
 Notes:
@@ -53,7 +59,7 @@ Notes:
 | Thai League 1 | 2025/26 | 16 | verified secondary | English Wikipedia, 2025–26 Thai League 1 |
 | Thai League 2 | 2025/26 | 18 | verified secondary | English Wikipedia, 2025–26 Thai League 2 |
 | Thai League 3 | 2025/26 | 35 | discovered unverified | Owner-supplied standings snapshot |
-| Thai FA Cup | 2025/26 | 95 | 77 secondary + 18 unverified | English Wikipedia, 2025–26 Thai FA Cup |
+| Thai FA Cup | 2025/26 | 95 | verified secondary | English Wikipedia, 2025–26 Thai FA Cup (entry list and match results) |
 | Thai League Cup | 2025/26 | 80 | verified secondary | English Wikipedia, 2025–26 Thai League Cup |
 | Thai Champion Cup | 2026 | 2 | verified secondary | English Wikipedia, 2026–27 Buriram United season (Buriram v Port) |
 | Thai School League — Type A | 2026 U18 | 16 | verified secondary | Thai Post, 6 May 2026, DPE Deli News Cup 2026 |
@@ -65,6 +71,14 @@ Notes:
 | Thai Youth League Cup (U18) | 2026 | 8 | verified secondary | The Thaiger, 24 Nov 2026, 7HD Champion Cup final eight |
 | Thai Youth Champion Cup (U18) | 2026 | 4 | verified secondary | Matichon, Nov 2025, 31st Jaturamitr Samakkhi |
 | Thai University Cup (U23) | 2026 | 7 | verified secondary | Education Today, 2026 Chang U-Champion Cup knockout reporting (partial field) |
+| Thai College Cup (U19) | 2026 | 8 | verified secondary | Owner-supplied 14–15 Aug 2026 bracket; Thawee SC official report corroborates QF/SF scores |
+
+### Cup match coverage (2025–26)
+
+- Thai FA Cup: 7 rounds, 94 ties, 95 clubs. Qualification round through the final, including 14 penalty shootouts, 10 extra-time results, and one awarded result (Port 0–3 Bangkok United). Champion: Buriram United; runner-up: PT Prachuap (final 1–0 after extra time).
+- Thai League Cup: 8 rounds, 79 ties, 80 clubs. Both qualification rounds, qualification play-off, first and second rounds, quarter-finals, semi-finals, and final, including 11 penalty shootouts, 19 extra-time results, and one awarded result (Hua Hin City 0–3 Thap Luang United). Champion: Port FC; runner-up: BG Pathum United (final 0–1).
+- Source: the two English Wikipedia season articles named in the table above. Raw wikitext is captured in `data/discovery/sources/fa_cup_2025_26.wiki` and `data/discovery/sources/league_cup_2025_26.wiki`; `tools/build_cup_ties.mjs` regenerates the rounds and ties in `data/seed.json`.
+- Penalty shootout scores are stored separately from the match score; extra time is stored separately from the score and status.
 
 ## Empty categories and reasons
 
@@ -84,24 +98,44 @@ Notes:
 
 ### Thai College Cup (U19)
 
-- The 15th national vocational games (Aug 2026) included U19 football, but public reporting names individual colleges in match reports only.
-- No complete 16-team (or final-round) list was located.
+The 2026 knockout bracket was corrected from the owner-supplied 14–15 August 2026 schedule and result images. The Thawee SC official report corroborates the quarter-final and semi-final scores below.
+
+| Round | Date | Tie | Score | Note |
+|---|---|---|---|---|
+| Quarter-final | 14 Aug 2026 | Panitchayakan Rajdamnern Technological College v Rajasitharam Technical College | 6–1 | |
+| Quarter-final | 14 Aug 2026 | Kanchanaburi Technical College v Thawee SC Business Administration and Technological College | 0–7 | |
+| Quarter-final | 14 Aug 2026 | Chonburi Industrial Technology College v Nakhon Si Thammarat Technical College | Unavailable | Chonburi inferred from semi-final participation |
+| Quarter-final | 14 Aug 2026 | Lampang Technical College v Laem Chabang Engineering Technology College | Unavailable | Lampang inferred from semi-final participation |
+| Semi-final | 15 Aug 2026 | Panitchayakan Rajdamnern Technological College v Chonburi Industrial Technology College | 1–1 (Chonburi won 5–4 on penalties) | Penalties stored separately from the score |
+| Semi-final | 15 Aug 2026 | Thawee SC Business Administration and Technological College v Lampang Technical College | 6–1 | |
+| Final | 15 Aug 2026 | Chonburi Industrial Technology College v Thawee SC Business Administration and Technological College | 0–2 | Champion: Thawee SC |
+
+Correction and provenance:
+
+- The Thawee SC report describes a final against Yasothon. That final claim is rejected because it conflicts with the owner-supplied result image, which shows Chonburi in the final.
+- No Yasothon 2026 College Cup team or participation record exists in the registry, so there was nothing to delete; Yasothon is simply absent from the corrected bracket.
+- No complete 16-team entry list was published. Only the eight quarter-final participants are recorded, so the roster status is `partial`.
+- Chonburi's Thai name (`วิทยาลัยเทคโนโลยีอุตสาหกรรมชลบุรี`) comes from the owner-supplied schedule image; no independent institutional confirmation was found.
+- Nakhon Si Thammarat's Thai name (`วิทยาลัยเทคนิคนครศรีธรรมราช`) is corroborated by the Thawee SC report.
 - Search terms used: `ฟุตบอลอาชีวะระดับประเทศ 2569`, `อาชีวะเกมส์ ครั้งที่ 15 ฟุตบอล 19 ปี`, `ฟุตบอลอาชีวะ อายุไม่เกิน 19 ปี ชิงแชมป์ประเทศไทย`.
 
-### Thai Youth League 1 (U18), 2 (U16), 3 (U14)
+### Thai Youth League 1, 2, 3 (U18 / U16 / U14)
 
+- Each of the three parent competitions owns three age-group seasons: U18, U16, and U14. The legacy single-age records were mapped to their matching age group (League 1 → U18, League 2 → U16, League 3 → U14); the other age groups are new empty seasons, not new teams.
 - The FA Thailand competition calendar for 2025/26 and 2026/27 does not list an FA Thailand Youth League.
 - The last official FA Thailand Youth League edition found was 2022/23.
 - ONCB Thai Youth League and TIFAA Youth League are different competitions and were not substituted.
+- No verified team list, fixture, result, standing, scorer, or champion exists for any of the nine parent/age combinations, so every one shows an honest empty state.
 - Search terms used: `FA Thailand Youth League 2025/26`, `site:fathailand.org Youth League 2569`, `ฟุตบอลเยาวชน สมาคมฯ ลีก 1`.
 - Checked pages: `fathailand.org/match-results` season 32 (2025/26) and season 33 (2026/27).
 
 ## Caveats
 
-- Cup participant lists include 18 FA Cup entrants whose names have no separate Wikipedia club article; they are marked unverified rather than linked to an existing club.
+- Cup participant lists include 18 FA Cup entrants whose names have no separate Wikipedia club article; their club identity stays `discovered_unverified`, while their 2025-26 participation is `verified_secondary` because the same Wikipedia page lists their entry and matches.
 - Type A U14 uses the 2024/2567 edition because the 2025/2568 and 2026/2569 full lists were not published in accessible text.
 - The 31st Jaturamitr Samakkhi was held in November 2025. No 2026 football edition was held, so the four schools are labelled as the 2025 edition.
 - The University Cup list is partial: only knockout-stage participants confirmed in public reporting are shown; the full 16-team field was not published as text.
+- The College Cup list is partial: only the eight 2026 quarter-final participants are documented. Two quarter-final scores are unavailable and their winners are inferred from the semi-final lineup. The Thawee SC report's Yasothon final claim is rejected in favour of the owner-supplied result image.
 - Team identity is never merged by name alone. Similar names (for example Phrae / Phrae Utd / Phrae TS, or Chiangmai / Chiang Mai FC) remain separate IDs.
 
 ## Reproduction

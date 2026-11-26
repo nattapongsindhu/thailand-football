@@ -59,6 +59,11 @@ async fn main_routes_render() {
         "/competitions/thai-league-3/standings?group=group-2",
         "/competitions/thai-fa-cup/rounds",
         "/competitions/thai-youth-league-u18/standings",
+        "/competitions/thai-youth-league-u18/teams?season=2026-u16",
+        "/competitions/thai-youth-league-u16/standings?season=2026-u14",
+        "/competitions/thai-youth-league-u16/fixtures?season=2026-u18",
+        "/competitions/thai-youth-league-u14/results?season=2026-u16",
+        "/competitions/thai-youth-league-u14/teams?season=2026-u14",
         "/competitions/thai-school-league-type-a?season=2026-u18",
         "/competitions/thai-school-league-general?season=2026-u12",
         "/competitions/thai-college-cup-u19/rounds",
@@ -125,9 +130,12 @@ async fn sidebar_contains_latest_owner_labels() {
         "Youth League",
         "FAT",
         "SAT",
-        "Thai Youth League 1 (U18)",
-        "Thai Youth League 2 (U16)",
-        "Thai Youth League 3 (U14)",
+        "Thai Youth League 1",
+        "Thai Youth League 2",
+        "Thai Youth League 3",
+        "ฟุตบอลเยาวชน สมาคมฯ ลีก 1",
+        "ฟุตบอลเยาวชน สมาคมฯ ลีก 2",
+        "ฟุตบอลเยาวชน สมาคมฯ ลีก 3",
         "School League",
         "Type A",
         "Type B",
@@ -141,6 +149,10 @@ async fn sidebar_contains_latest_owner_labels() {
     ] {
         assert!(body.contains(label), "missing sidebar label: {label}");
     }
+    assert!(
+        !body.contains("Thai Youth League 1 (U18)"),
+        "age group must not remain in the parent competition name"
+    );
     assert!(
         !body.contains("Private Cups"),
         "sponsor section must be removed"

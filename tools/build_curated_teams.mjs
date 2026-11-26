@@ -21,6 +21,8 @@ const CUP_SOURCE = path.join(
 );
 
 const NOW = "2026-11-25";
+const COLLEGE_CUP_SOURCE_URL =
+  "https://www.facebook.com/100064329743962/posts/1503699835117660/";
 const curated = JSON.parse(fs.readFileSync(CURATED, "utf8"));
 
 // The script owns these competitions; clear their participations so a re-run
@@ -52,30 +54,6 @@ curated.rosters = (curated.rosters || []).filter(
 // season_id stays on the current UI season; these records explain which season
 // the visible roster actually came from.
 const rosterDefinitions = {
-  "thai-youth-league-u18|2026": {
-    age_group: "U18",
-    displayed_season: "2026",
-    source_season: "2026",
-    roster_status: "unavailable",
-    source_url: null,
-    note: "No 2025/26 or 2026/27 FA Thailand Youth League team list is published.",
-  },
-  "thai-youth-league-u16|2026": {
-    age_group: "U16",
-    displayed_season: "2026",
-    source_season: "2026",
-    roster_status: "unavailable",
-    source_url: null,
-    note: "No 2025/26 or 2026/27 FA Thailand Youth League team list is published.",
-  },
-  "thai-youth-league-u14|2026": {
-    age_group: "U14",
-    displayed_season: "2026",
-    source_season: "2026",
-    roster_status: "unavailable",
-    source_url: null,
-    note: "No 2025/26 or 2026/27 FA Thailand Youth League team list is published.",
-  },
   "thai-youth-fa-cup-u17|2026": {
     age_group: "U17",
     displayed_season: "2026",
@@ -184,9 +162,9 @@ const rosterDefinitions = {
     age_group: "U19",
     displayed_season: "2026",
     source_season: "2026",
-    roster_status: "unavailable",
-    source_url: null,
-    note: "No complete 2026 national vocational U19 team list located.",
+    roster_status: "partial",
+    source_url: COLLEGE_CUP_SOURCE_URL,
+    note: "Quarter-final participants in the corrected 2026 bracket; the full entry list is unavailable. An alternate final claim naming Yasothon is rejected.",
   },
   "thai-university-cup-u23|2026": {
     age_group: "U23",
@@ -197,6 +175,25 @@ const rosterDefinitions = {
     note: "Confirmed knockout-stage participants only (7 of 16).",
   },
 };
+
+// Each Youth League parent owns three age-group seasons (U18, U16, U14).
+// The legacy single-age records map onto the matching age group.
+for (const competitionId of [
+  "thai-youth-league-u18",
+  "thai-youth-league-u16",
+  "thai-youth-league-u14",
+]) {
+  for (const age of ["U18", "U16", "U14"]) {
+    rosterDefinitions[`${competitionId}|2026-${age.toLowerCase()}`] = {
+      age_group: age,
+      displayed_season: "2026",
+      source_season: "2026",
+      roster_status: "unavailable",
+      source_url: null,
+      note: "No 2025/26 or 2026/27 FA Thailand Youth League team list is published.",
+    };
+  }
+}
 
 const teams = new Map(curated.teams.map((team) => [team.team_id, team]));
 const participations = [...curated.participations];
@@ -453,12 +450,8 @@ for (const [competitionId, source] of Object.entries(cupSources.competitions)) {
           publisher: source.source_publisher,
           date: source.source_date,
         },
-        verification: entry.target
-          ? "verified_secondary"
-          : "discovered_unverified",
-        notes: entry.target
-          ? `One of ${source.entered_clubs} clubs entered in the ${source.source_title}; secondary source, official confirmation still preferred.`
-          : `Named in the ${source.source_title} results as an entrant; identity not independently linked to a club article.`,
+        verification: "verified_secondary",
+        notes: `One of ${source.entered_clubs} clubs entered in the ${source.source_title}; entry and match results imported from the same Wikipedia page; secondary source, official confirmation still preferred.`,
       }),
     );
   }
@@ -551,10 +544,10 @@ const schoolTeams = [
 addTeam(
   newTeam(
     "team-college-ratchadamnoen",
-    "Ratchadamnoen Commercial Technology College",
+    "Panitchayakan Rajdamnern Technological College",
     "วิทยาลัยเทคโนโลยีพณิชยการราชดำเนิน",
     "college",
-    "College team identity curated from the 2026 DPE WOW Cup Type B U18 draw.",
+    "College team identity curated from the 2026 DPE WOW Cup Type B U18 draw; English name follows the owner-supplied 2026 Thai College Cup bracket.",
   ),
 );
 
@@ -883,6 +876,57 @@ for (const teamId of jaturamitrTeams) {
       source: jaturamitrSource,
       notes:
         "One of the 4 traditional schools in the 31st Jaturamitr Samakkhi (2025). No 2026 football edition was held.",
+    }),
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/* Thai College Cup (U19) — corrected 2026 knockout bracket            */
+/* ------------------------------------------------------------------ */
+
+const collegeCupSource = {
+  url: COLLEGE_CUP_SOURCE_URL,
+  title:
+    "Thai College Cup (U19) 2026 — quarter-final participants, 14–15 August 2026",
+  publisher:
+    "Owner-supplied bracket image; Thawee SC official report corroborates QF/SF scores",
+  date: "2026-08-15",
+};
+
+const collegeCupTeams = [
+  ["team-college-ratchadamnoen", "Panitchayakan Rajdamnern Technological College", "วิทยาลัยเทคโนโลยีพณิชยการราชดำเนิน"],
+  ["team-college-rajasitharam", "Rajasitharam Technical College", "วิทยาลัยเทคนิคราชสิทธาราม"],
+  ["team-college-kanchanaburi", "Kanchanaburi Technical College", "วิทยาลัยเทคนิคกาญจนบุรี"],
+  ["team-college-thawee-sc", "Thawee SC Business Administration and Technological College", "วิทยาลัยเทคโนโลยีบริหารธุรกิจทวีเอสซี"],
+  ["team-college-chonburi-industrial", "Chonburi Industrial Technology College", "วิทยาลัยเทคโนโลยีอุตสาหกรรมชลบุรี"],
+  ["team-college-nakhon-si-thammarat", "Nakhon Si Thammarat Technical College", "วิทยาลัยเทคนิคนครศรีธรรมราช"],
+  ["team-college-lampang", "Lampang Technical College", "วิทยาลัยเทคนิคลำปาง"],
+  ["team-college-laem-chabang", "Laem Chabang Engineering Technology College", "วิทยาลัยเทคโนโลยีวิศวกรรมแหลมฉบัง"],
+];
+
+for (const [teamId, displayName, thaiName] of collegeCupTeams) {
+  addTeam(
+    newTeam(
+      teamId,
+      displayName,
+      thaiName,
+      "college",
+      "College team identity curated from the owner-supplied 14–15 August 2026 Thai College Cup bracket.",
+    ),
+  );
+}
+
+for (const [teamId] of collegeCupTeams) {
+  addParticipation(
+    newParticipation({
+      teamId,
+      competitionId: "thai-college-cup-u19",
+      seasonId: "2026",
+      ageGroup: "U19",
+      divisionType: "cup",
+      source: collegeCupSource,
+      notes:
+        "Quarter-final participant in the corrected 2026 Thai College Cup bracket. Yasothon is not part of this bracket.",
     }),
   );
 }

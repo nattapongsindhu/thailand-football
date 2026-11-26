@@ -354,7 +354,9 @@ async fn load_cup(pool: &PgPool, season_key: &str) -> Result<Option<Cup>> {
     })
     .collect::<Result<Vec<_>, sqlx::Error>>()?;
     let ties = sqlx::query(
-        "SELECT id,round_id,stage,home_name,away_name,home_goals,away_goals,status,note,sort_order FROM cup_ties WHERE season_key=$1 ORDER BY sort_order",
+        "SELECT id,round_id,stage,home_name,away_name,home_goals,away_goals,status,note,sort_order,
+                score_status,home_penalties,away_penalties,winner_name,winner_basis,extra_time
+         FROM cup_ties WHERE season_key=$1 ORDER BY sort_order",
     )
     .bind(season_key)
     .fetch_all(pool)
@@ -372,6 +374,12 @@ async fn load_cup(pool: &PgPool, season_key: &str) -> Result<Option<Cup>> {
             status: r.try_get("status")?,
             note: r.try_get("note")?,
             sort_order: r.try_get("sort_order")?,
+            score_status: r.try_get("score_status")?,
+            home_penalties: r.try_get("home_penalties")?,
+            away_penalties: r.try_get("away_penalties")?,
+            winner_name: r.try_get("winner_name")?,
+            winner_basis: r.try_get("winner_basis")?,
+            extra_time: r.try_get("extra_time")?,
         })
     })
     .collect::<Result<Vec<_>, sqlx::Error>>()?;

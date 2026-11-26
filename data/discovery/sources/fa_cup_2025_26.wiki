@@ -1,0 +1,1762 @@
+{{infobox football tournament season
+| title = Thai FA Cup
+| year = 2025–26
+| other_titles = Chang FA Cup
+| image =Chang FA Cup 2025–26.png
+| imagesize = 
+| caption =
+| country = [[Thailand]]
+| dates = {{nowrap|24 September 2025 – 31 May 2026}}
+| num_teams = 95
+| confederations =
+| venues = 
+| cities = 
+| champions = [[Buriram United F.C.|Buriram United]]<br /><small>(8th title)</small>
+| runner-up = [[PT Prachuap F.C.|PT Prachuap]]
+| matches = 94
+| goals = 353
+| top goal scorer = Aliu Micheal Abdul<br />(7 goals)
+| player = [[Sasalak Haiprakhon]]
+| prevseason = [[2024–25 Thai FA Cup|2024–25]]
+| nextseason = [[2026–27 Thai FA Cup|2026–27]]
+}}
+
+The '''2025–26 Thai FA Cup''' is the 32nd season of [[Thai FA Cup]], [[Thailand]]'s top knockout [[Association football|football]] competition. Officially named the '''Chang FA Cup''' ({{langx|th|ช้าง เอฟเอคัพ}}) due to sponsorship from [[ThaiBev|Chang]], the tournament is organized by the [[Football Association of Thailand]] and open to clubs across all divisions. 95 clubs entered the competition, which began with the qualification round on 24 September 2025 and will conclude with the final on 31 May 2026.
+
+Clubs from [[Thai League 2]], [[Thai League 3]], the [[Thailand Semi-pro League]], and the [[Thailand Amateur League]] compete in the qualification round, with some clubs receiving byes to the first round, which features 64 teams. [[Thai League 1]] clubs automatically enter at this round. Matches in the qualification round proceed to penalties if tied after 90 minutes, while from the first round onward, extra time and penalties are used to determine the winner. All rounds are single-elimination, with home advantage determined by draw, except for the semifinals and final, which are held at neutral venues.
+
+The tournament winner will earn a spot in the [[2026–27 AFC Champions League Elite]] League stage and the [[Thailand Champions Cup|2026 Thailand Champions Cup]]. The champion will also receive a prize of 5,000,000 [[Thai baht|baht]], while the runner-up will be awarded 1,000,000 baht. As one of the most prestigious competitions in Thai football, the FA Cup offers clubs from all tiers a chance to compete for national honors.<ref>{{cite news |url=https://mgronline.com/cyberbiz/detail/9680000090894 |title=AIS จัดเต็มถ่ายทอดสด ช้าง เอฟเอคัพ ตั้งแต่รอบคัดเลือกจนถึงรอบชิงฯ (in Thai). |work=mgronline.com |date=23 September 2025}}</ref>
+
+==Schedule==
+{| class="wikitable"
+! Round !! Date !! Matches !! width=100 | Clubs !! New entries this round
+|- align=center
+| Qualification round ||24 September 2025|| 31 || '''10''' + '''33''' + '''9''' + '''10''' → 31 || '''10''' [[2025–26 Thai League 2]]<br />'''33''' [[2025–26 Thai League 3]]<br />'''9''' [[Thailand Semi-pro League]]<br />'''10''' [[Thailand Amateur League]]
+|-align=center
+| First round ||29–30 October 2025|| 32 || 31 + '''16''' + '''4''' + '''6''' + '''3''' + '''4''' → 32 || '''16''' [[2025–26 Thai League 1]]<br />'''4''' [[2025–26 Thai League 2]]<br />'''6''' [[2025–26 Thai League 3]]<br />'''3''' [[Thailand Semi-pro League]]<br />'''4''' [[Thailand Amateur League]]
+|-align=center
+| Second round ||20–21 December 2025|| 16 || 32 → 16 ||
+|-align=center
+| Third round ||14 January 2026|| 8 || 16 → 8 ||
+|-align=center
+|Quarter-finals ||25 February 2026|| 4 || 8 → 4 ||
+|-align=center
+|Semi-finals ||17 May 2026|| 2 || 4 → 2 ||
+|- align=center
+|Final ||31 May 2026|| 1 ||{{nowrap|2 → Champions}}||
+|-align=left|
+|-
+!colspan=4| Total !! 95 clubs
+|}
+
+==Results==
+<small>'''''Note:''' T1: Clubs from [[Thai League 1]]; T2: Clubs from [[Thai League 2]]; T3: Clubs from [[Thai League 3]]; TS: Clubs from [[Thailand Semi-pro League]]; TA: Clubs from [[Thailand Amateur League]].''</small>
+
+===Qualification round===
+The qualification round of the 2025–26 Thai FA Cup featured 62 clubs, comprising 10 clubs from [[2025–26 Thai League 2]], 33 clubs from [[2025–26 Thai League 3]], 7 clubs from [[Thailand Semi-pro League]], and 12 clubs from the [[Thailand Amateur League]]. The draw for this round took place on 29 August 2025.<ref>{{cite news |url=https://www.siamsport.co.th/football-thailand/thai-fa-cup/88993/ |title=จับสลากช้าง เอฟเอ คัพ 2025/26 รอบคัดเลือก แข่ง 24 ก.ย. (in Thai). |work=siamsport.co.th |date=29 August 2025}}</ref> 114 goals were scored in this round.<ref>{{cite news |url=https://www.thairath.co.th/sport/thaifootball/thaipremierleague/2884957 |title=นครปฐม ซิตี้ โพสต์ถึง สมุย ยูไนเต็ด หลังโดนถล่ม 20-0 ตกรอบ ช้าง เอฟเอคัพ (in Thai). |work=thairath.co.th |date=25 September 2025}}</ref>
+
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 1–1
+|penaltyscore = 5–3
+|report = [https://drive.google.com/file/d/1AFUZLZMHI7gt2abqz5vdSBRQWzvIq2T-/view Report]<br />[https://www.youtube.com/watch?v=j-MEmvAxBU0 Highlight]
+|team1 =[[Prime Bangkok F.C.|Prime Bangkok]] '''(T3)'''
+|team2 ='''[[Surin City F.C.|Surin City]] (T3)'''
+|goals1 = Alexandar Mutic {{goal|26}}
+|goals2 = Mun Te-su {{goal|90+5|pen.}}
+|penalties1= [[Chawanwit Saelao]] {{pengoal}}<br />Aphirak Suankan {{pengoal}}<br />Wongsakorn Buasamlee {{pengoal}}<br />Aekkaphong Phlmankasemsri {{pengoal}}<br />Jiranat Sopaanan {{pengoal}}
+|penalties2= {{pengoal}} Mun Te-su<br />{{pengoal}} Kaison Roungreang<br />{{penmiss}} Nattawut Wutthiya<br />{{pengoal}} Kitsanaphat Kingkaeo
+|stadium = [[NT Stadium]]
+|location = [[Lak Si district|Lak Si]], [[Bangkok]]
+|attendance = 220
+|referee = Alongkorn Feemuechang
+|assistantreferees = Nanthawat Chobsuan, Kunathorn Ketchantra
+|fourthofficial = Thanakorn Suksri
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 0–0
+|penaltyscore = 5–4
+|report = [https://drive.google.com/file/d/1Wa7L2gcH_TznI-kAHI-hefYH63PYCpPy/view Report]
+|team1 =[[ACDC F.C.|ACDC]] '''(T3)'''
+|team2 ='''Surindra (TS)'''
+|goals1 = 
+|goals2 = 
+|penalties1= Ken Hagihara {{pengoal}}<br />Podsathorn Somyod {{penmiss}}<br />Phongsapuk Luangon {{pengoal}}<br />Dolla Chaleonrach {{pengoal}}<br />Jerry Ichako Akose {{pengoal}}<br />Phasit Phanmoon {{pengoal}}
+|penalties2= {{pengoal}} Anupong Samatong<br />{{pengoal}} Songphon Benchamat<br />{{pengoal}} Suphakrit Yamdee<br />{{penmiss}} Suebsakul Prachantra<br />{{pengoal}} Aphisit Somdang<br />{{penmiss}} Natipong Sriphet
+|stadium = Battleship Stadium
+|location = [[Sattahip district|Sattahip]], [[Chonburi province|Chonburi]]
+|attendance = 65
+|referee = Theerayut Radarit
+|assistantreferees = Sujin Rodart, Jasada Tongkam
+|fourthofficial = Pheerapat Yodnak
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 9–0
+|report = [https://drive.google.com/file/d/1rDqtx2Mswhzlfkjf3-oeyxhbgzWU_MAy/view Report]
+|team1 =[[PSU Surat Thani City F.C.|PSU Surat Thani City]] '''(T3)'''
+|team2 ='''APD United (TA)'''
+|goals1 = Natthakit Keawphutphong {{goal|7}}<br />Sutthiwat Chamnan {{goal|16}}<br />Teerawat Durnee {{goal|24||43||45}}<br />Natthawut Aiamchan {{goal|25}}<br />Sirawit Benchamat {{goal|86||90+3}}<br />Adinan Mongman {{goal|87}}
+|goals2 = 
+|stadium = Stadium of Prince of Songkla University, Surat Thani Campus
+|location = [[Mueang Surat Thani district|Mueang]], [[Surat Thani province|Surat Thani]]
+|attendance = 517
+|referee = Wacharawit Suwanraksa
+|assistantreferees = Anantasak Yakoh, Kamal Srisaard
+|fourthofficial = Jiraphan Yodphut
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 2–0
+|report = [https://drive.google.com/file/d/1OVbZEGAQgqKHPYhnjwyNaJJL1tnDbdjn/view Report]<br />[https://www.youtube.com/watch?v=TqBldunNzOQ Highlight]
+|team1 =[[Uttaradit F.C.|Uttaradit]] '''(T3)'''
+|team2 ='''[[Nakhon Si United F.C.|Nakhon Si United]] (T2)'''
+|goals1 = Kittisak Wantawee {{goal|39}}<br />[[Diego Silva (footballer, born 1990)|Diego Silva]] {{goal|75}}
+|goals2 = 
+|stadium = [[Uttaradit Province Stadium|Uttaradit Provincial Stadium]]
+|location = [[Mueang Uttaradit district|Mueang]], [[Uttaradit province|Uttaradit]]
+|attendance = 440
+|referee = Wathanyu Morin
+|assistantreferees = Waranyoo Chomgoson, Nonthanan Khanthawong
+|fourthofficial = Woottipong Ketkam
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 0–1
+|report = [https://drive.google.com/file/d/1C3st_3uhCpAuD4Q2yfDvSeAmILIhLzka/view Report]
+|team1 ='''[[Ayutthaya PK F.C.|Ayutthaya PK]] (TS)'''
+|team2 =[[Nonthaburi United F.C.|Nonthaburi United]] '''(T3)'''
+|goals1 = 
+|goals2 = Debiro Dzarma Bata {{goal|89}}
+|stadium = Stadium of Rajamangala University of Technology Suvarnabhumi, Huntra Campus
+|location = [[Phra Nakhon Si Ayutthaya district|Phra Nakhon Si Ayutthaya]], [[Phra Nakhon Si Ayutthaya province|Phra Nakhon Si Ayutthaya]]
+|attendance = 
+|referee = Kittichai Huthip
+|assistantreferees = Kittichok Huthip, Patcharapon Losomsup
+|fourthofficial = Saravut Suksalee
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 0–13
+|report = [https://drive.google.com/file/d/1Z3wEVpPm_CnvD8QBdJNiy8FZXrdG6GW8/view Report]
+|team1 ='''Muang Klaeng (TA)'''
+|team2 =[[Marines F.C. (Thailand)|Marines]] '''(T3)'''
+|goals1 = 
+|goals2 = Thanyapat Thanawut {{goal|4||44||45}}<br />Sattawat Yanjinda {{goal|7||28||39}}<br />Attapong Kittichamratsak {{goal|15}}<br />Akaradet Rattanasri {{goal|24}}<br />Thanaphat Kamjhonkiadtikun {{goal|51||82}}<br />Worachet Prapaipak {{goal|78}}<br />Melih Faruk Bircok {{goal|79}}<br />Sornchai Klongkratok {{goal|84}}
+|stadium = Klaeng Town Municipality Stadium
+|location = [[Klaeng district|Klaeng]], [[Rayong province|Rayong]]
+|attendance = 50
+|referee = Pongthep Raipimai
+|assistantreferees = Premsak Rungrueang, Kanathip Waithaisong
+|fourthofficial = Palathip Homwarn
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 1–4
+|report = [https://drive.google.com/file/d/1YQDAxdoKAbiUfad1Ki4HTkzaFWS3TE1m/view Report]
+|team1 ='''[[Phetchabun F.C.|Phetchabun]] (TS)'''
+|team2 =[[Burapha United F.C.|Burapha United]] '''(T3)'''
+|goals1 = Kittamet Intarakul {{goal|13}}
+|goals2 = Sutayut Ura {{goal|11}}<br />Tewarit Thogkamchum {{goal|20}}<br />Prawit Jittithaworn {{goal|28}}<br />[[Warayut Klomnak]] {{goal|37}}
+|stadium = [[Phetchaburi Province Stadium|Phetchaburi Provincial Stadium]]
+|location = [[Mueang Phetchabun district|Mueang]], [[Phetchabun province|Phetchabun]]
+|attendance = 231
+|referee = Piyapong Thongkhain
+|assistantreferees = Suwit Kongtongnok, Jonrak Sangcharern
+|fourthofficial = Chookiat Boonchoo
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 0–0
+|penaltyscore = 8–7
+|report = [https://drive.google.com/file/d/1YkMb2AFSbmeRjF8oV3p4j1i0rW9f5hQo/view Report]
+|team1 =Thonburi Forest '''(TA)'''
+|team2 ='''Namphong United (TA)'''
+|goals1 = 
+|goals2 = 
+|penalties1= Pattrawat Nilsri {{pengoal}}<br />Kripoinchai Nopcharoen {{pengoal}}<br />Nonthawat Rungsawang {{pengoal}}<br />Weeraphat Phanphakdee {{pengoal}}<br />Setthapong Karunalai {{pengoal}}<br />Teerasak Taprakhon {{pengoal}}<br />Montree Wangsop {{pengoal}}<br />Taweesin Chunjai {{pengoal}}
+|penalties2= {{pengoal}} Monthon Pokha<br />{{pengoal}} Pitipat Sopa<br />{{pengoal}} Pattadon Bumrungrat<br />{{pengoal}} Worawit Jekkham<br />{{pengoal}} Wathanyu Seephang<br />{{pengoal}} Natthapol Thiabphim<br />{{pengoal}} Phumin Thachai<br />{{penmiss}} Chakkit Wuttitanaanan
+|stadium = Laemfhapa Subdistrict Municipality Stadium
+|location = [[Phra Samut Chedi district|Phra Samut Chedi]], [[Samut Prakan province|Samut Prakan]]
+|attendance = 342
+|referee = Chaiwat Rupsa-at
+|assistantreferees = Adisai Pongnairat, Siravich Konngam
+|fourthofficial = Watcharasak Intharak
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 1–1
+|penaltyscore = 2–3
+|report = [https://drive.google.com/file/d/13jomuserS8Bl-98lRGgJmK_n-qjNo3Yo/view Report]
+|team1 ='''[[Muang Loei United F.C.|Muang Loei United]] (T3)'''
+|team2 =[[Kasetsart F.C.|Kasetsart]] '''(T2)'''
+|goals1 = Abdelrahman Osama Mohamed {{goal|78}}
+|goals2 = Nonthaphut Panaimthon {{goal|69}}
+|penalties1= Apidet Janngam {{pengoal}}<br />Ratthasat Buaban {{pengoal}}<br />Abdelrahman Osama Mohamed {{penmiss}}<br />Marciano de Oliveira Filho Odair {{penmiss}}<br />Amporn Chaipong {{penmiss}}
+|penalties2= {{pengoal}} Lee Jae-yong<br />{{penmiss}} Kantaphat Nivasakul<br />{{pengoal}} Chonmapoom Chupayakka<br />{{pengoal}} Nonthaphut Panaimthon<br />{{penmiss}} Karn Jorates
+|stadium = [[Loei Province Stadium|Loei Provincial Stadium]]
+|location = [[Mueang Loei district|Mueang]], [[Loei province|Loei]]
+|attendance = 120
+|referee = Kanoksak Khiaodaeng
+|assistantreferees = Rachan Dawangpa, Jirapun Hongsudta
+|fourthofficial = Chinnawat Kottai
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 20–0
+|report = [https://drive.google.com/file/d/1oCo40kYIyub0ZLSe67hM3FndQNT5NQ0i/view Report]
+|team1 =[[Samui United F.C.|Samui United]] '''(T3)'''
+|team2 ='''Nakhon Pathom City (TA)'''
+|goals1 = Pornprom Furzer {{goal|15||24}}<br />Amarin Chaisuesat {{goal|17||36||73||76}}<br />Thanadon Yankaew {{goal|23||42||53}}<br />Amornsin Phoonakhaw {{goal|43}}<br />Songkitti Thongkam {{goal|58||84}}<br />Aliu Micheal Abdul {{goal|62||65||67||71||78||86||89}}<br />Alfred Ernest Terry {{goal|90}}
+|goals2 = 
+|stadium = Ko Samui City Municipality International Stadium
+|location = [[Ko Samui district|Ko Samui]], [[Surat Thani province|Surat Thani]]
+|attendance = 171
+|referee = Farid Baenak
+|assistantreferees = Hadis Kaesaman, Aris Bissalimin
+|fourthofficial = Tiwakorn Sawangpong
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 1–4
+|report = [https://drive.google.com/file/d/1tu9kmKJO8Alwn3sRTicLY8laj-6d7Oli/view Report]<br />[https://www.youtube.com/watch?v=FwQVs_VyqCE Highlight]
+|team1 ='''[[Kanthararom United F.C.|Kanthararom United]] (TA)'''
+|team2 =[[Khon Kaen F.C.|Khon Kaen]] '''(T3)'''
+|goals1 = Arnon Thongpanya {{goal|86}}
+|goals2 = [[Sakunchai Saengthopho]] {{goal|2}}<br />[[Charin Boodhad]] {{goal|26||71}}<br />John Caio Camargo Silva {{goal|90+4|pen.}}
+|stadium = Stadium of Sisaket Rajabhat University
+|location = [[Mueang Sisaket district|Mueang]], [[Sisaket province|Sisaket]]
+|attendance = 200
+|referee = Kittiwat Kittpaksakun
+|assistantreferees = Apisit Yotayut, Athipbordee Seekhoaun
+|fourthofficial = Sittichai Saramai
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 1–6
+|report = [https://drive.google.com/file/d/1TnHiLDqn79lzISl6Y_IPw3hbl4jTT38p/view Report]
+|team1 ='''[[Futera United F.C.|Futera United]] (T3)'''
+|team2 =[[Nongbua Pitchaya F.C.|Nongbua Pitchaya]] '''(T2)'''
+|goals1 = Khwanchai Khuanam {{goal|26}}
+|goals2 = Thanawut Phochai {{goal|3||45+1}}<br />[[Kento Nagasaki]] {{goal|24}}<br />Peeranan Baukhai {{goal|40}}<br />Caio Rodrigues da Cruz {{goal|85|pen.}}<br />Panupong Phuakphralap {{goal|90}}
+|stadium = Stadium of Bangkok University
+|location = [[Khlong Luang district|Khlong Luang]], [[Pathum Thani province|Pathum Thani]]
+|attendance = 111
+|referee = U-sen Yala
+|assistantreferees = Nuannid Donjangreed, Siwat Chaithong
+|fourthofficial = Putthipong Issising
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 0–3
+|report = [https://drive.google.com/file/d/1tb9rZczc0G0hjDdgXdclLE65sfV70y9o/view Report]
+|team1 ='''[[Sriracha F.C.|Sriracha]] (TS)'''
+|team2 =[[Nakhon Sawan See Khwae City F.C.|Nakhon Sawan See Khwae City]] '''(T3)'''
+|goals1 = 
+|goals2 = Thanawat Ruamrua {{goal|30}}<br />Khemmachat Pakhwan {{goal|64}}<br />Varachon Puntivanon {{goal|69}}
+|stadium = Sriracha Town Municipality Stadium
+|location = [[Si Racha district|Si Racha]], [[Chonburi province|Chonburi]]
+|attendance = 300
+|referee = Worapon Sanjan
+|assistantreferees = Panuwat Weawkum, Krisit Homhual
+|fourthofficial = Anocha Praphatson
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 1–5
+|report = [https://drive.google.com/file/d/1ckl0uGSHdE7qni67p6Coi5_Q_vlAQNz2/view Report]
+|team1 ='''Nakhon Phanom United (TS)'''
+|team2 =[[Lopburi City F.C.|Lopburi City]] '''(T3)'''
+|goals1 = Worawit Chaikamol {{goal|7}}
+|goals2 = Eric Kumi {{goal|20||43||72}}<br />[[Andrey Coutinho]] {{goal|45+2}}<br />Sani Kamil {{goal|67}}
+|stadium = Stadium of Nakhon Phanom University
+|location = [[Mueang Nakhon Phanom district|Mueang]], [[Nakhon Phanom province|Nakhon Phanom]]
+|attendance = 326
+|referee = Anan Keawmuangkhun
+|assistantreferees = Nakarin Thongkerd, Kit Khlaithong
+|fourthofficial = Teeramate Pooprang
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 3–1
+|report = [https://drive.google.com/file/d/1lDlzLKq4ncIEzUj-n6qoHaDOuiIhGFl6/view Report]
+|team1 =Roi Et 2018 '''(TA)'''
+|team2 ='''[[Pathum Thani F.C.|Pathum Thani]] (TS)'''
+|goals1 = Chanathip Chompoowiset {{goal|17||80}}<br />Thanakorn Thongchai {{goal|45+1}}
+|goals2 = Pongpiti Samphaodi {{goal|90+7}}
+|stadium = [[Roi Et Province Stadium|Roi Et Provincial Stadium]]
+|location = [[Mueang Roi Et district|Mueang]], [[Roi Et province|Roi Et]]
+|attendance = 800
+|referee = Amnat Makklang
+|assistantreferees = Ponlakrit Wangkoon, Kittichot Worasan
+|fourthofficial = Chairat Phooalai
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 0–1
+|report = [https://drive.google.com/file/d/128B_XHB4BjpOzylPvRr4no1cXI61XXHW/view Report]
+|team1 ='''[[Inter Bangkok F.C.|Inter Bangkok]] (TA)'''
+|team2 =[[Kamphaengphet F.C.|Kamphaengphet]] '''(T3)'''
+|goals1 = 
+|goals2 = Rayner Moraes Costa {{goal|56}}
+|stadium = [[Rajamangala University of Technology Thanyaburi Stadium|Stadium of Rajamangala University of Technology Thanyaburi]]
+|location = [[Thanyaburi district|Thanyaburi]], [[Pathum Thani province|Pathum Thani]]
+|attendance = 150
+|referee = Dassakhon Hokla
+|assistantreferees = Theerapat Insena, Titima Wongkhan
+|fourthofficial = Sukree Kurteng
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 0–0
+|penaltyscore = 14–13
+|report = [https://drive.google.com/file/d/15K4OM4_GwWp7QgSHHOjKH9HgETVMpEX4/view Report]
+|team1 =[[Nakhon Nayok F.C.|Nakhon Nayok]] '''(TS)'''
+|team2 ='''Phrae (TS)'''
+|goals1 = 
+|goals2 = 
+|penalties1= Nattapon Pongkum {{pengoal}}<br />Patiwat Sanjnlerd {{pengoal}}<br />Theekhathat Jeamsorn {{pengoal}}<br />Monton Wongwichian {{penmiss}}<br />Kittisak Chaisonkhram {{pengoal}}<br />Nuttawut Pothong {{pengoal}}<br />Nuttapol Rasri {{pengoal}}<br />Rattatummanoon Rungruaeng {{pengoal}}<br />Rathasart Janthawut {{pengoal}}<br />Rachata Jannongsuang {{pengoal}}<br />Sorasit Chuenchob {{pengoal}}<br />Theekhathat Jeamsorn {{pengoal}}<br />Nattapon Pongkum {{pengoal}}<br />Patiwat Sanjnlerd {{penmiss}}<br />Kittisak Chaisonkhram {{pengoal}}<br />Monton Wongwichian {{pengoal}}
+|penalties2= {{pengoal}} Khunanon Chornpradit<br />{{pengoal}} Chinathip Treewised<br />{{pengoal}} Suriya Raksaphakdee<br />{{penmiss}} Ratchata Chantae<br />{{pengoal}} Thanathat Rungrot<br />{{pengoal}} Nathan Thipnang<br />{{pengoal}} Pawin Anantaniyom<br />{{pengoal}} Papungkon Duangngun<br />{{pengoal}} Kroekkiat Kongkramut<br />{{pengoal}} Siwat Seedad<br />{{pengoal}} Passakorn Rueangruk<br />{{pengoal}} Khunanon Chornpradit<br />{{pengoal}} Chinathip Treewised<br />{{penmiss}} Suriya Raksaphakdee<br />{{pengoal}} Thanathat Rungrot<br />{{penmiss}} Nathan Thipnang
+|stadium = [[Nakhon Nayok Province Stadium|Nakhon Nayok Provincial Stadium]]
+|location = [[Mueang Nakhon Nayok district|Mueang]], [[Nakhon Nayok province|Nakhon Nayok]]
+|attendance = 250
+|referee = Chaiyot Hapholdee
+|assistantreferees = Chakrit Siripong, Arpaporn Thaisoda
+|fourthofficial = Panya Nawasimainam
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 1–3
+|report = [https://drive.google.com/file/d/1bim2CJY-GuPcYNGYaLWNw3FaQwd34aDB/view Report]
+|team1 ='''[[Singburi Warriors F.C.|Singburi Warriors]] (T3)'''
+|team2 =[[Chiangmai United F.C.|Chiangmai United]] '''(T2)'''
+|goals1 = Sattrawut Auppachai {{goal|89}}
+|goals2 = Kantapong Bandasak {{goal|11||13}}<br />Athaset Thongnak {{goal|82}}
+|stadium = [[Singburi Province Stadium|Singburi PAO. Stadium]]
+|location = [[Mueang Sing Buri district|Mueang]], [[Singburi province|Singburi]]
+|attendance = 135
+|referee = Samrit Ritkaew
+|assistantreferees = Sumate Peasiri, Thanet Jairaw
+|fourthofficial = Nattaphak Sawasdee
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 0–1
+|report = [https://drive.google.com/file/d/11iNV0OxRvJ66ij3NgnhHA-0wLCRomja8/view Report]
+|team1 ='''UD Vessuwan (TA)'''
+|team2 =[[Udon United F.C.|Udon United]] '''(T3)'''
+|goals1 = 
+|goals2 = Jhakkarin Sitthichan {{goal|17}}
+|stadium = [[SAT Stadium Udon Thani|Udon Thani SAT Stadium]]
+|location = [[Mueang Udon Thani district|Mueang]], [[Udon Thani province|Udon Thani]]
+|attendance = 
+|referee = Manuschai Chawong
+|assistantreferees = Korakit Sonjan, Bongkarn Sudtae
+|fourthofficial = Komkrit Sawong
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 0–0
+|penaltyscore = 2–4
+|report = [https://drive.google.com/file/d/1VdGM5Wulldz70qn_bG3mkqo3-9LayQF-/view Report]
+|team1 ='''Karin United (TS)'''
+|team2 =[[Samut Songkhram City F.C.|Samut Songkhram City]] '''(T3)'''
+|goals1 = 
+|goals2 = 
+|penalties1= Chanonthum Chundee {{pengoal}}<br />Sirasit Changkomchom {{penmiss}}<br />Lattpon Tobnak {{penmiss}}<br />Siranat Sriwanat {{pengoal}}
+|penalties2= {{pengoal}} Witusn Khamsom<br />{{pengoal}} Teeranan Saenta<br />{{pengoal}} Tanusorn Boonyalai<br />{{pengoal}} Datchrit Chotichutipisal
+|stadium = Stadium of Rajamangala University of Technology Rattanalosin
+|location = [[Phutthamonthon district|Phutthamonthon]], [[Nakhon Pathom province|Nakhon Pathom]]
+|attendance = 100
+|referee = Pichit Thongjanmoon
+|assistantreferees = Khomchalach Lekhawijit, Yanin Nanthakampira
+|fourthofficial = Kittithat Kengketkorn
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 15:30 ([[UTC+07:00|UTC+7]])
+|score = 0–0
+|penaltyscore = 5–3
+|report = [https://drive.google.com/file/d/1-l8UNaBw8srARIwQEkJqpO9ta53dc2SW/view Report]<br />[https://www.youtube.com/watch?v=Ui4BOj7RNMg Highlight]
+|team1 =[[Nara United F.C.|Nara United]] '''(T3)'''
+|team2 ='''[[Bangkok F.C.|Bangkok]] (T2)'''
+|goals1 = 
+|goals2 = 
+|penalties1= Pedro Lucas de Jesus Paixão Martins {{pengoal}}<br />Lucas Grossi de Araujo Reis {{pengoal}}<br />Takuya Fushimi {{pengoal}}<br />[[Rakpong Chumuang]] {{pengoal}}<br />Patipat Kamsat {{pengoal}}
+|penalties2= {{pengoal}} [[Phattharaphol Khamsuk]]<br />{{pengoal}} Carlos Eduardo dos Santos Lima<br />{{penmiss}} [[AJ Inia]]<br />{{pengoal}} [[Warawut Motim]]
+|stadium = [[Narathiwat Provincial Administrative Organization Stadium|Narathiwat PAO. Stadium]]
+|location = [[Mueang Narathiwat district|Mueang]], [[Narathiwat province|Narathiwat]]
+|attendance = 2,430
+|referee = Sapuding Kalong
+|assistantreferees = Phitsanu Chusi, Phongsiri Chusi
+|fourthofficial = Aibroheem Sama
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 16:00 ([[UTC+07:00|UTC+7]])
+|score = 0–1
+|report = [https://drive.google.com/file/d/1K7czLvynwSnmq5lcFCxHzOlcvbkm3nuA/view Report]
+|team1 ='''[[Rajpracha F.C.|Rajpracha]] (T3)'''
+|team2 =[[Bankhai United F.C.|Bankhai United]] '''(T3)'''
+|goals1 = 
+|goals2 = Chinnapat Kaikaew {{goal|45+2}}
+|stadium = Nonthaburi Stadium
+|location = [[Bang Yai district|Bang Yai]], [[Nonthaburi province|Nonthaburi]]
+|attendance = 235
+|referee = Boonsong Prachumrak
+|assistantreferees = Theerapon Nonthakhamjan, Bukhori Lehnuh
+|fourthofficial = Song Montha
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 17:00 ([[UTC+07:00|UTC+7]])
+|score = 2–6
+|report = [https://drive.google.com/file/d/1Kyo4IPVL3vEas_yui_AUQKn7-aE_FTSv/view Report]
+|team1 ='''[[Navy F.C.|Navy]] (T3)'''
+|team2 =Ubon Kids City '''(TA)'''
+|goals1 = Yuri Martins Rocha {{goal|73}}<br />[[Nurul Sriyankem]] {{goal|75}}
+|goals2 = Sihanart Sutisuk {{goal|29||36}}<br />Tanet Saengthong {{goal|68||75}}<br />Treerapong Seree {{goal|78}}<br />Teerawat Lionyum {{goal|84}}
+|stadium = [[Sattahip Navy Stadium]]
+|location = [[Sattahip district|Sattahip]], [[Chonburi province|Chonburi]]
+|attendance = 200
+|referee = Ekkalak Muangkhotr
+|assistantreferees = Attapol Soheng, Puttipong Saensarn
+|fourthofficial = Chinnaphat Lablae
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 17:00 ([[UTC+07:00|UTC+7]])
+|score = 1–1
+|penaltyscore = 4–3
+|report = [https://drive.google.com/file/d/1ozG-MGxnCALQy_VqJh0oIQQLD09Pz_dd/view Report]<br />[https://www.youtube.com/watch?v=3l952gUi3LU Highlight]
+|team1 =[[Customs United F.C.|Customs United]] '''(T3)'''
+|team2 ='''[[Chainat Hornbill F.C.|Chainat Hornbill]] (T2)'''
+|goals1 = Anan Samaae {{goal|78}}
+|goals2 = Piyaruck Kwangkaew {{goal|45+1}}
+|penalties1= Anapat Nakngam {{penmiss}}<br />Natthawut Srichan {{pengoal}}<br />Aitsara Suktaeng {{pengoal}}<br />[[Tatsuya Tanaka (footballer, born 1992)|Tatsuya Tanaka]] {{pengoal}}<br />Anumat Seewongkaew {{pengoal}}
+|penalties2= {{pengoal}} Adolph Koudakpo<br />{{pengoal}} Thanayut Hamanee<br />{{penmiss}} Tatsuhide Shimizu<br />{{penmiss}} Thammakai Jaidee<br />{{pengoal}} Tanin Kiatlerttham
+|stadium = [[Lad Krabang 54 Stadium|Stadium of Customs Department, Lad Krabang 54]]
+|location = [[Bang Phli district|Bang Phli]], [[Samut Prakan province|Samut Prakan]]
+|attendance = 180
+|referee = Natee Choosuwan
+|assistantreferees = Sahatnet Deemongkol, Kiadtisak Janmol
+|fourthofficial = Suriyo Kanhachalee
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 17:00 ([[UTC+07:00|UTC+7]])
+|score = 2–0
+|report = [https://drive.google.com/file/d/1PwuvCQtUV-qt3-g9gMcmDbwTjo8lrkWL/view Report]
+|team1 =[[Samut Sakhon City F.C.|Samut Sakhon City]] '''(T3)'''
+|team2 ='''[[Thap Luang United F.C.|Thap Luang United]] (T3)'''
+|goals1 = Worapart Chaenram {{goal|15}}<br />Thanachok Chitrak {{goal|27}}
+|goals2 = 
+|stadium = Stadium of Thailand National Sports University, Samut Sakhon Campus
+|location = [[Mueang Samut Sakhon district|Mueang]], [[Samut Sakhon province|Samut Sakhon]]
+|attendance = 298
+|referee = Trin Sahachaipat
+|assistantreferees = Tibeth Longtree, Wilawan Rattanakhot
+|fourthofficial = Palakorn Parasatit
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 3–2
+|report = [https://drive.google.com/file/d/1uxKlb5X4Sq1RWT6RgpFU5p9HGdXrFa8Z/view Report]<br />[https://www.youtube.com/watch?v=Vl8Ygp651IU Highlight]
+|team1 =[[Sisaket United F.C.|Sisaket United]] '''(T2)'''
+|team2 ='''[[Padriew City F.C.|Padriew City]] (T3)'''
+|goals1 = Pansiri Sukunee {{goal|16}}<br />[[Kittipong Wongma]] {{goal|21|pen.}}<br />Phattharapong Phengchaem {{goal|27|pen.}}
+|goals2 = Jeremiah Kegbe {{goal|60|pen.|81}}
+|stadium = [[Sri Nakhon Lamduan Stadium]]
+|location = [[Mueang Sisaket district|Mueang]], [[Sisaket province|Sisaket]]
+|attendance = 305
+|referee = Somkhid Sarapim
+|assistantreferees = Nattapong Wadweangcom, Anupong Sangtopo
+|fourthofficial = Pongdanai Sadsadee
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 0–3
+|report = [https://drive.google.com/file/d/1x3gtV2WNfAanG84JToBbZYCrZ3FeQggz/view Report]<br />[https://www.youtube.com/watch?v=40f3XP266wY Highlight]
+|team1 ='''[[Pattaya United F.C. (2023)|Pattaya United]] (T2)'''
+|team2 =[[BFB Pattaya City F.C.|BFB Pattaya City]] '''(T3)'''
+|goals1 = 
+|goals2 = Abdolreza Zarei {{goal|9}}<br />Kim Jin-hyeong {{goal|33}}<br />Achirawat Saimee {{goal|65}}
+|stadium = [[Nong Prue Stadium]]
+|location = [[Bang Lamung district|Bang Lamung]], [[Chonburi province|Chonburi]]
+|attendance = 1,081
+|referee = Sila Jinnigorn
+|assistantreferees = Anucha Pinamon, Sarayut Sriampri
+|fourthofficial = Satchukorn Saenchu
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 1–1
+|penaltyscore = 4–2
+|report = [https://drive.google.com/file/d/1US2QwMgWWiPT1_-_gHPaNN8t1s7jGFbj/view Report]
+|team1 =[[Phitsanulok F.C.|Phitsanulok]] '''(T3)'''
+|team2 ='''[[Roi Et PB United F.C.|Roi Et PB United]] (T3)'''
+|goals1 = Parintorn Trakarnchan {{goal|34}}
+|goals2 = [[Santirad Weing-in]] {{goal|45}}
+|penalties1= [[Burnel Okana-Stazi]] {{pengoal}}<br />Nuttasit Choosai {{pengoal}}<br />Juan Francisco Odorisio {{pengoal}}<br />Navapan Thianchai {{pengoal}}
+|penalties2= {{penmiss}} Saichon Magmesoog<br />{{penmiss}} [[Teerapong Deehamhae]]<br />{{pengoal}} [[Chalermpong Kerdkaew]]<br />{{pengoal}} Chatchai Chiakklang
+|stadium = [[Phitsanulok PAO. Stadium]]
+|location = [[Mueang Phitsanulok district|Mueang]], [[Phitsanulok province|Phitsanulok]]
+|attendance = 429
+|referee = Supat Chaingam
+|assistantreferees = Saksit Jantain, Thanawat Sangkon
+|fourthofficial = Anurak Sankaew
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 0–0
+|penaltyscore = 5–4
+|report = [https://drive.google.com/file/d/18cYWzBsQ9zVC8ZK60DhxxCB3oXIkLv9-/view Report]
+|team1 =[[Chiangmai F.C.|Chiangmai]] '''(T3)'''
+|team2 ='''[[Udon Banjan United F.C.|Udon Banjan United]] (T3)'''
+|goals1 = 
+|goals2 = 
+|penalties1= Phitsanusak Chuenbua-in {{pengoal}}<br />Ezike Christian Uchenna {{pengoal}}<br />[[Attaphon Kannoo]] {{pengoal}}<br />Warakorn Poolar {{pengoal}}<br />[[Sarawut Yodyinghathaikul]] {{pengoal}}
+|penalties2= {{pengoal}} Phutchapong Namsrithan<br />{{pengoal}} [[Halef Pitbull]]<br />{{penmiss}} Sittipat Kreearee<br />{{pengoal}} Naruebet Udsa<br />{{pengoal}} [[Adisak Hantes]]
+|stadium = Chiangmai City Municipality Stadium
+|location = [[Mueang Chiang Mai district|Mueang]], [[Chiang Mai province|Chiang Mai]]
+|attendance = 467
+|referee = Akkarachai Khanthalee
+|assistantreferees = Tudsanee Khuanpet, Chayanut Chailoet
+|fourthofficial = Suphanat Yainta
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 18:30 ([[UTC+07:00|UTC+7]])
+|score = 1–0
+|report = [https://drive.google.com/file/d/1dG4xfAtlIaoDXxhUYxFqlbJYcbcomAtv/view Report]<br />[https://www.youtube.com/watch?v=ruGts8NghOE&pp=0gcJCfwJAYcqIYzv Highlight]
+|team1 =[[Nakhon Pathom United F.C.|Nakhon Pathom United]] '''(T2)'''
+|team2 ='''[[Chattrakan City F.C.|Chattrakan City]] (T3)'''
+|goals1 = Sunchai Chaolaokhwan {{goal|90+4}}
+|goals2 = 
+|stadium = Stadium of Nakhon Pathom City Municipality Sports School
+|location = [[Mueang Nakhon Pathom district|Mueang]], [[Nakhon Pathom province|Nakhon Pathom]]
+|attendance = 468
+|referee = Kriangkrai Thiphanunjarukorn
+|assistantreferees = Nissan Janthep, Kittinan Sotorphrphakorn
+|fourthofficial = Wicharn Klinthaworn
+}}
+{{football box collapsible
+|date = {{Start date|2025|9|24|df=y}}
+|time = 19:00 ([[UTC+07:00|UTC+7]])
+|score = 4–1
+|report = [https://drive.google.com/file/d/1NNjHR_nBsd5vpPQ0fuRXPDcYlMAzxh6k/view Report]
+|team1 =[[F.C. Yala|Yala]] '''(T3)'''
+|team2 ='''[[Chanthaburi F.C.|Chanthaburi]] (T2)'''
+|goals1 = Somprat Reuengnun {{goal|17}}<br />[[Felipe Micael]] {{goal|46||68}}<br />Isrufan Doromae {{goal|86}}
+|goals2 = Kitti Kinnonkok {{goal|70}}
+|stadium = Stadium of Yala Rajabhat University
+|location = [[Mueang Yala district|Mueang]], [[Yala province|Yala]]
+|attendance = 200
+|referee = Phairot Bunkamnoed
+|assistantreferees = Tuwae-yusoh Kuji, Thanthon Kongdee
+|fourthofficial = Anon Lohlor
+}}
+
+===First round===
+The first round consists of 64 clubs: 31 winners from the qualification round and 33 clubs that automatically advanced. Among the qualification round winners are 5 clubs from T2, 22 from T3, 1 from TS, and 3 from TA. Joining them are 16 clubs from the [[2025–26 Thai League 1]], who were granted automatic entry as the top-tier league representatives. Additionally, clubs from other leagues received byes directly to the first round, including 4 clubs from the [[2025–26 Thai League 2]], 6 clubs from the [[2025–26 Thai League 3]], 3 clubs from the [[Thailand Semi-pro League]], and 4 clubs from the [[Thailand Amateur League]]. The draw for this round took place on 2 October 2025.<ref>{{cite news |url=https://www.siamsport.co.th/football-thailand/thai-fa-cup/91402/ |title=บุรีรัมย์ ชน วารินฯ, เมืองทอง ดวล ร่มเกล้า จับสลากช้างเอฟเอคัพ รอบ 64 ทีม (in Thai). |work=siamsport.co.th |date=2 October 2025}}</ref><ref>{{cite news |url=https://www.pptvhd36.com/sport/news/258332 |title=ผลประกบคู่บอลช้าง เอฟเอ คัพ รอบ 64 ทีม บุรีรัมย์-บีจี-ท่าเรือ ไม่หนัก (in Thai). |work=pptvhd36.com |date=2 October 2025}}</ref> 141 goals were scored in this round.
+
+{{football box collapsible
+|date = {{Start date|2025|10|29|df=y}}
+|time = 15:00 ([[UTC+07:00|UTC+7]])
+|score = 2–0
+|report = [https://drive.google.com/file/d/1W9_dMQN9ejUcJP8vNbr35sPDbSQI47RI/view Report]<br />[https://www.youtube.com/watch?v=XaNBOx8uA_4 Highlight]
+|team1 =[[Samui United F.C.|Samui United]] '''(T3)'''
+|team2 ='''Bankaeng United (TS)'''
+|goals1 = Lucas Massaro Garcia Gama {{goal|59}}<br />Teerawat Suban {{goal|73|o.g.}}
+|goals2 = 
+|stadium = Ko Samui City Municipality International Stadium
+|location = [[Ko Samui district|Ko Samui]], [[Surat Thani province|Surat Thani]]
+|attendance = 342
+|referee = Yod Damhai
+|assistantreferees = Mayunai Kueteh, Ameen Puteh
+|fourthofficial = Anantasak Yakoh
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|29|df=y}}
+|time = 15:00 ([[UTC+07:00|UTC+7]])
+|score = 2–3
+|report = [https://drive.google.com/file/d/1Vg0bJ8KSFRzyfpEXf3o2EkFmV37K7bFL/view Report]<br />[https://www.youtube.com/watch?v=LYJYgHT8IpI Highlight]
+|team1 ='''[[Lopburi City F.C.|Lopburi City]] (T3)'''
+|team2 =[[Ratchaburi F.C.|Ratchaburi]] '''(T1)'''
+|goals1 = Noppakhun Yingbamrung {{goal|24}}<br />Vorraseth Saichan {{goal|72}}
+|goals2 = [[Ikhsan Fandi]] {{goal|6||14||27}}
+|stadium = [[Phra Ramesuan Stadium]]
+|location = [[Mueang Lopburi district|Mueang]], [[Lopburi province|Lopburi]]
+|attendance = 190
+|referee = Samrit Ritkaew
+|assistantreferees = Narin Wongprapipak, Arna Rattanabumchum
+|fourthofficial = Natipong Aiemso
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|29|df=y}}
+|time = 15:00 ([[UTC+07:00|UTC+7]])
+|score = 0–7
+|report = [https://drive.google.com/file/d/1D1WlWl8q_ljJRRo2jC09deYE9OTJ33Ak/view Report]<br />[https://www.youtube.com/watch?v=BlAVoLwxPcI Highlight]
+|team1 ='''Thonburi Forest (TA)'''
+|team2 =[[Nongbua Pitchaya F.C.|Nongbua Pitchaya]] '''(T2)'''
+|goals1 = 
+|goals2 = Pakorn Seekaewnit {{goal|8||29||50}}<br />Thanawut Phochai {{goal|45+2|pen.|48}}<br />Phanthakan Artsombun {{goal|61}}<br />Adisak Waenlor {{goal|79}}
+|stadium = Laemfhapa Subdistrict Municipality Stadium
+|location = [[Phra Samut Chedi district|Phra Samut Chedi]], [[Samut Prakan province|Samut Prakan]]
+|attendance = 275
+|referee = Putthipong Issising
+|assistantreferees = Kiadtisak Janmol, Siwat Chaithong
+|fourthofficial = Chaiya Moolmanee
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|29|df=y}}
+|time = 15:00 ([[UTC+07:00|UTC+7]])
+|score = 0–1
+|report = [https://drive.google.com/file/d/1J8AeRdn7VicS8VBxrc0OjVBR6LZt8nAs/view Report]<br />[https://www.youtube.com/watch?v=V6LbOPCfFz8 Highlight]
+|team1 ='''[[Nakhon Sawan See Khwae City F.C.|Nakhon Sawan See Khwae City]] (T3)'''
+|team2 =[[Pattani F.C.|Pattani]] '''(T2)'''
+|goals1 = 
+|goals2 = Akrom Mamood {{goal|19}}
+|stadium = [[Nakhon Sawan Province Stadium|Nakhon Sawan Provincial Stadium]]
+|location = [[Mueang Nakhon Sawan district|Mueang]], [[Nakhon Sawan province|Nakhon Sawan]]
+|attendance = 24
+|referee = Direk Kaort
+|assistantreferees = Sarayut Sriampri, Nissan Janthep
+|fourthofficial = Peerasan Krataithong
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|29|df=y}}
+|time = 15:00 ([[UTC+07:00|UTC+7]])
+|score = 1–4
+|report = [https://drive.google.com/file/d/1cpAfRmIRW1LtJHJ-cjfL6H1MgEF5uCBl/view Report]<br />[https://www.youtube.com/watch?v=T86XlVerxTA Highlight]
+|team1 ='''[[PSU Surat Thani City F.C.|PSU Surat Thani City]] (T3)'''
+|team2 =[[Lamphun Warriors F.C.|Lamphun Warriors]] '''(T1)'''
+|goals1 = Osvaldo Nascimento dos Santos Neto {{goal|45|pen.}}
+|goals2 = [[Peniel Mlapa]] {{goal|26||65}}<br />[[Maung Maung Lwin]] {{goal|45+2}}<br />Teerawut Churok {{goal|59}}
+|stadium = Stadium of Prince of Songkla University, Surat Thani Campus
+|location = [[Mueang Surat Thani district|Mueang]], [[Surat Thani province|Surat Thani]]
+|attendance = 640
+|referee = Thapakorn Thongkon
+|assistantreferees = Tuwae-yusoh Kuji, Yossapon Tongprom
+|fourthofficial = Sapuding Kalong
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|29|df=y}}
+|time = 16:00 ([[UTC+07:00|UTC+7]])
+|score = 0–4
+|report = [https://drive.google.com/file/d/1ty0mt127kIeldvAjZV19VFgVHQkjbelq/view Report]<br />[https://www.youtube.com/watch?v=0UK_iuzQ7Hs Highlight]
+|team1 ='''[[Burapha United F.C.|Burapha United]] (T3)'''
+|team2 =[[Port F.C.|Port]] '''(T1)'''
+|goals1 = 
+|goals2 = [[Suphanan Bureerat]] {{goal|7||48}}<br />[[Teerasak Poeiphimai]] {{goal|20}}<br />[[Chanukun Karin]] {{goal|70}}
+|stadium = [[Banbueng Municipal Stadium|Banbueng Town Municipality Stadium]]
+|location = [[Ban Bueng district|Ban Bueng]], [[Chonburi province|Chonburi]]
+|attendance = 1,256
+|referee = Phairot Bunkamnoed
+|assistantreferees = Apichit Nophuan, Watthana Chonchanakul
+|fourthofficial = Akom Charoensuk
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|29|df=y}}
+|time = 17:00 ([[UTC+07:00|UTC+7]])
+|score = 3–0
+|report = [https://drive.google.com/file/d/1LLym3yH9Y-6hHhwtAcIAlMFjIkATVJXN/view Report]<br />[https://www.youtube.com/watch?v=SCdUrzwGqGA&pp=0gcJCQMKAYcqIYzv Highlight]
+|team1 =[[Customs United F.C.|Customs United]] '''(T3)'''
+|team2 ='''[[Nonthaburi United F.C.|Nonthaburi United]] (T3)'''
+|goals1 = Natdanai Hangnalen {{goal|20}}<br />Anumat Seewongkaew {{goal|45}}<br />Thanaat Kantheerat {{goal|62}}
+|goals2 = 
+|stadium = [[Lad Krabang 54 Stadium|Stadium of Customs Department, Lad Krabang 54]]
+|location = [[Bang Phli district|Bang Phli]], [[Samut Prakan province|Samut Prakan]]
+|attendance = 117
+|referee = Piyawat Rittimunee
+|assistantreferees = Patcharapon Losomsup, Supakorn Ruangrit
+|fourthofficial = Pawarin Chukong
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|29|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 19–0
+|report = [https://drive.google.com/file/d/1MdwuuR8NlIqz14YLogq1KqKw-vW8hdPn/view Report]<br />[https://www.youtube.com/watch?v=3RUc9mMlu28 Highlight]
+|team1 =[[Chiangrai United F.C.|Chiangrai United]] '''(T1)'''
+|team2 ='''Sing Pathum Thani (TA)'''
+|goals1 = Chinngoen Phutonyong {{goal|7||57}}<br />Banphakit Phrmmanee {{goal|20}}<br />Thakdanai Jaihan {{goal|21}}<br />Jorge Eduardo Silva Costa {{goal|36}}<br />Chinnawat Prachuabmon {{goal|38||39||50|pen.|82}}<br />[[Piyaphon Phanichakul]] {{goal|58||69}}<br />Thanawat Pimyotha {{goal|59||64||75}}<br />Ongsa Singthong {{goal|60||62||90+3}}<br />Phoptham Pornkod {{goal|67}}<br />Nanthiphat Chaiman {{goal|85}}
+|goals2 = 
+|stadium = [[Singha Chiangrai Stadium]]
+|location = [[Mueang Chiang Rai district|Mueang]], [[Chiang Rai province|Chiang Rai]]
+|attendance = 205
+|referee = Wathanyu Morin
+|assistantreferees = Srisuwan Boonnum, Pramote Boon-in
+|fourthofficial = Jakkapong Pongpathet
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|29|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 0–1
+|report = [https://drive.google.com/file/d/1RJYR3uQKEvJH0eHQQk0Xwy8V1mxR4SdK/view Report]<br />[https://www.youtube.com/watch?v=Q8xOP-jgf8U Highlight]
+|team1 ='''[[Chachoengsao Hi-Tek F.C.|Chachoengsao Hi-Tek]] (T3)'''
+|team2 =[[Nakhon Ratchasima F.C.|Nakhon Ratchasima Mazda]] '''(T1)'''
+|goals1 = 
+|goals2 = Chitsanuphong Phimpsang {{goal|5}}
+|stadium = Chachoengsao Town Municipality Stadium
+|location = [[Mueang Chachoengsao district|Mueang]], [[Chachoengsao province|Chachoengsao]]
+|attendance = 409
+|referee = Sila Jinnigorn
+|assistantreferees = Rachain Srichai, Waranon Soonsuwan
+|fourthofficial = Pongthep Raipimai
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|29|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 1–2
+|report = [https://drive.google.com/file/d/1npvZ1x3wkIzT_6OBkU3k485NO4U-xDuD/view Report]<br />[https://www.youtube.com/watch?v=KTUIHaId2uI Highlight]
+|team1 ='''[[Kasetsart F.C.|Kasetsart]] (T2)'''
+|team2 =[[Nakhon Pathom United F.C.|Nakhon Pathom United]] '''(T2)'''
+|goals1 = Taiga Kitajima {{goal|38}}
+|goals2 = Banjong Phadungpattanodom {{goal|10}}<br />Nutthapong Chuekamut {{goal|90+3}}
+|stadium = [[Insee Chantarasatit Stadium]]
+|location = [[Chatuchak district|Chatuchak]], [[Bangkok]]
+|attendance = 410
+|referee = Chaikrit Inboonsong
+|assistantreferees = Thanet Jairaw, Anucha Pinamon
+|fourthofficial = Kriangkrai Thiphanunjarukorn
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|29|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 1–0
+|report = [https://drive.google.com/file/d/1FKPVAc7_Bqcy0Di4g31L3QXZWk61tqtS/view Report]<br />[https://www.youtube.com/watch?v=_hIseK0E_s4 Highlight]
+|team1 =[[BFB Pattaya City F.C.|BFB Pattaya City]] '''(T3)'''
+|team2 ='''[[Chiangmai F.C.|Chiangmai]] (T3)'''
+|goals1 = Abdolreza Zarei {{goal|20}}
+|goals2 = 
+|stadium = [[Nong Prue Stadium]]
+|location = [[Bang Lamung district|Bang Lamung]], [[Chonburi province|Chonburi]]
+|attendance = 214
+|referee = Palathip Homwarn
+|assistantreferees = Kodcharat Rattanachot, Komsan Wantavee
+|fourthofficial = Ekkalak Muangkhotr
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|29|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 3–1
+|report = [https://drive.google.com/file/d/18LrVGZr3c_0CQ4zXS3GN1FfbOpdrgYy-/view Report]<br />[https://www.youtube.com/watch?v=QRq1NyHnl48 Highlight]
+|team1 =[[Sukhothai F.C.|Sukhothai]] '''(T1)'''
+|team2 ='''[[F.C. Yala|Yala]] (T3)'''
+|goals1 = [[Lursan Thiamrat]] {{goal|18}}<br />Gildo Henrique Malta de Araújo {{goal|77}}<br />[[Apichart Denman]] {{goal|85}}
+|goals2 = [[Felipe Micael]] {{goal|47|pen.}}
+|stadium = [[Thalay Luang Stadium]]
+|location = [[Mueang Sukhothai district|Mueang]], [[Sukhothai province|Sukhothai]]
+|attendance = 1,027
+|referee = Woottipong Ketkam
+|assistantreferees = Worapong Prasartsri, Waranyoo Chomgoson
+|fourthofficial = Sarayut Jakngoen
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|29|df=y}}
+|time = 18:30 ([[UTC+07:00|UTC+7]])
+|score = 1–4
+|report = [https://drive.google.com/file/d/1xJy4ibsHij3ODtNLyOBHJSFDenQTRSef/view Report]<br />[https://www.youtube.com/watch?v=gMuvkv1M42w Highlight]
+|team1 ='''[[Mahasarakham SBT F.C.|Mahasarakham SBT]] (T2)'''
+|team2 =[[Rayong F.C.|Rayong]] '''(T1)'''
+|goals1 = Prasittichai Perm {{goal|45+4}}
+|goals2 = [[Seksan Ratree]] {{goal|18||78}}<br />[[Stênio Júnior]] {{goal|54|pen.}}<br />[[Saharat Sontisawat]] {{goal|90+3}}
+|stadium = [[Mahasarakham Province Stadium|Mahasarakham Provincial Stadium]]
+|location = [[Mueang Maha Sarakham district|Mueang]], [[Maha Sarakham province|Maha Sarakham]]
+|attendance = 1,144
+|referee = Jirawit Phonkaew
+|assistantreferees = Tanate Chuchuen, Kasama Loyma
+|fourthofficial = Kanoksak Khiaodaeng
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|29|df=y}}
+|time = 18:30 ([[UTC+07:00|UTC+7]])
+|score = 1–0
+|report = [https://drive.google.com/file/d/1XQW9ypxIP8JpgQXQ1j_zsoejJUSSiu3m/view Report]<br />[https://www.youtube.com/watch?v=R36geuo1JCQ Highlight]
+|team1 =[[Ayutthaya United F.C.|Ayutthaya United]] '''(T1)'''
+|team2 ='''[[Udon United F.C.|Udon United]] (T3)'''
+|goals1 = Pantakan Kasemkulwirai {{goal|45+1}}
+|goals2 = 
+|stadium = [[Ayutthaya Province Stadium|Phra Nakhon Si Ayutthaya Provincial Stadium]]
+|location = [[Phra Nakhon Si Ayutthaya district|Phra Nakhon Si Ayutthaya]], [[Phra Nakhon Si Ayutthaya province|Phra Nakhon Si Ayutthaya]]
+|attendance = 742
+|referee = Kotchapoom Meesridaecha
+|assistantreferees = Sumate Peasiri, Nuannid Donjangreed
+|fourthofficial = Phadoongkiat Piangdee
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|29|df=y}}
+|time = 18:30 ([[UTC+07:00|UTC+7]])
+|score = 12–0
+|report = [https://drive.google.com/file/d/1tXE5b2WG6v0JkrxwG6G42czfGAEu8xpz/view Report]<br />[https://www.youtube.com/watch?v=DhiWwlBqAmg Highlight]
+|team1 =[[Buriram United F.C.|Buriram United]] '''(T1)'''
+|team2 ='''Warin Chamrap (TS)'''
+|goals1 = [[Fejsal Mulić]] {{goal|21|pen.|34||49}}<br />Thiraphon Phrinphun {{goal|26|o.g.}}<br />[[Ilhan Fandi]] {{goal|39||45+2}}<br />[[Athit Berg]] {{goal|67}}<br />[[Ratthanakorn Maikami]] {{goal|72}}<br />[[Narubadin Weerawatnodom]] {{goal|75}}<br />[[Shinnaphat Leeaoh]] {{goal|79}}<br />[[Thanakrit Chotmuangpak]] {{goal|81||90}}
+|goals2 = 
+|stadium = [[Chang Arena]]
+|location = [[Mueang Buriram district|Mueang]], [[Buriram province|Buriram]]
+|attendance = 11,413
+|referee = Manuschai Chawong
+|assistantreferees = Nattapong Wadweangcom, Samart Kaikaew
+|fourthofficial = Narinnart Tiamskun
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|29|df=y}}
+|time = 19:00 ([[UTC+07:00|UTC+7]])
+|score = 4–0
+|report = [https://drive.google.com/file/d/1Z9VP0hEC7eJT_5w2QvGjkhoLgDmIf2oB/view Report]<br />[https://www.youtube.com/watch?v=oH98Hz-hS1A Highlight]
+|team1 =[[Kanchanaburi Power F.C.|Kanchanaburi Power]] '''(T1)'''
+|team2 ='''[[Nara United F.C.|Nara United]] (T3)'''
+|goals1 = [[Alain Oyarzun]] {{goal|51}}<br />[[Pongpat Liorungrueangkit]] {{goal|72}}<br />[[Kritsana Kasemkulvilai]] {{goal|88}}<br />[[Chenrop Samphaodi]] {{goal|90+4|pen.}}
+|goals2 = 
+|stadium = [[Kanchanaburi Province Stadium|Kanchanaburi Provincial Stadium]]
+|location = [[Mueang Kanchanaburi district|Mueang]], [[Kanchanaburi province|Kanchanaburi]]
+|attendance = 548
+|referee = Alongkorn Khonwai
+|assistantreferees = Chaowalit Poonprasit, Wirot Lokham
+|fourthofficial = Anusorn Nookaew
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|29|df=y}}
+|time = 19:00 ([[UTC+07:00|UTC+7]])
+|score = 1–1
+|aet = yes
+|penaltyscore = 2–4
+|report = [https://drive.google.com/file/d/1x3kcAa9TkXC8pcSRqvZjrJmTK0eTA5x_/view Report]<br />[https://www.youtube.com/watch?v=DKZaAQ-h03U Highlight]
+|team1 ='''[[Chonburi F.C.|Chonburi]] (T1)'''
+|team2 =[[Police Tero F.C.|Police Tero]] '''(T2)'''
+|goals1 = [[Santiphap Channgom]] {{goal|120+1}}
+|goals2 = Ritthidet Phensawat {{goal|120+2}}
+|penalties1= [[Santiphap Channgom]] {{penmiss}}<br />[[Nattapong Sayriya]] {{pengoal}}<br />[[Channarong Promsrikaew]] {{pengoal}}<br />[[Rachata Moraksa]] {{penmiss}}
+|penalties2= {{pengoal}} Welington Adão Cruz<br />{{pengoal}} Adisak Sosungnoen<br />{{penmiss}} Pichitchai Sienkrthok<br />{{pengoal}} Apichok Seerawong<br />{{pengoal}} Ritthidet Phensawat
+|stadium = [[Chonburi Stadium|Chonburi Daikin Stadium]]
+|location = [[Mueang Chonburi district|Mueang]], [[Chonburi province|Chonburi]]
+|attendance = 3,682
+|referee = Natee Choosuwan
+|assistantreferees = Rawut Nakarit, Vichet Getkaew
+|fourthofficial = Komgrit Ponpasit
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|29|df=y}}
+|time = 19:00 ([[UTC+07:00|UTC+7]])
+|score = 4–0
+|report = [https://drive.google.com/file/d/1UguWvpa1E-Omd_Ab226q3heZtfbeZUrU/view Report]<br />[https://www.youtube.com/watch?v=8pcgCXpCssI Highlight]
+|team1 =[[BG Pathum United F.C.|BG Pathum United]] '''(T1)'''
+|team2 ='''[[Kamphaengphet F.C.|Kamphaengphet]] (T3)'''
+|goals1 = Matheus Fornazari Custódio {{goal|3||50}}<br />[[Joel López Pissano]] {{goal|59}}<br />[[Chanathip Songkrasin]] {{goal|84}}
+|goals2 = 
+|stadium = [[True BG Stadium]]
+|location = [[Thanyaburi district|Thanyaburi]], [[Pathum Thani province|Pathum Thani]]
+|attendance = 5,092
+|referee = Kitisak Pikunngoen
+|assistantreferees = Natthaphon Mala, Sahatnet Deemongkol
+|fourthofficial = Chakrit Siripong
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|30|df=y}}
+|time = 15:00 ([[UTC+07:00|UTC+7]])
+|score = 0–0
+|aet = yes
+|penaltyscore = 6–5
+|report = [https://drive.google.com/file/d/1iAXiyglhTfrOiXpN0jbU6HhYgoew3C47/view Report]<br />[https://www.youtube.com/watch?v=QKLK4WaHRm8 Highlight]
+|team1 =[[Prime Bangkok F.C.|Prime Bangkok]] '''(T3)'''
+|team2 ='''[[Khon Kaen F.C.|Khon Kaen]] (T3)'''
+|goals1 = 
+|goals2 = 
+|penalties1= [[Chawanwit Saelao]] {{pengoal}}<br />Wongsakorn Buasamlee {{penmiss}}<br />Aekkaphong Phlmankasemsri {{penmiss}}<br />Thanawat Dechkla {{pengoal}}<br />[[Victor Kamhuka]] {{pengoal}}<br />Kittiporn Chueachil {{pengoal}}<br />Jiranat Sopaanan {{pengoal}}<br />Thanawat Kanyadee {{pengoal}}
+|penalties2= {{penmiss}} [[Jakkapan Pornsai]]<br />{{pengoal}} [[Charin Boodhad]]<br />{{penmiss}} Nutdanai Ketpaen<br />{{pengoal}} Sarawin Saengra<br />{{pengoal}} John Caio Camargo Silva<br />{{pengoal}} Worawaran Pholuea<br />{{pengoal}} Taweesak Chanlee<br />{{penmiss}} Chakkaphat Phumnuan
+|stadium = [[NT Stadium]]
+|location = [[Lak Si district|Lak Si]], [[Bangkok]]
+|attendance = 260
+|referee = Kittichai Huthip
+|assistantreferees = Fa-is Sohdalae, Pichaya Kasem
+|fourthofficial = Trin Sahachaipat
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|30|df=y}}
+|time = 15:00 ([[UTC+07:00|UTC+7]])
+|score = 0–5
+|report = [https://drive.google.com/file/d/1sBx4HTD1HYXbP5RcEugFifSYIzpBopo3/view Report]<br />[https://www.youtube.com/watch?v=_t3N_wiqQIY Highlight]
+|team1 ='''[[Nongkhai F.C.|Nongkhai]] (TA)'''
+|team2 =[[Khon Kaen United F.C.|Khon Kaen United]] '''(T2)'''
+|goals1 = 
+|goals2 = [[Kim Ji-min (footballer, born 1993)|Kim Ji-min]] {{goal|8}}<br />[[Phanuphong Phonsa]] {{goal|28}}<br />Phongsakon Sangkasopha {{goal|45+2||80||90+1}}
+|stadium = [[Institute of Physical Education Udon Thani Stadium|Stadium of Thailand National Sports University, Udon Thani Campus]]
+|location = [[Mueang Udon Thani district|Mueang]], [[Udon Thani province|Udon Thani]]
+|attendance = 146
+|referee = Jarin Yawapee
+|assistantreferees = Chaiya Sripak, Anupong Sangtopo
+|fourthofficial = Anan Keawmuangkhun
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|30|df=y}}
+|time = 15:00 ([[UTC+07:00|UTC+7]])
+|score = 5–0
+|report = [https://drive.google.com/file/d/1sv8jyiBuAYYZ0TMQx8w52B2iV29jmOyM/view Report]<br />[https://www.youtube.com/watch?v=1xo8ZeefqNI Highlight]
+|team1 =[[Bankhai United F.C.|Bankhai United]] '''(T3)'''
+|team2 ='''[[Nakhon Nayok F.C.|Nakhon Nayok]] (TS)'''
+|goals1 = [[Guttiner]] {{goal|10||19}}<br />Chinnapat Kaikaew {{goal|31||89}}<br />Pipattanapong Buntom {{goal|57}}
+|goals2 = 
+|stadium = Wai Krong Stadium
+|location = [[Ban Khai district|Ban Khai]], [[Rayong province|Rayong]]
+|attendance = 130
+|referee = Pichit Thongjanmoon
+|assistantreferees = Theerapat Insena, Bukhori Lehnuh
+|fourthofficial = Kittithat Kengketkorn
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|30|df=y}}
+|time = 15:00 ([[UTC+07:00|UTC+7]])
+|score = 1–0
+|report = [https://drive.google.com/file/d/1BQ_e_IZlXl1JDIT0FiMKzWxMLbwXCRZf/view Report]<br />[https://www.youtube.com/watch?v=wf-ZFnVvmLw Highlight]
+|team1 =[[Fleet F.C. (Thailand)|Fleet]] '''(T3)'''
+|team2 ='''[[ACDC F.C.|ACDC]] (T3)'''
+|goals1 = [[Tiago Chulapa]] {{goal|18}}
+|goals2 = 
+|stadium = Battleship Stadium
+|location = [[Sattahip district|Sattahip]], [[Chonburi province|Chonburi]]
+|attendance = 72
+|referee = Pornpumin Chaiyo
+|assistantreferees = Sujin Rodart, Pheerapat Yodnak
+|fourthofficial = Pichet Chumcha
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|30|df=y}}
+|time = 15:00 ([[UTC+07:00|UTC+7]])
+|score = 2–9
+|report = [https://drive.google.com/file/d/156CB6DXQCQYthQ_PBvzDfHkBav3jTSSd/view Report]<br />[https://www.youtube.com/watch?v=ApIkHGqpFL8&pp=0gcJCQMKAYcqIYzv Highlight]
+|team1 ='''[[Surin Khong Chee Mool F.C.|Surin Khong Chee Mool]] (T3)'''
+|team2 =Ubon Kids City '''(TA)'''
+|goals1 = Poosit Sukreum {{goal|18|pen.}}<br />Songyot Boonkhueang {{goal|79|pen.}}
+|goals2 = Manaschai Faktae {{goal|3||34||55}}<br />[[Sirisak Fufung]] {{goal|10}}<br />Tanet Saengthong {{goal|16||26||50}}<br />Bundit Paponpai {{goal|36||60}}
+|stadium = Stadium of Rajamangala University of Technology Isan, Surin Campus
+|location = [[Mueang Surin district|Mueang]], [[Surin province|Surin]]
+|attendance = 68
+|referee = Patiyut Monthianart
+|assistantreferees = Yuranan Nukhao, Panuwat Kamba
+|fourthofficial = Yodsakorn Pakdeesuwan
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|30|df=y}}
+|time = 15:00 ([[UTC+07:00|UTC+7]])
+|score = 0–3
+|report = [https://drive.google.com/file/d/1i3Et17HCGBgrN-PR1tXNeWvhL2gFlltD/view Report]<br />[https://www.youtube.com/watch?v=mj0VxfAr5z0 Highlight]
+|team1 ='''[[Marines F.C. (Thailand)|Marines]] (T3)'''
+|team2 =[[Sisaket United F.C.|Sisaket United]] '''(T2)'''
+|goals1 = 
+|goals2 = Suphaphon Sutthisak {{goal|33}}<br />[[Kwon Dae-hee]] {{goal|47}}<br />[[Kittipong Wongma]] {{goal|56|pen.}}
+|stadium = [[Sattahip Navy Stadium]]
+|location = [[Sattahip district|Sattahip]], [[Chonburi province|Chonburi]]
+|attendance = 150
+|referee = Ekkachai Phetcham
+|assistantreferees = Pakorn Srichumsin, Kittinan Sotorphrphakorn
+|fourthofficial = Suriyo Kanhachalee
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|30|df=y}}
+|time = 15:00 ([[UTC+07:00|UTC+7]])
+|score = 0–1
+|report = [https://drive.google.com/file/d/1QPz_D3RoEs8-MQqbsNmfG8N48NXnUaZ6/view Report]<br />[https://www.youtube.com/watch?v=U0VcU1SIb8A Highlight]
+|team1 ='''[[VRN Muangnont F.C.|VRN Muangnont]] (T3)'''
+|team2 =[[Phitsanulok F.C.|Phitsanulok]] '''(T3)'''
+|goals1 = 
+|goals2 = Yod Chanthawong {{goal|23}}
+|stadium = [[Nonthaburi Youth Centre|Nonthaburi City Municipality Stadium]]
+|location = [[Mueang Nonthaburi district|Mueang]], [[Nonthaburi province|Nonthaburi]]
+|attendance = 120
+|referee = Watcharasak Intharak
+|assistantreferees = Puttipong Saensarn, Nattipong Jaimuang
+|fourthofficial = Pornthep Promsopa
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|30|df=y}}
+|time = 17:00 ([[UTC+07:00|UTC+7]])
+|score = 2–6
+|report = [https://drive.google.com/file/d/1UyAlZWMtpYeNdcwOslPuSlldkiQ2TujO/view Report]<br />[https://www.youtube.com/watch?v=TYp0XpiFkYY Highlight]
+|team1 ='''[[Chiangmai United F.C.|Chiangmai United]] (T2)'''
+|team2 =[[PT Prachuap F.C.|PT Prachuap]] '''(T1)'''
+|goals1 = Athaset Thongnak {{goal|67}}<br />Siradanai Saengngam {{goal|90+3}}
+|goals2 = [[Édgar Méndez]] {{goal|5}}<br />[[Iklas Sanron]] {{goal|29||71}}<br />[[Adrian Ugelvik]] {{goal|57}}<br />[[Tauã (footballer, born 1993)|Tauã]] {{goal|88}}<br />[[Chaowat Veerachat]] {{goal|90+1}}
+|stadium = Chiang Mai Rajabhat University 100th Anniversary Sports Center, Mae Rim Campus
+|location = [[Mae Rim district|Mae Rim]], [[Chiang Mai province|Chiang Mai]]
+|attendance = 1,241
+|referee = Sarayut Jakngoen
+|assistantreferees = Binla Preeda, Sornram Yutim
+|fourthofficial = Doungkaew Doungtawan
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|30|df=y}}
+|time = 17:30 ([[UTC+07:00|UTC+7]])
+|score = 2–0
+|report = [https://drive.google.com/file/d/1cSSgPk07d4It1Gg3toIBa1baPDX5jhvF/view Report]<br />[https://www.youtube.com/watch?v=NUmOkTuv3Vk Highlight]
+|team1 =Roi Et 2018 '''(TA)'''
+|team2 ='''[[Samut Songkhram City F.C.|Samut Songkhram City]] (T3)'''
+|goals1 = Rewat Khumbun {{goal|40}}<br />Thanakorn Thongchai {{goal|62}}
+|goals2 = 
+|stadium = [[Roi Et Province Stadium|Roi Et Provincial Stadium]]
+|location = [[Mueang Roi Et district|Mueang]], [[Roi Et province|Roi Et]]
+|attendance = 480
+|referee = Amnat Makklang
+|assistantreferees = Chinnawat Kaiyasit, Atiwat Yapakdee
+|fourthofficial = Damrong Wangraha
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|30|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 3–0
+|report = [https://drive.google.com/file/d/1Aab5jELYRmA2RvF67YtH6W37HXdBPlX-/view Report]<br />[https://www.youtube.com/watch?v=kPW0DdFJN6M Highlight]
+|team1 =[[Uthai Thani F.C.|Uthai Thani]] '''(T1)'''
+|team2 ='''[[Kasem Bundit University F.C.|Kasem Bundit University]] (T3)'''
+|goals1 = [[Mohamed Eisa]] {{goal|22|pen.}}<br />[[Marcelo Djaló]] {{goal|68}}<br />[[Sumanya Purisai]] {{goal|90+5}}
+|goals2 = 
+|stadium = Uthai Thani Provincial Stadium
+|location = [[Mueang Uthai Thani district|Mueang]], [[Uthai Thani province|Uthai Thani]]
+|attendance = 738
+|referee = Peerasan Krataithong
+|assistantreferees = Poonsawat Samransuk, Pathompong Anunluksanakul
+|fourthofficial = Chaireag Ngam-som
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|30|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 0–2
+|report = [https://drive.google.com/file/d/1aBYMi_LddOkT7o6WRPx0xxv6S6Fk08MT/view Report]<br />[https://www.youtube.com/watch?v=p4YRyWElCKk Highlight]
+|team1 ='''Mahasarakham SWL (TA)'''
+|team2 =[[Uttaradit F.C.|Uttaradit]] '''(T3)'''
+|goals1 = 
+|goals2 = Saran Tadtiang {{goal|56}}<br />[[Diego Silva (footballer, born 1990)|Diego Silva]] {{goal|61}}
+|stadium = [[Mahasarakham Province Stadium|Mahasarakham Provincial Stadium]]
+|location = [[Mueang Maha Sarakham district|Mueang]], [[Maha Sarakham province|Maha Sarakham]]
+|attendance = 300
+|referee = Sittisak Kaewkam
+|assistantreferees = Korakit Sonjan, Sutiwat Kaewkhunthong
+|fourthofficial = Suriyawong Ramsri
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|30|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 0–0
+|aet = yes
+|penaltyscore = 4–2
+|report = [https://drive.google.com/file/d/1NOMs74Sj8N4cxWn2NZfrtFpod902b_VS/view Report]<br />[https://www.youtube.com/watch?v=38fUh2mMX30 Highlight]
+|team1 =[[Phichit United F.C.|Phichit United]] '''(T3)'''
+|team2 ='''Udon Thani City (TA)'''
+|goals1 = 
+|goals2 = 
+|penalties1= Michael Arinze Anunobi {{pengoal}}<br />Khajonsak Choojit {{pengoal}}<br />Amnart Rakprasert {{pengoal}}<br />Partchya Katethip {{pengoal}}
+|penalties2= {{pengoal}} Watcharapong Pakpiphruk<br />{{pengoal}} Thanyawat Kaendee<br />{{penmiss}} Thawisak Kidraksa<br />{{penmiss}} Ratipong Pangkhabut
+|stadium = [[Phichit Stadium]]
+|location = [[Mueang Phichit district|Mueang]], [[Phichit province|Phichit]]
+|attendance = 1,223
+|referee = Bongkod Tiansavang
+|assistantreferees = Suwit Kongtongnok, Chumphon Khiaokhao
+|fourthofficial = Chirawat Chomphoosee
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|30|df=y}}
+|time = 18:30 ([[UTC+07:00|UTC+7]])
+|score = 7–0
+|report = [https://drive.google.com/file/d/1mlTe4cMQcO0H_QtN8kohwsziRSLdE3oR/view Report]<br />[https://www.youtube.com/watch?v=7qqHQSwKaCI Highlight]
+|team1 =[[Bangkok United F.C.|Bangkok United]] '''(T1)'''
+|team2 ='''[[Samut Sakhon City F.C.|Samut Sakhon City]] (T3)'''
+|goals1 = [[Everton (footballer, born 1990)|Everton]] {{goal|25}}<br />[[Pokklaw Anan]] {{goal|36}}<br />[[Teerasil Dangda]] {{goal|39||45}}<br />[[Wanchai Jarunongkran]] {{goal|56}}<br />Narakhorn Kangkratok {{goal|61}}<br />[[Guntapon Keereeleang]] {{goal|82}}
+|goals2 = 
+|stadium = [[True BG Stadium]]
+|location = [[Thanyaburi district|Thanyaburi]], [[Pathum Thani province|Pathum Thani]]
+|attendance = 424
+|referee = Noppadet Mangngam
+|assistantreferees = Komsan Kampan, Phubes Lekpha
+|fourthofficial = Phairot Bunkamnoed
+}}
+{{football box collapsible
+|date = {{Start date|2025|10|30|df=y}}
+|time = 18:30 ([[UTC+07:00|UTC+7]])
+|score = 10–0
+|report = [https://drive.google.com/file/d/1xtzZeylMv-4G-Ko_zNZ0ZJNc3u188Qu6/view Report]<br />[https://www.youtube.com/watch?v=gSJ2fjOf6FY Highlight]
+|team1 =[[Muangthong United F.C.|Muangthong United]] '''(T1)'''
+|team2 ='''Romklao United (TS)'''
+|goals1 = Sarayut Yoosuebchuea {{goal|7||23||55}}<br />Kittithach Phadsan {{goal|8|o.g.}}<br />[[Emil Roback]] {{goal|31}}<br />[[Jaturapat Sattham]] {{goal|35}}<br />Thiraphat Nuntagowat {{goal|39}}<br />[[Kenan Dünnwald-Turan]] {{goal|40}}<br />Payanat Thodsanid {{goal|57}}<br />Arthit Bua-ngam {{goal|76}}
+|goals2 = 
+|stadium = [[Thunderdome Stadium]]
+|location = [[Pak Kret district|Pak Kret]], [[Nonthaburi province|Nonthaburi]]
+|attendance = 892
+|referee = Komgrit Ponpasit
+|assistantreferees = Rachan Dawangpa, Supawan Hinthong
+|fourthofficial = Natee Choosuwan
+}}
+
+===Second round===
+The second round consists of 32 clubs, all securing victories in the first round. This stage features 15 clubs from the T1, 6 clubs from the T2, 9 clubs from the T3, and 2 clubs from the TA. The draw for this round took place on 20 November 2025.<ref>{{cite news |url=https://www.siamsport.co.th/football-thailand/thai-fa-cup/94581/ |title=เมืองทอง ฟัด ลำพูน,ท่าเรือ ดวล บียู จับสลากช้างเอฟเอคัพ 32 ทีม (in Thai). |work=siamsport.co.th |date=20 November 2025}}</ref> 54 goals were scored in this round.
+
+{{football box collapsible
+|date = {{Start date|2025|12|20|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 1–3
+|aet = yes
+|report = [https://drive.google.com/file/d/12U2cbWWdG1CMc-LUbD0fmWI2OC2q6SW9/view Report]<br />[https://www.youtube.com/watch?v=6wQTOuf2kyE Highlight]
+|team1 ='''[[Bankhai United F.C.|Bankhai United]] (T3)'''
+|team2 =[[Nakhon Pathom United F.C.|Nakhon Pathom United]] '''(T2)'''
+|goals1 = Francisco Jadson Silva do Nascimento {{goal|9}}
+|goals2 = Taiga Matsunaga {{goal|34||118}}<br />Pheemphapob Viriyachanchai {{goal|110}}
+|stadium = Wai Krong Stadium
+|location = [[Ban Khai district|Ban Khai]], [[Rayong province|Rayong]]
+|attendance = 
+|referee = Chaiya Moolmanee
+|assistantreferees = Sahatnet Deemongkol, Kiadtisak Janmol
+|fourthofficial = Narit Mungtoemklang
+}}
+{{football box collapsible
+|date = {{Start date|2025|12|20|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 6–0
+|report = [https://drive.google.com/file/d/11HWGun57Wd1Hnki8CCGF7fIFu7JZGpqS/view Report]<br />[https://www.youtube.com/watch?v=rU29s7b46Xo Highlight]
+|team1 =[[Ayutthaya United F.C.|Ayutthaya United]] '''(T1)'''
+|team2 ='''Roi Et 2018 (TA)'''
+|goals1 = [[Sanrawat Dechmitr]] {{goal|45+1}}<br />Passakorn Biaothungnoi {{goal|47}}<br />[[Verot Pombuppha]] {{goal|52}}<br />[[Diego Carioca]] {{goal|64||65}}<br />Anucha Sakaekum {{goal|82|pen.}}
+|goals2 = 
+|stadium = [[Ayutthaya Province Stadium|Phra Nakhon Si Ayutthaya Provincial Stadium]]
+|location = [[Phra Nakhon Si Ayutthaya district|Phra Nakhon Si Ayutthaya]], [[Phra Nakhon Si Ayutthaya province|Phra Nakhon Si Ayutthaya]]
+|attendance = 1,205
+|referee = Veeraporn Maophaeo
+|assistantreferees = Phubes Lekpha, Vichet Getkaew
+|fourthofficial = Kotchapoom Meesridaecha
+}}
+{{football box collapsible
+|date = {{Start date|2025|12|20|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 1–2
+|report = [https://drive.google.com/file/d/1uN2s-8Jea4sysi-VI0psY5u_1AD0F4HD/view Report]<br />[https://www.youtube.com/watch?v=5mEltwUKOUI&pp=0gcJCTwKAYcqIYzv Highlight]
+|team1 ='''[[Phitsanulok F.C.|Phitsanulok]] (T3)'''
+|team2 =[[Ratchaburi F.C.|Ratchaburi]] '''(T1)'''
+|goals1 = [[Burnel Okana-Stazi]] {{goal|76}}
+|goals2 = [[Denílson (footballer, born 1995)|Denílson]] {{goal|90+3}}<br />[[Thossawat Limwannasathian]] {{goal|90+6}}
+|stadium = [[Phitsanulok PAO. Stadium]]
+|location = [[Mueang Phitsanulok district|Mueang]], [[Phitsanulok province|Phitsanulok]]
+|attendance = 808
+|referee = Sarayut Jakngoen
+|assistantreferees = Worapong Prasartsri, Sumate Peasiri
+|fourthofficial = Chaireag Ngam-som
+}}
+{{football box collapsible
+|date = {{Start date|2025|12|20|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 2–3
+|report = [https://drive.google.com/file/d/1fCZOhbAq-k6f5jFtmSNBgcf9meDrj8xn/view Report]<br />[https://www.youtube.com/watch?v=tgjKRwlTmnE Highlight]
+|team1 ='''[[Phichit United F.C.|Phichit United]] (T3)'''
+|team2 =[[Chiangrai United F.C.|Chiangrai United]] '''(T1)'''
+|goals1 = Michael Arinze Anunobi {{goal|27||67}}
+|goals2 = [[Marco Ballini]] {{goal|5}}<br />[[Itsuki Enomoto]] {{goal|13}}<br />Banphakit Phrmmanee {{goal|60}}
+|stadium = [[Phichit Stadium]]
+|location = [[Mueang Phichit district|Mueang]], [[Phichit province|Phichit]]
+|attendance = 815
+|referee = Chaikrit Inboonsong
+|assistantreferees = Waranyoo Chomgoson, Srisuwan Boonnum
+|fourthofficial = Komgrit Ponpasit
+}}
+{{football box collapsible
+|date = {{Start date|2025|12|20|df=y}}
+|time = 18:30 ([[UTC+07:00|UTC+7]])
+|score = 0–1
+|report = [https://drive.google.com/file/d/1Wgf-u1p1Sd0hDtcL9DaXYAGIZET2HCJk/view Report]<br />[https://www.youtube.com/watch?v=2-cfkcqTm2I&pp=0gcJCTwKAYcqIYzv Highlight]
+|team1 ='''[[Uthai Thani F.C.|Uthai Thani]] (T1)'''
+|team2 =[[PT Prachuap F.C.|PT Prachuap]] '''(T1)'''
+|goals1 = 
+|goals2 = [[Tauã (footballer, born 1993)|Tauã]] {{goal|90+1}}
+|stadium = Uthai Thani Provincial Stadium
+|location = [[Mueang Uthai Thani district|Mueang]], [[Uthai Thani province|Uthai Thani]]
+|attendance = 1,568
+|referee = Pawara Seejen
+|assistantreferees = Natthaphon Mala, Wirot Lokham
+|fourthofficial = Woottipong Ketkam
+}}
+{{football box collapsible
+|date = {{Start date|2025|12|20|df=y}}
+|time = 18:30 ([[UTC+07:00|UTC+7]])
+|score = 3–0
+|report = [https://drive.google.com/file/d/1Nwmx4SQvr7z9EwLWZnSj1adYT4NxyEo0/view Report]<br />[https://www.youtube.com/watch?v=zRyVjPrUexw Highlight]
+|team1 =[[Sukhothai F.C.|Sukhothai]] '''(T1)'''
+|team2 ='''[[Nongbua Pitchaya F.C.|Nongbua Pitchaya]] (T2)'''
+|goals1 = Romeu Martins de Resende {{goal|15}}<br />Gildo Henrique Malta de Araújo {{goal|53}}<br />Thiti Thumporn {{goal|69}}
+|goals2 = 
+|stadium = [[Thalay Luang Stadium]]
+|location = [[Mueang Sukhothai district|Mueang]], [[Sukhothai province|Sukhothai]]
+|attendance = 886
+|referee = Noppadet Mangngam
+|assistantreferees = Chaowalit Poonprasit, Nonthanan Khanthawong
+|fourthofficial = Sila Jinnigorn
+}}
+{{football box collapsible
+|date = {{Start date|2025|12|20|df=y}}
+|time = 19:00 ([[UTC+07:00|UTC+7]])
+|score = 0–0
+|aet = yes
+|penaltyscore = 4–2
+|report = [https://drive.google.com/file/d/1SJDYYaD30HMpAquCAGshBdOxX1R156wJ/view Report]<br />[https://www.youtube.com/watch?v=UdjW7fjZnZ4 Highlight]
+|team1 =[[Kanchanaburi Power F.C.|Kanchanaburi Power]] '''(T1)'''
+|team2 ='''[[Police Tero F.C.|Police Tero]] (T2)'''
+|goals1 = 
+|goals2 = 
+|penalties1= [[Aboubakar Kamara]] {{pengoal}}<br />[[Chenrop Samphaodi]] {{pengoal}}<br />[[Kritsana Kasemkulvilai]] {{penmiss}}<br />[[Pongpat Liorungrueangkit]] {{pengoal}}<br />[[Mohamed Mara]] {{pengoal}}
+|penalties2= {{penmiss}} Songkhramsamut Namphueng<br />{{penmiss}} Veeraphong Aon-pean<br />{{pengoal}} Apichok Seerawong<br />{{pengoal}} Sphon Noiwong
+|stadium = [[Kanchanaburi Province Stadium|Kanchanaburi Provincial Stadium]]
+|location = [[Mueang Kanchanaburi district|Mueang]], [[Kanchanaburi province|Kanchanaburi]]
+|attendance = 1,094
+|referee = Mongkolchai Pechsri
+|assistantreferees = Rachain Srichai, Narin Wongprapipak
+|fourthofficial = Thapakorn Thongkon
+}}
+{{football box collapsible
+|date = {{Start date|2025|12|20|df=y}}
+|time = 19:00 ([[UTC+07:00|UTC+7]])
+|score = 0–1
+|report = [https://drive.google.com/file/d/1LIoqB_qjf7IPyupIaWsqNMCD-EMh15vE/view Report]<br />[https://www.youtube.com/watch?v=a4Q0eOdSGMM Highlight]
+|team1 ='''[[Muangthong United F.C.|Muangthong United]] (T1)'''
+|team2 =[[Lamphun Warriors F.C.|Lamphun Warriors]] '''(T1)'''
+|goals1 = 
+|goals2 = [[Willen (footballer)|Willen]] {{goal|15}}
+|stadium = [[Thunderdome Stadium]]
+|location = [[Pak Kret district|Pak Kret]], [[Nonthaburi province|Nonthaburi]]
+|attendance = 2,472
+|referee = Panumas Phansamo
+|assistantreferees = Chaiya Sripak, Banpot Khunhong
+|fourthofficial = Natee Choosuwan
+}}
+{{football box collapsible
+|date = {{Start date|2025|12|21|df=y}}
+|time = 15:00 ([[UTC+07:00|UTC+7]])
+|score = 3–2
+|report = [https://drive.google.com/file/d/1Ys-uu0uDUZZf8hKhjCnk_s_CCC6zSNlK/view Report]<br />[https://www.youtube.com/watch?v=oSe91fqEX54 Highlight]
+|team1 =[[Prime Bangkok F.C.|Prime Bangkok]] '''(T3)'''
+|team2 ='''[[Fleet F.C. (Thailand)|Fleet]] (T3)'''
+|goals1 = Teerapong Malai {{goal|4}}<br />[[Chawanwit Saelao]] {{goal|12||47}}
+|goals2 = [[Rafael Galhardo]] {{goal|40}}<br />[[Chatri Rattanawong]] {{goal|49}}
+|stadium = [[NT Stadium]]
+|location = [[Lak Si district|Lak Si]], [[Bangkok]]
+|attendance = 485
+|referee = Kriangkrai Thiphanunjarukorn
+|assistantreferees = Jagkrit Kaenkaew, Kattiya Saphu
+|fourthofficial = Worapon Sanjan
+}}
+{{football box collapsible
+|date = {{Start date|2025|12|21|df=y}}
+|time = 15:00 ([[UTC+07:00|UTC+7]])
+|score = 1–3
+|aet = yes
+|report = [https://drive.google.com/file/d/13XTEGT_scQ1dIpmwRStidolyES9SjlAH/view Report]<br />[https://www.youtube.com/watch?v=ur63IYznVSw Highlight]
+|team1 ='''[[Samui United F.C.|Samui United]] (T3)'''
+|team2 =[[Khon Kaen United F.C.|Khon Kaen United]] '''(T2)'''
+|goals1 = Lucas Massaro Garcia Gama {{goal|45+2}}
+|goals2 = Phongsakon Sangkasopha {{goal|58}}<br />[[Phanuphong Phonsa]] {{goal|120+1}}<br />[[Amadou Ouattara]] {{goal|120+2}}
+|stadium = Ko Samui City Municipality International Stadium
+|location = [[Ko Samui district|Ko Samui]], [[Surat Thani province|Surat Thani]]
+|attendance = 485
+|referee = Jiraphan Yodphut
+|assistantreferees = Tuwae-yusoh Kuji, Yossapon Tongprom
+|fourthofficial = Ameen Lorma
+}}
+{{football box collapsible
+|date = {{Start date|2025|12|21|df=y}}
+|time = 15:00 ([[UTC+07:00|UTC+7]])
+|score = 1–0
+|aet = yes
+|report = [https://drive.google.com/file/d/1WCzufb7vApgWQQy3apxUbfHX0wMp1XNR/view Report]<br />[https://www.youtube.com/watch?v=iXNyO2uE6ac Highlight]
+|team1 =[[Uttaradit F.C.|Uttaradit]] '''(T3)'''
+|team2 ='''[[BFB Pattaya City F.C.|BFB Pattaya City]] (T3)'''
+|goals1 = [[Luan Santos (footballer, born 1991)|Luan Santos]] {{goal|99}}
+|goals2 = 
+|stadium = [[Uttaradit Province Stadium|Uttaradit Provincial Stadium]]
+|location = [[Mueang Uttaradit district|Mueang]], [[Uttaradit province|Uttaradit]]
+|attendance = 357
+|referee = Supat Chaingam
+|assistantreferees = Surasak Phoomiwanna, Natthawut Tasmak
+|fourthofficial = Chirawat Chomphoosee
+}}
+{{football box collapsible
+|date = {{Start date|2025|12|21|df=y}}
+|time = 17:00 ([[UTC+07:00|UTC+7]])
+|score = 1–5
+|report = [https://drive.google.com/file/d/1Hm-C1Wn1IoOBOSI_hFfDiexHqfJUiJrk/view Report]<br />[https://www.youtube.com/watch?v=mkeDfhTA-5M Highlight]
+|team1 ='''[[Customs United F.C.|Customs United]] (T3)'''
+|team2 =[[Buriram United F.C.|Buriram United]] '''(T1)'''
+|goals1 = Aitsara Suktaeng {{goal|6}}
+|goals2 = [[Guilherme Bissoli]] {{goal|75||78||90+2}}<br />[[Suphanat Mueanta]] {{goal|82}}<br />[[Thanakrit Chotmuangpak]] {{goal|90+7}}
+|stadium = [[Lad Krabang 54 Stadium|Stadium of Customs Department, Lad Krabang 54]]
+|location = [[Bang Phli district|Bang Phli]], [[Samut Prakan province|Samut Prakan]]
+|attendance = 1,785
+|referee = Akom Charoensuk
+|assistantreferees = Kasama Loyma, Binla Preeda
+|fourthofficial = Kitisak Pikunngoen
+}}
+{{football box collapsible
+|date = {{Start date|2025|12|21|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 1–0
+|report = [https://drive.google.com/file/d/1Bb_A3lQdrjxmhzIwqb-6U13_96L0DkwZ/view Report]<br />[https://www.youtube.com/watch?v=oilOzpY2Za0 Highlight]
+|team1 =[[Sisaket United F.C.|Sisaket United]] '''(T2)'''
+|team2 ='''[[Rayong F.C.|Rayong]] (T1)'''
+|goals1 = Fellipe Cabral Veloso dos Santos {{goal|10}}
+|goals2 = 
+|stadium = [[Sri Nakhon Lamduan Stadium]]
+|location = [[Mueang Sisaket district|Mueang]], [[Sisaket province|Sisaket]]
+|attendance = 823
+|referee = Winat Phophat
+|assistantreferees = Watthana Chonchanakul, Rachan Dawangpa
+|fourthofficial = Manuschai Chawong
+}}
+{{football box collapsible
+|date = {{Start date|2025|12|21|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 10–0
+|report = [https://drive.google.com/file/d/1VBl9GpJTqZXeN6eorJDihHqOlWqmavSs/view Report]<br />[https://www.youtube.com/watch?v=SDVodH8krF8 Highlight]
+|team1 =[[BG Pathum United F.C.|BG Pathum United]] '''(T1)'''
+|team2 ='''Ubon Kids City (TA)'''
+|goals1 = [[Sanchai Nontasila]] {{goal|5||40}}<br />Matheus Fornazari Custódio {{goal|19||52}}<br />[[Chatmongkol Thongkiri]] {{goal|55}}<br />Thiraphat Puetong {{goal|66}}<br />[[Surachat Sareepim]] {{goal|71||89}}<br />Itthimon Tippanet {{goal|85}}<br />Siwakorn Ponsan {{goal|90}}
+|goals2 = 
+|stadium = [[True BG Stadium]]
+|location = [[Thanyaburi district|Thanyaburi]], [[Pathum Thani province|Pathum Thani]]
+|attendance = 5,423
+|referee = Alongkorn Khonwai
+|assistantreferees = Pattarapong Kijsathit, Anucha Pinamon
+|fourthofficial = Phairot Bunkamnoed
+}}
+{{football box collapsible
+|date = {{Start date|2025|12|21|df=y}}
+|time = 19:00 ([[UTC+07:00|UTC+7]])
+|score = 2–0
+|report = [https://drive.google.com/file/d/1ci7RU6GtwOGN1akFUZKJvX2qPHpZXhDD/view Report]<br />[https://www.youtube.com/watch?v=baFRHFU9b-g Highlight]
+|team1 =[[Pattani F.C.|Pattani]] '''(T2)'''
+|team2 ='''[[Nakhon Ratchasima F.C.|Nakhon Ratchasima Mazda]] (T1)'''
+|goals1 = [[Felipe Nunes]] {{goal|81}}<br />Marlon Henrique Brandão da Silva {{goal|88}}
+|goals2 = 
+|stadium = [[Pattani Province Stadium|Pattani PAO. Stadium]]
+|location = [[Mueang Pattani district|Mueang]], [[Pattani province|Pattani]]
+|attendance = 8,325
+|referee = Songkran Bunmeekiart
+|assistantreferees = Chotrawee Tongduang, Kantrakorn Ngaosri
+|fourthofficial = Suriyo Kanhachalee
+}}
+{{football box collapsible
+|date = {{Start date|2025|12|21|df=y}}
+|time = 19:00 ([[UTC+07:00|UTC+7]])
+|score = 0–3 <small>({{Tooltip|awd.|Awarded}})</small><ref>{{cite news |url=https://www.siamsport.co.th/football-thailand/thai-fa-cup/96849/ |title=Port were handed a 3–0 forfeit defeat to Bangkok United for exceeding the allowed foreign player quota (in Thai). |work=siamsport.co.th |date=23 December 2025}}</ref>
+|report = 
+|team1 ='''[[Port F.C.|Port]] (T1)'''
+|team2 =[[Bangkok United F.C.|Bangkok United]] '''(T1)'''
+|goals1 = 
+|goals2 = 
+|stadium = [[PAT Stadium]]
+|location = [[Khlong Toei district|Khlong Toei]], [[Bangkok]]
+|attendance = 3,092
+|referee = Peerasan Krataithong
+|assistantreferees = Tanate Chuchuen, Komsan Kampan
+|fourthofficial = Wicharn Klinthaworn
+}}
+
+===Third round===
+The third round consists of 16 clubs, all securing victories in the second round. This stage features 10 clubs from the T1, 4 clubs from the T2, and 2 clubs from the T3. The draw for this round took place on 25 December 2025.<ref>{{cite news |url=https://www.ballthai.com/ส่องผลจับสลากประกบคู่-ช้าง-เอฟเอ-คัพ-2025-26-รอบ-16-ทีม/ |title=ส่องผลจับสลากประกบคู่ ช้าง เอฟเอ คัพ 2025/26 รอบ 16 ทีม (in Thai). |work=ballthai.com |date=25 December 2025}}</ref> 25 goals were scored in this round.
+
+{{football box collapsible
+|date = {{Start date|2026|1|14|df=y}}
+|time = 17:00 ([[UTC+07:00|UTC+7]])
+|score = 2–3
+|aet = yes
+|report = [https://drive.google.com/file/d/1CyRzAIU5AkuwmFQ23Ym1HUQt72fyveRy/view Report]<br />[https://www.youtube.com/watch?v=2tyZw2HUSF4 Highlight]
+|team1 ='''[[Prime Bangkok F.C.|Prime Bangkok]] (T3)'''
+|team2 =[[Chiangrai United F.C.|Chiangrai United]] '''(T1)'''
+|goals1 = Noppakhun Yingbamrung {{goal|57}}<br />Nontawat Rakaok {{goal|79}}
+|goals2 = [[Sanukran Thinjom]] {{goal|40||55}}<br />[[Marco Ballini]] {{goal|109}}
+|stadium = [[NT Stadium]]
+|location = [[Lak Si district|Lak Si]], [[Bangkok]]
+|attendance = 509
+|referee = Kitisak Pikunngoen
+|assistantreferees = Phongsiri Chusi, Mongkhon Kaisin
+|fourthofficial = Wutthinan Jampawai
+}}
+{{football box collapsible
+|date = {{Start date|2026|1|14|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 3–1
+|report = [https://drive.google.com/file/d/1qTBJZf_RXDOonyrIxZXYxw0mYyHzD5cz/view Report]<br />[https://www.youtube.com/watch?v=zl3CiGTJwtg Highlight]
+|team1 =[[Bangkok United F.C.|Bangkok United]] '''(T1)'''
+|team2 ='''[[Kanchanaburi Power F.C.|Kanchanaburi Power]] (T1)'''
+|goals1 = [[Thitiphan Puangchan]] {{goal|24}}<br />[[Muhsen Al-Ghassani]] {{goal|30}}<br />[[Everton (footballer, born 1990)|Everton]] {{goal|62}}
+|goals2 = [[Aboubakar Kamara]] {{goal|49}}
+|stadium = [[True BG Stadium]]
+|location = [[Thanyaburi district|Thanyaburi]], [[Pathum Thani province|Pathum Thani]]
+|attendance = 1,069
+|referee = Mongkolchai Pechsri
+|assistantreferees = Chotrawee Tongduang, Nuannid Donjangreed
+|fourthofficial = Veeraporn Maophaeo
+}}
+{{football box collapsible
+|date = {{Start date|2026|1|14|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 4–0
+|report = [https://drive.google.com/file/d/1eeZA3Lksb4T70fd3aGUnH8eS8UbAfuxF/view Report]<br />[https://www.youtube.com/watch?v=WrcvnnPru_M Highlight]
+|team1 =[[Buriram United F.C.|Buriram United]] '''(T1)'''
+|team2 ='''[[Pattani F.C.|Pattani]] (T2)'''
+|goals1 = [[Guilherme Bissoli]] {{goal|45||64||88}}<br />[[Rubén Sánchez (footballer, born 1994)|Rubén Sánchez]] {{goal|76}}
+|goals2 = 
+|stadium = [[Chang Arena]]
+|location = [[Mueang Buriram district|Mueang]], [[Buriram province|Buriram]]
+|attendance = 18,015
+|referee = Jirawit Phonkaew
+|assistantreferees = Tanate Chuchuen, Chaiya Sripak
+|fourthofficial = Methas Kumarasit
+}}
+{{football box collapsible
+|date = {{Start date|2026|1|14|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 1–3
+|report = [https://drive.google.com/file/d/1zFXvBSpjc0hb4miQ1X_bmbMTUpjmMaCm/view Report]<br />[https://www.youtube.com/watch?v=yn7a8CxMaNs Highlight]
+|team1 ='''[[Sisaket United F.C.|Sisaket United]] (T2)'''
+|team2 =[[Ratchaburi F.C.|Ratchaburi]] '''(T1)'''
+|goals1 = Wongsakorn Saenruecha {{goal|78}}
+|goals2 = [[Jakkaphan Kaewprom]] {{goal|6}}<br />[[Jaroensak Wonggorn]] {{goal|26}}<br />[[Chotipat Poomkaew]] {{goal|74}}
+|stadium = [[Sri Nakhon Lamduan Stadium]]
+|location = [[Mueang Sisaket district|Mueang]], [[Sisaket province|Sisaket]]
+|attendance = 969
+|referee = Kotchapoom Meesridaecha
+|assistantreferees = Rachan Dawangpa, Kriangsak Pimsanit
+|fourthofficial = Natee Choosuwan
+}}
+{{football box collapsible
+|date = {{Start date|2026|1|14|df=y}}
+|time = 18:30 ([[UTC+07:00|UTC+7]])
+|score = 2–0
+|report = [https://drive.google.com/file/d/1qycYReBgU8Ly7ntY7EwM_Zacjecjp_Ib/view Report]<br />[https://www.youtube.com/watch?v=BYvTa6YvUZs Highlight]
+|team1 =[[Lamphun Warriors F.C.|Lamphun Warriors]] '''(T1)'''
+|team2 ='''[[Sukhothai F.C.|Sukhothai]] (T1)'''
+|goals1 = [[Mohammed Osman]] {{goal|20||87}}
+|goals2 = 
+|stadium = Lamphun Warriors Stadium
+|location = [[Mueang Lamphun district|Mueang]], [[Lamphun province|Lamphun]]
+|attendance = 902
+|referee = Sarayut Jakngoen
+|assistantreferees = Apichit Nophuan, Watthana Chonchanakul
+|fourthofficial = Woottipong Ketkam
+}}
+{{football box collapsible
+|date = {{Start date|2026|1|14|df=y}}
+|time = 18:30 ([[UTC+07:00|UTC+7]])
+|score = 2–0
+|report = [https://drive.google.com/file/d/15INNoEQcT-l8qyfSjqdf1M_jxOurg8x_/view Report]<br />[https://www.youtube.com/watch?v=82CkERM3TDk Highlight]
+|team1 =[[Khon Kaen United F.C.|Khon Kaen United]] '''(T2)'''
+|team2 ='''[[Nakhon Pathom United F.C.|Nakhon Pathom United]] (T2)'''
+|goals1 = [[Felipe Amorim]] {{goal|17}}<br />[[Chitsanupong Choti]] {{goal|90+2}}
+|goals2 = 
+|stadium = [[Khon Kaen Provincial Administrative Organization Stadium|Khon Kaen PAO. Stadium]]
+|location = [[Mueang Khon Kaen district|Mueang]], [[Khon Kaen province|Khon Kaen]]
+|attendance = 1,017
+|referee = Komgrit Ponpasit
+|assistantreferees = Binla Preeda, Chaowalit Poonprasit
+|fourthofficial = Anan Keawmuangkhun
+}}
+{{football box collapsible
+|date = {{Start date|2026|1|14|df=y}}
+|time = 19:00 ([[UTC+07:00|UTC+7]])
+|score = 3–0
+|report = [https://drive.google.com/file/d/1O6yvA4HbFIbuH2wTaO71PV5G91clLRNt/view Report]<br />[https://www.youtube.com/watch?v=LtVeW0T2a80 Highlight]
+|team1 =[[Ayutthaya United F.C.|Ayutthaya United]] '''(T1)'''
+|team2 ='''[[Uttaradit F.C.|Uttaradit]] (T3)'''
+|goals1 = [[Conrado (footballer, born 1991)|Conrado]] {{goal|34|pen.}}<br />[[Kritsana Kasemkulvilai]] {{goal|39}}<br />Nattapon Worasut {{goal|85}}
+|goals2 = 
+|stadium = [[Ayutthaya Province Stadium|Phra Nakhon Si Ayutthaya Provincial Stadium]]
+|location = [[Phra Nakhon Si Ayutthaya district|Phra Nakhon Si Ayutthaya]], [[Phra Nakhon Si Ayutthaya province|Phra Nakhon Si Ayutthaya]]
+|attendance = 1,361
+|referee = Noppadet Mangngam
+|assistantreferees = Natthaphon Mala, Wirot Lokham
+|fourthofficial = Chaireag Ngam-som
+}}
+{{football box collapsible
+|date = {{Start date|2026|1|14|df=y}}
+|time = 19:00 ([[UTC+07:00|UTC+7]])
+|score = 1–0
+|report = [https://drive.google.com/file/d/1nc6jr06YbyzL-YrGbqK29kZtuENR9Jpy/view Report]<br />[https://www.youtube.com/watch?v=2Tk4Lc3wrdA Highlight]
+|team1 =[[PT Prachuap F.C.|PT Prachuap]] '''(T1)'''
+|team2 ='''[[BG Pathum United F.C.|BG Pathum United]] (T1)'''
+|goals1 = [[Michel (footballer, born 1997)|Michel]] {{goal|73}}
+|goals2 = 
+|stadium = [[Sam Ao Stadium]]
+|location = [[Mueang Prachuap Khiri Khan district|Mueang]], [[Prachuap Khiri Khan province|Prachuap Khiri Khan]]
+|attendance = 2,570
+|referee = Satchukorn Saenchu
+|assistantreferees = Pattarapong Kijsathit, Srisuwan Boonnum
+|fourthofficial = Chaikrit Inboonsong
+}}
+
+===Quarter-finals===
+The quarter-finals consist of 8 clubs, all securing victories in the third round. This stage features 7 clubs from the T1 and 1 club from the T2. The draw for this round took place on 27 January 2026.<ref>{{cite news |url=https://www.siamsport.co.th/football-thailand/thai-fa-cup/99042/ |title=แชมป์เก่างานเบา บุรีรัมย์ ดวล ขอนแก่น, ลำพูน ซด แบงค็อก ผลจับสลาก ช้าง เอฟเอ คัพ รอบ 8 ทีม (in Thai). |work=siamsport.co.th |date=27 January 2026}}</ref> 11 goals were scored in this round.
+
+{{football box collapsible
+|date = {{Start date|2026|2|25|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 2–1
+|aet = yes
+|report = [https://drive.google.com/file/d/1sjDXZrePtZKfZqUg9W50R_stIwoCPcdW/view Report]<br />[https://www.youtube.com/watch?v=PlQ-x4i3Sao Highlight]
+|team1 =[[Lamphun Warriors F.C.|Lamphun Warriors]] '''(T1)'''
+|team2 ='''[[Bangkok United F.C.|Bangkok United]] (T1)'''
+|goals1 = [[Anan Yodsangwal]] {{goal|43}}<br />[[Peniel Mlapa]] {{goal|102}}
+|goals2 = [[Rivaldinho]] {{goal|30}}
+|stadium = Lamphun Warriors Stadium
+|location = [[Mueang Lamphun district|Mueang]], [[Lamphun province|Lamphun]]
+|attendance = 548
+|referee = Peerasan Krataithong
+|assistantreferees = Chaowalit Poonprasit, Sumate Peasiri
+|fourthofficial = Panumas Phansamo
+}}
+{{football box collapsible
+|date = {{Start date|2026|2|25|df=y}}
+|time = 18:00 ([[UTC+07:00|UTC+7]])
+|score = 6–0
+|report = [https://drive.google.com/file/d/1HdXBNvVLDVkEsumnW7tvfC1B-epeoL12/view Report]<br />[https://www.youtube.com/watch?v=uDxIGR5KBto Highlight]
+|team1 =[[Buriram United F.C.|Buriram United]] '''(T1)'''
+|team2 ='''[[Khon Kaen United F.C.|Khon Kaen United]] (T2)'''
+|goals1 = [[Robert Žulj]] {{goal|39||45+4||60}}<br />[[Emmanuel Toku]] {{goal|45+5||89}}<br />Nathakorn Rattanasuwan {{goal|67}}
+|goals2 = 
+|stadium = [[Chang Arena]]
+|location = [[Mueang Buriram district|Mueang]], [[Buriram province|Buriram]]
+|attendance = 10,292
+|referee = Chaikrit Inboonsong
+|assistantreferees = Chaiya Sripak, Kasama Loyma
+|fourthofficial = Seksan Phansri
+}}
+{{football box collapsible
+|date = {{Start date|2026|2|25|df=y}}
+|time = 18:30 ([[UTC+07:00|UTC+7]])
+|score = 0–1
+|report = [https://drive.google.com/file/d/1CP0mnODDbRZnZnr9hMPL5eZ6Q2NhNgI-/view Report]<br />[https://www.youtube.com/watch?v=sZ0Y1en6Dnw Highlight]
+|team1 ='''[[Chiangrai United F.C.|Chiangrai United]] (T1)'''
+|team2 =[[PT Prachuap F.C.|PT Prachuap]] '''(T1)'''
+|goals1 = 
+|goals2 = [[Michel (footballer, born 1997)|Michel]] {{goal|7|pen.}}
+|stadium = [[Singha Chiangrai Stadium]]
+|location = [[Mueang Chiang Rai district|Mueang]], [[Chiang Rai province|Chiang Rai]]
+|attendance = 200
+|referee = Kotchapoom Meesridaecha
+|assistantreferees = Chotrawee Tongduang, Binla Preeda
+|fourthofficial = Pawara Seejen
+}}
+{{football box collapsible
+|date = {{Start date|2026|2|25|df=y}}
+|time = 18:30 ([[UTC+07:00|UTC+7]])
+|score = 1–0
+|report = [https://drive.google.com/file/d/1DtAIC7oIaoKSWoNo2fcFX4kR_rElwI8j/view Report]<br />[https://www.youtube.com/watch?v=Nu-J5y43mXQ Highlight]
+|team1 =[[Ayutthaya United F.C.|Ayutthaya United]] '''(T1)'''
+|team2 ='''[[Ratchaburi F.C.|Ratchaburi]] (T1)'''
+|goals1 = [[Jesse Curran]] {{goal|35|o.g.}}
+|goals2 = 
+|stadium = [[Ayutthaya Province Stadium|Phra Nakhon Si Ayutthaya Provincial Stadium]]
+|location = [[Phra Nakhon Si Ayutthaya district|Phra Nakhon Si Ayutthaya]], [[Phra Nakhon Si Ayutthaya province|Phra Nakhon Si Ayutthaya]]
+|attendance = 1,892
+|referee = Veeraporn Maophaeo
+|assistantreferees = Pattarapong Kijsathit, Worapong Prasartsri
+|fourthofficial = Wiwat Jumpaoon
+}}
+
+===Semi-finals===
+The semi-finals consist of 4 clubs, all from the T1. These clubs progressed to this stage after winning their respective matches in the quarter-finals. The draw for this round took place on 20 April 2026.<ref>{{cite news |url=https://www.siamsport.co.th/football-thailand/thai-fa-cup/102646/ |title=แชมป์เก่าบุรีรัมย์ซดอยุธยา-ประจวบฉะลำพูน ตัดเชือกช้างเอฟเอคัพ เตะ 17 พ.ค. (in Thai). |work=siamsport.co.th |date=20 April 2026}}</ref> 6 goals were scored in this round.
+
+{{football box collapsible
+|date = {{Start date|2026|5|17|df=y}}
+|time = 19:00 ([[UTC+07:00|UTC+7]])
+|score = 5–0
+|report = [https://drive.google.com/file/d/17WAxdi_R7mr5430ezkxTZWRl2co98dS9/view Report]<br />[https://www.youtube.com/watch?v=Vz7r5-MwLbA Highlight]
+|team1 =[[Buriram United F.C.|Buriram United]] '''(T1)'''
+|team2 ='''[[Ayutthaya United F.C.|Ayutthaya United]] (T1)'''
+|goals1 = [[Sandy Walsh]] {{goal|17||41}}<br />[[Kingsley Schindler]] {{goal|63}}<br />[[Supachai Chaided]] {{goal|71}}<br />[[Robert Žulj]] {{goal|81}}
+|goals2 = 
+|stadium = [[PAT Stadium]]
+|location = [[Khlong Toei district|Khlong Toei]], [[Bangkok]]
+|attendance = 2,819
+|referee = [[Sivakorn Pu-udom]]
+|assistantreferees = Apichit Nophuan, Chotrawee Tongduang
+|fourthofficial = Kotchapoom Meesridaecha
+}}
+{{football box collapsible
+|date = {{Start date|2026|5|17|df=y}}
+|time = 19:00 ([[UTC+07:00|UTC+7]])
+|score = 1–0
+|report = [https://drive.google.com/file/d/1NmjJ50KkhjsaN9igtg0EYyrjvh0Wqn8j/view Report]<br />[https://www.youtube.com/watch?v=yCBaKeQRaz0 Highlight]
+|team1 =[[PT Prachuap F.C.|PT Prachuap]] '''(T1)'''
+|team2 ='''[[Lamphun Warriors F.C.|Lamphun Warriors]] (T1)'''
+|goals1 = [[Bernardo Vilar]] {{goal|74}}
+|goals2 = 
+|stadium = Nonthaburi Stadium
+|location = [[Bang Yai district|Bang Yai]], [[Nonthaburi province|Nonthaburi]]
+|attendance = 1,237
+|referee = Torphong Somsing
+|assistantreferees = Rachain Srichai, Natthaphon Mala
+|fourthofficial = Veeraporn Maophaeo
+}}
+
+===Final===
+{{main article|2026 Thai FA Cup final}}
+The final consists of 2 clubs, both from the T1. These clubs progressed to this stage after winning their respective matches in the semi-finals. 1 goal was scored in this round.
+
+{{football box collapsible
+|date = {{Start date|2026|5|31|df=y}}
+|time = 19:00 ([[UTC+07:00|UTC+7]])
+|score = 1–0
+|aet = yes
+|report = [https://drive.google.com/file/d/1bGye5mdg9oE4EuT9OBqzHmSv9jNPJcOq/view Report]<br />[https://www.youtube.com/watch?v=Xx4Fxx2MLcI Highlight]
+|team1 =[[Buriram United F.C.|Buriram United]] '''(T1)'''
+|team2 ='''[[PT Prachuap F.C.|PT Prachuap]] (T1)'''
+|goals1 = [[Robert Žulj]] {{goal|94}}
+|goals2 = 
+|stadium = [[Thammasat Stadium]]
+|location = [[Khlong Luang district|Khlong Luang]], [[Pathum Thani province|Pathum Thani]]
+|attendance = 13,213
+|referee = Torphong Somsing
+|assistantreferees = Pattarapong Kijsathit, Natthaphon Mala
+|fourthofficial = Chaireag Ngam-som
+}}
+
+==Tournament statistics==
+===Top goalscorers===
+
+{| class="wikitable sortable" style="text-align:center"
+|-
+!Rank
+!Player
+!Club
+!Goals
+|-
+|1
+|align="left"|{{flagicon|NGA}} Aliu Micheal Abdul
+|align="left"|[[Samui United F.C.|Samui United]]
+|7
+|-
+|2
+|align="left"|{{flagicon|BRA}} [[Guilherme Bissoli]]
+|align="left"|[[Buriram United F.C.|Buriram United]]
+|6
+|-
+|rowspan="2"|3
+|align="left"|{{flagicon|AUT}} [[Robert Žulj]]
+|align="left"|[[Buriram United F.C.|Buriram United]]
+|rowspan="2"|5
+|-
+|align="left"|{{flagicon|THA}} Tanet Saengthong
+|align="left"|Ubon Kids City
+|-
+|rowspan="5"|5
+|align="left"|{{flagicon|BRA}} Matheus Fornazari Custódio
+|align="left"|[[BG Pathum United F.C.|BG Pathum United]]
+|rowspan="5"|4
+|-
+|align="left"|{{flagicon|THA}} Chinnawat Prachuabmon
+|align="left"|[[Chiangrai United F.C.|Chiangrai United]]
+|-
+|align="left"|{{flagicon|THA}} Phongsakon Sangkasopha
+|align="left"|[[Khon Kaen United F.C.|Khon Kaen United]]
+|-
+|align="left"|{{flagicon|THA}} Thanawut Phochai
+|align="left"|[[Nongbua Pitchaya F.C.|Nongbua Pitchaya]]
+|-
+|align="left"|{{flagicon|THA}} Amarin Chaisuesat
+|align="left"|[[Samui United F.C.|Samui United]]
+|}
+
+===Hat-tricks===
+{| class="wikitable sortable"
+! Player|| For !! Against !! align=center| Result !! Date !! Round
+|-
+|{{flagicon|THA}} Sattawat Yanjinda || [[Marines F.C. (Thailand)|Marines]] (T3) || Muang Klaeng (TA) || 13–0 (A) || {{dts|format=dmy|2025|9|24}} || Qualification round
+|-
+|{{flagicon|THA}} Thanyapat Thanawut || [[Marines F.C. (Thailand)|Marines]] (T3) || Muang Klaeng (TA) || 13–0 (A) || {{dts|format=dmy|2025|9|24}} || Qualification round
+|-
+|{{flagicon|THA}} Teerawat Durnee || [[PSU Surat Thani City F.C.|PSU Surat Thani City]] (T3) || APD United (TA) || 9–0 (H) || {{dts|format=dmy|2025|9|24}} || Qualification round
+|-
+|{{flagicon|THA}} Thanadon Yankaew || [[Samui United F.C.|Samui United]] (T3) || Nakhon Pathom City (TA) || 20–0 (H) || {{dts|format=dmy|2025|9|24}} || Qualification round
+|-
+|{{flagicon|NGA}} Aliu Micheal Abdul<sup>7</sup> || [[Samui United F.C.|Samui United]] (T3) || Nakhon Pathom City (TA) || 20–0 (H) || {{dts|format=dmy|2025|9|24}} || Qualification round
+|-
+|{{flagicon|THA}} Amarin Chaisuesat<sup>4</sup> || [[Samui United F.C.|Samui United]] (T3) || Nakhon Pathom City (TA) || 20–0 (H) || {{dts|format=dmy|2025|9|24}} || Qualification round
+|-
+|{{flagicon|GHA}} Eric Kumi || [[Lopburi City F.C.|Lopburi City]] (T3) || Nakhon Phanom United (TS) || 5–1 (A) || {{dts|format=dmy|2025|9|24}} || Qualification round
+|-
+|{{flagicon|SGP}} [[Ikhsan Fandi]] || [[Ratchaburi F.C.|Ratchaburi]] (T1) || [[Lopburi City F.C.|Lopburi City]] (T3) || 3–2 (A) || {{dts|format=dmy|2025|10|29}} || First round
+|-
+|{{flagicon|THA}} Pakorn Seekaewnit || [[Nongbua Pitchaya F.C.|Nongbua Pitchaya]] (T2) || Thonburi Forest (TA) || 7–0 (A) || {{dts|format=dmy|2025|10|29}} || First round
+|-
+|{{flagicon|THA}} Chinnawat Prachuabmon<sup>4</sup> || [[Chiangrai United F.C.|Chiangrai United]] (T1) || Sing Pathum Thani (TA) || 19–0 (H) || {{dts|format=dmy|2025|10|29}} || First round
+|-
+|{{flagicon|THA}} Thanawat Pimyotha || [[Chiangrai United F.C.|Chiangrai United]] (T1) || Sing Pathum Thani (TA) || 19–0 (H) || {{dts|format=dmy|2025|10|29}} || First round
+|-
+|{{flagicon|THA}} Ongsa Singthong || [[Chiangrai United F.C.|Chiangrai United]] (T1) || Sing Pathum Thani (TA) || 19–0 (H) || {{dts|format=dmy|2025|10|29}} || First round
+|-
+|{{flagicon|SRB}} [[Fejsal Mulić]] || [[Buriram United F.C.|Buriram United]] (T1) || Warin Chamrap (TS) || 12–0 (H) || {{dts|format=dmy|2025|10|29}} || First round
+|-
+|{{flagicon|THA}} Phongsakon Sangkasopha || [[Khon Kaen United F.C.|Khon Kaen United]] (T2) || [[Nongkhai F.C.|Nongkhai]] (TA) || 5–0 (A) || {{dts|format=dmy|2025|10|30}} || First round
+|-
+|{{flagicon|THA}} Tanet Saengthong || Ubon Kids City (TA) || [[Surin Khong Chee Mool F.C.|Surin Khong Chee Mool]] (T3) || 9–2 (A) || {{dts|format=dmy|2025|10|30}} || First round
+|-
+|{{flagicon|THA}} Manaschai Faktae || Ubon Kids City (TA) || [[Surin Khong Chee Mool F.C.|Surin Khong Chee Mool]] (T3) || 9–2 (A) || {{dts|format=dmy|2025|10|30}} || First round
+|-
+|{{flagicon|THA}} Sarayut Yoosuebchuea || [[Muangthong United F.C.|Muangthong United]] (T1) || Romklao United (TS) || 10–0 (H) || {{dts|format=dmy|2025|10|30}} || First round
+|-
+|{{flagicon|BRA}} [[Guilherme Bissoli]] || [[Buriram United F.C.|Buriram United]] (T1) || [[Customs United F.C.|Customs United]] (T3) || 5–1 (A) || {{dts|format=dmy|2025|12|21}} || Second round
+|-
+|{{flagicon|BRA}} [[Guilherme Bissoli]] || [[Buriram United F.C.|Buriram United]] (T1) || [[Pattani F.C.|Pattani]] (T2) || 4–0 (H) || {{dts|format=dmy|2026|1|14}} || Third round
+|-
+|{{flagicon|AUT}} [[Robert Žulj]] || [[Buriram United F.C.|Buriram United]] (T1) || [[Khon Kaen United F.C.|Khon Kaen United]] (T2) || 6–0 (H) || {{dts|format=dmy|2026|2|25}} || Quarter-finals
+|}
+<small>Notes: <sup>7</sup> = Player scored 7 goals; <sup>4</sup> = Player scored 4 goals; (H) = Home team; (A) = Away team</small>
+
+==See also==
+* [[2025–26 Thai League 1]]
+* [[2025–26 Thai League 2]]
+* [[2025–26 Thai League 3]]
+* [[2025–26 Thai League 3 Northern Region]]
+* [[2025–26 Thai League 3 Central Region]]
+* [[2025–26 Thai League 3 Northeastern Region]]
+* [[2025–26 Thai League 3 Eastern Region]]
+* [[2025–26 Thai League 3 Western Region]]
+* [[2025–26 Thai League 3 Southern Region]]
+* [[2025–26 Thai League 3 National Championship]]
+* [[2026 Thailand Semi-pro League]]
+* [[2025–26 Thai League Cup]]
+* [[2025 Thai U21 League]]
+
+==References==
+{{reflist|40em}}
+
+==External links==
+*[https://fathailand.org FA Thailand official website]
+*[https://www.thaileague.co.th Thai League official website]
+*[https://www.facebook.com/facupthailand/ Thai FA Cup official Facebook page]
+
+{{2025–26 in Asian football (AFC)}}
+{{2025–26 in Thai football}}
+{{Thai FA Cup seasons}}
+
+{{DEFAULTSORT:Thai FA Cup}}
+[[Category:2025–26 Thai FA Cup| ]]
+[[Category:Thai FA Cup seasons|2025–26]]
+[[Category:2025–26 in Thai football cups|FA Cup]]

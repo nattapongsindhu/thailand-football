@@ -18,6 +18,7 @@
 - Rust stable edition 2024 monolith: Axum + Tokio + Askama + SQLx
 - Tailwind CSS v4 production build
 - Owner-approved organizer groups: National League, Youth League (including youth cups), and School League (including vocational and university cups)
+- Expandable age-group navigation shared by School League and Youth League: Thai Youth League 1/2/3 are parents with U18/U16/U14 child seasons; legacy single-age records map onto their matching age group.
 - Thai League 1/2/3 standings; T3 regional group navigation
 - Results and fixtures where linked records exist
 - Team statistics derived from standings
@@ -42,23 +43,23 @@
 - SHA-256: `c7cf3e61c59760463d085006676e010a84262b7776699490c5b9e81c3322cd3e`
 - Active competitions: 17
 - Active team/standing rows: 69
-- Search entries: 357
+- Search entries: 365
 - News articles: 13
-- Team-first registry: **186 teams / 357 participations**
-  - 288 verified secondary
-  - 69 discovered/unverified
+- Team-first registry: **193 teams / 365 participations**
+  - 314 verified secondary
+  - 51 discovered/unverified
   - 0 verified official
-- Roster metadata: **18 Youth/School roster records**
+- Roster metadata: **24 Youth/School roster records**
   - 3 current
   - 2 latest_verified (Type A U14 displayed/source 2024; Youth Champion Cup displayed/source 2025)
-  - 4 partial (Youth FA Cup, Youth League Cup, Type B U16, University Cup)
-  - 9 unavailable (Youth League 1/2/3, Type B U14, General U18/U16/U14/U12, College Cup)
+  - 5 partial (Youth FA Cup, Youth League Cup, Type B U16, University Cup, College Cup)
+  - 14 unavailable (Youth League 1/2/3 × U18/U16/U14, Type B U14, General U18/U16/U14/U12)
 - Teams tab coverage:
   - Thai League 1: 16
   - Thai League 2: 18
   - Thai League 3: 35
-  - Thai FA Cup: 95 (77 verified secondary, 18 unverified names)
-  - Thai League Cup: 80
+  - Thai FA Cup: 95 (all verified secondary; complete 2025-26 results)
+  - Thai League Cup: 80 (all verified secondary; complete 2025-26 results)
   - Thai Champion Cup: 2
   - School League Type A: 48 (U18 16, U16 16, U14 16)
   - School League Type B: 32 (U18 16 verified secondary, U16 16 unverified)
@@ -67,15 +68,16 @@
   - Thai Youth League Cup (U18): 8
   - Thai Youth Champion Cup (U18): 4
   - Thai University Cup (U23): 7 (confirmed knockout-stage participants; partial field)
-  - Thai College Cup (U19): 0 (honest empty state)
-  - Thai Youth League 1/2/3: 0 each (honest empty state)
+  - Thai College Cup (U19): 8 (corrected 2026 quarter-finalists; partial field)
+  - Thai Youth League 1/2/3: 0 each age group (U18/U16/U14 honest empty states)
+- Cup results: Thai FA Cup 7 rounds / 94 ties (champion Buriram United, runner-up PT Prachuap); Thai League Cup 8 rounds / 79 ties (champion Port FC, runner-up BG Pathum United). Penalty scores and extra-time status are stored separately; awarded results are labelled.
 - Discovery candidates: 379 in inbox
-- Discovery news metadata: 53 items
-- Source registry: 17 competitions; 9 public sources fetched, 0 failed
-- Curated source file: `data/discovery/curated_verified_teams.json` (322 participations before merge)
+- Discovery news metadata: 42 items
+- Source registry: 17 competitions; 8 public sources fetched, 0 failed
+- Curated source file: `data/discovery/curated_verified_teams.json` (330 participations before merge)
 - Research log: `data/discovery/reports/team-list-research-2026-11-25.md`
 - T4/T5 legacy records: preserved in `data/legacy_t4_t5.json` and inactive
-- Imported values remain marked unverified.
+- Imported standings and legacy values remain marked unverified; FA Cup and League Cup entries/results are `verified_secondary`.
 
 ### Known data limitations
 
@@ -84,31 +86,33 @@
 - All six T3 regional groups fail arithmetic validation; warnings are displayed.
 - Some results/fixtures/scorers reference teams absent from the relevant standing table; they are preserved but not displayed, with an unresolved count shown.
 - Documented unverified aliases: `Chainat Hornbill`, `Pattaya Utd`, `Nakhon Si Utd`.
-- FA Cup date conflict and League Cup note conflict are displayed as warnings.
+- FA Cup and League Cup warnings were removed because the complete 2025-26 results replace the stale schedule notes.
 - School and youth lists are curated from public secondary reporting, not official federation/DPE confirmation.
 - Type A U14 uses the latest complete 2024/2567 list; the 2025/2568 and 2026/2569 full lists were not published in accessible text.
 - The 2026 Jaturamitr Samakkhi football edition was not held; the four schools are labelled as the 31st (2025) edition.
 - The University Cup list is partial (7 confirmed knockout participants); the full 16-team field was not published as text.
-- Honest empty states remain for School League General (all ages), Type B U14, Thai College Cup (U19), and Thai Youth League 1/2/3 because no complete 2026 public list was located. The exact search terms and reasons are recorded in the research log.
+- The College Cup list is partial: the corrected 2026 bracket has eight quarter-finalists across three rounds. Two quarter-final scores are unavailable and their winners are inferred from the semi-final lineup; Chonburi's 5–4 semi-final shootout win is stored separately from the 1–1 score. The Thawee SC report's Yasothon final claim is rejected in favour of the owner-supplied result image (Chonburi 0–2 Thawee SC).
+- Honest empty states remain for School League General (all ages), Type B U14, and all nine Youth League parent/age combinations because no complete 2026 public list was located. The exact search terms and reasons are recorded in the research log.
 - Fallback participation season IDs remain the current UI season. The displayed/source season metadata, Teams-tab badge/notice, and search-result labels show the actual roster season, so a 2025 roster is never presented as 2026.
-- Partial lists (Youth FA Cup, Youth League Cup, Type B U16, University Cup) are labelled `Partial list`; unavailable categories keep their honest empty state.
+- Partial lists (Youth FA Cup, Youth League Cup, Type B U16, University Cup, College Cup) are labelled `Partial list`; unavailable categories keep their honest empty state.
 
 ## Verification
 
 - `cargo fmt --all -- --check`: passed
 - `cargo check --all-targets`: passed
 - `cargo clippy --all-targets -- -D warnings`: passed
-- `cargo test --all-targets`: 19 tests passed (11 domain + 6 HTTP + 2 discovery)
+- `cargo test --all-targets`: 22 tests passed (14 domain + 6 HTTP + 2 discovery)
 - Tailwind CSS production build: passed
 - HTTP Teams-tab checks: 24/24 passed (all 17 competitions, school age groups, empty-state messages)
-- Browser checks: 59 checks passed, 0 failures, no browser console errors; includes fallback badge/notice checks and current/partial/unavailable roster states
+- Browser checks: 81 checks passed, 0 failures, no browser console errors; includes complete FA Cup/League Cup rounds, Youth League expandable parents and age-group routes, fallback badge/notice checks, and current/partial/unavailable roster states
 - Fallback policy tests confirm latest_verified/partial/unavailable labels and that fallback teams do not populate standings, fixtures, results, stats, or scorers
-- Team discovery: 186 teams / 357 participations; 288 verified secondary, 69 discovered unverified
-- News metadata: 53 items; 379 inbox candidates; 9 public sources fetched, 0 failed
+- Team discovery: 193 teams / 365 participations; 314 verified secondary, 51 discovered unverified
+- News metadata: 42 items; 379 inbox candidates; 8 public sources fetched, 0 failed
 - Local Windows-gnu builds used `C:\Users\BMW\mingw64\bin` on `PATH`; the rustup self-contained linker on this machine otherwise fails with `nanosleep64` from `aws-lc-sys`.
-- Browser verification covered desktop/mobile layout, favorites persistence, theme persistence, HTMX search, search-to-group navigation, school league distinction and Thai subtitles, cup warning, U23 empty state, and mobile sidebar
+- Browser verification covered desktop/mobile layout, favorites persistence, theme persistence, HTMX search, search-to-group navigation, school league distinction and Thai subtitles, complete FA Cup/League Cup rounds, U23 empty state, and mobile sidebar
 - Inactive legacy route 404 is covered by the HTTP test suite
 - Browser screenshots saved to `logs/` during verification
+- College Cup bracket regression test covers the eight quarter-finalists, three rounds, unavailable scores with inferred winners, the separate 5–4 penalty result, the 0–2 final, and the absence of a Yasothon finalist.
 
 ## PostgreSQL mode
 
@@ -121,6 +125,20 @@ Verified locally against a temporary PostgreSQL 17 cluster on `127.0.0.1:55432` 
 - `app_meta.mode`: set to `postgresql`.
 - Release binary bound to `0.0.0.0:8091` and reported `mode: postgresql`, 17 competitions, 357 search entries.
 - National League Teams/Standings, Youth Teams, School Teams, `latest_verified` badges, empty states, and no fallback leakage were verified in PostgreSQL mode.
+
+College Cup correction re-verified locally against a temporary PostgreSQL 17 cluster on `127.0.0.1:55433`:
+
+- Migration `0003_college_cup_tie_metadata.sql`: applied.
+- `import_seed`: completed; College Cup ties retained the unavailable-score flags, inferred winners, and separate penalty scores.
+- `import-team-registry`: completed with 193 teams / 365 participations.
+- The College Cup Teams tab showed 8 rows and the Rounds tab showed 3 rounds, the unavailable-score labels, the 4–5 penalty line, and a final without Yasothon.
+
+2025-26 FA Cup and League Cup import re-verified locally against a temporary PostgreSQL 17 cluster on `127.0.0.1:55434`:
+
+- Migration `0004_cup_tie_extra_time.sql`: applied.
+- `import_seed`: completed; 94 FA Cup ties (10 extra-time, 14 shootouts) and 79 League Cup ties (19 extra-time, 11 shootouts) were stored with separate score/penalty/extra-time columns.
+- `import-team-registry`: completed with 193 teams / 365 participations.
+- PostgreSQL-rendered pages showed 7/94 and 8/79 ties with champions, penalties, and AET status; College Cup and Youth League pages remained intact.
 
 No project-owned Neon database was available for this run. The production Neon connection string is still required in Render's `DATABASE_URL`.
 

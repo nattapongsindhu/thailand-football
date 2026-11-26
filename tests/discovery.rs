@@ -15,8 +15,25 @@ fn discovery_data_is_valid_and_bounded() {
     let news: Vec<DiscoveryNews> =
         load_json(Path::new("data/discovery/news_metadata.json")).expect("news metadata");
 
-    assert!(registry.teams.len() >= 69);
-    assert!(registry.participations.len() >= 69);
+    assert_eq!(registry.teams.len(), 193);
+    assert_eq!(registry.participations.len(), 365);
+    let college_roster = registry
+        .rosters
+        .iter()
+        .find(|roster| {
+            roster.competition_id == "thai-college-cup-u19" && roster.season_id == "2026"
+        })
+        .expect("college cup roster");
+    assert_eq!(college_roster.roster_status, "partial");
+    assert_eq!(college_roster.team_count, 8);
+    assert_eq!(
+        registry
+            .participations
+            .iter()
+            .filter(|participation| participation.competition_id == "thai-college-cup-u19")
+            .count(),
+        8
+    );
 
     let verified_secondary = registry
         .participations
@@ -60,7 +77,36 @@ fn discovery_data_is_valid_and_bounded() {
         );
     }
 
-    assert_eq!(registry.rosters.len(), 18);
+    assert_eq!(registry.rosters.len(), 24);
+    for (competition_id, expected_url, expected_count) in [
+        (
+            "thai-fa-cup",
+            "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_FA_Cup",
+            95,
+        ),
+        (
+            "thai-league-cup",
+            "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_Cup",
+            80,
+        ),
+    ] {
+        let cup_participations: Vec<_> = registry
+            .participations
+            .iter()
+            .filter(|participation| participation.competition_id == competition_id)
+            .collect();
+        assert_eq!(cup_participations.len(), expected_count);
+        assert!(
+            cup_participations
+                .iter()
+                .all(|participation| participation.verification_status == "verified_secondary")
+        );
+        assert!(
+            cup_participations
+                .iter()
+                .all(|participation| participation.source_url.as_deref() == Some(expected_url))
+        );
+    }
     for roster in &registry.rosters {
         assert!(
             ["current", "latest_verified", "partial", "unavailable"]

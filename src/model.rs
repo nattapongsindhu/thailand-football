@@ -188,6 +188,18 @@ pub struct CupTie {
     pub status: String,
     pub note: String,
     pub sort_order: i32,
+    #[serde(default)]
+    pub score_status: Option<String>,
+    #[serde(default)]
+    pub home_penalties: Option<i32>,
+    #[serde(default)]
+    pub away_penalties: Option<i32>,
+    #[serde(default)]
+    pub winner_name: Option<String>,
+    #[serde(default)]
+    pub winner_basis: Option<String>,
+    #[serde(default)]
+    pub extra_time: bool,
 }
 
 #[derive(Debug, Clone, Deserialize)]

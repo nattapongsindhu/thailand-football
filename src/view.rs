@@ -134,6 +134,8 @@ pub struct CupTieView {
     pub score: String,
     pub status: String,
     pub note: String,
+    pub penalties: String,
+    pub winner: String,
 }
 
 #[derive(Debug, Clone, Default)]
@@ -700,11 +702,25 @@ fn cup_view(comp: &Competition, season: &Season) -> CupView {
                     home: tie.home_name.clone(),
                     away: tie.away_name.clone(),
                     score: match (tie.home_goals, tie.away_goals) {
-                        (Some(h), Some(a)) => format!("{h} – {a}"),
-                        _ => "—".to_string(),
+                        (Some(h), Some(a)) => format!("{h} - {a}"),
+                        _ if tie.score_status.as_deref() == Some("unavailable") => {
+                            "Score unavailable".to_string()
+                        }
+                        _ => "-".to_string(),
                     },
                     status: tie.status.clone(),
                     note: tie.note.clone(),
+                    penalties: match (tie.home_penalties, tie.away_penalties) {
+                        (Some(h), Some(a)) => format!("Penalties: {h} - {a}"),
+                        _ => String::new(),
+                    },
+                    winner: match (&tie.winner_name, &tie.winner_basis) {
+                        (Some(name), Some(basis)) if !basis.is_empty() => {
+                            format!("Winner: {name} ({basis})")
+                        }
+                        (Some(name), _) => format!("Winner: {name}"),
+                        _ => String::new(),
+                    },
                 })
                 .collect::<Vec<_>>();
             CupRoundView {
@@ -736,9 +752,11 @@ fn cup_view(comp: &Competition, season: &Season) -> CupView {
         })
         .collect();
     let warning = match comp.id.as_str() {
-        "thai-fa-cup" => "Imported schedule contains an internal date conflict: the semi-finals are dated 30 Mar 2026 while the draw is dated 9 Apr 2026. Unresolved records remain flagged.".to_string(),
-        "thai-league-cup" => "The quarter-final round note says results are pending, while four FT results are present. The imported values are preserved as-is.".to_string(),
-        "thai-champion-cup" => "The final participants are TBD in the imported snapshot.".to_string(),
+        "thai-fa-cup" => String::new(),
+        "thai-league-cup" => String::new(),
+        "thai-champion-cup" => {
+            "The final participants are TBD in the imported snapshot.".to_string()
+        }
         _ => String::new(),
     };
     CupView {
@@ -1090,8 +1108,10 @@ fn teams_view(
     };
     let empty_message = match comp.id.as_str() {
         "thai-youth-league-u18" | "thai-youth-league-u16" | "thai-youth-league-u14" => {
-            "The FA Thailand Youth League was not listed in the 2025/26 or 2026/27 official competition calendar, so no 2026 team list is published. No teams are fabricated."
-                .to_string()
+            format!(
+                "No verified 2026 team list is published for {} {}. The FA Thailand Youth League was not listed in the 2025/26 or 2026/27 official competition calendar, and no teams are fabricated.",
+                comp.name, age_label
+            )
         }
         "thai-school-league-general" => {
             "The General category is an open-entry knockout (413 teams entered in 2025/2568). No complete 2026 public entry list was located, and a partial list is not presented as the full field. No teams are fabricated."

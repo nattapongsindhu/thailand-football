@@ -49,6 +49,39 @@ await page.goto(`${BASE}/competitions/thai-youth-league-u18`, { waitUntil: "netw
 check("empty youth default tab is Teams", (await page.locator(".tab.is-active").innerText()).trim() === "Teams");
 check("youth team empty state", (await page.locator("text=No verified team list yet").count()) > 0);
 check("youth team no fallback", (await page.locator("text=Buriram United").count()) === 0);
+
+// Youth League parents with U18/U16/U14 age-group navigation.
+const youthGroups = page.locator("#sidebar details.nav-group", { hasText: "Thai Youth League" });
+check("youth league has three expandable parents", (await youthGroups.count()) === 3, `groups=${await youthGroups.count()}`);
+const youthSubtitles = await page.locator("#sidebar details.nav-group .nav-sub").allTextContents();
+check(
+  "youth league Thai labels present",
+  ["ลีก 1", "ลีก 2", "ลีก 3"].every((label) => youthSubtitles.some((text) => text.includes(label))),
+  youthSubtitles.join(" | "),
+);
+const youthGroup1 = page.locator("#sidebar details.nav-group", { hasText: "Thai Youth League 1" }).first();
+const youthChildLabels = await youthGroup1.locator(".nav-child .nav-label").allTextContents();
+check(
+  "youth league age children",
+  JSON.stringify(youthChildLabels) === JSON.stringify(["U18", "U16", "U14"]),
+  youthChildLabels.join(","),
+);
+await page.goto(`${BASE}/competitions/thai-youth-league-u18?season=2026-u16`, { waitUntil: "networkidle" });
+const youthHeading = await page.locator("main h1").innerText();
+check("youth league parent heading", youthHeading.includes("Thai Youth League 1"), youthHeading);
+check("youth league U16 route selected", (await page.locator("#season-select").inputValue()) === "2026-u16");
+check("youth league U16 empty team state", (await page.locator("text=No verified team list yet").count()) > 0);
+check("youth league U16 roster unavailable", (await page.locator("text=Roster unavailable").count()) > 0);
+check(
+  "youth league parent auto-expanded",
+  (await youthGroup1.getAttribute("open")) !== null,
+  "active parent should be open",
+);
+await page.reload({ waitUntil: "networkidle" });
+check("youth league age group survives refresh", (await page.locator("#season-select").inputValue()) === "2026-u16");
+await page.goto(`${BASE}/competitions/thai-youth-league-u14/standings?season=2026-u14`, { waitUntil: "networkidle" });
+check("youth league U14 standings empty state", (await page.locator("text=No standings yet").count()) > 0);
+check("youth league U14 no senior fallback", (await page.locator("text=Buriram United").count()) === 0);
 await page.goto(`${BASE}/competitions/thai-league-1/teams`, { waitUntil: "networkidle" });
 
 // Favorite by stable ID, persisted across reload.
@@ -139,12 +172,25 @@ check(
   (await page.locator("text=full current-season team list has not been published or verified").count()) > 0,
 );
 
-// Cup page.
+// Cup pages.
 await page.goto(`${BASE}/competitions/thai-fa-cup/rounds`, { waitUntil: "networkidle" });
 const cupText = await page.locator("main").innerText();
 check("cup sponsor", cupText.includes("Chang FA Cup"));
-check("cup rounds", cupText.includes("Semi-finals") && cupText.includes("Final"));
-check("cup date conflict warning", cupText.includes("date conflict"));
+check("fa cup rounds", (await page.locator("article.cup-round").count()) === 7);
+check("fa cup tie records", (await page.locator(".cup-tie").count()) === 94);
+check("fa cup champion", cupText.includes("Champion: Buriram United") && cupText.includes("Runner-up: PT Prachuap"));
+check("fa cup final date and score", cupText.includes("31 May 2026") && cupText.includes("1 - 0") && cupText.includes("FT (AET)"));
+check("fa cup penalties", cupText.includes("Penalties: 5 - 3"));
+check("fa cup awarded result", cupText.includes("Awarded"));
+check("fa cup no empty round message", !cupText.includes("No tie records for this round."));
+await page.goto(`${BASE}/competitions/thai-league-cup/rounds`, { waitUntil: "networkidle" });
+const leagueCupText = await page.locator("main").innerText();
+check("league cup rounds", (await page.locator("article.cup-round").count()) === 8);
+check("league cup tie records", (await page.locator(".cup-tie").count()) === 79);
+check("league cup champion", leagueCupText.includes("Champion: Port FC") && leagueCupText.includes("Runner-up: BG Pathum United"));
+check("league cup final date and score", leagueCupText.includes("24 May 2026") && leagueCupText.includes("0 - 1"));
+check("league cup penalties", leagueCupText.includes("Penalties:"));
+check("league cup no empty round message", !leagueCupText.includes("No tie records for this round."));
 
 // Empty youth page.
 await page.goto(`${BASE}/competitions/thai-university-cup-u23/rounds`, { waitUntil: "networkidle" });

@@ -279,12 +279,16 @@ async fn main() -> Result<()> {
                 for tie in &cup.ties {
                     sqlx::query(
                         r#"INSERT INTO cup_ties
-                           (id,season_key,round_id,stage,home_name,away_name,home_goals,away_goals,status,note,sort_order)
-                           VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11)
+                           (id,season_key,round_id,stage,home_name,away_name,home_goals,away_goals,status,note,sort_order,
+                            score_status,home_penalties,away_penalties,winner_name,winner_basis,extra_time)
+                           VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11,$12,$13,$14,$15,$16,$17)
                            ON CONFLICT (id) DO UPDATE SET round_id=EXCLUDED.round_id,
                              stage=EXCLUDED.stage, home_name=EXCLUDED.home_name, away_name=EXCLUDED.away_name,
                              home_goals=EXCLUDED.home_goals, away_goals=EXCLUDED.away_goals,
-                             status=EXCLUDED.status, note=EXCLUDED.note, sort_order=EXCLUDED.sort_order"#,
+                             status=EXCLUDED.status, note=EXCLUDED.note, sort_order=EXCLUDED.sort_order,
+                             score_status=EXCLUDED.score_status, home_penalties=EXCLUDED.home_penalties,
+                             away_penalties=EXCLUDED.away_penalties, winner_name=EXCLUDED.winner_name,
+                             winner_basis=EXCLUDED.winner_basis, extra_time=EXCLUDED.extra_time"#,
                     )
                     .bind(&tie.id)
                     .bind(&skey)
@@ -297,6 +301,12 @@ async fn main() -> Result<()> {
                     .bind(&tie.status)
                     .bind(&tie.note)
                     .bind(tie.sort_order)
+                    .bind(tie.score_status.as_deref())
+                    .bind(tie.home_penalties)
+                    .bind(tie.away_penalties)
+                    .bind(tie.winner_name.as_deref())
+                    .bind(tie.winner_basis.as_deref())
+                    .bind(tie.extra_time)
                     .execute(&pool)
                     .await?;
                 }

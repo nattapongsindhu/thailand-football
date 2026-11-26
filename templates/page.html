@@ -308,6 +308,8 @@
                       <div class="match-team match-away">{{ tie.away }}</div>
                       <div class="match-status">{{ tie.status }}</div>
                     </div>
+                    {% if tie.penalties != "" %}<p class="tie-note"><strong>{{ tie.penalties }}</strong></p>{% endif %}
+                    {% if tie.winner != "" %}<p class="tie-note">{{ tie.winner }}</p>{% endif %}
                     {% if tie.note != "" %}<p class="tie-note">{{ tie.note }}</p>{% endif %}
                   {% endfor %}
                 </div>

@@ -12,7 +12,7 @@ fn data() -> AppData {
 #[test]
 fn seed_contains_expected_active_competitions() {
     let data = data();
-    assert_eq!(data.active_competitions().count(), 17);
+    assert_eq!(data.active_competitions().count(), 18);
     assert_eq!(
         data.search_index.len(),
         data.team_registry.participations.len()
@@ -353,6 +353,51 @@ fn search_uses_displayed_season_for_fallback_rosters() {
         .find(|result| result.competition_name.contains("Youth Champion"))
         .expect("Youth Champion search result");
     assert_eq!(champion_result.season_label, "2025");
+}
+
+#[test]
+fn school_super_cup_has_latest_edition() {
+    let data = data();
+
+    let page = build_page(
+        &data,
+        "thai-school-super-cup-u23",
+        None,
+        Some("rounds"),
+        None,
+        None,
+        "",
+    )
+    .expect("School Super Cup");
+    assert!(page.cup_view.visible);
+    assert_eq!(page.cup_view.rounds.len(), 1);
+    assert_eq!(page.cup_view.rounds[0].name, "Final");
+    assert_eq!(page.cup_view.rounds[0].ties.len(), 1);
+    assert_eq!(page.cup_view.rounds[0].ties[0].home, "Thammasat University");
+    assert_eq!(
+        page.cup_view.rounds[0].ties[0].away,
+        "Chulalongkorn University"
+    );
+    assert_eq!(page.cup_view.rounds[0].ties[0].score, "2 - 1");
+    assert!(
+        page.cup_view.rounds[0]
+            .note
+            .contains("Champion: Thammasat University")
+    );
+
+    let teams = build_page(
+        &data,
+        "thai-school-super-cup-u23",
+        None,
+        Some("teams"),
+        None,
+        None,
+        "",
+    )
+    .expect("School Super Cup teams");
+    assert_eq!(teams.teams.count, 2);
+    assert_eq!(teams.teams.roster_status, "latest_verified");
+    assert_eq!(teams.teams.displayed_season, "2025");
 }
 
 #[test]

@@ -42,6 +42,7 @@ const managedCompetitions = new Set([
   "thai-school-league-general",
   "thai-college-cup-u19",
   "thai-university-cup-u23",
+  "thai-school-super-cup-u23",
 ]);
 curated.participations = curated.participations.filter(
   (participation) => !managedCompetitions.has(participation.competition_id),
@@ -173,6 +174,14 @@ const rosterDefinitions = {
     roster_status: "partial",
     source_url: "https://edu-today.com/btu-215",
     note: "Confirmed knockout-stage participants only (11 of 16); quarter-final field plus earlier-round participants.",
+  },
+  "thai-school-super-cup-u23|2026": {
+    age_group: "U23",
+    displayed_season: "2025",
+    source_season: "2025",
+    roster_status: "latest_verified",
+    source_url: "https://tu.ac.th/thammasat-170268-tucuball-75/",
+    note: "75th Thammasat–Chulalongkorn traditional football match, 15 February 2025; no newer edition has been played.",
   },
 };
 
@@ -979,6 +988,31 @@ for (const [teamId] of universityTeams) {
       source: universitySource,
       notes:
         "Confirmed knockout-stage participant in the 2026 Chang U-Champion Cup. The full 16-team field was not published in accessible text form.",
+    }),
+  );
+}
+
+const superCupSource = {
+  url: "https://tu.ac.th/thammasat-170268-tucuball-75/",
+  title: "75th Thammasat–Chulalongkorn traditional football match",
+  publisher: "Thammasat University",
+  date: "2025-02-15",
+};
+
+for (const teamId of [
+  "team-university-thammasat",
+  "team-university-chulalongkorn",
+]) {
+  addParticipation(
+    newParticipation({
+      teamId,
+      competitionId: "thai-school-super-cup-u23",
+      seasonId: "2026",
+      ageGroup: "U23",
+      divisionType: "cup",
+      source: superCupSource,
+      notes:
+        "Participant in the 75th Thammasat–Chulalongkorn traditional football match (15 February 2025); latest edition played.",
     }),
   );
 }

@@ -1,15 +1,15 @@
 # Team Discovery Report
 
-Generated: 2026-11-26T10:27:51.947355900+00:00
+Generated: 2026-11-26T10:39:11.959127200+00:00
 
 ## Counts
 
 - Teams: 196
-- Participations: 369
-- Verified secondary: 318
+- Participations: 371
+- Verified secondary: 320
 - Verified official: 0
 - Discovered unverified: 51
-- News metadata items: 43
+- News metadata items: 42
 - Team candidates: 379
 - Sources fetched: 8; failed: 0
 
@@ -27,6 +27,7 @@ Generated: 2026-11-26T10:27:51.947355900+00:00
 | Thai School League — General | School League (DPE) | 0 | 0 | 0 |
 | Thai School League — Type A | School League (DPE) | 48 | 48 | 0 |
 | Thai School League — Type B | School League (DPE) | 32 | 16 | 16 |
+| Thai School Super Cup (U23) | School League (DPE) | 2 | 2 | 0 |
 | Thai University Cup (U23) | School League (DPE) | 11 | 11 | 0 |
 | Thai Youth Champion Cup (U18) | Youth League (FAT & SAT) | 4 | 4 | 0 |
 | Thai Youth FA Cup (U17) | Youth League (FAT & SAT) | 12 | 12 | 0 |

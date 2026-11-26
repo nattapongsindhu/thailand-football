@@ -41,17 +41,17 @@
 
 - Source snapshot: `C:\Users\BMW\Videos\Thai League (T1-T5)\thai_league_05.html`
 - SHA-256: `c7cf3e61c59760463d085006676e010a84262b7776699490c5b9e81c3322cd3e`
-- Active competitions: 17
+- Active competitions: 18
 - Active team/standing rows: 69
 - Search entries: 365
 - News articles: 13
-- Team-first registry: **196 teams / 369 participations**
-  - 318 verified secondary
+- Team-first registry: **196 teams / 371 participations**
+  - 320 verified secondary
   - 51 discovered/unverified
   - 0 verified official
-- Roster metadata: **24 Youth/School roster records**
+- Roster metadata: **25 Youth/School roster records**
   - 3 current
-  - 2 latest_verified (Type A U14 displayed/source 2024; Youth Champion Cup displayed/source 2025)
+  - 3 latest_verified (Type A U14 displayed/source 2024; Youth Champion Cup displayed/source 2025; School Super Cup displayed/source 2025)
   - 5 partial (Youth FA Cup, Youth League Cup, Type B U16, University Cup, College Cup)
   - 14 unavailable (Youth League 1/2/3 × U18/U16/U14, Type B U14, General U18/U16/U14/U12)
 - Teams tab coverage:
@@ -68,13 +68,15 @@
   - Thai Youth League Cup (U18): 8
   - Thai Youth Champion Cup (U18): 4
   - Thai University Cup (U23): 11 (confirmed knockout-stage participants; partial field)
+  - Thai School Super Cup (U23): 2 (latest edition, 2025)
   - Thai College Cup (U19): 8 (corrected 2026 quarter-finalists; partial field)
   - Thai Youth League 1/2/3: 0 each age group (U18/U16/U14 honest empty states)
 - Cup results: Thai FA Cup 7 rounds / 94 ties (champion Buriram United, runner-up PT Prachuap); Thai League Cup 8 rounds / 79 ties (champion Port FC, runner-up BG Pathum United). Penalty scores and extra-time status are stored separately; awarded results are labelled.
+- Thai School Super Cup (U23): 75th Thammasat–Chulalongkorn traditional football match, 15 Feb 2025 — Thammasat University 2–1 Chulalongkorn University.
 - Youth/university cup records: Coke Cup U17 quarter-finals, semi-finals and final (champion Assumption United); 7HD Champion Cup 2026 quarter-final draw (matches 30 Nov 2026, status Upcoming); 31st Jaturamitr Samakkhi 2025 full matchdays and final (champion Debsirin School); Chang U-Champion Cup 2026 quarter-finals, semi-finals and final (champion Thailand National Sports University).
 - Discovery candidates: 379 in inbox
 - Discovery news metadata: 42 items
-- Source registry: 17 competitions; 8 public sources fetched, 0 failed
+- Source registry: 18 competitions; 8 public sources fetched, 0 failed
 - Curated source file: `data/discovery/curated_verified_teams.json` (330 participations before merge)
 - Research log: `data/discovery/reports/team-list-research-2026-11-25.md`
 - T4/T5 legacy records: preserved in `data/legacy_t4_t5.json` and inactive
@@ -102,12 +104,12 @@
 - `cargo fmt --all -- --check`: passed
 - `cargo check --all-targets`: passed
 - `cargo clippy --all-targets -- -D warnings`: passed
-- `cargo test --all-targets`: 23 tests passed (15 domain + 6 HTTP + 2 discovery)
+- `cargo test --all-targets`: 24 tests passed (16 domain + 6 HTTP + 2 discovery)
 - Tailwind CSS production build: passed
 - HTTP Teams-tab checks: 24/24 passed (all 17 competitions, school age groups, empty-state messages)
-- Browser checks: 100 checks passed, 0 failures, no browser console errors; includes FA Cup/League Cup/College Cup rounds, Coke Cup quarter-finals, 7HD draw, Jaturamitr and University Cup quarter-finals, Youth League navigation, fallback badges, and School/National League regressions
+- Browser checks: 107 checks passed, 0 failures, no browser console errors; includes FA Cup/League Cup/College Cup rounds, Coke Cup quarter-finals, 7HD draw, Jaturamitr and University Cup quarter-finals, School Super Cup, Youth League navigation, fallback badges, and School/National League regressions
 - Fallback policy tests confirm latest_verified/partial/unavailable labels and that fallback teams do not populate standings, fixtures, results, stats, or scorers
-- Team discovery: 196 teams / 369 participations; 318 verified secondary, 51 discovered unverified
+- Team discovery: 196 teams / 371 participations; 320 verified secondary, 51 discovered unverified
 - News metadata: 42 items; 379 inbox candidates; 8 public sources fetched, 0 failed
 - Local Windows-gnu builds used `C:\Users\BMW\mingw64\bin` on `PATH`; the rustup self-contained linker on this machine otherwise fails with `nanosleep64` from `aws-lc-sys`.
 - Browser verification covered desktop/mobile layout, favorites persistence, theme persistence, HTMX search, search-to-group navigation, school league distinction and Thai subtitles, complete FA Cup/League Cup rounds, U23 empty state, and mobile sidebar

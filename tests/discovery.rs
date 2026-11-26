@@ -16,7 +16,7 @@ fn discovery_data_is_valid_and_bounded() {
         load_json(Path::new("data/discovery/news_metadata.json")).expect("news metadata");
 
     assert_eq!(registry.teams.len(), 196);
-    assert_eq!(registry.participations.len(), 369);
+    assert_eq!(registry.participations.len(), 371);
     let university_roster = registry
         .rosters
         .iter()
@@ -86,7 +86,7 @@ fn discovery_data_is_valid_and_bounded() {
         );
     }
 
-    assert_eq!(registry.rosters.len(), 24);
+    assert_eq!(registry.rosters.len(), 25);
     for (competition_id, expected_url, expected_count) in [
         (
             "thai-fa-cup",
@@ -137,7 +137,7 @@ fn discovery_data_is_valid_and_bounded() {
         assert!(!roster.source_checked_at.is_empty());
     }
 
-    assert_eq!(sources.competitions.len(), 17);
+    assert_eq!(sources.competitions.len(), 18);
     assert!(news.len() >= 13);
 
     let report = validate(&seed, &registry, &sources, &news, &[]);
@@ -150,7 +150,7 @@ fn discovery_data_is_valid_and_bounded() {
 }
 
 #[test]
-fn legacy_and_super_cup_are_inactive() {
+fn legacy_competitions_are_inactive() {
     let registry: TeamRegistry =
         load_json(Path::new("data/team_registry.json")).expect("team registry");
     assert!(
@@ -159,10 +159,12 @@ fn legacy_and_super_cup_are_inactive() {
             .iter()
             .any(|participation| participation.competition_id.starts_with("legacy-"))
     );
-    assert!(
-        !registry
+    assert_eq!(
+        registry
             .participations
             .iter()
-            .any(|participation| participation.competition_id.contains("super-cup"))
+            .filter(|participation| participation.competition_id == "thai-school-super-cup-u23")
+            .count(),
+        2
     );
 }

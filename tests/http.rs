@@ -70,6 +70,7 @@ async fn main_routes_render() {
         "/competitions/thai-youth-fa-cup-u17/rounds",
         "/competitions/thai-youth-league-cup-u18/rounds",
         "/competitions/thai-youth-champion-cup-u18/rounds",
+        "/competitions/thai-school-super-cup-u23/rounds",
         "/search?q=buriram",
     ] {
         let response = app()
@@ -142,6 +143,8 @@ async fn sidebar_contains_latest_owner_labels() {
         "General",
         "Thai College Cup (U19)",
         "Thai University Cup (U23)",
+        "Thai School Super Cup (U23)",
+        "ฟุตบอลประเพณี มธ-จุฬาฯ",
         "Thai Youth FA Cup (U17)",
         "Thai Youth League Cup (U18)",
         "Thai Youth Champion Cup (U18)",

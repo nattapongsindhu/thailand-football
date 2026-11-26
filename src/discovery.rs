@@ -541,12 +541,15 @@ pub fn validate(
             errors.push(format!("legacy competition became active: {}", legacy.id));
         }
     }
-    if seed
+    if let Some(super_cup) = seed
         .competitions
         .iter()
-        .any(|competition| competition.name.to_lowercase().contains("school super cup"))
+        .find(|competition| competition.name.to_lowercase().contains("school super cup"))
+        && (!super_cup.active
+            || !super_cup.section.contains("School League")
+            || super_cup.age_group.as_deref() != Some("U23"))
     {
-        errors.push("Thai School Super Cup must not be active".to_string());
+        errors.push("Thai School Super Cup must be active U23 under School League".to_string());
     }
     for item in source_registry.competitions.iter() {
         if !active.contains_key(item.competition_id.as_str()) {

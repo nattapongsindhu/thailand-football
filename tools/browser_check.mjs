@@ -204,6 +204,17 @@ check("University Cup final penalties", universityCupText.includes("Penalties: 4
 check("University Cup champion", universityCupText.includes("Champion: Thailand National Sports University"));
 await page.goto(`${BASE}/competitions/thai-university-cup-u23/teams`, { waitUntil: "networkidle" });
 check("University Cup team rows", (await page.locator(".teams-table tbody tr").count()) === 11);
+
+await page.goto(`${BASE}/competitions/thai-school-super-cup-u23`, { waitUntil: "networkidle" });
+check("School Super Cup default tab is Rounds", (await page.locator(".tab.is-active").innerText()).trim() === "Rounds");
+check("School Super Cup rounds", (await page.locator("article.cup-round").count()) === 1);
+check("School Super Cup ties", (await page.locator(".cup-tie").count()) === 1);
+const superCupText = await page.locator("main").innerText();
+check("School Super Cup final", superCupText.includes("Thammasat University") && superCupText.includes("2 - 1"));
+check("School Super Cup champion", superCupText.includes("Champion: Thammasat University"));
+await page.goto(`${BASE}/competitions/thai-school-super-cup-u23/teams`, { waitUntil: "networkidle" });
+check("School Super Cup team rows", (await page.locator(".teams-table tbody tr").count()) === 2);
+check("School Super Cup latest roster", (await page.locator("text=Latest verified roster: 2025").count()) > 0);
 check("U19 absent from U23 page title", !(await page.locator("main h1").innerText()).includes("U19"));
 
 await page.goto(`${BASE}/competitions/thai-youth-fa-cup-u17/teams`, { waitUntil: "networkidle" });

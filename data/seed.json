@@ -164,6 +164,14 @@
       "retrieved_at": "2026-11-26",
       "kind": "owner",
       "note": "Quarter-final, semi-final and final results supplied by the owner on 26 November 2026."
+    },
+    {
+      "id": "tu-ac-thammasat-chula-75",
+      "title": "75th Thammasat–Chulalongkorn traditional football match (Thammasat University)",
+      "url": "https://tu.ac.th/thammasat-170268-tucuball-75/",
+      "retrieved_at": "2026-11-26",
+      "kind": "secondary",
+      "note": "Final result: Thammasat University 2-1 Chulalongkorn University, 15 February 2025."
     }
   ],
   "nav": [
@@ -387,6 +395,11 @@
           "type": "competition",
           "id": "thai-university-cup-u23",
           "subtitle": "(ฟุตบอลมหาวิทยาลัยระดับประเทศ)"
+        },
+        {
+          "type": "competition",
+          "id": "thai-school-super-cup-u23",
+          "subtitle": "(ฟุตบอลประเพณี มธ-จุฬาฯ)"
         }
       ]
     }
@@ -6595,6 +6608,80 @@
                 "note": "",
                 "sort_order": 1,
                 "winner_name": "Debsirin School",
+                "winner_basis": "final"
+              }
+            ],
+            "past_editions": []
+          },
+          "scorers": [],
+          "news_ids": []
+        }
+      ]
+    },
+    {
+      "id": "thai-school-super-cup-u23",
+      "name": "Thai School Super Cup (U23)",
+      "short_name": "Super Cup",
+      "section": "School League (DPE)",
+      "category": "Youth",
+      "kind": "cup",
+      "age_group": "U23",
+      "sort_order": 260,
+      "active": true,
+      "official_name": "Thai School Super Cup (U23)",
+      "aliases": [
+        "ฟุตบอลประเพณี มธ-จุฬาฯ",
+        "Thammasat–Chulalongkorn Traditional Football Match"
+      ],
+      "group_label": "School League (DPE)",
+      "description": "Annual traditional football match between Thammasat University and Chulalongkorn University.",
+      "source_ids": [
+        "owner-reference",
+        "tu-ac-thammasat-chula-75"
+      ],
+      "seasons": [
+        {
+          "id": "2026",
+          "label": "2026",
+          "is_current": true,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U23",
+          "source_ids": [
+            "tu-ac-thammasat-chula-75"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": {
+            "name": "75th Thammasat–Chulalongkorn Traditional Football 2025",
+            "sponsor": "",
+            "teams_count": 2,
+            "prize": "",
+            "reward": "Royal Cup",
+            "rounds": [
+              {
+                "id": "round-thai-school-super-cup-u23-final",
+                "name": "Final",
+                "date_label": "15 Feb 2025",
+                "clubs": 2,
+                "status": "done",
+                "note": "Champion: Thammasat University · Runner-up: Chulalongkorn University. 75th edition; no newer edition has been played.",
+                "sort_order": 1
+              }
+            ],
+            "ties": [
+              {
+                "id": "tie-thai-school-super-cup-u23-final-thammasat-chulalongkorn",
+                "round_id": "round-thai-school-super-cup-u23-final",
+                "stage": "Final",
+                "home_name": "Thammasat University",
+                "away_name": "Chulalongkorn University",
+                "home_goals": 2,
+                "away_goals": 1,
+                "status": "FT",
+                "note": "",
+                "sort_order": 1,
+                "winner_name": "Thammasat University",
                 "winner_basis": "final"
               }
             ],

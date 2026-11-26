@@ -78,6 +78,8 @@ Development utilities (Tailwind CLI, Playwright, one-off extraction/import tools
   - Thai label: ฟุตบอลอาชีวะระดับประเทศ
 - Thai University Cup (U23)
   - Thai label: ฟุตบอลมหาวิทยาลัยระดับประเทศ
+- Thai School Super Cup (U23)
+  - Thai label: ฟุตบอลประเพณี มธ-จุฬาฯ
 
 ### Naming rules
 
@@ -91,10 +93,10 @@ Development utilities (Tailwind CLI, Playwright, one-off extraction/import tools
 - Thai organizer descriptions and Thai item labels are displayed below the English names where supplied.
 - Sponsor names are aliases, not primary names. Coke Cup and 7HD Champion Cup must remain separate from the standard competition names.
 - Thai Youth FA Cup (U17) and Thai Youth League Cup (U18) belong to the Youth League organizer group.
-- Thai College Cup (U19) and Thai University Cup (U23) belong to the School League organizer group; do not restore separate Sponsor or Education Cups sections.
+- Thai College Cup (U19), Thai University Cup (U23), and Thai School Super Cup (U23) belong to the School League organizer group; do not restore separate Sponsor or Education Cups sections.
 - Owner-defined categories are not evidence of official eligibility or a connected promotion/relegation pyramid.
 - Thai League 4 and Thai League 5 are preserved as inactive legacy data. They must not appear as active sidebar competitions.
-- Thai School Super Cup is not part of the active sidebar. Do not generate fixtures or results for it.
+- Thai School Super Cup (U23) is the owner-approved traditional Thammasat–Chulalongkorn football match and is active at the bottom of the School League group. Do not generate data for it beyond the sourced latest edition.
 
 ### Data structure
 

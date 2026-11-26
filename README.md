@@ -17,6 +17,8 @@ Thailand Football presents Thai football competitions in one place: organizer gr
 
 The application is a single Rust monolith. The production site runs in PostgreSQL mode on Render Free with Neon PostgreSQL.
 
+As of 26 November 2026 the directory contains 18 active competitions, 196 permanent teams, and 371 season participations.
+
 The directory hierarchy is:
 
 **Organizer Group → Competition → Season → Age Group / Type → Teams → Fixtures / Results**
@@ -48,13 +50,28 @@ The directory hierarchy is:
 - Thai School League — General (U18, U16, U14, U12)
 - Thai College Cup (U19)
 - Thai University Cup (U23)
+- Thai School Super Cup (U23) - Thammasat–Chulalongkorn tradition
 
 Type A, Type B, and General are separate competition identities. U18/U16/U14, plus U12 for General, are season-level age dimensions within each school competition.
+
+### Cup coverage (current snapshot)
+
+- Thai FA Cup 2025/26: 7 rounds, 94 ties; champion Buriram United, runner-up PT Prachuap.
+- Thai League Cup 2025/26: 8 rounds, 79 ties; champion Port FC, runner-up BG Pathum United.
+- Thai College Cup 2026: 8 teams and 7 knockout ties across quarter-finals, semi-finals, and final; champion Thawee SC.
+- Thai Youth FA Cup (Coke Cup U17) 2026: quarter-finals through final; champion Assumption United.
+- Thai Youth League Cup (7HD Champion Cup U18) 2026: quarter-final draw recorded; matches start 30 November 2026.
+- Thai Youth Champion Cup (Jaturamitr Samakkhi) 2025: full matchdays, third-place match, and final; champion Debsirin School.
+- Thai University Cup (Chang U-Champion Cup) 2026: quarter-finals through final; champion Thailand National Sports University.
+- Thai School Super Cup (U23): 75th Thammasat–Chulalongkorn match, 15 February 2025; Thammasat University 2–1 Chulalongkorn University.
+
+Cup rounds use the original vertical round list, with match dates, scores, penalty shootouts, extra time, unavailable-score labels, and advancing teams. Large early qualification rounds remain collapsible.
 
 ## Main features
 
 - Competition, season, age-group, and type navigation
 - Standings, results, fixtures, cup rounds, team statistics, and top scorers where records exist
+- Separate penalty-shootout and extra-time metadata, with honest unavailable-score labels
 - Team-first lists with source links, verification badges, and roster-season metadata
 - Stable team-ID search with competition, group, and season context
 - Favorites and light/dark theme persisted in the browser

@@ -5768,7 +5768,7 @@
     },
     {
       "id": "thai-college-cup-u19",
-      "name": "Thai College Cup (U19)",
+      "name": "Thai School FA Cup (U19)",
       "short_name": "U19",
       "section": "School League (DPE)",
       "category": "Youth",
@@ -5776,7 +5776,7 @@
       "age_group": "U19",
       "sort_order": 240,
       "active": true,
-      "official_name": "Thai College Cup (U19)",
+      "official_name": "Thai School FA Cup (U19)",
       "aliases": [
         "ฟุตบอลอาชีวะระดับประเทศ"
       ],
@@ -5940,7 +5940,7 @@
     },
     {
       "id": "thai-university-cup-u23",
-      "name": "Thai University Cup (U23)",
+      "name": "Thai School League Cup (U23)",
       "short_name": "U23",
       "section": "School League (DPE)",
       "category": "Youth",
@@ -5948,7 +5948,7 @@
       "age_group": "U23",
       "sort_order": 250,
       "active": true,
-      "official_name": "Thai University Cup (U23)",
+      "official_name": "Thai School League Cup (U23)",
       "aliases": [
         "ฟุตบอลมหาวิทยาลัยระดับประเทศ",
         "University Champions Cup"
@@ -6620,7 +6620,7 @@
     },
     {
       "id": "thai-school-super-cup-u23",
-      "name": "Thai School Super Cup (U23)",
+      "name": "Thai School Champion Cup (U23)",
       "short_name": "Super Cup",
       "section": "School League (DPE)",
       "category": "Youth",
@@ -6628,7 +6628,7 @@
       "age_group": "U23",
       "sort_order": 260,
       "active": true,
-      "official_name": "Thai School Super Cup (U23)",
+      "official_name": "Thai School Champion Cup (U23)",
       "aliases": [
         "ฟุตบอลประเพณี มธ-จุฬาฯ",
         "Thammasat–Chulalongkorn Traditional Football Match"

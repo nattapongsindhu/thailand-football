@@ -36,12 +36,14 @@ The directory hierarchy is:
 
 ### Youth League (FAT & SAT)
 
-- Thai Youth League 1 (U18)
-- Thai Youth League 2 (U16)
-- Thai Youth League 3 (U14)
-- Thai Youth FA Cup (U17) — Coke Cup
-- Thai Youth League Cup (U18) — 7HD Champion Cup
-- Thai Youth Champion Cup (U18) — Jaturamitr Samakkhi
+- Thai Youth League 1 (U18, U16, U14)
+- Thai Youth League 2 (U18, U16, U14)
+- Thai Youth League 3 (U18, U16, U14)
+- Thai Youth FA Cup (U17) - Coke Cup
+- Thai Youth League Cup (U18) - 7HD Champion Cup
+- Thai Youth Champion Cup (U18) - Jaturamitr Samakkhi
+
+U18/U16/U14 are season-level age dimensions within each Thai Youth League parent competition, matching the School League pattern.
 
 ### School League (DPE)
 

@@ -140,32 +140,32 @@
         {
           "type": "competition",
           "id": "thai-youth-league-u18",
-          "subtitle": "ฟุตบอลเยาวชน สมาคมฯ ลีก 1"
+          "subtitle": "(ฟุตบอลเยาวชน สมาคมฯ ลีก 1)"
         },
         {
           "type": "competition",
           "id": "thai-youth-league-u16",
-          "subtitle": "ฟุตบอลเยาวชน สมาคมฯ ลีก 2"
+          "subtitle": "(ฟุตบอลเยาวชน สมาคมฯ ลีก 2)"
         },
         {
           "type": "competition",
           "id": "thai-youth-league-u14",
-          "subtitle": "ฟุตบอลเยาวชน สมาคมฯ ลีก 3"
+          "subtitle": "(ฟุตบอลเยาวชน สมาคมฯ ลีก 3)"
         },
         {
           "type": "competition",
           "id": "thai-youth-fa-cup-u17",
-          "subtitle": "ฟุตบอลเยาวชน โค้กคัพ Coke Cup"
+          "subtitle": "(ฟุตบอลเยาวชน โค้กคัพ Coke Cup)"
         },
         {
           "type": "competition",
           "id": "thai-youth-league-cup-u18",
-          "subtitle": "ฟุตบอลเยาวชน แชมป์กีฬา 7HD"
+          "subtitle": "(ฟุตบอลเยาวชน แชมป์กีฬา 7HD)"
         },
         {
           "type": "competition",
           "id": "thai-youth-champion-cup-u18",
-          "subtitle": "ฟุตบอลเยาวชน จตุรมิตรสามัคคี"
+          "subtitle": "(ฟุตบอลเยาวชน จตุรมิตรสามัคคี)"
         }
       ]
     },

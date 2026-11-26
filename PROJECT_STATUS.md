@@ -7,11 +7,11 @@
 ## Current local server
 
 - URL: `http://127.0.0.1:8080`
-- Process ID: **29280** (also in `logs/server.pid`)
+- Process ID: **32912** (also in `logs/server.pid`)
 - Bind address: `127.0.0.1`
 - Data mode: **Local preview** (read-only JSON snapshot; no `DATABASE_URL` configured)
 - Logs: `logs/server.out.log`, `logs/server.err.log`
-- Stop: `Stop-Process -Id 29280`
+- Stop: `Stop-Process -Id 32912`
 
 ## Implemented
 

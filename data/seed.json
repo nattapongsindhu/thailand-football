@@ -156,6 +156,14 @@
       "retrieved_at": "2026-11-26",
       "kind": "secondary",
       "note": "Semi-final results: Bangkok Thonburi 1-1 National Sports (5-6 pens), Chulalongkorn 1-0 Kasem Bundit."
+    },
+    {
+      "id": "owner-knockout-2026",
+      "title": "Owner-supplied knockout stage summary",
+      "url": null,
+      "retrieved_at": "2026-11-26",
+      "kind": "owner",
+      "note": "Quarter-final, semi-final and final results supplied by the owner on 26 November 2026."
     }
   ],
   "nav": [
@@ -5948,25 +5956,35 @@
           "source_ids": [
             "legacy-import",
             "posttoday-uchampion-2026",
-            "youtube-uchampion-2026-sf"
+            "youtube-uchampion-2026-sf",
+            "owner-knockout-2026"
           ],
           "groups": [],
           "matches": [],
           "cup": {
             "name": "Chang U-Champion Cup 2026",
             "sponsor": "Chang",
-            "teams_count": 8,
+            "teams_count": 11,
             "prize": "",
             "reward": "Dream Prize — training experience in England",
             "rounds": [
+              {
+                "id": "round-thai-university-cup-u23-quarter-finals",
+                "name": "Quarter-finals",
+                "date_label": "12 Jun 2026",
+                "clubs": 8,
+                "status": "done",
+                "note": "Quarter-finals at Inthree Chantaratsit, Kasetsart University; three scores were not published, but the advancing teams were confirmed.",
+                "sort_order": 1
+              },
               {
                 "id": "round-thai-university-cup-u23-semi-finals",
                 "name": "Semi-finals",
                 "date_label": "15 Jun 2026",
                 "clubs": 4,
                 "status": "done",
-                "note": "Knockout stage at Inthree Chantaratsit, Kasetsart University; quarter-final results were not published in accessible text.",
-                "sort_order": 1
+                "note": "Knockout stage at Inthree Chantaratsit, Kasetsart University.",
+                "sort_order": 2
               },
               {
                 "id": "round-thai-university-cup-u23-final",
@@ -5975,23 +5993,82 @@
                 "clubs": 2,
                 "status": "done",
                 "note": "Champion: Thailand National Sports University · Runner-up: Chulalongkorn University",
-                "sort_order": 2
+                "sort_order": 3
               }
             ],
             "ties": [
               {
-                "id": "tie-thai-university-cup-u23-semi-final-bangkok-thonburi-national-sports",
+                "id": "tie-thai-university-cup-u23-quarter-final-bangkok-thonburi-suan-sunandha",
+                "round_id": "round-thai-university-cup-u23-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Bangkok Thonburi University",
+                "away_name": "Suan Sunandha Rajabhat University",
+                "home_goals": 1,
+                "away_goals": 0,
+                "status": "FT",
+                "note": "",
+                "sort_order": 1,
+                "winner_name": "Bangkok Thonburi University",
+                "winner_basis": "full time"
+              },
+              {
+                "id": "tie-thai-university-cup-u23-quarter-final-national-sports-pathumthani",
+                "round_id": "round-thai-university-cup-u23-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Thailand National Sports University",
+                "away_name": "Pathumthani University",
+                "home_goals": null,
+                "away_goals": null,
+                "status": "Advanced",
+                "note": "Score unavailable; National Sports University advanced.",
+                "sort_order": 2,
+                "score_status": "unavailable",
+                "winner_name": "Thailand National Sports University",
+                "winner_basis": "advanced"
+              },
+              {
+                "id": "tie-thai-university-cup-u23-quarter-final-chulalongkorn-bangkok-university",
+                "round_id": "round-thai-university-cup-u23-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Chulalongkorn University",
+                "away_name": "Bangkok University",
+                "home_goals": null,
+                "away_goals": null,
+                "status": "Advanced",
+                "note": "Score unavailable; Chulalongkorn University advanced.",
+                "sort_order": 3,
+                "score_status": "unavailable",
+                "winner_name": "Chulalongkorn University",
+                "winner_basis": "advanced"
+              },
+              {
+                "id": "tie-thai-university-cup-u23-quarter-final-kasem-north-bangkok",
+                "round_id": "round-thai-university-cup-u23-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Kasem Bundit U.",
+                "away_name": "North Bangkok University",
+                "home_goals": null,
+                "away_goals": null,
+                "status": "Advanced",
+                "note": "Score unavailable; Kasem Bundit University advanced.",
+                "sort_order": 4,
+                "score_status": "unavailable",
+                "winner_name": "Kasem Bundit U.",
+                "winner_basis": "advanced"
+              },
+              {
+                "id": "tie-thai-university-cup-u23-semi-final-national-sports-bangkok-thonburi",
                 "round_id": "round-thai-university-cup-u23-semi-finals",
                 "stage": "Semi-finals",
-                "home_name": "Bangkok Thonburi University",
-                "away_name": "Thailand National Sports University",
+                "home_name": "Thailand National Sports University",
+                "away_name": "Bangkok Thonburi University",
                 "home_goals": 1,
                 "away_goals": 1,
                 "status": "FT (pens)",
-                "note": "Sports University won 6-5 on penalties.",
+                "note": "TNSU won 5-4 on penalties.",
                 "sort_order": 1,
                 "home_penalties": 5,
-                "away_penalties": 6,
+                "away_penalties": 4,
                 "winner_name": "Thailand National Sports University",
                 "winner_basis": "penalty shootout"
               },
@@ -6065,7 +6142,8 @@
           "source_ids": [
             "legacy-import",
             "thsport-coke-2026",
-            "siamsport-coke-2026-final"
+            "siamsport-coke-2026-final",
+            "owner-knockout-2026"
           ],
           "groups": [],
           "matches": [],
@@ -6077,13 +6155,22 @@
             "reward": "",
             "rounds": [
               {
+                "id": "round-thai-youth-fa-cup-u17-quarter-finals",
+                "name": "Quarter-finals",
+                "date_label": "18–20 Aug 2026",
+                "clubs": 8,
+                "status": "done",
+                "note": "National round at Supachalasai; winners advanced to the semi-finals.",
+                "sort_order": 1
+              },
+              {
                 "id": "round-thai-youth-fa-cup-u17-semi-finals",
                 "name": "Semi-finals",
                 "date_label": "22 Aug 2026",
                 "clubs": 4,
                 "status": "done",
                 "note": "National final stage at Supachalasai; earlier 12-team matches were not published in accessible text.",
-                "sort_order": 1
+                "sort_order": 2
               },
               {
                 "id": "round-thai-youth-fa-cup-u17-final",
@@ -6092,10 +6179,66 @@
                 "clubs": 2,
                 "status": "done",
                 "note": "Champion: Assumption United · Runner-up: Chonburi",
-                "sort_order": 2
+                "sort_order": 3
               }
             ],
             "ties": [
+              {
+                "id": "tie-thai-youth-fa-cup-u17-quarter-final-assumption-united-kanthararom",
+                "round_id": "round-thai-youth-fa-cup-u17-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Assumption United",
+                "away_name": "Kanthararom School",
+                "home_goals": 1,
+                "away_goals": 0,
+                "status": "FT",
+                "note": "",
+                "sort_order": 1,
+                "winner_name": "Assumption United",
+                "winner_basis": "full time"
+              },
+              {
+                "id": "tie-thai-youth-fa-cup-u17-quarter-final-chonburi-chiangmai",
+                "round_id": "round-thai-youth-fa-cup-u17-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Chonburi",
+                "away_name": "Chiangmai F.C.",
+                "home_goals": 3,
+                "away_goals": 1,
+                "status": "FT",
+                "note": "",
+                "sort_order": 2,
+                "winner_name": "Chonburi",
+                "winner_basis": "full time"
+              },
+              {
+                "id": "tie-thai-youth-fa-cup-u17-quarter-final-sisaket-chainat",
+                "round_id": "round-thai-youth-fa-cup-u17-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Sisaket Sports School",
+                "away_name": "Chainat",
+                "home_goals": 1,
+                "away_goals": 4,
+                "status": "FT",
+                "note": "",
+                "sort_order": 3,
+                "winner_name": "Chainat",
+                "winner_basis": "full time"
+              },
+              {
+                "id": "tie-thai-youth-fa-cup-u17-quarter-final-yala-maejo",
+                "round_id": "round-thai-youth-fa-cup-u17-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Yala Sports School",
+                "away_name": "Maejo United",
+                "home_goals": 2,
+                "away_goals": 3,
+                "status": "FT",
+                "note": "",
+                "sort_order": 4,
+                "winner_name": "Maejo United",
+                "winner_basis": "full time"
+              },
               {
                 "id": "tie-thai-youth-fa-cup-u17-semi-final-assumption-united-chainat",
                 "round_id": "round-thai-youth-fa-cup-u17-semi-finals",

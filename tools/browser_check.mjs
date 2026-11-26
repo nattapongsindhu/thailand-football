@@ -42,8 +42,15 @@ check("T3 group team rows", (await page.locator(".teams-table tbody tr").count()
 check("T3 unverified badges", (await page.locator(".teams-table .badge-unverified").count()) === 5);
 await page.goto(`${BASE}/competitions/thai-youth-fa-cup-u17`, { waitUntil: "networkidle" });
 check("Coke Cup default tab is Rounds", (await page.locator(".tab.is-active").innerText()).trim() === "Rounds");
-check("Coke Cup rounds", (await page.locator("article.cup-round").count()) === 2);
-check("Coke Cup ties", (await page.locator(".cup-tie").count()) === 3);
+check("Coke Cup rounds", (await page.locator("article.cup-round").count()) === 3);
+check("Coke Cup ties", (await page.locator(".cup-tie").count()) === 7);
+check(
+  "Coke Cup quarter-finals",
+  (await page.locator("main").innerText()).includes("Assumption United") &&
+    (await page.locator("main").innerText()).includes("Kanthararom School") &&
+    (await page.locator("main").innerText()).includes("1 - 0") &&
+    (await page.locator("main").innerText()).includes("3 - 1"),
+);
 check(
   "Coke Cup final result",
   (await page.locator("main").innerText()).includes("Champion: Assumption United") &&
@@ -189,11 +196,14 @@ check("7HD no fabricated score", !/\d+ - \d+/.test(sevenHdText.slice(sevenHdText
 
 await page.goto(`${BASE}/competitions/thai-university-cup-u23/rounds`, { waitUntil: "networkidle" });
 const universityCupText = await page.locator("main").innerText();
-check("University Cup rounds", (await page.locator("article.cup-round").count()) === 2);
-check("University Cup ties", (await page.locator(".cup-tie").count()) === 3);
-check("University Cup semi-final penalties", universityCupText.includes("Penalties: 5 - 6"));
+check("University Cup rounds", (await page.locator("article.cup-round").count()) === 3);
+check("University Cup ties", (await page.locator(".cup-tie").count()) === 7);
+check("University Cup quarter-final unavailable scores", universityCupText.includes("Score unavailable"));
+check("University Cup semi-final penalties", universityCupText.includes("Penalties: 5 - 4"));
 check("University Cup final penalties", universityCupText.includes("Penalties: 4 - 3"));
 check("University Cup champion", universityCupText.includes("Champion: Thailand National Sports University"));
+await page.goto(`${BASE}/competitions/thai-university-cup-u23/teams`, { waitUntil: "networkidle" });
+check("University Cup team rows", (await page.locator(".teams-table tbody tr").count()) === 11);
 check("U19 absent from U23 page title", !(await page.locator("main h1").innerText()).includes("U19"));
 
 await page.goto(`${BASE}/competitions/thai-youth-fa-cup-u17/teams`, { waitUntil: "networkidle" });

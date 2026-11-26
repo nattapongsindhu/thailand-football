@@ -15,8 +15,8 @@ fn discovery_data_is_valid_and_bounded() {
     let news: Vec<DiscoveryNews> =
         load_json(Path::new("data/discovery/news_metadata.json")).expect("news metadata");
 
-    assert_eq!(registry.teams.len(), 193);
-    assert_eq!(registry.participations.len(), 366);
+    assert_eq!(registry.teams.len(), 196);
+    assert_eq!(registry.participations.len(), 369);
     let university_roster = registry
         .rosters
         .iter()
@@ -25,7 +25,7 @@ fn discovery_data_is_valid_and_bounded() {
         })
         .expect("university cup roster");
     assert_eq!(university_roster.roster_status, "partial");
-    assert_eq!(university_roster.team_count, 8);
+    assert_eq!(university_roster.team_count, 11);
     let college_roster = registry
         .rosters
         .iter()

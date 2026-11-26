@@ -82,10 +82,10 @@ Notes:
 
 ### Youth and university cup match coverage
 
-- Coke Cup U17 2026: semi-finals and final imported (3 ties). Champion: Assumption United; runner-up: Chonburi. Earlier 12-team matches were not published in accessible text.
+- Coke Cup U17 2026: quarter-finals, semi-finals and final imported (7 ties). Champion: Assumption United; runner-up: Chonburi. Quarter-final results: Assumption United 1-0 Kanthararom, Chonburi 3-1 Chiangmai, Sisaket 1-4 Chainat, Yala 2-3 Maejo.
 - 7HD Champion Cup 2026: quarter-final draw imported (4 ties, 30 Nov 2026). Semi-finals 2 Dec and final 6 Dec 2026; scores are not yet played.
 - 31st Jaturamitr Samakkhi (Nov 2025): all six round-robin matches plus third-place match and final imported (8 ties). Champion: Debsirin School; runner-up: Bangkok Christian College.
-- Chang U-Champion Cup 2026: semi-finals and final imported (3 ties). Champion: Thailand National Sports University; runner-up: Chulalongkorn University. Quarter-final results were not published in accessible text.
+- Chang U-Champion Cup 2026: quarter-finals, semi-finals and final imported (7 ties). Champion: Thailand National Sports University; runner-up: Chulalongkorn University. Three quarter-final scores were not published; the advancing teams were confirmed. TNSU beat Bangkok Thonburi 5-4 on penalties in the semi-final and Chulalongkorn 4-3 in the final.
 
 ## Empty categories and reasons
 

@@ -394,14 +394,14 @@ fn empty_youth_competitions_do_not_fall_back_to_senior_data() {
     .expect("youth cup");
     assert!(cup.cup_view.visible);
     assert!(cup.cup_view.has_rounds);
-    assert_eq!(cup.cup_view.rounds.len(), 2);
+    assert_eq!(cup.cup_view.rounds.len(), 3);
     assert_eq!(
         cup.cup_view
             .rounds
             .iter()
             .map(|round| round.ties.len())
             .sum::<usize>(),
-        3
+        7
     );
 }
 
@@ -419,15 +419,23 @@ fn youth_and_university_cups_have_verified_match_records() {
         "",
     )
     .expect("Coke Cup");
-    assert_eq!(coke.cup_view.rounds.len(), 2);
+    assert_eq!(coke.cup_view.rounds.len(), 3);
     assert_eq!(
         coke.cup_view
             .rounds
             .iter()
             .map(|round| round.ties.len())
             .collect::<Vec<_>>(),
-        [2, 1]
+        [4, 2, 1]
     );
+    let coke_qf = &coke.cup_view.rounds[0];
+    assert_eq!(coke_qf.name, "Quarter-finals");
+    assert!(coke_qf.ties.iter().any(|tie| {
+        tie.home == "Assumption United" && tie.away == "Kanthararom School" && tie.score == "1 - 0"
+    }));
+    assert!(coke_qf.ties.iter().any(|tie| {
+        tie.home == "Chonburi" && tie.away == "Chiangmai F.C." && tie.score == "3 - 1"
+    }));
     let coke_final = coke
         .cup_view
         .rounds
@@ -506,7 +514,7 @@ fn youth_and_university_cups_have_verified_match_records() {
         "",
     )
     .expect("University Cup");
-    assert_eq!(university.cup_view.rounds.len(), 2);
+    assert_eq!(university.cup_view.rounds.len(), 3);
     assert_eq!(
         university
             .cup_view
@@ -514,7 +522,34 @@ fn youth_and_university_cups_have_verified_match_records() {
             .iter()
             .map(|round| round.ties.len())
             .collect::<Vec<_>>(),
-        [2, 1]
+        [4, 2, 1]
+    );
+    let university_qf = &university.cup_view.rounds[0];
+    assert_eq!(university_qf.name, "Quarter-finals");
+    assert!(university_qf.ties.iter().any(|tie| {
+        tie.home == "Bangkok Thonburi University"
+            && tie.away == "Suan Sunandha Rajabhat University"
+            && tie.score == "1 - 0"
+    }));
+    let unavailable_qf = university_qf
+        .ties
+        .iter()
+        .find(|tie| tie.home == "Thailand National Sports University")
+        .expect("TNSU quarter-final");
+    assert_eq!(unavailable_qf.score, "Score unavailable");
+    assert_eq!(unavailable_qf.status, "Advanced");
+    assert!(
+        unavailable_qf
+            .winner
+            .contains("Thailand National Sports University")
+    );
+    assert_eq!(
+        university_qf
+            .ties
+            .iter()
+            .filter(|tie| tie.score == "Score unavailable")
+            .count(),
+        3
     );
     let semi = university
         .cup_view
@@ -522,15 +557,16 @@ fn youth_and_university_cups_have_verified_match_records() {
         .iter()
         .find(|round| round.name == "Semi-finals")
         .expect("University semi-finals");
-    let bangkok_thonburi = semi
+    let national_sports = semi
         .ties
         .iter()
-        .find(|tie| tie.home == "Bangkok Thonburi University")
-        .expect("Bangkok Thonburi semi-final");
-    assert_eq!(bangkok_thonburi.score, "1 - 1");
-    assert_eq!(bangkok_thonburi.penalties, "Penalties: 5 - 6");
+        .find(|tie| tie.home == "Thailand National Sports University")
+        .expect("National Sports semi-final");
+    assert_eq!(national_sports.score, "1 - 1");
+    assert_eq!(national_sports.away, "Bangkok Thonburi University");
+    assert_eq!(national_sports.penalties, "Penalties: 5 - 4");
     assert!(
-        bangkok_thonburi
+        national_sports
             .winner
             .contains("Thailand National Sports University")
     );

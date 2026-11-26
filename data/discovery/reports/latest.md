@@ -1,15 +1,15 @@
 # Team Discovery Report
 
-Generated: 2026-11-26T10:01:51.335513400+00:00
+Generated: 2026-11-26T10:27:51.947355900+00:00
 
 ## Counts
 
-- Teams: 193
-- Participations: 366
-- Verified secondary: 315
+- Teams: 196
+- Participations: 369
+- Verified secondary: 318
 - Verified official: 0
 - Discovered unverified: 51
-- News metadata items: 33
+- News metadata items: 43
 - Team candidates: 379
 - Sources fetched: 8; failed: 0
 
@@ -27,7 +27,7 @@ Generated: 2026-11-26T10:01:51.335513400+00:00
 | Thai School League — General | School League (DPE) | 0 | 0 | 0 |
 | Thai School League — Type A | School League (DPE) | 48 | 48 | 0 |
 | Thai School League — Type B | School League (DPE) | 32 | 16 | 16 |
-| Thai University Cup (U23) | School League (DPE) | 8 | 8 | 0 |
+| Thai University Cup (U23) | School League (DPE) | 11 | 11 | 0 |
 | Thai Youth Champion Cup (U18) | Youth League (FAT & SAT) | 4 | 4 | 0 |
 | Thai Youth FA Cup (U17) | Youth League (FAT & SAT) | 12 | 12 | 0 |
 | Thai Youth League 1 | Youth League (FAT & SAT) | 0 | 0 | 0 |
@@ -40,7 +40,7 @@ Generated: 2026-11-26T10:01:51.335513400+00:00
 - `https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_1` — ok — candidates 64 — ok
 - `https://news.google.com/rss/search?q=Thai%20League%201%20teams&hl=en-US&gl=US&ceid=US:en` — ok — candidates 0 — ok
 - `https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_2` — ok — candidates 66 — ok
-- `https://news.google.com/rss/search?q=Thai%20League%202%20teams&hl=en-US&gl=US&ceid=US:en` — http_error — candidates 0 — ok
+- `https://news.google.com/rss/search?q=Thai%20League%202%20teams&hl=en-US&gl=US&ceid=US:en` — ok — candidates 0 — ok
 - `https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_3` — ok — candidates 81 — ok
 - `https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_FA_Cup` — ok — candidates 85 — ok
 - `https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_Cup` — ok — candidates 83 — ok

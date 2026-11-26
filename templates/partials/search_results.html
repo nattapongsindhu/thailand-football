@@ -1,0 +1,14 @@
+{% if query_too_short %}
+  <div class="search-empty">Type at least 2 characters.</div>
+{% else %}
+  {% if !has_results %}
+    <div class="search-empty">No active team matches “{{ query }}”.</div>
+  {% else %}
+    {% for result in results %}
+      <a class="search-result-row" href="{{ result.href }}">
+        <span class="search-result-name">{{ result.team_name }}</span>
+        <span class="search-result-context">{{ result.competition_name }} · {{ result.group_name }} · {{ result.season_label }}</span>
+      </a>
+    {% endfor %}
+  {% endif %}
+{% endif %}

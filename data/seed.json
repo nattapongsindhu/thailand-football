@@ -1,0 +1,5806 @@
+{
+  "meta": {
+    "app": "Thailand Football",
+    "mode": "local-preview",
+    "generated_at": "2026-11-26T03:01:44.411Z",
+    "legacy_source": "C:\\Users\\BMW\\Videos\\Thai League (T1-T5)\\thai_league_05.html",
+    "legacy_sha256": "c7cf3e61c59760463d085006676e010a84262b7776699490c5b9e81c3322cd3e",
+    "notes": [
+      "Imported records preserve the reference values; they are not presented as independently verified.",
+      "T4/T5 are preserved as inactive legacy competitions and are not active sidebar entries.",
+      "Youth categories are owner-defined organizational labels and have no imported records.",
+      "School competitions use Type A, Type B and General; age groups are season-level dimensions."
+    ]
+  },
+  "sources": [
+    {
+      "id": "legacy-import",
+      "title": "Owner-supplied offline reference application",
+      "url": null,
+      "retrieved_at": "2026-03-22",
+      "kind": "legacy",
+      "note": "Imported from thai_league_05.html. Values are preserved; imported rows are marked unverified unless independently checked."
+    },
+    {
+      "id": "thaileague",
+      "title": "Thai League (official)",
+      "url": "https://www.thaileague.co.th/",
+      "retrieved_at": "2026-11-25",
+      "kind": "official",
+      "note": "General competition reference; not used to overwrite imported rows."
+    },
+    {
+      "id": "fat",
+      "title": "Football Association of Thailand (official)",
+      "url": "https://www.fathailand.org/",
+      "retrieved_at": "2026-11-25",
+      "kind": "official",
+      "note": "General competition and cup reference."
+    },
+    {
+      "id": "wikipedia-t1",
+      "title": "2025–26 Thai League 1 (reference)",
+      "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_1",
+      "retrieved_at": "2026-11-25",
+      "kind": "secondary",
+      "note": "Secondary reference; imported snapshot was not replaced."
+    },
+    {
+      "id": "wikipedia-t2",
+      "title": "2025–26 Thai League 2 (reference)",
+      "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_2",
+      "retrieved_at": "2026-11-25",
+      "kind": "secondary",
+      "note": "Secondary reference."
+    },
+    {
+      "id": "wikipedia-t3",
+      "title": "2025–26 Thai League 3 (reference)",
+      "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_3",
+      "retrieved_at": "2026-11-25",
+      "kind": "secondary",
+      "note": "Secondary reference."
+    },
+    {
+      "id": "wikipedia-fac",
+      "title": "2025–26 Thai FA Cup (reference)",
+      "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_FA_Cup",
+      "retrieved_at": "2026-11-25",
+      "kind": "secondary",
+      "note": "Secondary reference."
+    },
+    {
+      "id": "wikipedia-lc",
+      "title": "2025–26 Thai League Cup (reference)",
+      "url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_Cup",
+      "retrieved_at": "2026-11-25",
+      "kind": "secondary",
+      "note": "Secondary reference."
+    },
+    {
+      "id": "dpe",
+      "title": "Department of Physical Education (reference)",
+      "url": "https://www.dpe.go.th/",
+      "retrieved_at": "2026-11-25",
+      "kind": "official",
+      "note": "Reference for owner-defined school categories ก./ข./ค./ง.; no records imported."
+    },
+    {
+      "id": "ch7",
+      "title": "Channel 7HD (reference)",
+      "url": "https://www.ch7.com/",
+      "retrieved_at": "2026-11-25",
+      "kind": "official",
+      "note": "Reference for owner display category; no records imported."
+    },
+    {
+      "id": "owner-reference",
+      "title": "Owner-approved competition naming and categories",
+      "url": null,
+      "retrieved_at": "2026-11-25",
+      "kind": "owner",
+      "note": "Owner-defined organizational labels. Not evidence of official eligibility or a connected promotion/relegation pyramid."
+    }
+  ],
+  "nav": [
+    {
+      "title": "National League",
+      "subtitle": null,
+      "items": [
+        {
+          "type": "competition",
+          "id": "thai-league-1"
+        },
+        {
+          "type": "competition",
+          "id": "thai-league-2"
+        },
+        {
+          "type": "competition",
+          "id": "thai-league-3"
+        },
+        {
+          "type": "competition",
+          "id": "thai-fa-cup"
+        },
+        {
+          "type": "competition",
+          "id": "thai-league-cup"
+        },
+        {
+          "type": "competition",
+          "id": "thai-champion-cup"
+        }
+      ]
+    },
+    {
+      "title": "Youth League (FAT & SAT)",
+      "subtitle": null,
+      "items": [
+        {
+          "type": "competition",
+          "id": "thai-youth-league-u18",
+          "subtitle": "ฟุตบอลเยาวชน สมาคมฯ ลีก 1"
+        },
+        {
+          "type": "competition",
+          "id": "thai-youth-league-u16",
+          "subtitle": "ฟุตบอลเยาวชน สมาคมฯ ลีก 2"
+        },
+        {
+          "type": "competition",
+          "id": "thai-youth-league-u14",
+          "subtitle": "ฟุตบอลเยาวชน สมาคมฯ ลีก 3"
+        },
+        {
+          "type": "competition",
+          "id": "thai-youth-fa-cup-u17",
+          "subtitle": "ฟุตบอลเยาวชน โค้กคัพ Coke Cup"
+        },
+        {
+          "type": "competition",
+          "id": "thai-youth-league-cup-u18",
+          "subtitle": "ฟุตบอลเยาวชน แชมป์กีฬา 7HD"
+        },
+        {
+          "type": "competition",
+          "id": "thai-youth-champion-cup-u18",
+          "subtitle": "ฟุตบอลเยาวชน จตุรมิตรสามัคคี"
+        }
+      ]
+    },
+    {
+      "title": "School League (DPE)",
+      "subtitle": null,
+      "items": [
+        {
+          "type": "group",
+          "label": "Thai School League — Type A",
+          "subtitle": "(ฟุตบอลนักเรียน กรมพลฯ ประเภท ก)",
+          "children": [
+            {
+              "type": "season",
+              "id": "thai-school-league-type-a",
+              "season": "2026-u18",
+              "label": "U18"
+            },
+            {
+              "type": "season",
+              "id": "thai-school-league-type-a",
+              "season": "2026-u16",
+              "label": "U16"
+            },
+            {
+              "type": "season",
+              "id": "thai-school-league-type-a",
+              "season": "2026-u14",
+              "label": "U14"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": "Thai School League — Type B",
+          "subtitle": "(ฟุตบอลนักเรียน กรมพลฯ ประเภท ข)",
+          "children": [
+            {
+              "type": "season",
+              "id": "thai-school-league-type-b",
+              "season": "2026-u18",
+              "label": "U18"
+            },
+            {
+              "type": "season",
+              "id": "thai-school-league-type-b",
+              "season": "2026-u16",
+              "label": "U16"
+            },
+            {
+              "type": "season",
+              "id": "thai-school-league-type-b",
+              "season": "2026-u14",
+              "label": "U14"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "label": "Thai School League — General",
+          "subtitle": "(ฟุตบอลนักเรียน กรมพลฯ ประเภท ทั่วไป)",
+          "children": [
+            {
+              "type": "season",
+              "id": "thai-school-league-general",
+              "season": "2026-u18",
+              "label": "U18"
+            },
+            {
+              "type": "season",
+              "id": "thai-school-league-general",
+              "season": "2026-u16",
+              "label": "U16"
+            },
+            {
+              "type": "season",
+              "id": "thai-school-league-general",
+              "season": "2026-u14",
+              "label": "U14"
+            },
+            {
+              "type": "season",
+              "id": "thai-school-league-general",
+              "season": "2026-u12",
+              "label": "U12"
+            }
+          ]
+        },
+        {
+          "type": "competition",
+          "id": "thai-college-cup-u19",
+          "subtitle": "(ฟุตบอลอาชีวะระดับประเทศ)"
+        },
+        {
+          "type": "competition",
+          "id": "thai-university-cup-u23",
+          "subtitle": "(ฟุตบอลมหาวิทยาลัยระดับประเทศ)"
+        }
+      ]
+    }
+  ],
+  "competitions": [
+    {
+      "id": "thai-league-1",
+      "name": "Thai League 1",
+      "short_name": "T1",
+      "section": "National League",
+      "category": "Senior",
+      "kind": "league",
+      "age_group": null,
+      "sort_order": 10,
+      "active": true,
+      "official_name": "Thai League 1",
+      "aliases": [
+        "Thai League 1"
+      ],
+      "group_label": null,
+      "description": "Thailand's top professional football division.",
+      "source_ids": [
+        "legacy-import",
+        "thaileague",
+        "wikipedia-t1"
+      ],
+      "seasons": [
+        {
+          "id": "2025-26",
+          "label": "2025/26",
+          "is_current": true,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": null,
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [
+            {
+              "id": "overall",
+              "name": "Overall",
+              "standings": [
+                {
+                  "team_id": "team-buriram-united",
+                  "team_name": "Buriram United",
+                  "rank": 1,
+                  "played": 23,
+                  "won": 19,
+                  "drawn": 2,
+                  "lost": 2,
+                  "goals_for": 65,
+                  "goals_against": 20,
+                  "goal_difference": 45,
+                  "points": 59,
+                  "form": [
+                    "Q",
+                    "W",
+                    "W",
+                    "W",
+                    "W",
+                    "L"
+                  ],
+                  "zone": "z-champ"
+                },
+                {
+                  "team_id": "team-port-fc",
+                  "team_name": "Port FC",
+                  "rank": 2,
+                  "played": 24,
+                  "won": 13,
+                  "drawn": 5,
+                  "lost": 6,
+                  "goals_for": 46,
+                  "goals_against": 20,
+                  "goal_difference": 26,
+                  "points": 44,
+                  "form": [
+                    "Q",
+                    "D",
+                    "W",
+                    "D",
+                    "W",
+                    "W"
+                  ],
+                  "zone": "z-champ2"
+                },
+                {
+                  "team_id": "team-ratchaburi",
+                  "team_name": "Ratchaburi",
+                  "rank": 3,
+                  "played": 22,
+                  "won": 13,
+                  "drawn": 3,
+                  "lost": 6,
+                  "goals_for": 36,
+                  "goals_against": 21,
+                  "goal_difference": 15,
+                  "points": 42,
+                  "form": [
+                    "Q",
+                    "L",
+                    "W",
+                    "D",
+                    "W",
+                    "L"
+                  ],
+                  "zone": "z-champ2"
+                },
+                {
+                  "team_id": "team-bangkok-utd",
+                  "team_name": "Bangkok Utd",
+                  "rank": 4,
+                  "played": 22,
+                  "won": 11,
+                  "drawn": 8,
+                  "lost": 3,
+                  "goals_for": 34,
+                  "goals_against": 22,
+                  "goal_difference": 12,
+                  "points": 41,
+                  "form": [
+                    "Q",
+                    "D",
+                    "D",
+                    "W",
+                    "W",
+                    "W"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-pathum-united",
+                  "team_name": "Pathum United",
+                  "rank": 5,
+                  "played": 24,
+                  "won": 11,
+                  "drawn": 7,
+                  "lost": 6,
+                  "goals_for": 36,
+                  "goals_against": 26,
+                  "goal_difference": 10,
+                  "points": 40,
+                  "form": [
+                    "Q",
+                    "D",
+                    "L",
+                    "W",
+                    "W",
+                    "L"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-prachuap",
+                  "team_name": "Prachuap",
+                  "rank": 6,
+                  "played": 24,
+                  "won": 8,
+                  "drawn": 11,
+                  "lost": 5,
+                  "goals_for": 32,
+                  "goals_against": 30,
+                  "goal_difference": 2,
+                  "points": 35,
+                  "form": [
+                    "Q",
+                    "D",
+                    "W",
+                    "W",
+                    "W",
+                    "D"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-rayong-fc",
+                  "team_name": "Rayong FC",
+                  "rank": 7,
+                  "played": 24,
+                  "won": 8,
+                  "drawn": 8,
+                  "lost": 8,
+                  "goals_for": 36,
+                  "goals_against": 33,
+                  "goal_difference": 3,
+                  "points": 32,
+                  "form": [
+                    "Q",
+                    "W",
+                    "D",
+                    "L",
+                    "L",
+                    "L"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-ayutthaya-utd",
+                  "team_name": "Ayutthaya Utd",
+                  "rank": 8,
+                  "played": 25,
+                  "won": 8,
+                  "drawn": 8,
+                  "lost": 9,
+                  "goals_for": 31,
+                  "goals_against": 35,
+                  "goal_difference": -4,
+                  "points": 32,
+                  "form": [
+                    "Q",
+                    "L",
+                    "W",
+                    "L",
+                    "W",
+                    "L"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-chonburi",
+                  "team_name": "Chonburi",
+                  "rank": 9,
+                  "played": 25,
+                  "won": 8,
+                  "drawn": 7,
+                  "lost": 10,
+                  "goals_for": 30,
+                  "goals_against": 35,
+                  "goal_difference": -5,
+                  "points": 31,
+                  "form": [
+                    "Q",
+                    "W",
+                    "L",
+                    "W",
+                    "L",
+                    "W"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-chiangrai-utd",
+                  "team_name": "Chiangrai Utd",
+                  "rank": 10,
+                  "played": 23,
+                  "won": 6,
+                  "drawn": 11,
+                  "lost": 6,
+                  "goals_for": 29,
+                  "goals_against": 32,
+                  "goal_difference": -3,
+                  "points": 29,
+                  "form": [
+                    "Q",
+                    "D",
+                    "W",
+                    "L",
+                    "D",
+                    "D"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-uthai-thani",
+                  "team_name": "Uthai Thani",
+                  "rank": 11,
+                  "played": 24,
+                  "won": 6,
+                  "drawn": 8,
+                  "lost": 10,
+                  "goals_for": 34,
+                  "goals_against": 38,
+                  "goal_difference": -4,
+                  "points": 26,
+                  "form": [
+                    "Q",
+                    "D",
+                    "L",
+                    "L",
+                    "W",
+                    "D"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-sukhothai",
+                  "team_name": "Sukhothai",
+                  "rank": 12,
+                  "played": 25,
+                  "won": 5,
+                  "drawn": 9,
+                  "lost": 11,
+                  "goals_for": 18,
+                  "goals_against": 36,
+                  "goal_difference": -18,
+                  "points": 24,
+                  "form": [
+                    "Q",
+                    "L",
+                    "L",
+                    "L",
+                    "D",
+                    "D"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-lamphun-warrior",
+                  "team_name": "Lamphun Warrior",
+                  "rank": 13,
+                  "played": 25,
+                  "won": 3,
+                  "drawn": 14,
+                  "lost": 8,
+                  "goals_for": 30,
+                  "goals_against": 43,
+                  "goal_difference": -13,
+                  "points": 23,
+                  "form": [
+                    "Q",
+                    "D",
+                    "D",
+                    "L",
+                    "D",
+                    "D"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-kanchanaburi",
+                  "team_name": "Kanchanaburi",
+                  "rank": 14,
+                  "played": 26,
+                  "won": 4,
+                  "drawn": 10,
+                  "lost": 12,
+                  "goals_for": 26,
+                  "goals_against": 46,
+                  "goal_difference": -20,
+                  "points": 22,
+                  "form": [
+                    "Q",
+                    "L",
+                    "W",
+                    "W",
+                    "L",
+                    "L"
+                  ],
+                  "zone": "z-rel"
+                },
+                {
+                  "team_id": "team-muang-thong-utd",
+                  "team_name": "Muang Thong Utd",
+                  "rank": 15,
+                  "played": 24,
+                  "won": 4,
+                  "drawn": 6,
+                  "lost": 14,
+                  "goals_for": 21,
+                  "goals_against": 44,
+                  "goal_difference": -23,
+                  "points": 18,
+                  "form": [
+                    "Q",
+                    "W",
+                    "D",
+                    "L",
+                    "D",
+                    "W"
+                  ],
+                  "zone": "z-rel"
+                },
+                {
+                  "team_id": "team-nakhon-ratchasima",
+                  "team_name": "Nakhon Ratchasima",
+                  "rank": 16,
+                  "played": 24,
+                  "won": 4,
+                  "drawn": 5,
+                  "lost": 15,
+                  "goals_for": 16,
+                  "goals_against": 39,
+                  "goal_difference": -23,
+                  "points": 17,
+                  "form": [
+                    "Q",
+                    "W",
+                    "D",
+                    "L",
+                    "L",
+                    "W"
+                  ],
+                  "zone": "z-rel"
+                }
+              ],
+              "validation": {
+                "status": "ok",
+                "messages": []
+              }
+            }
+          ],
+          "matches": [
+            {
+              "id": "match-thai-league-1-result-round-24-buriram-united-pathum-united",
+              "kind": "result",
+              "round_label": "Round 24",
+              "date_label": "Sat 22 Mar",
+              "home_team_id": "team-buriram-united",
+              "away_team_id": "team-pathum-united",
+              "home_name": "Buriram United",
+              "away_name": "Pathum United",
+              "home_goals": 3,
+              "away_goals": 0,
+              "status": "FT",
+              "note": "",
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "match-thai-league-1-result-round-24-bangkok-utd-prachuap",
+              "kind": "result",
+              "round_label": "Round 24",
+              "date_label": "Sat 22 Mar",
+              "home_team_id": "team-bangkok-utd",
+              "away_team_id": "team-prachuap",
+              "home_name": "Bangkok Utd",
+              "away_name": "Prachuap",
+              "home_goals": 2,
+              "away_goals": 2,
+              "status": "FT",
+              "note": "",
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "match-thai-league-1-result-round-24-ratchaburi-rayong-fc",
+              "kind": "result",
+              "round_label": "Round 24",
+              "date_label": "Sat 22 Mar",
+              "home_team_id": "team-ratchaburi",
+              "away_team_id": "team-rayong-fc",
+              "home_name": "Ratchaburi",
+              "away_name": "Rayong FC",
+              "home_goals": 1,
+              "away_goals": 0,
+              "status": "FT",
+              "note": "",
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "match-thai-league-1-result-round-24-port-fc-chonburi",
+              "kind": "result",
+              "round_label": "Round 24",
+              "date_label": "Fri 21 Mar",
+              "home_team_id": "team-port-fc",
+              "away_team_id": "team-chonburi",
+              "home_name": "Port FC",
+              "away_name": "Chonburi",
+              "home_goals": 2,
+              "away_goals": 1,
+              "status": "FT",
+              "note": "",
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "match-thai-league-1-result-round-24-chiangrai-utd-uthai-thani",
+              "kind": "result",
+              "round_label": "Round 24",
+              "date_label": "Fri 21 Mar",
+              "home_team_id": "team-chiangrai-utd",
+              "away_team_id": "team-uthai-thani",
+              "home_name": "Chiangrai Utd",
+              "away_name": "Uthai Thani",
+              "home_goals": 1,
+              "away_goals": 1,
+              "status": "FT",
+              "note": "",
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "match-thai-league-1-result-round-23-sukhothai-buriram-united",
+              "kind": "result",
+              "round_label": "Round 23",
+              "date_label": "Tue 18 Mar",
+              "home_team_id": "team-sukhothai",
+              "away_team_id": "team-buriram-united",
+              "home_name": "Sukhothai",
+              "away_name": "Buriram United",
+              "home_goals": 0,
+              "away_goals": 4,
+              "status": "FT",
+              "note": "",
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "match-thai-league-1-result-round-23-ayutthaya-utd-trat-fc",
+              "kind": "result",
+              "round_label": "Round 23",
+              "date_label": "Tue 18 Mar",
+              "home_team_id": "team-ayutthaya-utd",
+              "away_team_id": null,
+              "home_name": "Ayutthaya Utd",
+              "away_name": "Trat FC",
+              "home_goals": 3,
+              "away_goals": 1,
+              "status": "FT",
+              "note": "",
+              "resolution": "unresolved",
+              "issues": [
+                "Team is not present in the imported thai-league-1 standings."
+              ]
+            },
+            {
+              "id": "match-thai-league-1-fixture-round-25-buriram-united-khon-kaen",
+              "kind": "fixture",
+              "round_label": "Round 25",
+              "date_label": "Tue 25 Mar",
+              "home_team_id": "team-buriram-united",
+              "away_team_id": null,
+              "home_name": "Buriram United",
+              "away_name": "Khon Kaen",
+              "home_goals": null,
+              "away_goals": null,
+              "status": "19:00",
+              "note": "",
+              "resolution": "unresolved",
+              "issues": [
+                "Team is not present in the imported thai-league-1 standings."
+              ]
+            },
+            {
+              "id": "match-thai-league-1-fixture-round-25-port-fc-bangkok-utd",
+              "kind": "fixture",
+              "round_label": "Round 25",
+              "date_label": "Tue 25 Mar",
+              "home_team_id": "team-port-fc",
+              "away_team_id": "team-bangkok-utd",
+              "home_name": "Port FC",
+              "away_name": "Bangkok Utd",
+              "home_goals": null,
+              "away_goals": null,
+              "status": "19:00",
+              "note": "",
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "match-thai-league-1-fixture-round-25-prachuap-ratchaburi",
+              "kind": "fixture",
+              "round_label": "Round 25",
+              "date_label": "Wed 26 Mar",
+              "home_team_id": "team-prachuap",
+              "away_team_id": "team-ratchaburi",
+              "home_name": "Prachuap",
+              "away_name": "Ratchaburi",
+              "home_goals": null,
+              "away_goals": null,
+              "status": "19:00",
+              "note": "",
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "match-thai-league-1-fixture-round-25-pathum-united-chiangrai-utd",
+              "kind": "fixture",
+              "round_label": "Round 25",
+              "date_label": "Wed 26 Mar",
+              "home_team_id": "team-pathum-united",
+              "away_team_id": "team-chiangrai-utd",
+              "home_name": "Pathum United",
+              "away_name": "Chiangrai Utd",
+              "home_goals": null,
+              "away_goals": null,
+              "status": "19:00",
+              "note": "",
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "match-thai-league-1-fixture-round-25-chonburi-trat-fc",
+              "kind": "fixture",
+              "round_label": "Round 25",
+              "date_label": "Wed 26 Mar",
+              "home_team_id": "team-chonburi",
+              "away_team_id": null,
+              "home_name": "Chonburi",
+              "away_name": "Trat FC",
+              "home_goals": null,
+              "away_goals": null,
+              "status": "19:00",
+              "note": "",
+              "resolution": "unresolved",
+              "issues": [
+                "Team is not present in the imported thai-league-1 standings."
+              ]
+            },
+            {
+              "id": "match-thai-league-1-fixture-round-26-ayutthaya-utd-buriram-united",
+              "kind": "fixture",
+              "round_label": "Round 26",
+              "date_label": "Sat 29 Mar",
+              "home_team_id": "team-ayutthaya-utd",
+              "away_team_id": "team-buriram-united",
+              "home_name": "Ayutthaya Utd",
+              "away_name": "Buriram United",
+              "home_goals": null,
+              "away_goals": null,
+              "status": "18:00",
+              "note": "",
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "match-thai-league-1-fixture-round-26-rayong-fc-port-fc",
+              "kind": "fixture",
+              "round_label": "Round 26",
+              "date_label": "Sat 29 Mar",
+              "home_team_id": "team-rayong-fc",
+              "away_team_id": "team-port-fc",
+              "home_name": "Rayong FC",
+              "away_name": "Port FC",
+              "home_goals": null,
+              "away_goals": null,
+              "status": "18:00",
+              "note": "",
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "match-thai-league-1-fixture-round-26-nakhon-ratchasima-bangkok-utd",
+              "kind": "fixture",
+              "round_label": "Round 26",
+              "date_label": "Sat 29 Mar",
+              "home_team_id": "team-nakhon-ratchasima",
+              "away_team_id": "team-bangkok-utd",
+              "home_name": "Nakhon Ratchasima",
+              "away_name": "Bangkok Utd",
+              "home_goals": null,
+              "away_goals": null,
+              "status": "19:30",
+              "note": "",
+              "resolution": "resolved",
+              "issues": []
+            }
+          ],
+          "cup": null,
+          "scorers": [
+            {
+              "id": "scorer-thai-league-1-victor-cardozo",
+              "rank": 1,
+              "player_name": "Victor Cardozo",
+              "team_id": "team-buriram-united",
+              "team_name": "Buriram United",
+              "nationality": "🇧🇷",
+              "goals": 21,
+              "appearances": 23,
+              "assists": 7,
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "scorer-thai-league-1-elias-dolah",
+              "rank": 2,
+              "player_name": "Elias Dolah",
+              "team_id": "team-ratchaburi",
+              "team_name": "Ratchaburi",
+              "nationality": "🇸🇳",
+              "goals": 14,
+              "appearances": 22,
+              "assists": 4,
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "scorer-thai-league-1-chanatip-s",
+              "rank": 3,
+              "player_name": "Chanatip S.",
+              "team_id": "team-bangkok-utd",
+              "team_name": "Bangkok Utd",
+              "nationality": "🇹🇭",
+              "goals": 12,
+              "appearances": 22,
+              "assists": 9,
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "scorer-thai-league-1-leo-bittencourt",
+              "rank": 4,
+              "player_name": "Léo Bittencourt",
+              "team_id": "team-port-fc",
+              "team_name": "Port FC",
+              "nationality": "🇧🇷",
+              "goals": 11,
+              "appearances": 24,
+              "assists": 6,
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "scorer-thai-league-1-phitiwat-i",
+              "rank": 5,
+              "player_name": "Phitiwat I.",
+              "team_id": "team-pathum-united",
+              "team_name": "Pathum United",
+              "nationality": "🇹🇭",
+              "goals": 10,
+              "appearances": 24,
+              "assists": 3,
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "scorer-thai-league-1-kodai-sano",
+              "rank": 6,
+              "player_name": "Kodai Sano",
+              "team_id": "team-prachuap",
+              "team_name": "Prachuap",
+              "nationality": "🇯🇵",
+              "goals": 9,
+              "appearances": 24,
+              "assists": 5,
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "scorer-thai-league-1-marcus-williams",
+              "rank": 7,
+              "player_name": "Marcus Williams",
+              "team_id": "team-rayong-fc",
+              "team_name": "Rayong FC",
+              "nationality": "🇺🇸",
+              "goals": 9,
+              "appearances": 24,
+              "assists": 2,
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "scorer-thai-league-1-tristan-do",
+              "rank": 8,
+              "player_name": "Tristan Do",
+              "team_id": "team-chonburi",
+              "team_name": "Chonburi",
+              "nationality": "🇫🇷",
+              "goals": 8,
+              "appearances": 25,
+              "assists": 4,
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "scorer-thai-league-1-santisakr-k",
+              "rank": 9,
+              "player_name": "Santisakr K.",
+              "team_id": "team-chiangrai-utd",
+              "team_name": "Chiangrai Utd",
+              "nationality": "🇹🇭",
+              "goals": 7,
+              "appearances": 23,
+              "assists": 6,
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "scorer-thai-league-1-adebayo-azeez",
+              "rank": 10,
+              "player_name": "Adebayo Azeez",
+              "team_id": "team-ayutthaya-utd",
+              "team_name": "Ayutthaya Utd",
+              "nationality": "🇳🇬",
+              "goals": 7,
+              "appearances": 25,
+              "assists": 1,
+              "resolution": "resolved",
+              "issues": []
+            }
+          ],
+          "news_ids": [
+            "news-01",
+            "news-02",
+            "news-03",
+            "news-04",
+            "news-07"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thai-league-2",
+      "name": "Thai League 2",
+      "short_name": "T2",
+      "section": "National League",
+      "category": "Senior",
+      "kind": "league",
+      "age_group": null,
+      "sort_order": 20,
+      "active": true,
+      "official_name": "Thai League 2",
+      "aliases": [
+        "Thai League 2"
+      ],
+      "group_label": null,
+      "description": "Thailand's second professional football division.",
+      "source_ids": [
+        "legacy-import",
+        "thaileague",
+        "wikipedia-t2"
+      ],
+      "seasons": [
+        {
+          "id": "2025-26",
+          "label": "2025/26",
+          "is_current": true,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": null,
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [
+            {
+              "id": "overall",
+              "name": "Overall",
+              "standings": [
+                {
+                  "team_id": "team-raisalai-united",
+                  "team_name": "Raisalai United",
+                  "rank": 1,
+                  "played": 31,
+                  "won": 18,
+                  "drawn": 10,
+                  "lost": 3,
+                  "goals_for": 56,
+                  "goals_against": 31,
+                  "goal_difference": 25,
+                  "points": 64,
+                  "form": [
+                    "D",
+                    "W",
+                    "W",
+                    "W",
+                    "W",
+                    "D"
+                  ],
+                  "zone": "z-promo"
+                },
+                {
+                  "team_id": "team-sisaket-united",
+                  "team_name": "Sisaket United",
+                  "rank": 2,
+                  "played": 30,
+                  "won": 16,
+                  "drawn": 9,
+                  "lost": 5,
+                  "goals_for": 40,
+                  "goals_against": 24,
+                  "goal_difference": 16,
+                  "points": 57,
+                  "form": [
+                    "W",
+                    "D",
+                    "W",
+                    "D",
+                    "L",
+                    "W"
+                  ],
+                  "zone": "z-promo"
+                },
+                {
+                  "team_id": "team-pattani",
+                  "team_name": "Pattani",
+                  "rank": 3,
+                  "played": 31,
+                  "won": 15,
+                  "drawn": 8,
+                  "lost": 8,
+                  "goals_for": 45,
+                  "goals_against": 42,
+                  "goal_difference": 3,
+                  "points": 53,
+                  "form": [
+                    "W",
+                    "W",
+                    "W",
+                    "W",
+                    "D",
+                    "W"
+                  ],
+                  "zone": "z-playoff"
+                },
+                {
+                  "team_id": "team-nong-bua-pitchaya",
+                  "team_name": "Nong Bua Pitchaya",
+                  "rank": 4,
+                  "played": 30,
+                  "won": 14,
+                  "drawn": 5,
+                  "lost": 11,
+                  "goals_for": 46,
+                  "goals_against": 47,
+                  "goal_difference": -1,
+                  "points": 47,
+                  "form": [
+                    "W",
+                    "D",
+                    "W",
+                    "L",
+                    "L",
+                    "W"
+                  ],
+                  "zone": "z-playoff"
+                },
+                {
+                  "team_id": "team-police-tero",
+                  "team_name": "Police Tero",
+                  "rank": 5,
+                  "played": 30,
+                  "won": 13,
+                  "drawn": 7,
+                  "lost": 10,
+                  "goals_for": 40,
+                  "goals_against": 34,
+                  "goal_difference": 6,
+                  "points": 46,
+                  "form": [
+                    "L",
+                    "D",
+                    "L",
+                    "D",
+                    "L",
+                    "L"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-mahasarakham",
+                  "team_name": "Mahasarakham",
+                  "rank": 6,
+                  "played": 31,
+                  "won": 12,
+                  "drawn": 8,
+                  "lost": 11,
+                  "goals_for": 45,
+                  "goals_against": 34,
+                  "goal_difference": 11,
+                  "points": 44,
+                  "form": [
+                    "L",
+                    "D",
+                    "W",
+                    "D",
+                    "W",
+                    "D"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-chainat",
+                  "team_name": "Chainat",
+                  "rank": 7,
+                  "played": 31,
+                  "won": 11,
+                  "drawn": 9,
+                  "lost": 11,
+                  "goals_for": 42,
+                  "goals_against": 38,
+                  "goal_difference": 4,
+                  "points": 42,
+                  "form": [
+                    "D",
+                    "W",
+                    "L",
+                    "L",
+                    "D",
+                    "D"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-phrae",
+                  "team_name": "Phrae",
+                  "rank": 8,
+                  "played": 31,
+                  "won": 10,
+                  "drawn": 12,
+                  "lost": 9,
+                  "goals_for": 39,
+                  "goals_against": 45,
+                  "goal_difference": -6,
+                  "points": 42,
+                  "form": [
+                    "D",
+                    "D",
+                    "D",
+                    "L",
+                    "D",
+                    "W"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-khon-kaen-united",
+                  "team_name": "Khon Kaen United",
+                  "rank": 9,
+                  "played": 30,
+                  "won": 10,
+                  "drawn": 11,
+                  "lost": 10,
+                  "goals_for": 55,
+                  "goals_against": 46,
+                  "goal_difference": 9,
+                  "points": 41,
+                  "form": [
+                    "W",
+                    "W",
+                    "L",
+                    "L",
+                    "L",
+                    "D"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-songkhla",
+                  "team_name": "Songkhla",
+                  "rank": 10,
+                  "played": 31,
+                  "won": 11,
+                  "drawn": 7,
+                  "lost": 13,
+                  "goals_for": 35,
+                  "goals_against": 39,
+                  "goal_difference": -4,
+                  "points": 40,
+                  "form": [
+                    "W",
+                    "D",
+                    "W",
+                    "D",
+                    "W",
+                    "W"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-trat-fc",
+                  "team_name": "Trat FC",
+                  "rank": 11,
+                  "played": 30,
+                  "won": 11,
+                  "drawn": 6,
+                  "lost": 13,
+                  "goals_for": 43,
+                  "goals_against": 45,
+                  "goal_difference": -2,
+                  "points": 39,
+                  "form": [
+                    "W",
+                    "L",
+                    "W",
+                    "D",
+                    "L",
+                    "W"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-chanthaburi",
+                  "team_name": "Chanthaburi",
+                  "rank": 12,
+                  "played": 31,
+                  "won": 10,
+                  "drawn": 8,
+                  "lost": 13,
+                  "goals_for": 41,
+                  "goals_against": 42,
+                  "goal_difference": -1,
+                  "points": 38,
+                  "form": [
+                    "D",
+                    "L",
+                    "L",
+                    "W",
+                    "L",
+                    "D"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-pattaya-united",
+                  "team_name": "Pattaya United",
+                  "rank": 13,
+                  "played": 31,
+                  "won": 9,
+                  "drawn": 10,
+                  "lost": 12,
+                  "goals_for": 40,
+                  "goals_against": 38,
+                  "goal_difference": 2,
+                  "points": 37,
+                  "form": [
+                    "W",
+                    "D",
+                    "W",
+                    "L",
+                    "D",
+                    "W"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-chiang-mai-fc",
+                  "team_name": "Chiang Mai FC",
+                  "rank": 14,
+                  "played": 31,
+                  "won": 12,
+                  "drawn": 1,
+                  "lost": 18,
+                  "goals_for": 47,
+                  "goals_against": 53,
+                  "goal_difference": -6,
+                  "points": 37,
+                  "form": [
+                    "L",
+                    "L",
+                    "L",
+                    "L",
+                    "L",
+                    "W"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-kasetsart",
+                  "team_name": "Kasetsart",
+                  "rank": 15,
+                  "played": 30,
+                  "won": 8,
+                  "drawn": 10,
+                  "lost": 12,
+                  "goals_for": 38,
+                  "goals_against": 43,
+                  "goal_difference": -5,
+                  "points": 34,
+                  "form": [
+                    "L",
+                    "L",
+                    "W",
+                    "Q",
+                    "D",
+                    "D"
+                  ],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-nakhon-pathom",
+                  "team_name": "Nakhon Pathom",
+                  "rank": 16,
+                  "played": 31,
+                  "won": 8,
+                  "drawn": 9,
+                  "lost": 14,
+                  "goals_for": 24,
+                  "goals_against": 34,
+                  "goal_difference": -10,
+                  "points": 33,
+                  "form": [
+                    "W",
+                    "L",
+                    "L",
+                    "L",
+                    "L",
+                    "L"
+                  ],
+                  "zone": "z-rel"
+                },
+                {
+                  "team_id": "team-nakhon-si",
+                  "team_name": "Nakhon Si",
+                  "rank": 17,
+                  "played": 30,
+                  "won": 7,
+                  "drawn": 11,
+                  "lost": 12,
+                  "goals_for": 31,
+                  "goals_against": 51,
+                  "goal_difference": -20,
+                  "points": 32,
+                  "form": [
+                    "D",
+                    "L",
+                    "D",
+                    "Q",
+                    "D",
+                    "Q"
+                  ],
+                  "zone": "z-rel"
+                },
+                {
+                  "team_id": "team-bangkok-fc",
+                  "team_name": "Bangkok FC",
+                  "rank": 18,
+                  "played": 30,
+                  "won": 7,
+                  "drawn": 7,
+                  "lost": 17,
+                  "goals_for": 34,
+                  "goals_against": 55,
+                  "goal_difference": -21,
+                  "points": 28,
+                  "form": [
+                    "L",
+                    "L",
+                    "L",
+                    "L",
+                    "L",
+                    "L"
+                  ],
+                  "zone": "z-rel"
+                }
+              ],
+              "validation": {
+                "status": "failed",
+                "messages": [
+                  "At least one row has MP ≠ W + D + L."
+                ]
+              }
+            }
+          ],
+          "matches": [
+            {
+              "id": "match-thai-league-2-result-round-23-lamphun-warriors-chiang-mai-fc",
+              "kind": "result",
+              "round_label": "Round 23",
+              "date_label": "Sat 22 Mar",
+              "home_team_id": null,
+              "away_team_id": "team-chiang-mai-fc",
+              "home_name": "Lamphun Warriors",
+              "away_name": "Chiang Mai FC",
+              "home_goals": 2,
+              "away_goals": 1,
+              "status": "FT",
+              "note": "",
+              "resolution": "unresolved",
+              "issues": [
+                "Team is not present in the imported thai-league-2 standings."
+              ]
+            },
+            {
+              "id": "match-thai-league-2-result-round-23-army-utd-nakhon-si-utd",
+              "kind": "result",
+              "round_label": "Round 23",
+              "date_label": "Sat 22 Mar",
+              "home_team_id": null,
+              "away_team_id": "team-nakhon-si",
+              "home_name": "Army Utd",
+              "away_name": "Nakhon Si Utd",
+              "home_goals": 0,
+              "away_goals": 2,
+              "status": "FT",
+              "note": "",
+              "resolution": "unresolved",
+              "issues": [
+                "Team is not present in the imported thai-league-2 standings.",
+                "Alias used: Nakhon Si Utd → Nakhon Si (unverified editorial alias)."
+              ]
+            },
+            {
+              "id": "match-thai-league-2-result-round-23-chainat-hornbill-pattaya-utd",
+              "kind": "result",
+              "round_label": "Round 23",
+              "date_label": "Fri 21 Mar",
+              "home_team_id": "team-chainat",
+              "away_team_id": "team-pattaya-united",
+              "home_name": "Chainat Hornbill",
+              "away_name": "Pattaya Utd",
+              "home_goals": 2,
+              "away_goals": 0,
+              "status": "FT",
+              "note": "",
+              "resolution": "resolved",
+              "issues": [
+                "Alias used: Chainat Hornbill → Chainat (unverified editorial alias).",
+                "Alias used: Pattaya Utd → Pattaya United (unverified editorial alias)."
+              ]
+            },
+            {
+              "id": "match-thai-league-2-fixture-round-24-lamphun-warriors-samut-sakhon",
+              "kind": "fixture",
+              "round_label": "Round 24",
+              "date_label": "Tue 25 Mar",
+              "home_team_id": null,
+              "away_team_id": null,
+              "home_name": "Lamphun Warriors",
+              "away_name": "Samut Sakhon",
+              "home_goals": null,
+              "away_goals": null,
+              "status": "19:00",
+              "note": "",
+              "resolution": "unresolved",
+              "issues": [
+                "Team is not present in the imported thai-league-2 standings.",
+                "Team is not present in the imported thai-league-2 standings."
+              ]
+            },
+            {
+              "id": "match-thai-league-2-fixture-round-24-nakhon-si-utd-chainat-hornbill",
+              "kind": "fixture",
+              "round_label": "Round 24",
+              "date_label": "Tue 25 Mar",
+              "home_team_id": "team-nakhon-si",
+              "away_team_id": "team-chainat",
+              "home_name": "Nakhon Si Utd",
+              "away_name": "Chainat Hornbill",
+              "home_goals": null,
+              "away_goals": null,
+              "status": "19:00",
+              "note": "",
+              "resolution": "resolved",
+              "issues": [
+                "Alias used: Nakhon Si Utd → Nakhon Si (unverified editorial alias).",
+                "Alias used: Chainat Hornbill → Chainat (unverified editorial alias)."
+              ]
+            },
+            {
+              "id": "match-thai-league-2-fixture-round-24-chiang-mai-fc-army-utd",
+              "kind": "fixture",
+              "round_label": "Round 24",
+              "date_label": "Wed 26 Mar",
+              "home_team_id": "team-chiang-mai-fc",
+              "away_team_id": null,
+              "home_name": "Chiang Mai FC",
+              "away_name": "Army Utd",
+              "home_goals": null,
+              "away_goals": null,
+              "status": "19:00",
+              "note": "",
+              "resolution": "unresolved",
+              "issues": [
+                "Team is not present in the imported thai-league-2 standings."
+              ]
+            }
+          ],
+          "cup": null,
+          "scorers": [
+            {
+              "id": "scorer-thai-league-2-kwame-asante",
+              "rank": 1,
+              "player_name": "Kwame Asante",
+              "team_id": null,
+              "team_name": "Lamphun Warriors",
+              "nationality": "🇬🇭",
+              "goals": 16,
+              "appearances": 22,
+              "assists": 5,
+              "resolution": "unresolved",
+              "issues": [
+                "Team is not present in the imported thai-league-2 standings."
+              ]
+            },
+            {
+              "id": "scorer-thai-league-2-yuki-yamamoto",
+              "rank": 2,
+              "player_name": "Yuki Yamamoto",
+              "team_id": "team-chiang-mai-fc",
+              "team_name": "Chiang Mai FC",
+              "nationality": "🇯🇵",
+              "goals": 14,
+              "appearances": 22,
+              "assists": 8,
+              "resolution": "resolved",
+              "issues": []
+            },
+            {
+              "id": "scorer-thai-league-2-nattawut-p",
+              "rank": 3,
+              "player_name": "Nattawut P.",
+              "team_id": null,
+              "team_name": "Army Utd",
+              "nationality": "🇹🇭",
+              "goals": 11,
+              "appearances": 22,
+              "assists": 4,
+              "resolution": "unresolved",
+              "issues": [
+                "Team is not present in the imported thai-league-2 standings."
+              ]
+            },
+            {
+              "id": "scorer-thai-league-2-carlos-reyes",
+              "rank": 4,
+              "player_name": "Carlos Reyes",
+              "team_id": "team-nakhon-si",
+              "team_name": "Nakhon Si",
+              "nationality": "🇨🇱",
+              "goals": 10,
+              "appearances": 22,
+              "assists": 6,
+              "resolution": "resolved",
+              "issues": [
+                "Alias used: Nakhon Si Utd → Nakhon Si (unverified editorial alias)."
+              ]
+            },
+            {
+              "id": "scorer-thai-league-2-amir-hossein-r",
+              "rank": 5,
+              "player_name": "Amir Hossein R.",
+              "team_id": null,
+              "team_name": "Ubon Ratchathani",
+              "nationality": "🇮🇷",
+              "goals": 9,
+              "appearances": 22,
+              "assists": 2,
+              "resolution": "unresolved",
+              "issues": [
+                "Team is not present in the imported thai-league-2 standings."
+              ]
+            }
+          ],
+          "news_ids": [
+            "news-03",
+            "news-05",
+            "news-06"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thai-league-3",
+      "name": "Thai League 3",
+      "short_name": "T3",
+      "section": "National League",
+      "category": "Senior",
+      "kind": "league",
+      "age_group": null,
+      "sort_order": 30,
+      "active": true,
+      "official_name": "Thai League 3",
+      "aliases": [
+        "Thai League 3",
+        "Thai League 3 (Region)",
+        "Thai League 3 (Regions)"
+      ],
+      "group_label": null,
+      "description": "Thailand's third football level, organised in regional groups.",
+      "source_ids": [
+        "legacy-import",
+        "thaileague",
+        "wikipedia-t3"
+      ],
+      "seasons": [
+        {
+          "id": "2025-26",
+          "label": "2025/26",
+          "is_current": true,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": null,
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [
+            {
+              "id": "group-1",
+              "name": "Northern Region",
+              "standings": [
+                {
+                  "team_id": "team-chiang-rai-utd-b",
+                  "team_name": "Chiang Rai Utd B",
+                  "rank": 1,
+                  "played": 20,
+                  "won": 14,
+                  "drawn": 3,
+                  "lost": 3,
+                  "goals_for": 38,
+                  "goals_against": 14,
+                  "goal_difference": 24,
+                  "points": 45,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-lampang-fc",
+                  "team_name": "Lampang FC",
+                  "rank": 2,
+                  "played": 20,
+                  "won": 12,
+                  "drawn": 4,
+                  "lost": 4,
+                  "goals_for": 30,
+                  "goals_against": 18,
+                  "goal_difference": 12,
+                  "points": 40,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-phrae-utd",
+                  "team_name": "Phrae Utd",
+                  "rank": 3,
+                  "played": 20,
+                  "won": 9,
+                  "drawn": 5,
+                  "lost": 6,
+                  "goals_for": 24,
+                  "goals_against": 20,
+                  "goal_difference": 4,
+                  "points": 32,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-nan-city",
+                  "team_name": "Nan City",
+                  "rank": 4,
+                  "played": 20,
+                  "won": 8,
+                  "drawn": 4,
+                  "lost": 8,
+                  "goals_for": 22,
+                  "goals_against": 25,
+                  "goal_difference": -3,
+                  "points": 28,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-phayao-fc",
+                  "team_name": "Phayao FC",
+                  "rank": 5,
+                  "played": 20,
+                  "won": 6,
+                  "drawn": 6,
+                  "lost": 8,
+                  "goals_for": 19,
+                  "goals_against": 24,
+                  "goal_difference": -5,
+                  "points": 24,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-chiang-mai-res",
+                  "team_name": "Chiang Mai Res.",
+                  "rank": 6,
+                  "played": 20,
+                  "won": 5,
+                  "drawn": 5,
+                  "lost": 10,
+                  "goals_for": 17,
+                  "goals_against": 28,
+                  "goal_difference": -11,
+                  "points": 20,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "failed",
+                "messages": [
+                  "Group total wins (54) ≠ total losses (39).",
+                  "Group total GF (150) ≠ total GA (129).",
+                  "Group total draws (27) is odd."
+                ]
+              }
+            },
+            {
+              "id": "group-2",
+              "name": "Northeastern Region",
+              "standings": [
+                {
+                  "team_id": "team-buriram-res",
+                  "team_name": "Buriram Res.",
+                  "rank": 1,
+                  "played": 18,
+                  "won": 13,
+                  "drawn": 2,
+                  "lost": 3,
+                  "goals_for": 36,
+                  "goals_against": 12,
+                  "goal_difference": 24,
+                  "points": 41,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-khon-kaen-fc-b",
+                  "team_name": "Khon Kaen FC B",
+                  "rank": 2,
+                  "played": 18,
+                  "won": 10,
+                  "drawn": 4,
+                  "lost": 4,
+                  "goals_for": 28,
+                  "goals_against": 16,
+                  "goal_difference": 12,
+                  "points": 34,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-udon-thani-city",
+                  "team_name": "Udon Thani City",
+                  "rank": 3,
+                  "played": 18,
+                  "won": 8,
+                  "drawn": 3,
+                  "lost": 7,
+                  "goals_for": 22,
+                  "goals_against": 21,
+                  "goal_difference": 1,
+                  "points": 27,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-roi-et-fc",
+                  "team_name": "Roi Et FC",
+                  "rank": 4,
+                  "played": 18,
+                  "won": 7,
+                  "drawn": 3,
+                  "lost": 8,
+                  "goals_for": 20,
+                  "goals_against": 24,
+                  "goal_difference": -4,
+                  "points": 24,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-nakhon-phanom",
+                  "team_name": "Nakhon Phanom",
+                  "rank": 5,
+                  "played": 18,
+                  "won": 3,
+                  "drawn": 4,
+                  "lost": 11,
+                  "goals_for": 14,
+                  "goals_against": 32,
+                  "goal_difference": -18,
+                  "points": 13,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "failed",
+                "messages": [
+                  "Group total wins (41) ≠ total losses (33).",
+                  "Group total GF (120) ≠ total GA (105)."
+                ]
+              }
+            },
+            {
+              "id": "group-3",
+              "name": "Central Region",
+              "standings": [
+                {
+                  "team_id": "team-royal-thai-af",
+                  "team_name": "Royal Thai AF",
+                  "rank": 1,
+                  "played": 20,
+                  "won": 11,
+                  "drawn": 3,
+                  "lost": 6,
+                  "goals_for": 28,
+                  "goals_against": 20,
+                  "goal_difference": 8,
+                  "points": 36,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-angthong",
+                  "team_name": "Angthong",
+                  "rank": 2,
+                  "played": 20,
+                  "won": 10,
+                  "drawn": 4,
+                  "lost": 6,
+                  "goals_for": 31,
+                  "goals_against": 21,
+                  "goal_difference": 10,
+                  "points": 34,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-futera-united",
+                  "team_name": "Futera United",
+                  "rank": 3,
+                  "played": 20,
+                  "won": 8,
+                  "drawn": 4,
+                  "lost": 8,
+                  "goals_for": 33,
+                  "goals_against": 26,
+                  "goal_difference": 7,
+                  "points": 28,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-kasem-bundit-u",
+                  "team_name": "Kasem Bundit U.",
+                  "rank": 4,
+                  "played": 20,
+                  "won": 7,
+                  "drawn": 7,
+                  "lost": 6,
+                  "goals_for": 26,
+                  "goals_against": 26,
+                  "goal_difference": 0,
+                  "points": 28,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-lopburi-city",
+                  "team_name": "Lopburi City",
+                  "rank": 5,
+                  "played": 20,
+                  "won": 4,
+                  "drawn": 5,
+                  "lost": 11,
+                  "goals_for": 27,
+                  "goals_against": 35,
+                  "goal_difference": -8,
+                  "points": 17,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-saraburi-utd",
+                  "team_name": "Saraburi Utd",
+                  "rank": 6,
+                  "played": 20,
+                  "won": 2,
+                  "drawn": 4,
+                  "lost": 14,
+                  "goals_for": 19,
+                  "goals_against": 50,
+                  "goal_difference": -31,
+                  "points": 10,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "failed",
+                "messages": [
+                  "Group total wins (42) ≠ total losses (51).",
+                  "Group total GF (164) ≠ total GA (178).",
+                  "Group total draws (27) is odd."
+                ]
+              }
+            },
+            {
+              "id": "group-4",
+              "name": "Eastern Region",
+              "standings": [
+                {
+                  "team_id": "team-burapha-united",
+                  "team_name": "Burapha United",
+                  "rank": 1,
+                  "played": 21,
+                  "won": 14,
+                  "drawn": 4,
+                  "lost": 3,
+                  "goals_for": 53,
+                  "goals_against": 18,
+                  "goal_difference": 35,
+                  "points": 46,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-marines-eureka",
+                  "team_name": "Marines Eureka",
+                  "rank": 2,
+                  "played": 21,
+                  "won": 14,
+                  "drawn": 4,
+                  "lost": 3,
+                  "goals_for": 32,
+                  "goals_against": 15,
+                  "goal_difference": 17,
+                  "points": 46,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-navy-fc",
+                  "team_name": "Navy FC",
+                  "rank": 3,
+                  "played": 21,
+                  "won": 11,
+                  "drawn": 6,
+                  "lost": 4,
+                  "goals_for": 32,
+                  "goals_against": 17,
+                  "goal_difference": 15,
+                  "points": 39,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-ban-khai-united",
+                  "team_name": "Ban Khai United",
+                  "rank": 4,
+                  "played": 21,
+                  "won": 10,
+                  "drawn": 5,
+                  "lost": 6,
+                  "goals_for": 26,
+                  "goals_against": 23,
+                  "goal_difference": 3,
+                  "points": 35,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-customs-united",
+                  "team_name": "Customs United",
+                  "rank": 5,
+                  "played": 21,
+                  "won": 9,
+                  "drawn": 5,
+                  "lost": 7,
+                  "goals_for": 29,
+                  "goals_against": 26,
+                  "goal_difference": 3,
+                  "points": 32,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-chachoengsao",
+                  "team_name": "Chachoengsao",
+                  "rank": 6,
+                  "played": 21,
+                  "won": 3,
+                  "drawn": 9,
+                  "lost": 9,
+                  "goals_for": 13,
+                  "goals_against": 20,
+                  "goal_difference": -7,
+                  "points": 18,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "failed",
+                "messages": [
+                  "Group total wins (61) ≠ total losses (32).",
+                  "Group total GF (185) ≠ total GA (119).",
+                  "Group total draws (33) is odd."
+                ]
+              }
+            },
+            {
+              "id": "group-5",
+              "name": "Western Region",
+              "standings": [
+                {
+                  "team_id": "team-samut-sakhon-city",
+                  "team_name": "Samut Sakhon City",
+                  "rank": 1,
+                  "played": 19,
+                  "won": 14,
+                  "drawn": 2,
+                  "lost": 3,
+                  "goals_for": 40,
+                  "goals_against": 16,
+                  "goal_difference": 24,
+                  "points": 44,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-thonburi-united",
+                  "team_name": "Thonburi United",
+                  "rank": 2,
+                  "played": 19,
+                  "won": 10,
+                  "drawn": 6,
+                  "lost": 3,
+                  "goals_for": 33,
+                  "goals_against": 17,
+                  "goal_difference": 16,
+                  "points": 36,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-suphan-buri-fc",
+                  "team_name": "Suphan Buri FC",
+                  "rank": 3,
+                  "played": 20,
+                  "won": 9,
+                  "drawn": 5,
+                  "lost": 6,
+                  "goals_for": 22,
+                  "goals_against": 19,
+                  "goal_difference": 3,
+                  "points": 32,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-royal-thai-army",
+                  "team_name": "Royal Thai Army",
+                  "rank": 4,
+                  "played": 19,
+                  "won": 7,
+                  "drawn": 7,
+                  "lost": 5,
+                  "goals_for": 21,
+                  "goals_against": 17,
+                  "goal_difference": 4,
+                  "points": 28,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-hua-hin-city",
+                  "team_name": "Hua Hin City",
+                  "rank": 5,
+                  "played": 19,
+                  "won": 5,
+                  "drawn": 5,
+                  "lost": 9,
+                  "goals_for": 19,
+                  "goals_against": 28,
+                  "goal_difference": -9,
+                  "points": 20,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-nonthaburi-utd",
+                  "team_name": "Nonthaburi Utd",
+                  "rank": 6,
+                  "played": 19,
+                  "won": 3,
+                  "drawn": 4,
+                  "lost": 12,
+                  "goals_for": 16,
+                  "goals_against": 29,
+                  "goal_difference": -13,
+                  "points": 13,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "failed",
+                "messages": [
+                  "Group total wins (48) ≠ total losses (38).",
+                  "Group total GF (151) ≠ total GA (126).",
+                  "Group total draws (29) is odd."
+                ]
+              }
+            },
+            {
+              "id": "group-6",
+              "name": "Southern Region",
+              "standings": [
+                {
+                  "team_id": "team-nara-united",
+                  "team_name": "Nara United",
+                  "rank": 1,
+                  "played": 18,
+                  "won": 14,
+                  "drawn": 1,
+                  "lost": 3,
+                  "goals_for": 39,
+                  "goals_against": 10,
+                  "goal_difference": 29,
+                  "points": 43,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-fc-satun",
+                  "team_name": "FC Satun",
+                  "rank": 2,
+                  "played": 18,
+                  "won": 11,
+                  "drawn": 4,
+                  "lost": 3,
+                  "goals_for": 31,
+                  "goals_against": 11,
+                  "goal_difference": 20,
+                  "points": 37,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-fc-yala",
+                  "team_name": "FC Yala",
+                  "rank": 3,
+                  "played": 18,
+                  "won": 10,
+                  "drawn": 6,
+                  "lost": 2,
+                  "goals_for": 28,
+                  "goals_against": 14,
+                  "goal_difference": 14,
+                  "points": 36,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-samui-united",
+                  "team_name": "Samui United",
+                  "rank": 4,
+                  "played": 18,
+                  "won": 10,
+                  "drawn": 3,
+                  "lost": 5,
+                  "goals_for": 37,
+                  "goals_against": 16,
+                  "goal_difference": 21,
+                  "points": 33,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-phuket-andaman",
+                  "team_name": "Phuket Andaman",
+                  "rank": 5,
+                  "played": 18,
+                  "won": 6,
+                  "drawn": 5,
+                  "lost": 7,
+                  "goals_for": 24,
+                  "goals_against": 21,
+                  "goal_difference": 3,
+                  "points": 23,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "team-krabi-fc",
+                  "team_name": "Krabi FC",
+                  "rank": 6,
+                  "played": 18,
+                  "won": 0,
+                  "drawn": 1,
+                  "lost": 17,
+                  "goals_for": 1,
+                  "goals_against": 52,
+                  "goal_difference": -51,
+                  "points": 1,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "failed",
+                "messages": [
+                  "Group total wins (51) ≠ total losses (37).",
+                  "Group total GF (160) ≠ total GA (124)."
+                ]
+              }
+            }
+          ],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": [
+            "news-03",
+            "news-10"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thai-fa-cup",
+      "name": "Thai FA Cup",
+      "short_name": "FA Cup",
+      "section": "National League",
+      "category": "Senior",
+      "kind": "cup",
+      "age_group": null,
+      "sort_order": 40,
+      "active": true,
+      "official_name": "Thai FA Cup",
+      "aliases": [
+        "FA Cup",
+        "Chang FA Cup"
+      ],
+      "group_label": null,
+      "description": "National knockout cup. Sponsor/legacy name: Chang FA Cup.",
+      "source_ids": [
+        "legacy-import",
+        "fat",
+        "wikipedia-fac"
+      ],
+      "seasons": [
+        {
+          "id": "2025-26",
+          "label": "2025/26",
+          "is_current": true,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": null,
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": {
+            "name": "Thai FA Cup 2025/26",
+            "sponsor": "Chang FA Cup",
+            "teams_count": 95,
+            "prize": "฿5,000,000 (Champion) · ฿1,000,000 (Runner-up)",
+            "reward": "ACL Elite qualifying play-off + Thailand Champions Cup",
+            "rounds": [
+              {
+                "id": "round-thai-fa-cup-qualification-round",
+                "name": "Qualification Round",
+                "date_label": "24 Sep 2025",
+                "clubs": 62,
+                "status": "done",
+                "note": "31 matches · 114 goals scored",
+                "sort_order": 1
+              },
+              {
+                "id": "round-thai-fa-cup-first-round",
+                "name": "First Round",
+                "date_label": "29–30 Oct 2025",
+                "clubs": 64,
+                "status": "done",
+                "note": "32 matches · 141 goals scored",
+                "sort_order": 2
+              },
+              {
+                "id": "round-thai-fa-cup-second-round",
+                "name": "Second Round",
+                "date_label": "20–21 Dec 2025",
+                "clubs": 32,
+                "status": "done",
+                "note": "16 matches · 54 goals scored",
+                "sort_order": 3
+              },
+              {
+                "id": "round-thai-fa-cup-third-round",
+                "name": "Third Round",
+                "date_label": "14 Jan 2026",
+                "clubs": 16,
+                "status": "done",
+                "note": "8 matches · 25 goals scored",
+                "sort_order": 4
+              },
+              {
+                "id": "round-thai-fa-cup-quarter-finals",
+                "name": "Quarter-finals",
+                "date_label": "25 Feb 2026",
+                "clubs": 8,
+                "status": "done",
+                "note": "4 matches · 10 goals scored",
+                "sort_order": 5
+              },
+              {
+                "id": "round-thai-fa-cup-semi-finals",
+                "name": "Semi-finals",
+                "date_label": "30 Mar 2026",
+                "clubs": 4,
+                "status": "upcoming",
+                "note": "Draw: 9 Apr 2026 · Buriram, Lamphun, Ayutthaya Utd, Prachuap",
+                "sort_order": 6
+              },
+              {
+                "id": "round-thai-fa-cup-final",
+                "name": "Final",
+                "date_label": "19 Apr 2026",
+                "clubs": 2,
+                "status": "upcoming",
+                "note": "Neutral venue — TBD",
+                "sort_order": 7
+              }
+            ],
+            "ties": [
+              {
+                "id": "tie-thai-fa-cup-quarter-finals-buriram-united-khon-kaen-united",
+                "round_id": "round-thai-fa-cup-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Buriram United",
+                "away_name": "Khon Kaen United",
+                "home_goals": 6,
+                "away_goals": 0,
+                "status": "FT",
+                "note": "Robert Žulj hat-trick",
+                "sort_order": 1
+              },
+              {
+                "id": "tie-thai-fa-cup-quarter-finals-lamphun-warriors-muangthong-united",
+                "round_id": "round-thai-fa-cup-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Lamphun Warriors",
+                "away_name": "Muangthong United",
+                "home_goals": 2,
+                "away_goals": 1,
+                "status": "FT (AET)",
+                "note": "1–1 after 90 min",
+                "sort_order": 2
+              },
+              {
+                "id": "tie-thai-fa-cup-quarter-finals-ayutthaya-united-ratchaburi",
+                "round_id": "round-thai-fa-cup-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Ayutthaya United",
+                "away_name": "Ratchaburi",
+                "home_goals": 1,
+                "away_goals": 0,
+                "status": "FT",
+                "note": "",
+                "sort_order": 3
+              },
+              {
+                "id": "tie-thai-fa-cup-quarter-finals-prachuap-chiangrai-united",
+                "round_id": "round-thai-fa-cup-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Prachuap",
+                "away_name": "Chiangrai United",
+                "home_goals": 1,
+                "away_goals": 0,
+                "status": "FT",
+                "note": "",
+                "sort_order": 4
+              },
+              {
+                "id": "tie-thai-fa-cup-semi-finals-buriram-united-tbd",
+                "round_id": "round-thai-fa-cup-semi-finals",
+                "stage": "Semi-finals",
+                "home_name": "Buriram United",
+                "away_name": "TBD",
+                "home_goals": null,
+                "away_goals": null,
+                "status": "30 Mar 2026",
+                "note": "",
+                "sort_order": 1
+              },
+              {
+                "id": "tie-thai-fa-cup-semi-finals-lamphun-warriors-tbd",
+                "round_id": "round-thai-fa-cup-semi-finals",
+                "stage": "Semi-finals",
+                "home_name": "Lamphun Warriors",
+                "away_name": "TBD",
+                "home_goals": null,
+                "away_goals": null,
+                "status": "30 Mar 2026",
+                "note": "",
+                "sort_order": 2
+              }
+            ],
+            "past_editions": []
+          },
+          "scorers": [],
+          "news_ids": [
+            "news-03",
+            "news-07",
+            "news-08"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thai-league-cup",
+      "name": "Thai League Cup",
+      "short_name": "League Cup",
+      "section": "National League",
+      "category": "Senior",
+      "kind": "cup",
+      "age_group": null,
+      "sort_order": 50,
+      "active": true,
+      "official_name": "Thai League Cup",
+      "aliases": [
+        "League Cup",
+        "Muang Thai Cup"
+      ],
+      "group_label": null,
+      "description": "National league cup. Sponsor/legacy name: Muang Thai Cup.",
+      "source_ids": [
+        "legacy-import",
+        "fat",
+        "wikipedia-lc"
+      ],
+      "seasons": [
+        {
+          "id": "2025-26",
+          "label": "2025/26",
+          "is_current": true,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": null,
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": {
+            "name": "Thai League Cup 2025/26",
+            "sponsor": "Muang Thai Cup",
+            "teams_count": 80,
+            "prize": "฿5,000,000 (Champion) · ฿1,000,000 (Runner-up)",
+            "reward": "2026–27 ASEAN Club Championship",
+            "rounds": [
+              {
+                "id": "round-thai-league-cup-1st-qualification-round",
+                "name": "1st Qualification Round",
+                "date_label": "7–8 Oct 2025",
+                "clubs": 26,
+                "status": "done",
+                "note": "13 matches · 39 goals · T3 clubs only",
+                "sort_order": 1
+              },
+              {
+                "id": "round-thai-league-cup-2nd-qualification-round",
+                "name": "2nd Qualification Round",
+                "date_label": "21–22 Oct 2025",
+                "clubs": 38,
+                "status": "done",
+                "note": "19 matches · 53 goals · T3 clubs",
+                "sort_order": 2
+              },
+              {
+                "id": "round-thai-league-cup-qualification-play-off",
+                "name": "Qualification Play-off",
+                "date_label": "26 Nov – 17 Dec 2025",
+                "clubs": 32,
+                "status": "done",
+                "note": "16 matches · 48 goals · T2 enters",
+                "sort_order": 3
+              },
+              {
+                "id": "round-thai-league-cup-first-round",
+                "name": "First Round",
+                "date_label": "27–28 Dec 2025",
+                "clubs": 32,
+                "status": "done",
+                "note": "16 matches · 46 goals · T1 enters",
+                "sort_order": 4
+              },
+              {
+                "id": "round-thai-league-cup-second-round",
+                "name": "Second Round",
+                "date_label": "21–28 Jan 2026",
+                "clubs": 16,
+                "status": "done",
+                "note": "8 matches · 23 goals",
+                "sort_order": 5
+              },
+              {
+                "id": "round-thai-league-cup-quarter-finals",
+                "name": "Quarter-finals",
+                "date_label": "18 Mar 2026",
+                "clubs": 8,
+                "status": "done",
+                "note": "4 matches · results pending",
+                "sort_order": 6
+              },
+              {
+                "id": "round-thai-league-cup-semi-finals",
+                "name": "Semi-finals",
+                "date_label": "TBD",
+                "clubs": 4,
+                "status": "upcoming",
+                "note": "",
+                "sort_order": 7
+              },
+              {
+                "id": "round-thai-league-cup-final",
+                "name": "Final",
+                "date_label": "TBD",
+                "clubs": 2,
+                "status": "upcoming",
+                "note": "",
+                "sort_order": 8
+              }
+            ],
+            "ties": [
+              {
+                "id": "tie-thai-league-cup-quarter-finals-bg-pathum-united-mahasarakham-fc",
+                "round_id": "round-thai-league-cup-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "BG Pathum United",
+                "away_name": "Mahasarakham FC",
+                "home_goals": 3,
+                "away_goals": 0,
+                "status": "FT",
+                "note": "",
+                "sort_order": 1
+              },
+              {
+                "id": "tie-thai-league-cup-quarter-finals-chonburi-thap-luang-united",
+                "round_id": "round-thai-league-cup-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Chonburi",
+                "away_name": "Thap Luang United",
+                "home_goals": 1,
+                "away_goals": 0,
+                "status": "FT",
+                "note": "",
+                "sort_order": 2
+              },
+              {
+                "id": "tie-thai-league-cup-quarter-finals-port-fc-khon-kaen-united",
+                "round_id": "round-thai-league-cup-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Port FC",
+                "away_name": "Khon Kaen United",
+                "home_goals": 7,
+                "away_goals": 0,
+                "status": "FT",
+                "note": "",
+                "sort_order": 3
+              },
+              {
+                "id": "tie-thai-league-cup-quarter-finals-pattani-fc-buriram-united",
+                "round_id": "round-thai-league-cup-quarter-finals",
+                "stage": "Quarter-finals",
+                "home_name": "Pattani FC",
+                "away_name": "Buriram United",
+                "home_goals": 0,
+                "away_goals": 3,
+                "status": "FT",
+                "note": "",
+                "sort_order": 4
+              }
+            ],
+            "past_editions": []
+          },
+          "scorers": [],
+          "news_ids": [
+            "news-03",
+            "news-07",
+            "news-09"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thai-champion-cup",
+      "name": "Thai Champion Cup",
+      "short_name": "Champion Cup",
+      "section": "National League",
+      "category": "Senior",
+      "kind": "cup",
+      "age_group": null,
+      "sort_order": 60,
+      "active": true,
+      "official_name": "Thailand Champions Cup",
+      "aliases": [
+        "Champions Cup",
+        "Thai Champions Cup",
+        "Thailand Champions Cup"
+      ],
+      "group_label": null,
+      "description": "National super cup between the Thai League 1 champion and FA Cup winner.",
+      "source_ids": [
+        "legacy-import",
+        "fat"
+      ],
+      "seasons": [
+        {
+          "id": "2026",
+          "label": "2026",
+          "is_current": true,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": null,
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": {
+            "name": "Thai Champions Cup 2026",
+            "sponsor": "Thailand Champions Cup",
+            "teams_count": 2,
+            "prize": "National Super Cup — Thai League 1 Champion vs FA Cup Winner",
+            "reward": "Thailand Super Cup Title",
+            "rounds": [
+              {
+                "id": "round-thai-champion-cup-final",
+                "name": "Final",
+                "date_label": "TBD 2026",
+                "clubs": 2,
+                "status": "upcoming",
+                "note": "Thai League 1 Champion vs FA Cup Winner",
+                "sort_order": 1
+              }
+            ],
+            "ties": [
+              {
+                "id": "tie-thai-champion-cup-final-tbd-t1-champion-tbd-fa-cup-winner",
+                "round_id": "round-thai-champion-cup-final",
+                "stage": "Final",
+                "home_name": "TBD (T1 Champion)",
+                "away_name": "TBD (FA Cup Winner)",
+                "home_goals": null,
+                "away_goals": null,
+                "status": "TBD 2026",
+                "note": "",
+                "sort_order": 1
+              }
+            ],
+            "past_editions": [
+              {
+                "id": "past-edition-thai-champion-cup-2023-0",
+                "year": "2023",
+                "home_name": "Buriram United",
+                "away_name": "Bangkok Utd",
+                "home_goals": 0,
+                "away_goals": 2,
+                "note": "Bangkok Utd won"
+              }
+            ]
+          },
+          "scorers": [],
+          "news_ids": [
+            "news-12"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "thai-youth-league-u18",
+      "name": "Thai Youth League 1 (U18)",
+      "short_name": "U18",
+      "section": "Youth League (FAT & SAT)",
+      "category": "Youth",
+      "kind": "league",
+      "age_group": "U18",
+      "sort_order": 110,
+      "active": true,
+      "official_name": "Thai Youth League 1 (U18)",
+      "aliases": [
+        "Thailand Youth League U18"
+      ],
+      "group_label": "Youth League (FAT & SAT)",
+      "description": "Youth competition organised under the FA Thailand and Sports Authority of Thailand structure.",
+      "source_ids": [
+        "owner-reference",
+        "fat"
+      ],
+      "seasons": [
+        {
+          "id": "2026",
+          "label": "2026",
+          "is_current": true,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U18",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": []
+        }
+      ]
+    },
+    {
+      "id": "thai-youth-league-u16",
+      "name": "Thai Youth League 2 (U16)",
+      "short_name": "U16",
+      "section": "Youth League (FAT & SAT)",
+      "category": "Youth",
+      "kind": "league",
+      "age_group": "U16",
+      "sort_order": 120,
+      "active": true,
+      "official_name": "Thai Youth League 2 (U16)",
+      "aliases": [
+        "Thailand Youth League U16"
+      ],
+      "group_label": "Youth League (FAT & SAT)",
+      "description": "Youth competition organised under the FA Thailand and Sports Authority of Thailand structure.",
+      "source_ids": [
+        "owner-reference",
+        "fat"
+      ],
+      "seasons": [
+        {
+          "id": "2026",
+          "label": "2026",
+          "is_current": true,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U16",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": []
+        }
+      ]
+    },
+    {
+      "id": "thai-youth-league-u14",
+      "name": "Thai Youth League 3 (U14)",
+      "short_name": "U14",
+      "section": "Youth League (FAT & SAT)",
+      "category": "Youth",
+      "kind": "league",
+      "age_group": "U14",
+      "sort_order": 130,
+      "active": true,
+      "official_name": "Thai Youth League 3 (U14)",
+      "aliases": [
+        "Thailand Youth League U14"
+      ],
+      "group_label": "Youth League (FAT & SAT)",
+      "description": "Youth competition organised under the FA Thailand and Sports Authority of Thailand structure.",
+      "source_ids": [
+        "owner-reference",
+        "fat"
+      ],
+      "seasons": [
+        {
+          "id": "2026",
+          "label": "2026",
+          "is_current": true,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U14",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": []
+        }
+      ]
+    },
+    {
+      "id": "thai-school-league-type-a",
+      "name": "Thai School League — Type A",
+      "short_name": "Type A",
+      "section": "School League (DPE)",
+      "category": "Youth",
+      "kind": "league",
+      "age_group": null,
+      "sort_order": 210,
+      "active": true,
+      "official_name": "Thai School League — Type A",
+      "aliases": [
+        "ฟุตบอลนักเรียน กรมพลฯ ประเภท ก",
+        "Thai School League Type A"
+      ],
+      "group_label": "School League (DPE)",
+      "description": "School football competition organised by the Department of Physical Education; Type A category.",
+      "source_ids": [
+        "owner-reference",
+        "dpe"
+      ],
+      "seasons": [
+        {
+          "id": "2026-u18",
+          "label": "2026 · U18",
+          "is_current": true,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U18",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": []
+        },
+        {
+          "id": "2026-u16",
+          "label": "2026 · U16",
+          "is_current": false,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U16",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": []
+        },
+        {
+          "id": "2026-u14",
+          "label": "2026 · U14",
+          "is_current": false,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U14",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": []
+        }
+      ]
+    },
+    {
+      "id": "thai-school-league-type-b",
+      "name": "Thai School League — Type B",
+      "short_name": "Type B",
+      "section": "School League (DPE)",
+      "category": "Youth",
+      "kind": "league",
+      "age_group": null,
+      "sort_order": 220,
+      "active": true,
+      "official_name": "Thai School League — Type B",
+      "aliases": [
+        "ฟุตบอลนักเรียน กรมพลฯ ประเภท ข",
+        "Thai School League Type B"
+      ],
+      "group_label": "School League (DPE)",
+      "description": "School football competition organised by the Department of Physical Education; Type B category.",
+      "source_ids": [
+        "owner-reference",
+        "dpe"
+      ],
+      "seasons": [
+        {
+          "id": "2026-u18",
+          "label": "2026 · U18",
+          "is_current": true,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U18",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": []
+        },
+        {
+          "id": "2026-u16",
+          "label": "2026 · U16",
+          "is_current": false,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U16",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": []
+        },
+        {
+          "id": "2026-u14",
+          "label": "2026 · U14",
+          "is_current": false,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U14",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": []
+        }
+      ]
+    },
+    {
+      "id": "thai-school-league-general",
+      "name": "Thai School League — General",
+      "short_name": "General",
+      "section": "School League (DPE)",
+      "category": "Youth",
+      "kind": "league",
+      "age_group": null,
+      "sort_order": 230,
+      "active": true,
+      "official_name": "Thai School League — General",
+      "aliases": [
+        "ฟุตบอลนักเรียน กรมพลฯ ประเภท ทั่วไป",
+        "Thai School League General"
+      ],
+      "group_label": "School League (DPE)",
+      "description": "School football competition organised by the Department of Physical Education; general division.",
+      "source_ids": [
+        "owner-reference",
+        "dpe"
+      ],
+      "seasons": [
+        {
+          "id": "2026-u18",
+          "label": "2026 · U18",
+          "is_current": true,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U18",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": []
+        },
+        {
+          "id": "2026-u16",
+          "label": "2026 · U16",
+          "is_current": false,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U16",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": []
+        },
+        {
+          "id": "2026-u14",
+          "label": "2026 · U14",
+          "is_current": false,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U14",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": []
+        },
+        {
+          "id": "2026-u12",
+          "label": "2026 · U12",
+          "is_current": false,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U12",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": []
+        }
+      ]
+    },
+    {
+      "id": "thai-college-cup-u19",
+      "name": "Thai College Cup (U19)",
+      "short_name": "U19",
+      "section": "School League (DPE)",
+      "category": "Youth",
+      "kind": "cup",
+      "age_group": "U19",
+      "sort_order": 240,
+      "active": true,
+      "official_name": "Thai College Cup (U19)",
+      "aliases": [
+        "ฟุตบอลอาชีวะระดับประเทศ"
+      ],
+      "group_label": "School League (DPE)",
+      "description": "Cup competition for national vocational education institutions.",
+      "source_ids": [
+        "owner-reference"
+      ],
+      "seasons": [
+        {
+          "id": "2026",
+          "label": "2026",
+          "is_current": true,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U19",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": []
+        }
+      ]
+    },
+    {
+      "id": "thai-university-cup-u23",
+      "name": "Thai University Cup (U23)",
+      "short_name": "U23",
+      "section": "School League (DPE)",
+      "category": "Youth",
+      "kind": "cup",
+      "age_group": "U23",
+      "sort_order": 250,
+      "active": true,
+      "official_name": "Thai University Cup (U23)",
+      "aliases": [
+        "ฟุตบอลมหาวิทยาลัยระดับประเทศ",
+        "University Champions Cup"
+      ],
+      "group_label": "School League (DPE)",
+      "description": "Cup competition for national university institutions.",
+      "source_ids": [
+        "owner-reference"
+      ],
+      "seasons": [
+        {
+          "id": "2026",
+          "label": "2026",
+          "is_current": true,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U23",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": []
+        }
+      ]
+    },
+    {
+      "id": "thai-youth-fa-cup-u17",
+      "name": "Thai Youth FA Cup (U17)",
+      "short_name": "U17",
+      "section": "Youth League (FAT & SAT)",
+      "category": "Youth",
+      "kind": "cup",
+      "age_group": "U17",
+      "sort_order": 140,
+      "active": true,
+      "official_name": "Thai Youth FA Cup (U17)",
+      "aliases": [
+        "Coke Cup",
+        "Coke Cup U17",
+        "Thai School FA Cup U17"
+      ],
+      "group_label": "Youth League (FAT & SAT)",
+      "description": "Youth cup under the FA Thailand structure; sponsor alias: Coke Cup.",
+      "source_ids": [
+        "owner-reference"
+      ],
+      "seasons": [
+        {
+          "id": "2026",
+          "label": "2026",
+          "is_current": true,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U17",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": []
+        }
+      ]
+    },
+    {
+      "id": "thai-youth-league-cup-u18",
+      "name": "Thai Youth League Cup (U18)",
+      "short_name": "U18",
+      "section": "Youth League (FAT & SAT)",
+      "category": "Youth",
+      "kind": "cup",
+      "age_group": "U18",
+      "sort_order": 150,
+      "active": true,
+      "official_name": "Thai Youth League Cup (U18)",
+      "aliases": [
+        "7HD Champion Cup",
+        "Channel 7HD Champion Cup",
+        "Thai School League Cup U18"
+      ],
+      "group_label": "Youth League (FAT & SAT)",
+      "description": "Youth league cup under the FA Thailand structure; sponsor alias: 7HD Champion Cup.",
+      "source_ids": [
+        "owner-reference",
+        "ch7"
+      ],
+      "seasons": [
+        {
+          "id": "2026",
+          "label": "2026",
+          "is_current": true,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U18",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": []
+        }
+      ]
+    },
+    {
+      "id": "thai-youth-champion-cup-u18",
+      "name": "Thai Youth Champion Cup (U18)",
+      "short_name": "U18",
+      "section": "Youth League (FAT & SAT)",
+      "category": "Youth",
+      "kind": "cup",
+      "age_group": "U18",
+      "sort_order": 160,
+      "active": true,
+      "official_name": "Thai Youth Champion Cup (U18)",
+      "aliases": [],
+      "group_label": "Youth League (FAT & SAT)",
+      "description": "Youth champion cup under the FA Thailand structure.",
+      "source_ids": [
+        "owner-reference"
+      ],
+      "seasons": [
+        {
+          "id": "2026",
+          "label": "2026",
+          "is_current": true,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "age_group": "U18",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": []
+        }
+      ]
+    }
+  ],
+  "news": [
+    {
+      "id": "news-01",
+      "title": "Buriram United secure new foreign striker ahead of ACL playoff push",
+      "summary": "The champions are closing in on a deal for a Brazilian forward to bolster their Champions League squad depth.",
+      "published_label": "22 Mar 2026",
+      "source_name": "Thairath Sport",
+      "tag": "Transfer",
+      "emoji": "💰",
+      "competition_ids": [
+        "thai-league-1"
+      ]
+    },
+    {
+      "id": "news-02",
+      "title": "Buriram United 3–0 Pathum United: Unbeatable gap grows to 15 points",
+      "summary": "An emphatic home win extends Buriram's lead at the top of Thai League 1 with just six rounds remaining.",
+      "published_label": "22 Mar 2026",
+      "source_name": "Siam Sport",
+      "tag": "Match Report",
+      "emoji": "⚽",
+      "competition_ids": [
+        "thai-league-1"
+      ]
+    },
+    {
+      "id": "news-03",
+      "title": "War Elephants call-up list: 5 TL1 players included for ASEAN Cup qualifier",
+      "summary": "Masatada Ishii names 23-man squad for the upcoming qualifier in Hanoi. Buriram and Port each contribute two players.",
+      "published_label": "21 Mar 2026",
+      "source_name": "FAT Official",
+      "tag": "Thai NT",
+      "emoji": "🇹🇭",
+      "competition_ids": [
+        "thai-league-1",
+        "thai-league-2",
+        "thai-league-3",
+        "legacy-thai-league-4",
+        "legacy-thai-league-5",
+        "thai-fa-cup",
+        "thai-league-cup"
+      ]
+    },
+    {
+      "id": "news-04",
+      "title": "Round 25 preview: The title race is over — but the relegation battle is just heating up",
+      "summary": "With Buriram almost certain to lift the title, the real drama this week is at the bottom. Trat, Khon Kaen, and Nakhon Pathom are all within three points of safety.",
+      "published_label": "21 Mar 2026",
+      "source_name": "Chang Football",
+      "tag": "Preview",
+      "emoji": "📋",
+      "competition_ids": [
+        "thai-league-1"
+      ]
+    },
+    {
+      "id": "news-05",
+      "title": "Lamphun Warriors edge Chiang Mai in top-of-table clash to open 5-point gap",
+      "summary": "A second-half header from their Ivorian import proved the difference in an absorbing northern derby.",
+      "published_label": "22 Mar 2026",
+      "source_name": "TL2 Official",
+      "tag": "Match Report",
+      "emoji": "🏟️",
+      "competition_ids": [
+        "thai-league-2"
+      ]
+    },
+    {
+      "id": "news-06",
+      "title": "Army United confirm signing of two T1 veterans for promotion push",
+      "summary": "The military club bolster their squad with experienced recruits ahead of the crucial T2 run-in.",
+      "published_label": "20 Mar 2026",
+      "source_name": "TL2 Official",
+      "tag": "Transfer",
+      "emoji": "💸",
+      "competition_ids": [
+        "thai-league-2"
+      ]
+    },
+    {
+      "id": "news-07",
+      "title": "Port FC draw Al-Qadsiah in ACL2 knockout round — confirmed for April",
+      "summary": "The Thai representatives face a tough Saudi side after finishing second in the League Phase.",
+      "published_label": "20 Mar 2026",
+      "source_name": "AFC Official",
+      "tag": "AFC",
+      "emoji": "🏆",
+      "competition_ids": [
+        "thai-league-1",
+        "thai-fa-cup",
+        "thai-league-cup"
+      ]
+    },
+    {
+      "id": "news-08",
+      "title": "FA Cup semi-finalists confirmed — draw on 9 April 2026",
+      "summary": "Buriram United, Lamphun Warriors, Ayutthaya United and Prachuap reach the last four. Lamphun edged Muangthong 2–1 after extra time. Draw takes place 9 April at FAT House.",
+      "published_label": "25 Feb 2026",
+      "source_name": "FAT Official",
+      "tag": "FA Cup",
+      "emoji": "🏆",
+      "competition_ids": [
+        "thai-fa-cup"
+      ]
+    },
+    {
+      "id": "news-09",
+      "title": "League Cup QF results: Port thrash Khon Kaen 7–0, Buriram beat Pattani 3–0",
+      "summary": "Port FC demolished Khon Kaen United 7–0 in the standout quarter-final result. Buriram United advanced past Pattani, while BG Pathum and Chonburi also progressed.",
+      "published_label": "18 Mar 2026",
+      "source_name": "Siam Sport",
+      "tag": "League Cup",
+      "emoji": "🥇",
+      "competition_ids": [
+        "thai-league-cup"
+      ]
+    },
+    {
+      "id": "news-10",
+      "title": "Burapha United and Marines Eureka level on points in Eastern Region",
+      "summary": "The two sides are inseparable at the top heading into a pivotal run-in that could go to goal difference.",
+      "published_label": "20 Mar 2026",
+      "source_name": "TL3 Official",
+      "tag": "Thai League 3",
+      "emoji": "🔵",
+      "competition_ids": [
+        "thai-league-3"
+      ]
+    },
+    {
+      "id": "news-11",
+      "title": "T4 2026 season registration opens — 24 clubs confirmed across six zones",
+      "summary": "The semi-professional fourth tier prepares for a new campaign with several new entries.",
+      "published_label": "15 Mar 2026",
+      "source_name": "FAT Official",
+      "tag": "Thai League 4",
+      "emoji": "🟡",
+      "competition_ids": [
+        "legacy-thai-league-4"
+      ]
+    },
+    {
+      "id": "news-12",
+      "title": "Thailand Champions Cup 2026 — date TBD after FA Cup Final",
+      "summary": "The annual super cup between the Thai League 1 champion and FA Cup winner will be confirmed once the FA Cup concludes in April 2026.",
+      "published_label": "22 Mar 2026",
+      "source_name": "FAT Official",
+      "tag": "Champions Cup",
+      "emoji": "🏅",
+      "competition_ids": [
+        "thai-champion-cup"
+      ]
+    },
+    {
+      "id": "news-13",
+      "title": "Thailand Amateur League 2026 draw complete — South Zone features 10 clubs",
+      "summary": "The southern zone draws the largest field this season, with Satun FC and Songkhla Aslan among the favourites.",
+      "published_label": "10 Mar 2026",
+      "source_name": "FAT Official",
+      "tag": "Amateur",
+      "emoji": "🟠",
+      "competition_ids": [
+        "legacy-thai-league-5"
+      ]
+    }
+  ],
+  "legacy": [
+    {
+      "id": "legacy-thai-league-4",
+      "name": "Thai League 4 (Semi-Pro)",
+      "short_name": "T4",
+      "section": "Legacy Archive",
+      "category": "Senior",
+      "kind": "league",
+      "age_group": null,
+      "sort_order": 900,
+      "active": false,
+      "official_name": "Thai League 4 (Semi-Pro)",
+      "aliases": [
+        "Thai League 4"
+      ],
+      "group_label": null,
+      "description": "Preserved legacy reference. Not shown as an active sidebar competition.",
+      "source_ids": [
+        "legacy-import"
+      ],
+      "seasons": [
+        {
+          "id": "2026",
+          "label": "2026",
+          "is_current": false,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [
+            {
+              "id": "legacy-group-1",
+              "name": "North Zone",
+              "standings": [
+                {
+                  "team_id": "legacy-t4-chattrakan-city",
+                  "team_name": "Chattrakan City",
+                  "rank": 1,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-chiangrai-tsc",
+                  "team_name": "Chiangrai TSC",
+                  "rank": 2,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-khelang-united",
+                  "team_name": "Khelang United",
+                  "rank": 3,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-lampang-athletic",
+                  "team_name": "Lampang Athletic",
+                  "rank": 4,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-nan-city-athletic",
+                  "team_name": "Nan City Athletic",
+                  "rank": 5,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-phichit-united-2021",
+                  "team_name": "Phichit United 2021",
+                  "rank": 6,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-phrae-united",
+                  "team_name": "Phrae United",
+                  "rank": 7,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "no-data",
+                "messages": [
+                  "Legacy pre-season placeholder; no match data."
+                ]
+              }
+            },
+            {
+              "id": "legacy-group-2",
+              "name": "Northeast Zone",
+              "standings": [
+                {
+                  "team_id": "legacy-t4-eumt",
+                  "team_name": "EUMT",
+                  "rank": 1,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-loei-city-fc",
+                  "team_name": "Loei City FC",
+                  "rank": 2,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-mahasarakham-athletic",
+                  "team_name": "Mahasarakham Athletic",
+                  "rank": 3,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-nong-bua-lamphu-united",
+                  "team_name": "Nong Bua Lamphu United",
+                  "rank": 4,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-roi-et-pb-united",
+                  "team_name": "Roi Et PB United",
+                  "rank": 5,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-suranaree-army-2",
+                  "team_name": "Suranaree Army 2",
+                  "rank": 6,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-udon-banjun-united",
+                  "team_name": "Udon Banjun United",
+                  "rank": 7,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "no-data",
+                "messages": [
+                  "Legacy pre-season placeholder; no match data."
+                ]
+              }
+            },
+            {
+              "id": "legacy-group-3",
+              "name": "East Zone",
+              "standings": [
+                {
+                  "team_id": "legacy-t4-banbueng-city",
+                  "team_name": "Banbueng City",
+                  "rank": 1,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-chonburi-athletic",
+                  "team_name": "Chonburi Athletic",
+                  "rank": 2,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-nakhonnayok-fc",
+                  "team_name": "Nakhonnayok FC",
+                  "rank": 3,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-padriew-city",
+                  "team_name": "Padriew City",
+                  "rank": 4,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-prachinburi-city",
+                  "team_name": "Prachinburi City",
+                  "rank": 5,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-sa-kaeo-united",
+                  "team_name": "Sa Kaeo United",
+                  "rank": 6,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-trat-athletic",
+                  "team_name": "Trat Athletic",
+                  "rank": 7,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "no-data",
+                "messages": [
+                  "Legacy pre-season placeholder; no match data."
+                ]
+              }
+            },
+            {
+              "id": "legacy-group-4",
+              "name": "West Zone",
+              "standings": [
+                {
+                  "team_id": "legacy-t4-hua-hin-city",
+                  "team_name": "Hua Hin City",
+                  "rank": 1,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-krungthep-sathorn-fc",
+                  "team_name": "Krungthep Sathorn FC",
+                  "rank": 2,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-nakhon-pathom-athletic",
+                  "team_name": "Nakhon Pathom Athletic",
+                  "rank": 3,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-photharam-fc",
+                  "team_name": "Photharam FC",
+                  "rank": 4,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-ratchaburi-athletic",
+                  "team_name": "Ratchaburi Athletic",
+                  "rank": 5,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-samut-songkhram-city",
+                  "team_name": "Samut Songkhram City",
+                  "rank": 6,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-thap-luang-united",
+                  "team_name": "Thap Luang United",
+                  "rank": 7,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "no-data",
+                "messages": [
+                  "Legacy pre-season placeholder; no match data."
+                ]
+              }
+            },
+            {
+              "id": "legacy-group-5",
+              "name": "Central Zone",
+              "standings": [
+                {
+                  "team_id": "legacy-t4-ang-thong-united",
+                  "team_name": "Ang Thong United",
+                  "rank": 1,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-auu-inter-bangkok",
+                  "team_name": "AUU Inter Bangkok",
+                  "rank": 2,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-chainat-athletic",
+                  "team_name": "Chainat Athletic",
+                  "rank": 3,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-dome-fc",
+                  "team_name": "Dome FC",
+                  "rank": 4,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-futera-united",
+                  "team_name": "Futera United",
+                  "rank": 5,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-lopburi-athletic",
+                  "team_name": "Lopburi Athletic",
+                  "rank": 6,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-singburi-warriors",
+                  "team_name": "Singburi Warriors",
+                  "rank": 7,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "no-data",
+                "messages": [
+                  "Legacy pre-season placeholder; no match data."
+                ]
+              }
+            },
+            {
+              "id": "legacy-group-6",
+              "name": "South Zone",
+              "standings": [
+                {
+                  "team_id": "legacy-t4-chumphon-united",
+                  "team_name": "Chumphon United",
+                  "rank": 1,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-krabi-fc",
+                  "team_name": "Krabi FC",
+                  "rank": 2,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-muang-trang-united",
+                  "team_name": "Muang Trang United",
+                  "rank": 3,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-nara-united",
+                  "team_name": "Nara United",
+                  "rank": 4,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-phatthalung-athletic",
+                  "team_name": "Phatthalung Athletic",
+                  "rank": 5,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-ranong-united",
+                  "team_name": "Ranong United",
+                  "rank": 6,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-samui-united",
+                  "team_name": "Samui United",
+                  "rank": 7,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t4-satun-fc",
+                  "team_name": "Satun FC",
+                  "rank": 8,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "no-data",
+                "messages": [
+                  "Legacy pre-season placeholder; no match data."
+                ]
+              }
+            }
+          ],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": [
+            "news-11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legacy-thai-league-5",
+      "name": "Thai League 5 (Amateur)",
+      "short_name": "T5",
+      "section": "Legacy Archive",
+      "category": "Senior",
+      "kind": "league",
+      "age_group": null,
+      "sort_order": 910,
+      "active": false,
+      "official_name": "Thai League 5 (Amateur)",
+      "aliases": [
+        "Thailand Amateur League"
+      ],
+      "group_label": null,
+      "description": "Preserved legacy reference. Not shown as an active sidebar competition.",
+      "source_ids": [
+        "legacy-import"
+      ],
+      "seasons": [
+        {
+          "id": "2026",
+          "label": "2026",
+          "is_current": false,
+          "verified": false,
+          "captured_at": "2026-03-22",
+          "source_ids": [
+            "legacy-import"
+          ],
+          "groups": [
+            {
+              "id": "legacy-group-1",
+              "name": "North Upper Sub-region",
+              "standings": [
+                {
+                  "team_id": "legacy-t5-chiang-mai-dream-fc",
+                  "team_name": "Chiang Mai Dream FC",
+                  "rank": 1,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-chiang-mai-city",
+                  "team_name": "Chiang Mai City",
+                  "rank": 2,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-chiang-rai-dragon-vbac",
+                  "team_name": "Chiang Rai Dragon VBAC",
+                  "rank": 3,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-chiangrai-lanna",
+                  "team_name": "Chiangrai Lanna",
+                  "rank": 4,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-christ-fc",
+                  "team_name": "Christ FC",
+                  "rank": 5,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-jt-fc",
+                  "team_name": "JT FC",
+                  "rank": 6,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-phayao-fc",
+                  "team_name": "Phayao FC",
+                  "rank": 7,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-singha-nuea-chiang-mai",
+                  "team_name": "Singha Nuea Chiang Mai",
+                  "rank": 8,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-unseen-lamphun-united",
+                  "team_name": "Unseen Lamphun United",
+                  "rank": 9,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-wiangping-rangers",
+                  "team_name": "Wiangping Rangers",
+                  "rank": 10,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "no-data",
+                "messages": [
+                  "Legacy pre-season placeholder; no match data."
+                ]
+              }
+            },
+            {
+              "id": "legacy-group-2",
+              "name": "North Lower Sub-region",
+              "standings": [
+                {
+                  "team_id": "legacy-t5-chaiyaphum-warriors",
+                  "team_name": "Chaiyaphum Warriors",
+                  "rank": 1,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-nakhon-sawan-fc",
+                  "team_name": "Nakhon Sawan FC",
+                  "rank": 2,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-naresuan-university",
+                  "team_name": "Naresuan University",
+                  "rank": 3,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-northern-tak-united",
+                  "team_name": "Northern Tak United",
+                  "rank": 4,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-paknampho-fc",
+                  "team_name": "Paknampho FC",
+                  "rank": 5,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-sa-pitsanulok",
+                  "team_name": "SA Pitsanulok",
+                  "rank": 6,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-sawankhalok-united",
+                  "team_name": "Sawankhalok United",
+                  "rank": 7,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-sri-nakhon-town",
+                  "team_name": "Sri Nakhon Town",
+                  "rank": 8,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-thung-hong-united",
+                  "team_name": "Thung Hong United",
+                  "rank": 9,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "no-data",
+                "messages": [
+                  "Legacy pre-season placeholder; no match data."
+                ]
+              }
+            },
+            {
+              "id": "legacy-group-3",
+              "name": "Northeast Upper Sub-region",
+              "standings": [
+                {
+                  "team_id": "legacy-t5-ban-chiang-peak-one-city",
+                  "team_name": "Ban Chiang Peak-One City",
+                  "rank": 1,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-college-of-asian-scholars",
+                  "team_name": "College of Asian Scholars",
+                  "rank": 2,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-chumpae-fc",
+                  "team_name": "Chumpae FC",
+                  "rank": 3,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-kranuan-fc",
+                  "team_name": "Kranuan FC",
+                  "rank": 4,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-loei-city-fc",
+                  "team_name": "Loei City FC",
+                  "rank": 5,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-techno-sawang",
+                  "team_name": "Techno Sawang",
+                  "rank": 6,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-ud-nonghan",
+                  "team_name": "UD Nonghan",
+                  "rank": 7,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-udon-banjun-united",
+                  "team_name": "Udon Banjun United",
+                  "rank": 8,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "no-data",
+                "messages": [
+                  "Legacy pre-season placeholder; no match data."
+                ]
+              }
+            },
+            {
+              "id": "legacy-group-4",
+              "name": "Northeast Lower Sub-region",
+              "standings": [
+                {
+                  "team_id": "legacy-t5-amnat-charoen-town",
+                  "team_name": "Amnat Charoen Town",
+                  "rank": 1,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-kalasin-sauropod",
+                  "team_name": "Kalasin Sauropod",
+                  "rank": 2,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-mahasarakham-rajabhat-university",
+                  "team_name": "Mahasarakham Rajabhat University",
+                  "rank": 3,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-nakhon-ratchasima-college",
+                  "team_name": "Nakhon Ratchasima College",
+                  "rank": 4,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-roi-et-2018",
+                  "team_name": "Roi Et 2018",
+                  "rank": 5,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-suranaree-army-2",
+                  "team_name": "Suranaree Army 2",
+                  "rank": 6,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-surindra-fc",
+                  "team_name": "Surindra FC",
+                  "rank": 7,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-ubon-kids-city",
+                  "team_name": "Ubon Kids City",
+                  "rank": 8,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-ubon-ratchathani-rajabhat-university",
+                  "team_name": "Ubon Ratchathani Rajabhat University",
+                  "rank": 9,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "no-data",
+                "messages": [
+                  "Legacy pre-season placeholder; no match data."
+                ]
+              }
+            },
+            {
+              "id": "legacy-group-5",
+              "name": "East Upper Sub-region",
+              "standings": [
+                {
+                  "team_id": "legacy-t5-acdc-fc",
+                  "team_name": "ACDC FC",
+                  "rank": 1,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-baan-kaeng-united",
+                  "team_name": "Baan Kaeng United",
+                  "rank": 2,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-hi-tech-college-sa-kaeo",
+                  "team_name": "Hi-Tech College Sa Kaeo",
+                  "rank": 3,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-muang-pattaya-fc",
+                  "team_name": "Muang Pattaya FC",
+                  "rank": 4,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-nakhon-nayok-fc",
+                  "team_name": "Nakhon Nayok FC",
+                  "rank": 5,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-pad-riou-united",
+                  "team_name": "Pad-riou United",
+                  "rank": 6,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-prachinburi-city",
+                  "team_name": "Prachinburi City",
+                  "rank": 7,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-wangphailom-sports-club",
+                  "team_name": "Wangphailom Sports Club",
+                  "rank": 8,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "no-data",
+                "messages": [
+                  "Legacy pre-season placeholder; no match data."
+                ]
+              }
+            },
+            {
+              "id": "legacy-group-6",
+              "name": "East Lower Sub-region",
+              "standings": [
+                {
+                  "team_id": "legacy-t5-ang-sila-fc",
+                  "team_name": "Ang Sila FC",
+                  "rank": 1,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-khao-baisri-municipality",
+                  "team_name": "Khao Baisri Municipality",
+                  "rank": 2,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-muang-pattaya-fc",
+                  "team_name": "Muang Pattaya FC",
+                  "rank": 3,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-pakthongchai-united",
+                  "team_name": "Pakthongchai United",
+                  "rank": 4,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-patthana-fc",
+                  "team_name": "Patthana FC",
+                  "rank": 5,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-sriracha-masa-japan-fc",
+                  "team_name": "Sriracha Masa Japan FC",
+                  "rank": 6,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "no-data",
+                "messages": [
+                  "Legacy pre-season placeholder; no match data."
+                ]
+              }
+            },
+            {
+              "id": "legacy-group-7",
+              "name": "West Upper Sub-region",
+              "standings": [
+                {
+                  "team_id": "legacy-t5-chainat-city-fc",
+                  "team_name": "Chainat City FC",
+                  "rank": 1,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-ku-kampang-san",
+                  "team_name": "KU Kampang San",
+                  "rank": 2,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-kanjanapat-fc",
+                  "team_name": "Kanjanapat FC",
+                  "rank": 3,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-rakya-ang-thong-united",
+                  "team_name": "Rakya Ang Thong United",
+                  "rank": 4,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-saraburi-city",
+                  "team_name": "Saraburi City",
+                  "rank": 5,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-singha-rakhang-thong-muang-kan",
+                  "team_name": "Singha Rakhang Thong Muang Kan",
+                  "rank": 6,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-sri-saman-fc",
+                  "team_name": "Sri Saman FC",
+                  "rank": 7,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "no-data",
+                "messages": [
+                  "Legacy pre-season placeholder; no match data."
+                ]
+              }
+            },
+            {
+              "id": "legacy-group-8",
+              "name": "West Lower Sub-region",
+              "standings": [
+                {
+                  "team_id": "legacy-t5-bangluang-fc",
+                  "team_name": "Bangluang FC",
+                  "rank": 1,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-ku-kampang-san",
+                  "team_name": "KU Kampang San",
+                  "rank": 2,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-mbf-ampawa-fc",
+                  "team_name": "MBF Ampawa FC",
+                  "rank": 3,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-samut-songkhram-united",
+                  "team_name": "Samut Songkhram United",
+                  "rank": 4,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-silpakorn-university",
+                  "team_name": "Silpakorn University",
+                  "rank": 5,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-taweewattana-fc",
+                  "team_name": "Taweewattana FC",
+                  "rank": 6,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-west-town-fc",
+                  "team_name": "West Town FC",
+                  "rank": 7,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "no-data",
+                "messages": [
+                  "Legacy pre-season placeholder; no match data."
+                ]
+              }
+            },
+            {
+              "id": "legacy-group-9",
+              "name": "Central Bangkok Sub-region",
+              "standings": [
+                {
+                  "team_id": "legacy-t5-aidin-sports-thailand",
+                  "team_name": "Aidin Sports Thailand",
+                  "rank": 1,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-bangkok-thonburi-fc",
+                  "team_name": "Bangkok Thonburi FC",
+                  "rank": 2,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-dome-fc",
+                  "team_name": "Dome FC",
+                  "rank": 3,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-hippo-fc",
+                  "team_name": "Hippo FC",
+                  "rank": 4,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-phoenix-fc",
+                  "team_name": "Phoenix FC",
+                  "rank": 5,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-rajapruk-university",
+                  "team_name": "Rajapruk University",
+                  "rank": 6,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-romklao-united",
+                  "team_name": "Romklao United",
+                  "rank": 7,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-royal-thai-air-force",
+                  "team_name": "Royal Thai Air Force",
+                  "rank": 8,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "no-data",
+                "messages": [
+                  "Legacy pre-season placeholder; no match data."
+                ]
+              }
+            },
+            {
+              "id": "legacy-group-10",
+              "name": "Central Perimeter Sub-region",
+              "standings": [
+                {
+                  "team_id": "legacy-t5-nongchok-city",
+                  "team_name": "Nongchok City",
+                  "rank": 1,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-phachi-city-fc",
+                  "team_name": "Phachi City FC",
+                  "rank": 2,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-phimai-united",
+                  "team_name": "Phimai United",
+                  "rank": 3,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-romklao-united",
+                  "team_name": "Romklao United",
+                  "rank": 4,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-royal-thai-air-force",
+                  "team_name": "Royal Thai Air Force",
+                  "rank": 5,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-samut-prakan-united",
+                  "team_name": "Samut Prakan United",
+                  "rank": 6,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-seventeen-samut-sakhon-fc",
+                  "team_name": "Seventeen Samut Sakhon FC",
+                  "rank": 7,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "no-data",
+                "messages": [
+                  "Legacy pre-season placeholder; no match data."
+                ]
+              }
+            },
+            {
+              "id": "legacy-group-11",
+              "name": "South Upper Sub-region",
+              "standings": [
+                {
+                  "team_id": "legacy-t5-andaman-bluemarlin-phuket",
+                  "team_name": "Andaman Bluemarlin Phuket",
+                  "rank": 1,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-kanchana-forest-fc",
+                  "team_name": "Kanchana Forest FC",
+                  "rank": 2,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-mh-nakhon-si-fc",
+                  "team_name": "MH Nakhon Si FC",
+                  "rank": 3,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-phatthalung-city",
+                  "team_name": "Phatthalung City",
+                  "rank": 4,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-st-youth-fc",
+                  "team_name": "ST Youth FC",
+                  "rank": 5,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-wiangsa-warrior",
+                  "team_name": "Wiangsa Warrior",
+                  "rank": 6,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "no-data",
+                "messages": [
+                  "Legacy pre-season placeholder; no match data."
+                ]
+              }
+            },
+            {
+              "id": "legacy-group-12",
+              "name": "South Lower Sub-region",
+              "standings": [
+                {
+                  "team_id": "legacy-t5-langu-city",
+                  "team_name": "Langu City",
+                  "rank": 1,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-satun-fc",
+                  "team_name": "Satun FC",
+                  "rank": 2,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-songkhla-aslan-tsu",
+                  "team_name": "Songkhla Aslan TSU",
+                  "rank": 3,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-st-youth-fc",
+                  "team_name": "ST Youth FC",
+                  "rank": 4,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                },
+                {
+                  "team_id": "legacy-t5-yala-city-fc",
+                  "team_name": "Yala City FC",
+                  "rank": 5,
+                  "played": 0,
+                  "won": 0,
+                  "drawn": 0,
+                  "lost": 0,
+                  "goals_for": 0,
+                  "goals_against": 0,
+                  "goal_difference": 0,
+                  "points": 0,
+                  "form": [],
+                  "zone": ""
+                }
+              ],
+              "validation": {
+                "status": "no-data",
+                "messages": [
+                  "Legacy pre-season placeholder; no match data."
+                ]
+              }
+            }
+          ],
+          "matches": [],
+          "cup": null,
+          "scorers": [],
+          "news_ids": [
+            "news-13"
+          ]
+        }
+      ]
+    }
+  ]
+}

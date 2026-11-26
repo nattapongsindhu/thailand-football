@@ -1,0 +1,31 @@
+{% if show_sources %}
+<details class="sources-panel">
+  <summary>Sources &amp; data notes</summary>
+  <div class="sources-body">
+    <p class="sources-intro">
+      Imported records are preserved from the owner-supplied reference application unless a row is explicitly marked verified.
+      Imported values are not official results.
+    </p>
+    <ul class="source-list">
+      {% for source in sources %}
+        <li>
+          <div class="source-title">
+            {% if source.url != "" %}
+              <a href="{{ source.url }}" target="_blank" rel="noopener noreferrer">{{ source.title }}</a>
+            {% else %}
+              {{ source.title }}
+            {% endif %}
+            <span class="source-kind">{{ source.kind }}</span>
+          </div>
+          <div class="source-meta">Retrieved {{ source.retrieved_at }}</div>
+          <div class="source-note">{{ source.note }}</div>
+        </li>
+      {% endfor %}
+    </ul>
+    <p class="sources-intro">
+      Thai League 4 and Thai League 5 legacy records are preserved separately in
+      <code>data/legacy_t4_t5.json</code> and are intentionally not active sidebar competitions.
+    </p>
+  </div>
+</details>
+{% endif %}

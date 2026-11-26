@@ -1,0 +1,61 @@
+<aside class="sidebar" id="sidebar" aria-label="Competition navigation">
+  <div class="brand">
+    <div class="brand-mark" aria-hidden="true">TF</div>
+    <div class="brand-copy">
+      <div class="brand-name">Thailand Football</div>
+      <div class="brand-sub">All competitions</div>
+    </div>
+    <button class="icon-button sidebar-close" type="button" data-sidebar-close aria-label="Close navigation">×</button>
+  </div>
+
+  <nav class="sidebar-nav">
+    {% for section in nav.sections %}
+      <div class="nav-section {% if section.is_bare %}nav-section-bare{% endif %}">
+        {% if section.title != "" %}
+          <div class="nav-heading">{{ section.title }}</div>
+        {% endif %}
+        {% if section.subtitle != "" %}
+          <div class="nav-subheading">{{ section.subtitle }}</div>
+        {% endif %}
+        {% for item in section.items %}
+          {% if item.is_group %}
+            <details class="nav-group" {% if item.open %}open{% endif %}>
+              <summary class="nav-parent {% if item.active %}is-active{% endif %}">
+                <span class="nav-dot" aria-hidden="true"></span>
+                <span class="nav-label-wrap">
+                  <span class="nav-label">{{ item.label }}</span>
+                  {% if item.subtitle != "" %}<span class="nav-sub">{{ item.subtitle }}</span>{% endif %}
+                </span>
+                <span class="chevron" aria-hidden="true">⌄</span>
+              </summary>
+              <div class="nav-children">
+                {% for child in item.children %}
+                  <a class="nav-link nav-child {% if child.active %}is-active{% endif %}" href="{{ child.href }}" {% if child.active %}aria-current="page"{% endif %}>
+                    <span class="nav-dot" aria-hidden="true"></span>
+                    <span class="nav-label-wrap">
+                      <span class="nav-label">{{ child.label }}</span>
+                      {% if child.subtitle != "" %}<span class="nav-sub">{{ child.subtitle }}</span>{% endif %}
+                    </span>
+                  </a>
+                {% endfor %}
+              </div>
+            </details>
+          {% else %}
+            <a class="nav-link {% if item.active %}is-active{% endif %}" href="{{ item.href }}" {% if item.active %}aria-current="page"{% endif %}>
+              <span class="nav-dot" aria-hidden="true"></span>
+              <span class="nav-label-wrap">
+                <span class="nav-label">{{ item.label }}</span>
+                {% if item.subtitle != "" %}<span class="nav-sub">{{ item.subtitle }}</span>{% endif %}
+              </span>
+            </a>
+          {% endif %}
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </nav>
+
+  <div class="sidebar-foot">
+    <span class="status-dot" aria-hidden="true"></span>
+    <span>{{ mode_label }} mode</span>
+  </div>
+</aside>

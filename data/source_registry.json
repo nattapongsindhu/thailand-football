@@ -1,0 +1,518 @@
+{
+  "version": 1,
+  "generated_at": "2026-11-25",
+  "competitions": [
+    {
+      "competition_id": "thai-league-1",
+      "display_name": "Thai League 1",
+      "organizer_group": "National League",
+      "age_group": null,
+      "source_priority": "official_then_secondary",
+      "official_domains": [
+        "thaileague.co.th",
+        "fathailand.org"
+      ],
+      "official_page_urls": [
+        "https://www.thaileague.co.th/"
+      ],
+      "secondary_domains": [
+        "en.wikipedia.org"
+      ],
+      "secondary_page_urls": [
+        "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_1"
+      ],
+      "thai_search_terms": [
+        "ไทยลีก 1 รายชื่อทีม",
+        "ไทยลีก 1 ทีม"
+      ],
+      "english_search_terms": [
+        "Thai League 1 teams 2025-26",
+        "Thai League 1 clubs"
+      ],
+      "update_status": "checked",
+      "last_checked_at": "2026-11-26T04:35:43.247227400+00:00",
+      "fetch_urls": [
+        "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_1"
+      ],
+      "news_feed_urls": [
+        "https://news.google.com/rss/search?q=Thai%20League%201%20teams&hl=en-US&gl=US&ceid=US:en"
+      ]
+    },
+    {
+      "competition_id": "thai-league-2",
+      "display_name": "Thai League 2",
+      "organizer_group": "National League",
+      "age_group": null,
+      "source_priority": "official_then_secondary",
+      "official_domains": [
+        "thaileague.co.th",
+        "fathailand.org"
+      ],
+      "official_page_urls": [
+        "https://www.thaileague.co.th/"
+      ],
+      "secondary_domains": [
+        "en.wikipedia.org"
+      ],
+      "secondary_page_urls": [
+        "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_2"
+      ],
+      "thai_search_terms": [
+        "ไทยลีก 2 รายชื่อทีม",
+        "ไทยลีก 2 ทีม"
+      ],
+      "english_search_terms": [
+        "Thai League 2 teams 2025-26",
+        "Thai League 2 clubs"
+      ],
+      "update_status": "checked",
+      "last_checked_at": "2026-11-26T04:35:43.247227400+00:00",
+      "fetch_urls": [
+        "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_2"
+      ],
+      "news_feed_urls": [
+        "https://news.google.com/rss/search?q=Thai%20League%202%20teams&hl=en-US&gl=US&ceid=US:en"
+      ]
+    },
+    {
+      "competition_id": "thai-league-3",
+      "display_name": "Thai League 3",
+      "organizer_group": "National League",
+      "age_group": null,
+      "source_priority": "official_then_secondary",
+      "official_domains": [
+        "thaileague.co.th",
+        "fathailand.org"
+      ],
+      "official_page_urls": [
+        "https://www.thaileague.co.th/"
+      ],
+      "secondary_domains": [
+        "en.wikipedia.org"
+      ],
+      "secondary_page_urls": [
+        "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_3"
+      ],
+      "thai_search_terms": [
+        "ไทยลีก 3 รายชื่อทีม",
+        "ไทยลีก 3 ทีม"
+      ],
+      "english_search_terms": [
+        "Thai League 3 teams 2025-26",
+        "Thai League 3 clubs"
+      ],
+      "update_status": "checked",
+      "last_checked_at": "2026-11-26T04:35:43.247227400+00:00",
+      "fetch_urls": [
+        "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_3"
+      ],
+      "news_feed_urls": []
+    },
+    {
+      "competition_id": "thai-fa-cup",
+      "display_name": "Thai FA Cup",
+      "organizer_group": "National League",
+      "age_group": null,
+      "source_priority": "official_then_secondary",
+      "official_domains": [
+        "fathailand.org",
+        "thaileague.co.th"
+      ],
+      "official_page_urls": [
+        "https://www.fathailand.org/"
+      ],
+      "secondary_domains": [
+        "en.wikipedia.org"
+      ],
+      "secondary_page_urls": [
+        "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_FA_Cup"
+      ],
+      "thai_search_terms": [
+        "FA Cup ทีม",
+        "เอฟเอคัพ ทีม"
+      ],
+      "english_search_terms": [
+        "Thai FA Cup teams 2025-26"
+      ],
+      "update_status": "checked",
+      "last_checked_at": "2026-11-26T04:35:43.247227400+00:00",
+      "fetch_urls": [
+        "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_FA_Cup"
+      ],
+      "news_feed_urls": []
+    },
+    {
+      "competition_id": "thai-league-cup",
+      "display_name": "Thai League Cup",
+      "organizer_group": "National League",
+      "age_group": null,
+      "source_priority": "official_then_secondary",
+      "official_domains": [
+        "fathailand.org",
+        "thaileague.co.th"
+      ],
+      "official_page_urls": [
+        "https://www.fathailand.org/"
+      ],
+      "secondary_domains": [
+        "en.wikipedia.org"
+      ],
+      "secondary_page_urls": [
+        "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_Cup"
+      ],
+      "thai_search_terms": [
+        "ลีกคัพ ทีม",
+        "ลีก คัพ ทีม"
+      ],
+      "english_search_terms": [
+        "Thai League Cup teams 2025-26"
+      ],
+      "update_status": "checked",
+      "last_checked_at": "2026-11-26T04:35:43.247227400+00:00",
+      "fetch_urls": [
+        "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_Cup"
+      ],
+      "news_feed_urls": []
+    },
+    {
+      "competition_id": "thai-champion-cup",
+      "display_name": "Thai Champion Cup",
+      "organizer_group": "National League",
+      "age_group": null,
+      "source_priority": "official_then_secondary",
+      "official_domains": [
+        "thaileague.co.th",
+        "fathailand.org"
+      ],
+      "official_page_urls": [
+        "https://www.thaileague.co.th/"
+      ],
+      "secondary_domains": [
+        "en.wikipedia.org"
+      ],
+      "secondary_page_urls": [
+        "https://en.wikipedia.org/wiki/Thailand_Champions_Cup",
+        "https://en.wikipedia.org/wiki/2026%E2%80%9327_Buriram_United_F.C._season"
+      ],
+      "thai_search_terms": [
+        "แชมเปียนคัพ ทีม",
+        "ไทยแลนด์แชมเปียนส์คัพ"
+      ],
+      "english_search_terms": [
+        "Thailand Champions Cup teams"
+      ],
+      "update_status": "checked",
+      "last_checked_at": "2026-11-25T20:00:00-08:00",
+      "fetch_urls": [],
+      "news_feed_urls": []
+    },
+    {
+      "competition_id": "thai-youth-league-u18",
+      "display_name": "Thai Youth League 1 (U18)",
+      "organizer_group": "Youth League (FAT & SAT)",
+      "age_group": "U18",
+      "source_priority": "official_only",
+      "official_domains": [
+        "fathailand.org",
+        "sat.or.th"
+      ],
+      "official_page_urls": [
+        "https://www.fathailand.org/",
+        "https://www.sat.or.th/"
+      ],
+      "secondary_domains": [],
+      "secondary_page_urls": [],
+      "thai_search_terms": [
+        "ฟุตบอลเยาวชน สมาคมฯ ลีก 1",
+        "ฟุตบอลเยาวชน รุ่น 18 ปี"
+      ],
+      "english_search_terms": [
+        "Thai Youth League U18 teams",
+        "Thailand Youth League U18"
+      ],
+      "update_status": "search_only",
+      "last_checked_at": "2026-11-25T20:00:00-08:00",
+      "fetch_urls": [],
+      "news_feed_urls": []
+    },
+    {
+      "competition_id": "thai-youth-league-u16",
+      "display_name": "Thai Youth League 2 (U16)",
+      "organizer_group": "Youth League (FAT & SAT)",
+      "age_group": "U16",
+      "source_priority": "official_only",
+      "official_domains": [
+        "fathailand.org",
+        "sat.or.th"
+      ],
+      "official_page_urls": [
+        "https://www.fathailand.org/",
+        "https://www.sat.or.th/"
+      ],
+      "secondary_domains": [],
+      "secondary_page_urls": [],
+      "thai_search_terms": [
+        "ฟุตบอลเยาวชน สมาคมฯ ลีก 2",
+        "ฟุตบอลเยาวชน รุ่น 16 ปี"
+      ],
+      "english_search_terms": [
+        "Thai Youth League U16 teams",
+        "Thailand Youth League U16"
+      ],
+      "update_status": "search_only",
+      "last_checked_at": "2026-11-25T20:00:00-08:00",
+      "fetch_urls": [],
+      "news_feed_urls": []
+    },
+    {
+      "competition_id": "thai-youth-league-u14",
+      "display_name": "Thai Youth League 3 (U14)",
+      "organizer_group": "Youth League (FAT & SAT)",
+      "age_group": "U14",
+      "source_priority": "official_only",
+      "official_domains": [
+        "fathailand.org",
+        "sat.or.th"
+      ],
+      "official_page_urls": [
+        "https://www.fathailand.org/",
+        "https://www.sat.or.th/"
+      ],
+      "secondary_domains": [],
+      "secondary_page_urls": [],
+      "thai_search_terms": [
+        "ฟุตบอลเยาวชน สมาคมฯ ลีก 3",
+        "ฟุตบอลเยาวชน รุ่น 14 ปี"
+      ],
+      "english_search_terms": [
+        "Thai Youth League U14 teams",
+        "Thailand Youth League U14"
+      ],
+      "update_status": "search_only",
+      "last_checked_at": "2026-11-25T20:00:00-08:00",
+      "fetch_urls": [],
+      "news_feed_urls": []
+    },
+    {
+      "competition_id": "thai-youth-fa-cup-u17",
+      "display_name": "Thai Youth FA Cup (U17)",
+      "organizer_group": "Youth League (FAT & SAT)",
+      "age_group": "U17",
+      "source_priority": "official_then_secondary",
+      "official_domains": [
+        "fathailand.org"
+      ],
+      "official_page_urls": [
+        "https://www.fathailand.org/"
+      ],
+      "secondary_domains": [],
+      "secondary_page_urls": [
+        "https://siamsport.co.th/football-thailand/th-other/107933"
+      ],
+      "thai_search_terms": [
+        "โค้กคัพ ทีม",
+        "ฟุตบอลเยาวชน โค้กคัพ"
+      ],
+      "english_search_terms": [
+        "Coke Cup Thailand teams",
+        "Thai Youth FA Cup U17"
+      ],
+      "update_status": "checked",
+      "last_checked_at": "2026-11-26T04:35:43.247227400+00:00",
+      "fetch_urls": [],
+      "news_feed_urls": [
+        "https://news.google.com/rss/search?q=Coke%20Cup%20Thailand%20football&hl=en-US&gl=US&ceid=US:en"
+      ]
+    },
+    {
+      "competition_id": "thai-youth-league-cup-u18",
+      "display_name": "Thai Youth League Cup (U18)",
+      "organizer_group": "Youth League (FAT & SAT)",
+      "age_group": "U18",
+      "source_priority": "official_then_secondary",
+      "official_domains": [
+        "fathailand.org",
+        "ch7.com"
+      ],
+      "official_page_urls": [
+        "https://www.fathailand.org/",
+        "https://www.ch7.com/"
+      ],
+      "secondary_domains": [],
+      "secondary_page_urls": [
+        "https://thethaiger.com/th/news/1634775"
+      ],
+      "thai_search_terms": [
+        "แชมป์กีฬา 7HD ฟุตบอล",
+        "ฟุตบอลเยาวชน 7HD"
+      ],
+      "english_search_terms": [
+        "7HD Champion Cup teams",
+        "Thai Youth League Cup U18"
+      ],
+      "update_status": "checked",
+      "last_checked_at": "2026-11-25T20:00:00-08:00",
+      "fetch_urls": [],
+      "news_feed_urls": []
+    },
+    {
+      "competition_id": "thai-youth-champion-cup-u18",
+      "display_name": "Thai Youth Champion Cup (U18)",
+      "organizer_group": "Youth League (FAT & SAT)",
+      "age_group": "U18",
+      "source_priority": "official_then_secondary",
+      "official_domains": [
+        "fathailand.org"
+      ],
+      "official_page_urls": [
+        "https://www.fathailand.org/"
+      ],
+      "secondary_domains": [],
+      "secondary_page_urls": [
+        "https://matichon.co.th/sport/news_5456292"
+      ],
+      "thai_search_terms": [
+        "จตุรมิตรสามัคคี ฟุตบอล",
+        "ฟุตบอลเยาวชน จตุรมิตร"
+      ],
+      "english_search_terms": [
+        "Jaturamit football U18",
+        "Thai Youth Champion Cup"
+      ],
+      "update_status": "checked",
+      "last_checked_at": "2026-11-25T20:00:00-08:00",
+      "fetch_urls": [],
+      "news_feed_urls": []
+    },
+    {
+      "competition_id": "thai-school-league-type-a",
+      "display_name": "Thai School League — Type A",
+      "organizer_group": "School League (DPE)",
+      "age_group": "U18, U16, U14",
+      "source_priority": "official_only",
+      "official_domains": [
+        "dpe.go.th"
+      ],
+      "official_page_urls": [
+        "https://www.dpe.go.th/"
+      ],
+      "secondary_domains": [],
+      "secondary_page_urls": [
+        "https://www.thaipost.net/sport-news/991753",
+        "https://www.siamsport.co.th/football-thailand/th-other/60160/"
+      ],
+      "thai_search_terms": [
+        "ฟุตบอลนักเรียน กรมพลศึกษา ประเภท ก",
+        "ฟุตบอลนักเรียน รุ่น 18 ปี"
+      ],
+      "english_search_terms": [
+        "Thai school football Type A teams"
+      ],
+      "update_status": "checked",
+      "last_checked_at": "2026-11-25T20:00:00-08:00",
+      "fetch_urls": [],
+      "news_feed_urls": []
+    },
+    {
+      "competition_id": "thai-school-league-type-b",
+      "display_name": "Thai School League — Type B",
+      "organizer_group": "School League (DPE)",
+      "age_group": "U18, U16, U14",
+      "source_priority": "official_only",
+      "official_domains": [
+        "dpe.go.th"
+      ],
+      "official_page_urls": [
+        "https://www.dpe.go.th/"
+      ],
+      "secondary_domains": [],
+      "secondary_page_urls": [
+        "https://www.matichon.co.th/sport/footballlocal/news_5836043",
+        "https://www.facebook.com/footballromcom/posts/1767809752018325/"
+      ],
+      "thai_search_terms": [
+        "ฟุตบอลนักเรียน กรมพลศึกษา ประเภท ข",
+        "ฟุตบอลนักเรียน รุ่น 16 ปี"
+      ],
+      "english_search_terms": [
+        "Thai school football Type B teams"
+      ],
+      "update_status": "checked",
+      "last_checked_at": "2026-11-25T20:00:00-08:00",
+      "fetch_urls": [],
+      "news_feed_urls": []
+    },
+    {
+      "competition_id": "thai-school-league-general",
+      "display_name": "Thai School League — General",
+      "organizer_group": "School League (DPE)",
+      "age_group": "U18, U16, U14, U12",
+      "source_priority": "official_only",
+      "official_domains": [
+        "dpe.go.th"
+      ],
+      "official_page_urls": [
+        "https://www.dpe.go.th/"
+      ],
+      "secondary_domains": [],
+      "secondary_page_urls": [],
+      "thai_search_terms": [
+        "ฟุตบอลนักเรียน กรมพลศึกษา ประเภททั่วไป",
+        "ฟุตบอลนักเรียน รุ่น 12 ปี"
+      ],
+      "english_search_terms": [
+        "Thai school football general division teams"
+      ],
+      "update_status": "search_only",
+      "last_checked_at": "2026-11-25T20:00:00-08:00",
+      "fetch_urls": [],
+      "news_feed_urls": []
+    },
+    {
+      "competition_id": "thai-college-cup-u19",
+      "display_name": "Thai College Cup (U19)",
+      "organizer_group": "School League (DPE)",
+      "age_group": "U19",
+      "source_priority": "official_then_secondary",
+      "official_domains": [],
+      "official_page_urls": [],
+      "secondary_domains": [],
+      "secondary_page_urls": [],
+      "thai_search_terms": [
+        "ฟุตบอลอาชีวะระดับประเทศ",
+        "ฟุตบอลอาชีวะ รุ่น 19 ปี"
+      ],
+      "english_search_terms": [
+        "Thai vocational football U19 teams"
+      ],
+      "update_status": "search_only",
+      "last_checked_at": "2026-11-25T20:00:00-08:00",
+      "fetch_urls": [],
+      "news_feed_urls": []
+    },
+    {
+      "competition_id": "thai-university-cup-u23",
+      "display_name": "Thai University Cup (U23)",
+      "organizer_group": "School League (DPE)",
+      "age_group": "U23",
+      "source_priority": "official_then_secondary",
+      "official_domains": [],
+      "official_page_urls": [],
+      "secondary_domains": [],
+      "secondary_page_urls": [
+        "https://edu-today.com/btu-215"
+      ],
+      "thai_search_terms": [
+        "ฟุตบอลมหาวิทยาลัยระดับประเทศ",
+        "ฟุตบอลมหาวิทยาลัย รุ่น 23 ปี"
+      ],
+      "english_search_terms": [
+        "Thai university football U23 teams"
+      ],
+      "update_status": "checked",
+      "last_checked_at": "2026-11-25T20:00:00-08:00",
+      "fetch_urls": [],
+      "news_feed_urls": []
+    }
+  ]
+}

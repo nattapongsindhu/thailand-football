@@ -1,0 +1,173 @@
+{
+  "generated_at": "2026-11-26T04:35:53.727098800+00:00",
+  "errors": [],
+  "warnings": [],
+  "counts": {
+    "teams": 186,
+    "participations": 357,
+    "verified_official": 0,
+    "verified_secondary": 288,
+    "discovered_unverified": 69,
+    "conflicting": 0,
+    "rejected": 0,
+    "news_items": 42,
+    "team_candidates": 379,
+    "fetched_sources": 8,
+    "failed_sources": 0
+  },
+  "competition_summary": [
+    {
+      "competition_id": "thai-champion-cup",
+      "display_name": "Thai Champion Cup",
+      "organizer_group": "National League",
+      "teams": 2,
+      "verified_official": 0,
+      "verified_secondary": 2,
+      "discovered_unverified": 0
+    },
+    {
+      "competition_id": "thai-college-cup-u19",
+      "display_name": "Thai College Cup (U19)",
+      "organizer_group": "School League (DPE)",
+      "teams": 0,
+      "verified_official": 0,
+      "verified_secondary": 0,
+      "discovered_unverified": 0
+    },
+    {
+      "competition_id": "thai-fa-cup",
+      "display_name": "Thai FA Cup",
+      "organizer_group": "National League",
+      "teams": 95,
+      "verified_official": 0,
+      "verified_secondary": 77,
+      "discovered_unverified": 18
+    },
+    {
+      "competition_id": "thai-league-1",
+      "display_name": "Thai League 1",
+      "organizer_group": "National League",
+      "teams": 16,
+      "verified_official": 0,
+      "verified_secondary": 16,
+      "discovered_unverified": 0
+    },
+    {
+      "competition_id": "thai-league-2",
+      "display_name": "Thai League 2",
+      "organizer_group": "National League",
+      "teams": 18,
+      "verified_official": 0,
+      "verified_secondary": 18,
+      "discovered_unverified": 0
+    },
+    {
+      "competition_id": "thai-league-3",
+      "display_name": "Thai League 3",
+      "organizer_group": "National League",
+      "teams": 35,
+      "verified_official": 0,
+      "verified_secondary": 0,
+      "discovered_unverified": 35
+    },
+    {
+      "competition_id": "thai-league-cup",
+      "display_name": "Thai League Cup",
+      "organizer_group": "National League",
+      "teams": 80,
+      "verified_official": 0,
+      "verified_secondary": 80,
+      "discovered_unverified": 0
+    },
+    {
+      "competition_id": "thai-school-league-general",
+      "display_name": "Thai School League — General",
+      "organizer_group": "School League (DPE)",
+      "teams": 0,
+      "verified_official": 0,
+      "verified_secondary": 0,
+      "discovered_unverified": 0
+    },
+    {
+      "competition_id": "thai-school-league-type-a",
+      "display_name": "Thai School League — Type A",
+      "organizer_group": "School League (DPE)",
+      "teams": 48,
+      "verified_official": 0,
+      "verified_secondary": 48,
+      "discovered_unverified": 0
+    },
+    {
+      "competition_id": "thai-school-league-type-b",
+      "display_name": "Thai School League — Type B",
+      "organizer_group": "School League (DPE)",
+      "teams": 32,
+      "verified_official": 0,
+      "verified_secondary": 16,
+      "discovered_unverified": 16
+    },
+    {
+      "competition_id": "thai-university-cup-u23",
+      "display_name": "Thai University Cup (U23)",
+      "organizer_group": "School League (DPE)",
+      "teams": 7,
+      "verified_official": 0,
+      "verified_secondary": 7,
+      "discovered_unverified": 0
+    },
+    {
+      "competition_id": "thai-youth-champion-cup-u18",
+      "display_name": "Thai Youth Champion Cup (U18)",
+      "organizer_group": "Youth League (FAT & SAT)",
+      "teams": 4,
+      "verified_official": 0,
+      "verified_secondary": 4,
+      "discovered_unverified": 0
+    },
+    {
+      "competition_id": "thai-youth-fa-cup-u17",
+      "display_name": "Thai Youth FA Cup (U17)",
+      "organizer_group": "Youth League (FAT & SAT)",
+      "teams": 12,
+      "verified_official": 0,
+      "verified_secondary": 12,
+      "discovered_unverified": 0
+    },
+    {
+      "competition_id": "thai-youth-league-u18",
+      "display_name": "Thai Youth League 1 (U18)",
+      "organizer_group": "Youth League (FAT & SAT)",
+      "teams": 0,
+      "verified_official": 0,
+      "verified_secondary": 0,
+      "discovered_unverified": 0
+    },
+    {
+      "competition_id": "thai-youth-league-u16",
+      "display_name": "Thai Youth League 2 (U16)",
+      "organizer_group": "Youth League (FAT & SAT)",
+      "teams": 0,
+      "verified_official": 0,
+      "verified_secondary": 0,
+      "discovered_unverified": 0
+    },
+    {
+      "competition_id": "thai-youth-league-u14",
+      "display_name": "Thai Youth League 3 (U14)",
+      "organizer_group": "Youth League (FAT & SAT)",
+      "teams": 0,
+      "verified_official": 0,
+      "verified_secondary": 0,
+      "discovered_unverified": 0
+    },
+    {
+      "competition_id": "thai-youth-league-cup-u18",
+      "display_name": "Thai Youth League Cup (U18)",
+      "organizer_group": "Youth League (FAT & SAT)",
+      "teams": 8,
+      "verified_official": 0,
+      "verified_secondary": 8,
+      "discovered_unverified": 0
+    }
+  ]
+}

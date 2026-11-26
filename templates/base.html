@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Thailand Football — competitions, standings, results, fixtures and cups.">
+  <meta name="color-scheme" content="light dark">
+  <title>{% block title %}{{ page_title }}{% endblock %}</title>
+  <link rel="stylesheet" href="/static/app.css">
+  <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('tf-theme');
+        if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('theme-dark');
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <script defer src="/static/htmx.min.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="app-shell">
+    {% include "partials/sidebar.html" %}
+    <div class="app-main">
+      {% include "partials/topbar.html" %}
+      <main class="content" id="main-content">
+        {% block content %}{% endblock %}
+      </main>
+      <footer class="app-footer">
+        <span>Thailand Football</span>
+        <span class="footer-dot">·</span>
+        <span>Independent local preview</span>
+        <span class="footer-dot">·</span>
+        <span>Data is not official unless marked verified.</span>
+      </footer>
+    </div>
+  </div>
+  <div class="sidebar-backdrop" id="sidebar-backdrop" hidden></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

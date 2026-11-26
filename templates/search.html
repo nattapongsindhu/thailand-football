@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page-header">
+  <div class="breadcrumb"><span>Search</span><span class="breadcrumb-sep">/</span><span>Teams</span></div>
+  <div class="page-title-row">
+    <div>
+      <h1>Search teams</h1>
+      <p class="page-description">Search active competitions. Results include season, competition and regional-group context.</p>
+    </div>
+  </div>
+  <form class="search-page-form" action="/search" method="get" role="search">
+    <label class="sr-only" for="search-page-input">Search teams</label>
+    <input id="search-page-input" class="search-input" type="search" name="q" value="{{ search_query }}" placeholder="Search teams" autocomplete="off" autofocus>
+    <button class="button" type="submit">Search</button>
+  </form>
+</section>
+
+<section class="panel">
+  {% if !has_query %}
+    <div class="empty-state">
+      <div class="empty-symbol" aria-hidden="true">⌕</div>
+      <h3>Start typing</h3>
+      <p>Enter at least two characters to search active teams.</p>
+    </div>
+  {% else %}
+    {% if query_too_short %}
+      <div class="empty-state">
+        <div class="empty-symbol" aria-hidden="true">⌕</div>
+        <h3>Search is too short</h3>
+        <p>Enter at least two characters.</p>
+      </div>
+    {% else %}
+      {% if !has_results %}
+        <div class="empty-state">
+          <div class="empty-symbol" aria-hidden="true">∅</div>
+          <h3>No teams found</h3>
+          <p>No active team matches “{{ search_query }}”.</p>
+        </div>
+      {% else %}
+        <div class="search-page-results">
+          {% for result in results %}
+            <a class="search-result-row" href="{{ result.href }}">
+              <span class="search-result-name">{{ result.team_name }}</span>
+              <span class="search-result-context">{{ result.competition_name }} · {{ result.group_name }} · {{ result.season_label }}</span>
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    {% endif %}
+  {% endif %}
+</section>
+{% endblock %}

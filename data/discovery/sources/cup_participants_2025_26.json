@@ -1,0 +1,1251 @@
+{
+  "generated_at": "2026-11-25",
+  "source": "English Wikipedia season articles (secondary source)",
+  "competitions": {
+    "thai-fa-cup": {
+      "season_id": "2025-26",
+      "source_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_FA_Cup",
+      "source_title": "2025-26 Thai FA Cup",
+      "source_publisher": "Wikipedia",
+      "source_date": "2026-05-31",
+      "entered_clubs": 95,
+      "teams": [
+        {
+          "name": "Prime Bangkok",
+          "target": "Prime Bangkok F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Surin City",
+          "target": "Surin City F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "ACDC",
+          "target": "ACDC F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Surindra",
+          "target": null,
+          "tags": [
+            "TS"
+          ]
+        },
+        {
+          "name": "PSU Surat Thani City",
+          "target": "PSU Surat Thani City F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "APD United",
+          "target": null,
+          "tags": [
+            "TA"
+          ]
+        },
+        {
+          "name": "Uttaradit",
+          "target": "Uttaradit F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Nakhon Si United",
+          "target": "Nakhon Si United F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Ayutthaya PK",
+          "target": "Ayutthaya PK F.C.",
+          "tags": [
+            "TS"
+          ]
+        },
+        {
+          "name": "Nonthaburi United",
+          "target": "Nonthaburi United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Muang Klaeng",
+          "target": null,
+          "tags": [
+            "TA"
+          ]
+        },
+        {
+          "name": "Marines",
+          "target": "Marines F.C. (Thailand)",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Phetchabun",
+          "target": "Phetchabun F.C.",
+          "tags": [
+            "TS"
+          ]
+        },
+        {
+          "name": "Burapha United",
+          "target": "Burapha United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Thonburi Forest",
+          "target": null,
+          "tags": [
+            "TA"
+          ]
+        },
+        {
+          "name": "Namphong United",
+          "target": null,
+          "tags": [
+            "TA"
+          ]
+        },
+        {
+          "name": "Muang Loei United",
+          "target": "Muang Loei United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Kasetsart",
+          "target": "Kasetsart F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Samui United",
+          "target": "Samui United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Nakhon Pathom City",
+          "target": null,
+          "tags": [
+            "TA"
+          ]
+        },
+        {
+          "name": "Kanthararom United",
+          "target": "Kanthararom United F.C.",
+          "tags": [
+            "TA"
+          ]
+        },
+        {
+          "name": "Khon Kaen",
+          "target": "Khon Kaen F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Futera United",
+          "target": "Futera United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Nongbua Pitchaya",
+          "target": "Nongbua Pitchaya F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Sriracha",
+          "target": "Sriracha F.C.",
+          "tags": [
+            "TS"
+          ]
+        },
+        {
+          "name": "Nakhon Sawan See Khwae City",
+          "target": "Nakhon Sawan See Khwae City F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Nakhon Phanom United",
+          "target": null,
+          "tags": [
+            "TS"
+          ]
+        },
+        {
+          "name": "Lopburi City",
+          "target": "Lopburi City F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Roi Et 2018",
+          "target": null,
+          "tags": [
+            "TA"
+          ]
+        },
+        {
+          "name": "Pathum Thani",
+          "target": "Pathum Thani F.C.",
+          "tags": [
+            "TS"
+          ]
+        },
+        {
+          "name": "Inter Bangkok",
+          "target": "Inter Bangkok F.C.",
+          "tags": [
+            "TA"
+          ]
+        },
+        {
+          "name": "Kamphaengphet",
+          "target": "Kamphaengphet F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Nakhon Nayok",
+          "target": "Nakhon Nayok F.C.",
+          "tags": [
+            "TS"
+          ]
+        },
+        {
+          "name": "Phrae",
+          "target": null,
+          "tags": [
+            "TS"
+          ]
+        },
+        {
+          "name": "Singburi Warriors",
+          "target": "Singburi Warriors F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Chiangmai United",
+          "target": "Chiangmai United F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "UD Vessuwan",
+          "target": null,
+          "tags": [
+            "TA"
+          ]
+        },
+        {
+          "name": "Udon United",
+          "target": "Udon United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Karin United",
+          "target": null,
+          "tags": [
+            "TS"
+          ]
+        },
+        {
+          "name": "Samut Songkhram City",
+          "target": "Samut Songkhram City F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Nara United",
+          "target": "Nara United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Bangkok",
+          "target": "Bangkok F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Rajpracha",
+          "target": "Rajpracha F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Bankhai United",
+          "target": "Bankhai United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Navy",
+          "target": "Navy F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Ubon Kids City",
+          "target": null,
+          "tags": [
+            "TA"
+          ]
+        },
+        {
+          "name": "Customs United",
+          "target": "Customs United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Chainat Hornbill",
+          "target": "Chainat Hornbill F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Samut Sakhon City",
+          "target": "Samut Sakhon City F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Thap Luang United",
+          "target": "Thap Luang United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Sisaket United",
+          "target": "Sisaket United F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Padriew City",
+          "target": "Padriew City F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Pattaya United",
+          "target": "Pattaya United F.C. (2023)",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "BFB Pattaya City",
+          "target": "BFB Pattaya City F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Phitsanulok",
+          "target": "Phitsanulok F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Roi Et PB United",
+          "target": "Roi Et PB United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Chiangmai",
+          "target": "Chiangmai F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Udon Banjan United",
+          "target": "Udon Banjan United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Nakhon Pathom United",
+          "target": "Nakhon Pathom United F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Chattrakan City",
+          "target": "Chattrakan City F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Yala",
+          "target": "F.C. Yala",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Chanthaburi",
+          "target": "Chanthaburi F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Bankaeng United",
+          "target": null,
+          "tags": [
+            "TS"
+          ]
+        },
+        {
+          "name": "Ratchaburi",
+          "target": "Ratchaburi F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Pattani",
+          "target": "Pattani F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Lamphun Warriors",
+          "target": "Lamphun Warriors F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Port",
+          "target": "Port F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Chiangrai United",
+          "target": "Chiangrai United F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Sing Pathum Thani",
+          "target": null,
+          "tags": [
+            "TA"
+          ]
+        },
+        {
+          "name": "Chachoengsao Hi-Tek",
+          "target": "Chachoengsao Hi-Tek F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Nakhon Ratchasima Mazda",
+          "target": "Nakhon Ratchasima F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Sukhothai",
+          "target": "Sukhothai F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Mahasarakham SBT",
+          "target": "Mahasarakham SBT F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Rayong",
+          "target": "Rayong F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Ayutthaya United",
+          "target": "Ayutthaya United F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Buriram United",
+          "target": "Buriram United F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Warin Chamrap",
+          "target": null,
+          "tags": [
+            "TS"
+          ]
+        },
+        {
+          "name": "Kanchanaburi Power",
+          "target": "Kanchanaburi Power F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Chonburi",
+          "target": "Chonburi F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Police Tero",
+          "target": "Police Tero F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "BG Pathum United",
+          "target": "BG Pathum United F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Nongkhai",
+          "target": "Nongkhai F.C.",
+          "tags": [
+            "TA"
+          ]
+        },
+        {
+          "name": "Khon Kaen United",
+          "target": "Khon Kaen United F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Fleet",
+          "target": "Fleet F.C. (Thailand)",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Surin Khong Chee Mool",
+          "target": "Surin Khong Chee Mool F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "VRN Muangnont",
+          "target": "VRN Muangnont F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "PT Prachuap",
+          "target": "PT Prachuap F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Uthai Thani",
+          "target": "Uthai Thani F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Kasem Bundit University",
+          "target": "Kasem Bundit University F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Mahasarakham SWL",
+          "target": null,
+          "tags": [
+            "TA"
+          ]
+        },
+        {
+          "name": "Phichit United",
+          "target": "Phichit United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Udon Thani City",
+          "target": null,
+          "tags": [
+            "TA"
+          ]
+        },
+        {
+          "name": "Bangkok United",
+          "target": "Bangkok United F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Muangthong United",
+          "target": "Muangthong United F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Romklao United",
+          "target": null,
+          "tags": [
+            "TS"
+          ]
+        }
+      ]
+    },
+    "thai-league-cup": {
+      "season_id": "2025-26",
+      "source_url": "https://en.wikipedia.org/wiki/2025%E2%80%9326_Thai_League_Cup",
+      "source_title": "2025-26 Thai League Cup",
+      "source_publisher": "Wikipedia",
+      "source_date": "2026-05-24",
+      "entered_clubs": 80,
+      "teams": [
+        {
+          "name": "Northern Nakhon Mae Sot United",
+          "target": "Northern Nakhon Mae Sot United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Khelang United",
+          "target": "Khelang United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Phitsanulok",
+          "target": "Phitsanulok F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Phichit United",
+          "target": "Phichit United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "North Bangkok University",
+          "target": "North Bangkok University F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Saraburi United",
+          "target": "Saraburi United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "PTU Pathum Thani",
+          "target": "PTU Pathum Thani F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Prime Bangkok",
+          "target": "Prime Bangkok F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Udon Banjan United",
+          "target": "Udon Banjan United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Khon Kaen Mordindang",
+          "target": "Khon Kaen Mordindang F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "EUMT",
+          "target": "EUMT F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Muang Loei United",
+          "target": "Muang Loei United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Udon United",
+          "target": "Udon United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Ubon Kruanapat",
+          "target": "Ubon Kruanapat F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "ACDC",
+          "target": "ACDC F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Marines",
+          "target": "Marines F.C. (Thailand)",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Fleet",
+          "target": "Fleet F.C. (Thailand)",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Chachoengsao Hi-Tek",
+          "target": "Chachoengsao Hi-Tek F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Burapha United",
+          "target": "Burapha United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Navy",
+          "target": "Navy F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "BFB Pattaya City",
+          "target": "BFB Pattaya City F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Customs United",
+          "target": "Customs United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "VRN Muangnont",
+          "target": "VRN Muangnont F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Thonburi United",
+          "target": "Thonburi United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "PSU Surat Thani City",
+          "target": "PSU Surat Thani City F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Muang Trang United",
+          "target": "Muang Trang United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Nakhon Sawan See Khwae City",
+          "target": "Nakhon Sawan See Khwae City F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Uttaradit",
+          "target": "Uttaradit F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Kamphaengphet",
+          "target": "Kamphaengphet F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Chattrakan City",
+          "target": "Chattrakan City F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Futera United",
+          "target": "Futera United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Kasem Bundit University",
+          "target": "Kasem Bundit University F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Lopburi City",
+          "target": "Lopburi City F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Singburi Warriors",
+          "target": "Singburi Warriors F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Khon Kaen",
+          "target": "Khon Kaen F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Roi Et PB United",
+          "target": "Roi Et PB United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Surin Khong Chee Mool",
+          "target": "Surin Khong Chee Mool F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Saimit Kabin United",
+          "target": "Saimit Kabin United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Pluakdaeng United",
+          "target": "Pluakdaeng United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Padriew City",
+          "target": "Padriew City F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Bankhai United",
+          "target": "Bankhai United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Samut Sakhon City",
+          "target": "Samut Sakhon City F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Samut Songkhram City",
+          "target": "Samut Songkhram City F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Nonthaburi United",
+          "target": "Nonthaburi United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Hua Hin City",
+          "target": "Hua Hin City F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Thap Luang United",
+          "target": "Thap Luang United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Samui United",
+          "target": "Samui United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Yala",
+          "target": "F.C. Yala",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Krabi",
+          "target": "Krabi F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Nara United",
+          "target": "Nara United F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "PT Satun",
+          "target": "PT Satun F.C.",
+          "tags": [
+            "T3"
+          ]
+        },
+        {
+          "name": "Chainat Hornbill",
+          "target": "Chainat Hornbill F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Khon Kaen United",
+          "target": "Khon Kaen United F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Sisaket United",
+          "target": "Sisaket United F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Mahasarakham SBT",
+          "target": "Mahasarakham SBT F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Nakhon Si United",
+          "target": "Nakhon Si United F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Bangkok",
+          "target": "Bangkok F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Police Tero",
+          "target": "Police Tero F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Kasetsart",
+          "target": "Kasetsart F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Pattaya United",
+          "target": "Pattaya United F.C. (2023)",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Nongbua Pitchaya",
+          "target": "Nongbua Pitchaya F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Pattani",
+          "target": "Pattani F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Nakhon Pathom United",
+          "target": "Nakhon Pathom United F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Songkhla",
+          "target": "Songkhla F.C.",
+          "tags": [
+            "T2"
+          ]
+        },
+        {
+          "name": "Buriram United",
+          "target": "Buriram United F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Chiangrai United",
+          "target": "Chiangrai United F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Ayutthaya United",
+          "target": "Ayutthaya United F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Chonburi",
+          "target": "Chonburi F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Muangthong United",
+          "target": "Muangthong United F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Kanchanaburi Power",
+          "target": "Kanchanaburi Power F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Uthai Thani",
+          "target": "Uthai Thani F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Nakhon Ratchasima Mazda",
+          "target": "Nakhon Ratchasima F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "BG Pathum United",
+          "target": "BG Pathum United F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Lamphun Warriors",
+          "target": "Lamphun Warriors F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "PT Prachuap",
+          "target": "PT Prachuap F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Sukhothai",
+          "target": "Sukhothai F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Bangkok United",
+          "target": "Bangkok United F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Rayong",
+          "target": "Rayong F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Port",
+          "target": "Port F.C.",
+          "tags": [
+            "T1"
+          ]
+        },
+        {
+          "name": "Ratchaburi",
+          "target": "Ratchaburi F.C.",
+          "tags": [
+            "T1"
+          ]
+        }
+      ]
+    }
+  }
+}

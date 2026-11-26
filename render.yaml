@@ -1,0 +1,18 @@
+# Render Blueprint for the Thailand Football Rust web service.
+# Secrets are never stored here: DATABASE_URL is supplied by the Render dashboard.
+services:
+  - type: web
+    name: thailand-football
+    runtime: rust
+    plan: free
+    buildCommand: cargo build --release --locked
+    startCommand: ./target/release/thailand-football
+    healthCheckPath: /healthz
+    autoDeployTrigger: commit
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: RUST_LOG
+        value: thailand_football=info,tower_http=info
+      - key: TF_TEAM_REGISTRY
+        value: data/team_registry.json

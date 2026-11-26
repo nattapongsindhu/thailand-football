@@ -1,0 +1,15 @@
+{
+  "name": "thailand-football",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Development-only Tailwind CSS build for the Thailand Football Rust application.",
+  "scripts": {
+    "css:build": "npx @tailwindcss/cli -i ./styles/app.css -o ./static/app.css --minify",
+    "css:watch": "npx @tailwindcss/cli -i ./styles/app.css -o ./static/app.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "4.3.5",
+    "playwright-core": "^1.65.1",
+    "tailwindcss": "4.3.5"
+  }
+}

@@ -1,0 +1,475 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="page-header">
+  <div class="breadcrumb">
+    <span>{{ competition.section }}</span>
+    {% if competition.group_label != "" %}
+      <span class="breadcrumb-sep">/</span>
+      <span>{{ competition.group_label }}</span>
+    {% endif %}
+    <span class="breadcrumb-sep">/</span>
+    <span>{{ competition.short_name }}</span>
+  </div>
+
+  <div class="page-title-row">
+    <div>
+      <h1>{{ competition.name }}</h1>
+      <p class="page-description">{{ competition.description }}</p>
+      {% if competition.aliases != "" %}
+        <p class="page-reference">Also referenced as: {{ competition.aliases }}</p>
+      {% endif %}
+    </div>
+    <div class="page-title-actions">
+      <span class="badge {{ competition.verified_class }}">{{ competition.verified_label }}</span>
+      <span class="badge badge-neutral">{{ competition.category }}</span>
+      {% if competition.is_youth %}<span class="badge badge-neutral">Owner-defined</span>{% endif %}
+      {% if competition.age_label != "" %}<span class="badge badge-neutral">{{ competition.age_label }}</span>{% endif %}
+    </div>
+  </div>
+
+  <div class="page-meta-row">
+    <div class="page-meta">
+      <span class="meta-label">Season</span>
+      <form class="season-form" method="get" action="/competitions/{{ competition.id }}/{{ active_tab }}">
+        <label class="sr-only" for="season-select">Season</label>
+        <select id="season-select" name="season" onchange="this.form.submit()">
+          {% for option in season_options %}
+            <option value="{{ option.id }}" {% if option.selected %}selected{% endif %}>{{ option.label }}</option>
+          {% endfor %}
+        </select>
+        {% if group_query != "" %}<input type="hidden" name="group" value="{{ group_query }}">{% endif %}
+        <noscript><button class="button button-small" type="submit">Apply</button></noscript>
+      </form>
+      <span class="meta-separator">·</span>
+      <span class="meta-muted">Snapshot {{ captured_at }}</span>
+    </div>
+    <div class="page-meta page-meta-right">
+      <span class="meta-muted">Official name: {{ competition.official_name }}</span>
+    </div>
+  </div>
+</section>
+
+<nav class="tab-bar" aria-label="Competition sections">
+  {% for tab in tabs %}
+    <a class="tab {% if tab.active %}is-active{% endif %}" href="{{ tab.href }}" {% if tab.active %}aria-current="page"{% endif %}>{{ tab.label }}</a>
+  {% endfor %}
+</nav>
+
+{% if data_warnings.len() > 0 %}
+<div class="notice-stack" role="status">
+  {% for warning in data_warnings %}
+    <div class="notice">
+      <span class="notice-icon" aria-hidden="true">!</span>
+      <span>{{ warning }}</span>
+    </div>
+  {% endfor %}
+</div>
+{% endif %}
+
+{% if active_tab == "teams" %}
+  <section class="panel">
+    <div class="panel-head">
+      <div>
+        <h2>Team list</h2>
+        <p class="panel-subtitle">{{ season_label }} · {{ teams.group_name }} · Age {{ teams.age_label }} · {{ teams.type_label }} · Updated {{ teams.updated_at }}{% if teams.roster_meta_line != "" %} · {{ teams.roster_meta_line }}{% endif %}</p>
+      </div>
+      <div class="panel-head-actions">
+        <span class="badge badge-neutral">{{ teams.count }} teams</span>
+        {% if teams.verified_count > 0 %}<span class="badge badge-verified">{{ teams.verified_count }} verified</span>{% endif %}
+        {% if teams.unverified_count > 0 %}<span class="badge badge-warn">{{ teams.unverified_count }} unverified</span>{% endif %}
+        {% if teams.roster_badge != "" %}<span class="badge {{ teams.roster_badge_class }}">{{ teams.roster_badge }}</span>{% endif %}
+      </div>
+    </div>
+    {% if teams.visible %}
+      <div class="table-wrap">
+        <table class="data-table teams-table">
+          <caption class="sr-only">Team list for {{ competition.name }} {{ season_label }}</caption>
+          <thead>
+            <tr>
+              <th scope="col">Team</th>
+              <th scope="col">Thai name</th>
+              <th scope="col">Type</th>
+              <th class="col-optional" scope="col">Province</th>
+              <th scope="col">Verification</th>
+              <th scope="col">Source</th>
+              <th class="col-optional" scope="col">Last seen</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in teams.rows %}
+              <tr id="team-{{ row.team_id }}" class="{% if row.highlight %}is-highlight{% endif %}">
+                <td>
+                  <div class="team-cell">
+                    <button class="fav-button" type="button" data-favorite-id="{{ row.team_id }}" data-team-name="{{ row.display_name }}" aria-label="Toggle favorite: {{ row.display_name }}" aria-pressed="false" title="Favorite team">☆</button>
+                    <span class="team-name">{{ row.display_name }}</span>
+                  </div>
+                </td>
+                <td>{{ row.thai_name }}</td>
+                <td>{{ row.organization_type }}</td>
+                <td class="col-optional">{{ row.province }}</td>
+                <td><span class="badge {{ row.status_class }}">{{ row.status_label }}</span></td>
+                <td class="team-source-cell">
+                  {% if row.source_url != "" %}
+                    <a href="{{ row.source_url }}" target="_blank" rel="noopener noreferrer">{{ row.source_title }}</a>
+                  {% else %}
+                    {{ row.source_title }}
+                  {% endif %}
+                  {% if row.source_publisher != "" %}<span class="team-source-meta">{{ row.source_publisher }}{% if row.source_date != "" %} · {{ row.source_date }}{% endif %}</span>{% endif %}
+                </td>
+                <td class="col-optional">{{ row.last_seen_at }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      <div class="table-legend">
+        <span>Team participation is separate from permanent team identity.</span>
+        <span class="legend-note">Unverified entries are candidates, not confirmed current team lists.</span>
+      </div>
+    {% else %}
+      <div class="empty-state">
+        <div class="empty-symbol" aria-hidden="true">∅</div>
+        <h3>{{ teams.empty_title }}</h3>
+        <p>{{ teams.empty_message }}</p>
+      </div>
+    {% endif %}
+  </section>
+{% endif %}
+
+{% if active_tab == "standings" %}
+  <section class="panel">
+    <div class="panel-head">
+      <div>
+        <h2>{{ standings.group_name }}</h2>
+        <p class="panel-subtitle">League table from the imported snapshot. Hover or focus a form badge for its meaning.</p>
+      </div>
+      <div class="panel-head-actions">
+        {% if standings.visible %}
+          {% if standings.validation_status == "ok" %}
+            <span class="badge badge-ok">Arithmetic check passed</span>
+          {% else %}
+            <span class="badge badge-warn">Arithmetic check failed</span>
+          {% endif %}
+        {% else %}
+          <span class="badge badge-neutral">No standings data</span>
+        {% endif %}
+      </div>
+    </div>
+
+    {% if standings.show_group_nav %}
+      <div class="segmented" aria-label="Regional groups">
+        {% for group in standings.groups %}
+          <a class="segment {% if group.active %}is-active{% endif %}" href="{{ group.href }}" {% if group.active %}aria-current="page"{% endif %}>{{ group.name }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if standings.visible %}
+      <div class="table-wrap">
+        <table class="data-table standings-table">
+          <caption class="sr-only">Standings for {{ competition.name }} {{ season_label }}</caption>
+          <thead>
+            <tr>
+              <th class="col-rank" scope="col">#</th>
+              <th class="col-team" scope="col">Team</th>
+              <th class="num" scope="col" title="Played">P</th>
+              <th class="num" scope="col" title="Won">W</th>
+              <th class="num" scope="col" title="Drawn">D</th>
+              <th class="num" scope="col" title="Lost">L</th>
+              <th class="num col-optional" scope="col" title="Goals for">GF</th>
+              <th class="num col-optional" scope="col" title="Goals against">GA</th>
+              <th class="num" scope="col" title="Goal difference">GD</th>
+              <th class="num col-points" scope="col" title="Points">Pts</th>
+              <th class="col-form" scope="col">Form</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in standings.rows %}
+              <tr id="team-{{ row.team_id }}" class="standing-row zone-{{ row.zone }} {% if row.highlight %}is-highlight{% endif %}">
+                <td class="col-rank">{{ row.rank }}</td>
+                <td class="col-team">
+                  <div class="team-cell">
+                    <button class="fav-button" type="button" data-favorite-id="{{ row.team_id }}" data-team-name="{{ row.team_name }}" aria-label="Toggle favorite: {{ row.team_name }}" aria-pressed="false" title="Favorite team">☆</button>
+                    <span class="team-name">{{ row.team_name }}</span>
+                  </div>
+                </td>
+                <td class="num">{{ row.played }}</td>
+                <td class="num">{{ row.won }}</td>
+                <td class="num">{{ row.drawn }}</td>
+                <td class="num">{{ row.lost }}</td>
+                <td class="num col-optional">{{ row.goals_for }}</td>
+                <td class="num col-optional">{{ row.goals_against }}</td>
+                <td class="num">{{ row.goal_difference }}</td>
+                <td class="num col-points"><strong>{{ row.points }}</strong></td>
+                <td class="col-form">
+                  <div class="form-row" aria-label="Recent form">
+                    {% for f in row.form %}
+                      <span class="form-badge form-{{ f }}" title="{{ f }}">{{ f }}</span>
+                    {% endfor %}
+                  </div>
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      <div class="table-legend">
+        <span><i class="legend-dot legend-champ"></i>Champions / continental</span>
+        <span><i class="legend-dot legend-promo"></i>Promotion</span>
+        <span><i class="legend-dot legend-playoff"></i>Play-off</span>
+        <span><i class="legend-dot legend-rel"></i>Relegation</span>
+        <span class="legend-note">Zone colours follow imported values.</span>
+      </div>
+    {% else %}
+      <div class="empty-state">
+        <div class="empty-symbol" aria-hidden="true">∅</div>
+        <h3>{{ standings.empty_title }}</h3>
+        <p>{{ standings.empty_message }}</p>
+      </div>
+    {% endif %}
+  </section>
+{% endif %}
+
+{% if active_tab == "results" || active_tab == "fixtures" %}
+  <section class="panel">
+    <div class="panel-head">
+      <div>
+        <h2>{{ matches.title }}</h2>
+        <p class="panel-subtitle">{{ matches.subtitle }}</p>
+      </div>
+      {% if matches.unresolved_count > 0 %}
+        <span class="badge badge-warn">{{ matches.unresolved_count }} unlinked record(s)</span>
+      {% endif %}
+    </div>
+
+    {% if matches.visible %}
+      <div class="match-list">
+        {% for group in matches.groups %}
+          <div class="match-group">
+            <h3 class="match-group-title">{{ group.label }}</h3>
+            {% for fixture in group.matches %}
+              <div class="match-row">
+                <div class="match-team match-home">{{ fixture.home }}</div>
+                <div class="match-score">{{ fixture.score }}</div>
+                <div class="match-team match-away">{{ fixture.away }}</div>
+                <div class="match-status">{{ fixture.status }}</div>
+              </div>
+            {% endfor %}
+          </div>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="empty-state">
+        <div class="empty-symbol" aria-hidden="true">∅</div>
+        <h3>{{ matches.empty_title }}</h3>
+        <p>{{ matches.empty_message }}</p>
+      </div>
+    {% endif %}
+  </section>
+{% endif %}
+
+{% if active_tab == "rounds" %}
+  <section class="panel">
+    {% if cup_view.visible %}
+      <div class="panel-head">
+        <div>
+          <h2>{{ cup_view.name }}</h2>
+          <p class="panel-subtitle">Cup rounds and available tie records. TBD and unresolved values are preserved.</p>
+        </div>
+        <span class="badge badge-neutral">{{ cup_view.sponsor }}</span>
+      </div>
+
+      <div class="info-grid">
+        <div class="info-cell"><span class="info-label">Teams</span><strong>{{ cup_view.teams_count }}</strong></div>
+        <div class="info-cell"><span class="info-label">Prize</span><strong>{{ cup_view.prize }}</strong></div>
+        <div class="info-cell"><span class="info-label">Winner reward</span><strong>{{ cup_view.reward }}</strong></div>
+        <div class="info-cell"><span class="info-label">Sponsor / legacy name</span><strong>{{ cup_view.sponsor }}</strong></div>
+      </div>
+
+      {% if cup_view.has_rounds %}
+        <div class="cup-rounds">
+          {% for round in cup_view.rounds %}
+            <article class="cup-round">
+              <div class="cup-round-head">
+                <div>
+                  <h3>{{ round.name }}</h3>
+                  <p class="cup-round-meta">{{ round.date_label }} · {{ round.clubs }} clubs</p>
+                </div>
+                <span class="badge badge-neutral">{{ round.status }}</span>
+              </div>
+              {% if round.note != "" %}<p class="cup-note">{{ round.note }}</p>{% endif %}
+              {% if round.has_ties %}
+                <div class="cup-ties">
+                  {% for tie in round.ties %}
+                    <div class="match-row cup-tie">
+                      <div class="match-team match-home">{{ tie.home }}</div>
+                      <div class="match-score">{{ tie.score }}</div>
+                      <div class="match-team match-away">{{ tie.away }}</div>
+                      <div class="match-status">{{ tie.status }}</div>
+                    </div>
+                    {% if tie.note != "" %}<p class="tie-note">{{ tie.note }}</p>{% endif %}
+                  {% endfor %}
+                </div>
+              {% else %}
+                <p class="muted-line">No tie records for this round.</p>
+              {% endif %}
+            </article>
+          {% endfor %}
+        </div>
+      {% else %}
+        <div class="empty-state">
+          <div class="empty-symbol" aria-hidden="true">∅</div>
+          <h3>{{ cup_view.empty_title }}</h3>
+          <p>{{ cup_view.empty_message }}</p>
+        </div>
+      {% endif %}
+
+      {% if cup_view.has_past_editions %}
+        <div class="subsection">
+          <h3>Past editions</h3>
+          <div class="past-editions">
+            {% for edition in cup_view.past_editions %}
+              <div class="past-edition">
+                <span class="past-year">{{ edition.year }}</span>
+                <span>{{ edition.home }} {{ edition.score }} {{ edition.away }}</span>
+                <span class="muted-line">{{ edition.note }}</span>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    {% else %}
+      <div class="empty-state">
+        <div class="empty-symbol" aria-hidden="true">∅</div>
+        <h3>{{ cup_view.empty_title }}</h3>
+        <p>{{ cup_view.empty_message }}</p>
+      </div>
+    {% endif %}
+  </section>
+{% endif %}
+
+{% if active_tab == "stats" %}
+  <section class="panel">
+    <div class="panel-head">
+      <div>
+        <h2>Team statistics</h2>
+        <p class="panel-subtitle">Top eight teams by selected measure. Derived from the imported standings.</p>
+      </div>
+      {% if stats.warning != "" %}<span class="badge badge-warn">Unverified input</span>{% endif %}
+    </div>
+
+    {% if stats.visible %}
+      <div class="stat-grid">
+        {% for panel in stats.panels %}
+          <article class="stat-panel">
+            <h3>{{ panel.title }}</h3>
+            <div class="stat-list">
+              {% for row in panel.rows %}
+                <div class="stat-row">
+                  <span class="stat-rank">{{ row.rank }}</span>
+                  <span class="stat-name">{{ row.team_name }}</span>
+                  <span class="stat-bar"><span style="width: {{ row.bar_pct }}%"></span></span>
+                  <span class="stat-value">{{ row.value }}</span>
+                </div>
+              {% endfor %}
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="empty-state">
+        <div class="empty-symbol" aria-hidden="true">∅</div>
+        <h3>{{ stats.empty_title }}</h3>
+        <p>{{ stats.empty_message }}</p>
+      </div>
+    {% endif %}
+  </section>
+{% endif %}
+
+{% if active_tab == "scorers" %}
+  <section class="panel">
+    <div class="panel-head">
+      <div>
+        <h2>Top scorers</h2>
+        <p class="panel-subtitle">Imported scorer records. Only records linked to a season team are shown.</p>
+      </div>
+      {% if scorers.unresolved_count > 0 %}<span class="badge badge-warn">{{ scorers.unresolved_count }} unlinked</span>{% endif %}
+    </div>
+
+    {% if scorers.visible %}
+      <div class="table-wrap">
+        <table class="data-table scorers-table">
+          <caption class="sr-only">Top scorers</caption>
+          <thead>
+            <tr>
+              <th class="col-rank" scope="col">#</th>
+              <th scope="col">Player</th>
+              <th scope="col">Team</th>
+              <th class="num" scope="col">Goals</th>
+              <th class="num col-optional" scope="col">Assists</th>
+              <th class="num" scope="col">Apps</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for row in scorers.rows %}
+              <tr>
+                <td class="col-rank">{{ row.rank }}</td>
+                <td><span class="player-name">{{ row.player }}</span>{% if row.nationality != "" %}<span class="player-nat">{{ row.nationality }}</span>{% endif %}</td>
+                <td>
+                  <div class="team-cell">
+                    {% if row.team_id != "" %}<button class="fav-button" type="button" data-favorite-id="{{ row.team_id }}" data-team-name="{{ row.team }}" aria-label="Toggle favorite: {{ row.team }}" aria-pressed="false" title="Favorite team">☆</button>{% endif %}
+                    <span>{{ row.team }}</span>
+                  </div>
+                </td>
+                <td class="num"><strong>{{ row.goals }}</strong></td>
+                <td class="num col-optional">{{ row.assists }}</td>
+                <td class="num">{{ row.appearances }}</td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    {% else %}
+      <div class="empty-state">
+        <div class="empty-symbol" aria-hidden="true">∅</div>
+        <h3>{{ scorers.empty_title }}</h3>
+        <p>{{ scorers.empty_message }}</p>
+      </div>
+    {% endif %}
+  </section>
+{% endif %}
+
+{% if active_tab == "news" %}
+  <section class="panel">
+    <div class="panel-head">
+      <div>
+        <h2>News</h2>
+        <p class="panel-subtitle">Articles linked to this competition. No unrelated competition is used as a fallback.</p>
+      </div>
+    </div>
+    {% if news_view.visible %}
+      <div class="news-grid">
+        {% for article in news_view.articles %}
+          <article class="news-card">
+            <div class="news-thumb"><span aria-hidden="true">{{ article.emoji }}</span><span class="badge badge-neutral">{{ article.tag }}</span></div>
+            <div class="news-body">
+              <h3>{{ article.title }}</h3>
+              <p>{{ article.summary }}</p>
+              <div class="news-foot"><span>{{ article.published_label }}</span><span>{{ article.source_name }}</span></div>
+            </div>
+          </article>
+        {% endfor %}
+      </div>
+    {% else %}
+      <div class="empty-state">
+        <div class="empty-symbol" aria-hidden="true">∅</div>
+        <h3>{{ news_view.empty_title }}</h3>
+        <p>{{ news_view.empty_message }}</p>
+      </div>
+    {% endif %}
+  </section>
+{% endif %}
+
+{% include "partials/sources.html" %}
+{% endblock %}

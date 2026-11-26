@@ -1,0 +1,15 @@
+{
+  "source_path": "C:\\Users\\BMW\\Videos\\Thai League (T1-T5)\\thai_league_05.html",
+  "sha256": "c7cf3e61c59760463d085006676e010a84262b7776699490c5b9e81c3322cd3e",
+  "extracted_at": "2026-11-26T03:01:44.415Z",
+  "counts": {
+    "competitions": 17,
+    "active_competitions": 17,
+    "team_rows": 69,
+    "unique_team_names": 69,
+    "news": 13,
+    "results": 10,
+    "fixtures": 11,
+    "scorers": 15
+  }
+}

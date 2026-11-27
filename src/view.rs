@@ -690,9 +690,10 @@ fn cup_view(comp: &Competition, season: &Season) -> CupView {
             ..Default::default()
         };
     };
-    let rounds = cup
-        .rounds
-        .iter()
+    let mut ordered_rounds = cup.rounds.iter().collect::<Vec<_>>();
+    ordered_rounds.sort_by_key(|round| std::cmp::Reverse(round.sort_order));
+    let rounds = ordered_rounds
+        .into_iter()
         .map(|round| {
             let ties = cup
                 .ties

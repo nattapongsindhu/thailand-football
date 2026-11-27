@@ -81,6 +81,50 @@ fn thai_league_three_fails_arithmetic_and_keeps_warning() {
 }
 
 #[test]
+fn cup_rounds_are_displayed_reverse_chronologically() {
+    let data = data();
+    for (id, first, last) in [
+        ("thai-fa-cup", "Final", "Qualification Round"),
+        ("thai-league-cup", "Final", "1st Qualification Round"),
+        ("thai-champion-cup", "Final", "Final"),
+        ("thai-youth-fa-cup-u17", "Final", "Quarter-finals"),
+        (
+            "thai-youth-league-cup-u18",
+            "Quarter-finals",
+            "Quarter-finals",
+        ),
+        ("thai-youth-champion-cup-u18", "Final", "Matchday 1"),
+        ("thai-college-cup-u19", "Final", "Quarter-finals"),
+        ("thai-university-cup-u23", "Final", "Quarter-finals"),
+        ("thai-school-super-cup-u23", "Final", "Final"),
+    ] {
+        let page = build_page(&data, id, None, Some("rounds"), None, None, "").expect(id);
+        assert_eq!(
+            page.cup_view.rounds.first().expect("first round").name,
+            first,
+            "{id}"
+        );
+        assert_eq!(
+            page.cup_view.rounds.last().expect("last round").name,
+            last,
+            "{id}"
+        );
+    }
+
+    let fa =
+        build_page(&data, "thai-fa-cup", None, Some("rounds"), None, None, "").expect("FA Cup");
+    let names = fa
+        .cup_view
+        .rounds
+        .iter()
+        .map(|round| round.name.as_str())
+        .collect::<Vec<_>>();
+    let position = |name: &str| names.iter().position(|entry| *entry == name).expect(name);
+    assert!(position("Final") < position("Semi-finals"));
+    assert!(position("Semi-finals") < position("Quarter-finals"));
+}
+
+#[test]
 fn school_leagues_are_distinct_and_do_not_fall_back() {
     let data = data();
     let type_a = build_page(
@@ -197,7 +241,8 @@ fn fa_cup_and_league_cup_are_complete() {
     let qualification = fa_page
         .cup_view
         .rounds
-        .first()
+        .iter()
+        .find(|round| round.name == "Qualification Round")
         .expect("FA Cup qualification round");
     assert_eq!(qualification.ties.len(), 31);
     let shootout = qualification
@@ -471,9 +516,14 @@ fn youth_and_university_cups_have_verified_match_records() {
             .iter()
             .map(|round| round.ties.len())
             .collect::<Vec<_>>(),
-        [4, 2, 1]
+        [1, 2, 4]
     );
-    let coke_qf = &coke.cup_view.rounds[0];
+    let coke_qf = coke
+        .cup_view
+        .rounds
+        .iter()
+        .find(|round| round.name == "Quarter-finals")
+        .expect("Coke Cup quarter-finals");
     assert_eq!(coke_qf.name, "Quarter-finals");
     assert!(coke_qf.ties.iter().any(|tie| {
         tie.home == "Assumption United" && tie.away == "Kanthararom School" && tie.score == "1 - 0"
@@ -537,7 +587,7 @@ fn youth_and_university_cups_have_verified_match_records() {
             .iter()
             .map(|round| round.ties.len())
             .collect::<Vec<_>>(),
-        [2, 2, 2, 1, 1]
+        [1, 1, 2, 2, 2]
     );
     let jaturamitr_final = jaturamitr
         .cup_view
@@ -567,9 +617,14 @@ fn youth_and_university_cups_have_verified_match_records() {
             .iter()
             .map(|round| round.ties.len())
             .collect::<Vec<_>>(),
-        [4, 2, 1]
+        [1, 2, 4]
     );
-    let university_qf = &university.cup_view.rounds[0];
+    let university_qf = university
+        .cup_view
+        .rounds
+        .iter()
+        .find(|round| round.name == "Quarter-finals")
+        .expect("University Cup quarter-finals");
     assert_eq!(university_qf.name, "Quarter-finals");
     assert!(university_qf.ties.iter().any(|tie| {
         tie.home == "Bangkok Thonburi University"

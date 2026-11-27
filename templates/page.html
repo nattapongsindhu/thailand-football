@@ -54,17 +54,6 @@
   {% endfor %}
 </nav>
 
-{% if data_warnings.len() > 0 %}
-<div class="notice-stack" role="status">
-  {% for warning in data_warnings %}
-    <div class="notice">
-      <span class="notice-icon" aria-hidden="true">!</span>
-      <span>{{ warning }}</span>
-    </div>
-  {% endfor %}
-</div>
-{% endif %}
-
 {% if active_tab == "teams" %}
   <section class="panel">
     <div class="panel-head">

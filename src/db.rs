@@ -21,7 +21,7 @@ pub fn group_key(season_key: &str, group_id: &str) -> String {
 pub async fn load_from_database(database_url: &str) -> Result<AppData> {
     let pool = PgPoolOptions::new()
         .max_connections(5)
-        .acquire_timeout(std::time::Duration::from_secs(8))
+        .acquire_timeout(std::time::Duration::from_secs(20))
         .connect(database_url)
         .await
         .context("cannot connect to PostgreSQL")?;

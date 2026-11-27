@@ -41,8 +41,6 @@
         {% if group_query != "" %}<input type="hidden" name="group" value="{{ group_query }}">{% endif %}
         <noscript><button class="button button-small" type="submit">Apply</button></noscript>
       </form>
-      <span class="meta-separator">·</span>
-      <span class="meta-muted">Snapshot {{ captured_at }}</span>
     </div>
     <div class="page-meta page-meta-right">
       <span class="meta-muted">Official name: {{ competition.official_name }}</span>
@@ -142,7 +140,7 @@
     <div class="panel-head">
       <div>
         <h2>{{ standings.group_name }}</h2>
-        <p class="panel-subtitle">League table from the imported snapshot. Hover or focus a form badge for its meaning.</p>
+        <p class="panel-subtitle">League table. Hover or focus a form badge for status details.</p>
       </div>
       <div class="panel-head-actions">
         {% if standings.visible %}

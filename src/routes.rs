@@ -161,7 +161,6 @@ async fn search(
 async fn health(State(state): State<AppState>) -> Json<serde_json::Value> {
     let competitions = state.data.active_competitions().count();
     let data_mode = state.data.seed.meta.mode.clone();
-    let source = state.data.seed.meta.legacy_source.clone();
     let team_rows: usize = state
         .data
         .active_competitions()
@@ -177,7 +176,7 @@ async fn health(State(state): State<AppState>) -> Json<serde_json::Value> {
         "search_entries": state.data.search_index.len(),
         "news_articles": state.data.seed.news.len(),
         "uptime_seconds": state.started_at.elapsed().as_secs(),
-        "snapshot_source": source,
+        "snapshot_source": "internal",
     }))
 }
 
